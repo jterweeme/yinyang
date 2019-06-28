@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<exam>
+<title>Leisure Suit Larry</title>
+
+<exercise type="single">
+<vraag>
+Who is not a famous musician?
+</vraag>
+<choice>
+<item>Lawrence Welk</item>
+<item>Tommy Dorsey</item>
+<item>Les Brown</item>
+<item goed="ja">Steve Garvey</item>
+</choice>
+<toelichting>
+Lawrence Welk was een jazz muzikant.
+Tommy Dorsey was een jazz muzikant.
+Les Brown was een jazz muzikant van de "Les Brown and His Band of Renown".
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+How many molecules are in a glass of water?
+</vraag>
+<choice>
+<item>one million</item>
+<item>one trillion</item>
+<item>one million trillion</item>
+<item goed="ja">
+as many as there are glasses of water in the whole world
+</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Captain Kangaroo's sidekick was
+</vraag>
+<choice>
+<item>Mr. Potato Head</item>
+<item>Winnie the Pooh</item>
+<item>Mr. Rogers</item>
+<item goed="ja">Mr. Greenjeans</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Herb Alpert and the ... Brass
+</vraag>
+<choice>
+<item goed="ja">Tijuana</item>
+<item>Boss</item>
+<item>Canadian</item>
+<item>Top</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who wrote "To be, or not to be?"
+</vraag>
+<choice>
+<item goed="ja">Bill Shakespeare</item>
+<item>Paul McCartney</item>
+<item>George Bernard Shaw</item>
+<item>Tennessee Williams</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Charlie McCarthy and ...
+</vraag>
+<choice>
+<item>John Lennon</item>
+<item>Louis Pasteur</item>
+<item>Albert Einstein</item>
+<item goed="ja">Edgar Bergen</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who is not a sportscaster?
+</vraag>
+<choice>
+<item>Jayne Kennedy</item>
+<item>Howard Cosell</item>
+<item goed="ja">Jayne Mansfield</item>
+<item>Frank Gifford</item>
+</choice>
+<toelichting>
+Jayne Mansfield was een Hollywood sex symbool tijdens
+de jaren '50 en begin jaren '60.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Blackjack is ...
+</vraag>
+<choice>
+<item goed="ja">an ace and a face card</item>
+<item>used by policemen</item>
+<item>related to Caucasian Tom</item>
+<item>a kind of car sold only in Fresno</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Bonnie and ...
+</vraag>
+<choice>
+<item>Ronnie</item>
+<item goed="ja">Clyde</item>
+<item>Hubbard</item>
+<item>Clod</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+"Close Encounters of the Third Kind" is about ...
+</vraag>
+<choice>
+<item>politics in third-world countries</item>
+<item>homo- and heterosexual sex</item>
+<item goed="ja">creatures from outer space</item>
+<item>a bicycle race across Alaska</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Hugh Hefner is usually photographed in ...
+</vraag>
+<choice>
+<item>the nude</item>
+<item>a hot tub</item>
+<item>his current lover's arms</item>
+<item goed="ja">pajamas</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+IBM stand for ...
+</vraag>
+<choice>
+<item>Ittsy Bittsy Men</item>
+<item goed="ja">International Business Machines</item>
+<item>Italian Branch of the Mafia</item>
+<item>Iranian Broom Makers</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Oral Roberts is ...
+</vraag>
+<choice>
+<item>a thermometer technique</item>
+<item goed="ja">an evangelist</item>
+<item>best done with a friend</item>
+<item>shy</item>
+</choice>
+</exercise>
+
+<!--
+<exercise type="single">
+<vraag>
+Taxes should be ...
+</vraag>
+<choice>
+<item>lower</item>
+<item>higher</item>
+<item>unchanged</item>
+<item goed="ja">eliminated</item>
+</choice>
+</exercise>
+-->
+
+<exercise type="single">
+<vraag>
+G. Gordon Liddy was associated with ...
+</vraag>
+<choice>
+<item>the Mob</item>
+<item>Calvin Klein</item>
+<item>Elizabeth Taylor</item>
+<item goed="ja">the Plumbers</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+John Belushi was on ...
+</vraag>
+<choice>
+<item>Mr Rogers</item>
+<item>The PTL club</item>
+<item>My Mother the Car</item>
+<item goed="ja">Saturday Night Live</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Does a pair of queens beat three deuces?
+</vraag>
+<choice>
+<item goed="ja">Yes, in blackjack</item>
+<item>Yes, in poker</item>
+<item>No, in canasta</item>
+<item>It depends on what the three deuces said</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which is non-alcoholic?
+</vraag>
+<choice>
+<item>whiskey</item>
+<item>Grand Marnier</item>
+<item goed="ja">Perrier</item>
+<item>tequila</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Calvin Klein is ...
+</vraag>
+<choice>
+<item>married to Brooke Shields</item>
+<item>a movie star</item>
+<item goed="ja">a clothing designer</item>
+<item>President of the Coarsegold Chamber of Commerce</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The most populous city in the United States is ...
+</vraag>
+<choice>
+<item>Los Angeles</item>
+<item>Mexico City</item>
+<item goed="ja">New York</item>
+<item>Chicago</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Bourbon Street is in ...
+</vraag>
+<choice>
+<item>Whiskeyville, Indiana</item>
+<item>Jackass Flats, Idaho</item>
+<item>"Monopoly"</item>
+<item goed="ja">New Orleans, Louisiana</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which song was not recorded by Elvis?
+</vraag>
+<choice>
+<item>Hound Dog</item>
+<item>Love Me Tender</item>
+<item goed="ja">What'd I Say</item>
+<item>Heartbreak Hotel</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Mohammed Ali is ...
+</vraag>
+<choice>
+<item>a ballet star</item>
+<item>an Arab terrorist</item>
+<item goed="ja">a professional boxer</item>
+<item>a singer</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which U.S. President was not elected to office?
+</vraag>
+<choice>
+<item>Johnson</item>
+<item>Eisenhower</item>
+<item goed="ja">Ford</item>
+<item>Cleveland</item>
+</choice>
+<toelichting>
+Gerald Ford werd president nadat Richard Nixon aftrad.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which is not a currency
+</vraag>
+<choice>
+<item>yen</item>
+<item>lira</item>
+<item goed="ja">fennel</item>
+<item>rupee</item>
+</choice>
+<toelichting>
+De yen is de munteenheid in Japan,
+de lira was dat in Italie, de rupee in India.
+Een fennel is een soort van wortel.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+A 747 is ...
+</vraag>
+<choice>
+<item>a cocktail</item>
+<item>a perfect bowling score</item>
+<item goed="ja">a large airplane</item>
+<item>a prime number</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+A result of Watergate was ...
+</vraag>
+<choice>
+<item>the loss of water</item>
+<item>Jimmy Carter quit</item>
+<item goed="ja">Richard Nixon quit</item>
+<item>Gerald Ford quit</item>
+</choice>
+<toelichting>
+Richard Nixon had gespioneerd op de Democratische
+Partij. Toen dit uitkwam heeft hij de eer aan
+zichzelf gehouden door zelf af te treden. Zijn
+vice-president Gerald Ford werd toen president.
+Jimmy Carter was de president na Gerald Ford.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Kwi-Chang-Caine became famous
+by saying ...
+</vraag>
+<choice>
+<item>I am not a crook.</item>
+<item>The barren fig tree bears no plums.</item>
+<item>Hi, sailor. New in town?</item>
+<item goed="ja">Aaaaaiiiyeeeaagggh!</item>
+</choice>
+<toelichting>
+"I am not a crook" was een uitspraak van Richard Nixon.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Former Congressman Wilbur Mills went for a dip in the
+Tidal Basin with ...
+</vraag>
+<choice>
+<item>nothing but his pride</item>
+<item goed="ja">a stripper named Fanne</item>
+<item>his dog Spot</item>
+<item>a 20-year-old secretary</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The 1973 album "Dark Side of the Moon"
+was recorded by ...
+</vraag>
+<choice>
+<item goed="ja">Pink Floyd</item>
+<item>Deep Purple</item>
+<item>Bad News</item>
+<item>the Grateful Dead</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Mork was from the planet
+</vraag>
+<choice>
+<item goed="ja">Ork</item>
+<item>Vulcan</item>
+<item>Krypton</item>
+<item>Pluto</item>
+</choice>
+<toelichting>
+Mork &amp; Mindy is an American sitcom that aired on ABC from
+September 14, 1978 to May 27, 1982. A spin-off after a highly
+successful episode of Happy Days, it starred Robin Williams as
+Mork, an extraterrestrial who comes to Earth from the planet Ork
+in a small, one-Orkan egg-shaped spaceship.
+
+https://en.wikipedia.org/wiki/Mork_%26_Mindy
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Johnny Carson is ...
+</vraag>
+<choice>
+<item>a singer</item>
+<item>David Letterman's sidekick</item>
+<item goed="ja">Ed McMahon's sidekick</item>
+<item>an actor</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The song "American Pie" was about ...
+</vraag>
+<choice>
+<item>miscegnation</item>
+<item>Marilyn Chambers</item>
+<item goed="ja">a dead rock star</item>
+<item>four minutes too long</item>
+</choice>
+<toelichting>
+The repeatedly mentioned phrase "the day the music died" refers to the
+plane crash in 1959 that killed early rock and roll performers Buddy
+Holly, The Big Bopper, and Ritchie Valens.
+
+https://en.wikipedia.org/wiki/American_Pie_(song)
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The slogan "It takes two hands to
+handle a whopper" refers to ...
+</vraag>
+<choice>
+<item>John Holmes</item>
+<item goed="ja">a hamburger</item>
+<item>overstuffed grocery bags</item>
+<item>fishing</item>
+</choice>
+<toelichting>
+Een slogan van Burger King.
+</toelichting>
+</exercise>
+
+</exam>
+
+

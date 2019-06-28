@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<exam>
+<title>IT Essentials (ITE v6.0)</title>
+
+<!-- Hoofdstuk 1 -->
+<!-- Vraag 1 -->
+<!--
+<exercise type="multi">
+<vraag>
+What are two factors that must be considered when choosing
+a computer case? (Choose two.)
+</vraag>
+<choice>
+<item>the size of the monitor</item>
+<item>the speed of the memory</item>
+<item goed="ja">the number of internal drive locations</item>
+<item goed="ja">the size of the motherboard and the power supply</item>
+<item>the number of LED indicators at the front of the case</item>
+</choice>
+<toelichting>
+<p>
+De monitor is een apparaat compleet onafhankelijk van de computerkast.
+Werkgeheugen komt in kleine modules die direct op het moederbord
+geprikt worden, deze staan niet in contact met de behuizing.
+Een grotere kast zal meer sloten hebben voor schijfstations.
+Er zijn meerdere formaten PSU en moederbord. Deze hebben op de juiste
+plekken in de behuizing ruimte en schroeven nodig. Daarom is het
+dus van belang een behuizing te gebruiken die overeenkomt met
+de PSU en moederbord.
+</p>
+<p>
+De LED indicatoren op de computerbehuizing zal niet veel verschillen
+per behuizing en is ook niet essentieel voor het gebruik van de
+computer.
+</p>
+</toelichting>
+</exercise>
+-->
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+<p>
+A technician looks at a motherboard and sees a 24-pin connector. What
+component would connect to the motherboard through the use of this 24-pin
+connector?
+</p>
+</vraag>
+<choice>
+<item goed="ja">power supply</item>
+<item>video card</item>
+<item>PATA optical drive</item>
+<item>SATA drive</item>
+<item>floppy drive</item>
+</choice>
+<toelichting>
+<p>
+De 24-pin connector is de voornaamste stroomleverancier voor het
+moederbord.
+</p>
+<p>
+Een videokaart zal aangesloten worden op een PCIe, AGP of PCI slot.
+</p>
+</toelichting>
+<tags>
+<tag>floppy drive</tag>
+<tag>PATA</tag>
+<tag>optical drive</tag>
+<tag>SATA</tag>
+<tag>video card</tag>
+<tag>PSU</tag>
+</tags>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+What electrical unit refers to the number of
+electrons moving through a circuit per second?
+</vraag>
+<choice>
+<item goed="ja">current</item>
+<item>voltage</item>
+<item>resistance</item>
+<item>power</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+What characteristic of electricity is expressed in watts?
+</vraag>
+<choice>
+<item>
+the amount of work required to move electrons through a circuit
+</item>
+<item>the resistance to the flow of current in a circuit</item>
+<item>the amount of electrons flowing through a circuit per second</item>
+<item goed="ja">
+the work required to move electrons through a circuit multiplied
+by the number of electrons flowing through a circuit per second
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>Which type of memory is primarily used as cache memory?</vraag>
+<choice>
+<item>DRAM</item>
+<item>RAM</item>
+<item>ROM</item>
+<item goed="ja">SRAM</item>
+</choice>
+<toelichting>
+Cache geheugen wordt intern in de processor gebruikt veel gebruikte
+secties van het DRAM werkgeheugen te schaduwen voor snelle toegang. Dit
+geheugen moet dus sneller zijn dan het DRAM werkgeheugen, maar mag een
+stuk kleiner en dus duurder per bit zijn. Hiervoor wordt SRAM gebruikt,
+wat opgebouwd is uit meerdere transistoren voor een bit geheugen. Bij
+DRAM wordt een bit geheugen bewaard in een enkele condensator. Dit maakt
+veel grotere hoeveelheden geheugen mogelijk, maar is dus een langere
+toegangstijd. ROM geheugen is niet direct schrijfbaar, alleen te lezen.
+Dit is uiteraard ongeschikt als cache geheugen, maar wordt gebruikt om
+firmware zoals het BIOS in op te slaan.
+</toelichting>
+<tags>
+<tag>cache geheugen</tag>
+<tag>DRAM</tag>
+<tag>ROM</tag>
+<tag>ROM</tag>
+<tag>SRAM</tag>
+</tags>
+</exercise>
+
+</exam>
+

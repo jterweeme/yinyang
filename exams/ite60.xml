@@ -1,0 +1,3795 @@
+<?xml version="1.0"?>
+<exam>
+<title>IT Essentials (ITE v6.0)</title>
+
+<!-- Hoofdstuk 1 -->
+<!-- Vraag 1 -->
+<exercise type="multi">
+<vraag>
+What are two factors that must be considered when choosing
+a computer case? (Choose two.)
+</vraag>
+<choice>
+<item>the size of the monitor</item>
+<item>the speed of the memory</item>
+<item goed="ja">the number of internal drive locations</item>
+<item goed="ja">the size of the motherboard and the power supply</item>
+<item>the number of LED indicators at the front of the case</item>
+</choice>
+<toelichting>
+<p>
+De monitor is een apparaat compleet onafhankelijk van de computerkast.
+Werkgeheugen komt in kleine modules die direct op het moederbord
+geprikt worden, deze staan niet in contact met de behuizing.
+Een grotere kast zal meer sloten hebben voor schijfstations.
+Er zijn meerdere formaten PSU en moederbord. Deze hebben op de juiste
+plekken in de behuizing ruimte en schroeven nodig. Daarom is het
+dus van belang een behuizing te gebruiken die overeenkomt met
+de PSU en moederbord.
+</p>
+<p>
+De LED indicatoren op de computerbehuizing zal niet veel verschillen
+per behuizing en is ook niet essentieel voor het gebruik van de
+computer.
+</p>
+</toelichting>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+<p>
+A technician looks at a motherboard and sees a 24-pin connector. What
+component would connect to the motherboard through the use of this 24-pin
+connector?
+</p>
+</vraag>
+<choice>
+<item goed="ja">power supply</item>
+<item>video card</item>
+<item>PATA optical drive</item>
+<item>SATA drive</item>
+<item>floppy drive</item>
+</choice>
+<toelichting>
+<p>
+De 24-pin connector is de voornaamste stroomleverancier voor het
+moederbord.
+</p>
+<p>
+Een videokaart zal aangesloten worden op een PCIe, AGP of PCI slot.
+</p>
+</toelichting>
+<tags>
+<tag>floppy drive</tag>
+<tag>PATA</tag>
+<tag>optical drive</tag>
+<tag>SATA</tag>
+<tag>video card</tag>
+<tag>PSU</tag>
+</tags>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+What electrical unit refers to the number of
+electrons moving through a circuit per second?
+</vraag>
+<choice>
+<item goed="ja">current</item>
+<item>voltage</item>
+<item>resistance</item>
+<item>power</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+What characteristic of electricity is expressed in watts?
+</vraag>
+<choice>
+<item>
+the amount of work required to move electrons through a circuit
+</item>
+<item>the resistance to the flow of current in a circuit</item>
+<item>the amount of electrons flowing through a circuit per second</item>
+<item goed="ja">
+the work required to move electrons through a circuit multiplied
+by the number of electrons flowing through a circuit per second
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>Which type of memory is primarily used as cache memory?</vraag>
+<choice>
+<item>DRAM</item>
+<item>RAM</item>
+<item>ROM</item>
+<item goed="ja">SRAM</item>
+</choice>
+<toelichting>
+Cache geheugen wordt intern in de processor gebruikt veel gebruikte
+secties van het DRAM werkgeheugen te schaduwen voor snelle toegang. Dit
+geheugen moet dus sneller zijn dan het DRAM werkgeheugen, maar mag een
+stuk kleiner en dus duurder per bit zijn. Hiervoor wordt SRAM gebruikt,
+wat opgebouwd is uit meerdere transistoren voor een bit geheugen. Bij
+DRAM wordt een bit geheugen bewaard in een enkele condensator. Dit maakt
+veel grotere hoeveelheden geheugen mogelijk, maar is dus een langere
+toegangstijd. ROM geheugen is niet direct schrijfbaar, alleen te lezen.
+Dit is uiteraard ongeschikt als cache geheugen, maar wordt gebruikt om
+firmware zoals het BIOS in op te slaan.
+</toelichting>
+<tags>
+<tag>cache geheugen</tag>
+<tag>DRAM</tag>
+<tag>ROM</tag>
+<tag>ROM</tag>
+<tag>SRAM</tag>
+</tags>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="single">
+<vraag>
+<img src="exams/nic.jpg"/>
+<p>
+Refer to the exhibit. Which type of adapter is shown?
+</p>
+</vraag>
+<choice>
+<item>sound</item>
+<item>RAID</item>
+<item>video</item>
+<item goed="ja">network interface</item>
+</choice>
+<toelichting>
+De RJ45 aansluiting is de meest overtuigende aanwijzing dat het
+hier om een netwerkkaart gaat. Hier wordt een acht polige twisted-pair
+kabel op aangesloten. De twee leds staan voor transmit (TX) en receive (RX).
+Ook is een netwerkkaart al jarenlang erg smal, zoals de kaart in de
+afbeelding.
+</toelichting>
+<tags>
+<tag>RJ45</tag>
+<tag>RAID</tag>
+<tag>video</tag>
+</tags>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="single">
+<vraag>
+Which component controls the communications and interactions between the
+CPU and other components on the motherboard?
+</vraag>
+<choice>
+<item>RAM</item>
+<item>BIOS</item>
+<item>CMOS</item>
+<item goed="ja">Chipset</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="multi">
+<vraag>
+Which two activities are normally controlled by the Northbridge part
+of the chipset? (Choose two.)
+</vraag>
+<choice>
+<item>communication between the CPU and the I/O ports</item>
+<item goed="ja">access to the RAM</item>
+<item>communication between the CPU and the hard drive</item>
+<item goed="ja">access to the video card</item>
+<item>communication between the CPU and the sound card</item>
+</choice>
+<toelichting>
+<p>
+In systemen met een North- Southbridge architectuur wordt de Northbridge
+gebruikt voor onderdelen die snelle toegang nodig hebben tot de processor. De
+Northbridge is dan ook, in tegenstelling tot de Southbridge, direct
+verbonden met de processor. Er zijn twee onderdelen die snelle toegang
+tot de processor vereisen: het werkgeheugen (RAM) en in mindere mate
+de videokaart. Alleen AGP videokaarten zijn met de Northbridge verbonden.
+</p>
+<p>
+De Southbridge is zorgt voor dingen als de PCI bus. Hier zit bijvoorbeeld
+de geluidskaart en opslag als harde-schijven op, en PCI videokaarten. Niet
+alle videokaarten zijn dus verbonden met de Northbridge. I/O poorten zijn
+uiteindelijk ook verbonden met de PCI bus en de Southbridge met enkele
+tussenschakels.
+</p>
+<p>
+Tegenwoordig worden functies van de Northbridge echter direct geimplementeerd
+in de processor. De AMD Athlon 64 uit 2004 bijvoorbeeld deed dit al. De
+traditionele North- Southbridge architectuur is dus feitelijk komen te
+vervallen in hedendaagse computersystemen.
+</p>
+</toelichting>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+Which unit of measurement is used to indicate the hard drive speed?
+</vraag>
+<choice>
+<item goed="ja">revolutions per minute</item>
+<item>gigabytes</item>
+<item>pages per minute</item>
+<item>clusters per minute</item>
+</choice>
+<toelichting>
+"Revolutions per minute" is een maat voor de draaisnelheid van een
+harde-schijf. Hieruit kun je echter nog niet de doorvoersnelheid
+en toegangssnelheid opmaken, hoewel een hogere draaisnelheid in de
+regel in een snellere toegangssnelheid betekent.
+Een gigabyte is een eenheid voor de grote van data. Een gigabyte (GiB)
+staat voor 2^30 bytes. Een gigabyte aangeduid als GB kan voor
+10^9 of 2^30 bytes staan, dus let op.
+"Pages per minute" en "clusters per minute" zijn geen bestaande termen.
+</toelichting>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="single">
+<vraag>
+Which type of interface was originally developed for high-definition televisions
+and is also popular to use with computers to connect audio and video devices?
+</vraag>
+<choice>
+<item>FireWire</item>
+<item>DVI</item>
+<item goed="ja">HDMI</item>
+<item>USB</item>
+<item>VGA</item>
+</choice>
+<toelichting>
+FireWire en USB zijn beide vergelijkbare seriele interfaces voor dataoverdracht. DVI
+en VGA zijn respectievelijk een digitale en analoge standaard voor monitoren, geen
+van beide ondersteunen geluid. HDMI ondersteund wel geluid, het videosignaal van HDMI
+is identiek aan DVI.
+</toelichting>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="multi">
+<vraag>
+Which two devices are considered input devices? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">biometric authentication device</item>
+<item>printer</item>
+<item goed="ja">digital camera</item>
+<item>projector</item>
+<item>speakers</item>
+</choice>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+What is indicated by the contrast ratio of a monitor?
+</vraag>
+<choice>
+<item goed="ja">
+the difference in the intensity of light between the brightest
+white and darkest black that can be displayed
+</item>
+<item>how often the picture image is refreshed</item>
+<item>the total number of pixels that make up the picture</item>
+<item>the ratio of the horizontal and vertical viewing areas of the monitor</item>
+</choice>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>
+What type of connector can be used to connect
+an internal hard drive to the motherboard?
+</vraag>
+<choice>
+<item>USB</item>
+<item goed="ja">SATA</item>
+<item>eSATA</item>
+<item>Thunderbolt</item>
+</choice>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="multi">
+<vraag>
+Which two factors must be considered when
+replacing old RAM modules in a PC?
+</vraag>
+<choice>
+<item>The new RAM must be compatible with BIOS or UEFI.</item>
+<item goed="ja">The new RAM must be compatible with the motherboard.</item>
+<item goed="ja">The speed of the new RAM must be supported by the chipset.</item>
+<item>The power supply must provide the voltage that is required by the new RAM.</item>
+<item>The new RAM must match the old RAM in terms of capacity and speed.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+Which term is used to define the wires on a motherboard
+that move data from one part of a computer to another?
+</vraag>
+<choice>
+<item goed="ja">bus</item>
+<item>I/O card</item>
+<item>bridge</item>
+<item>chipset</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise type="single">
+<vraag>
+When a new PC is being built, which component has the most
+influence when selecting the case and power supply?
+</vraag>
+<choice>
+<item>video card</item>
+<item>sound card</item>
+<item>RAM module</item>
+<item goed="ja">motherboard</item>
+<item>hard disk type</item>
+</choice>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="single">
+<vraag>
+What is the function of the power supply?
+</vraag>
+<choice>
+<item goed="ja">to convert AC power into a lower voltage DC power</item>
+<item>to convert AC power into a higher voltage DC power</item>
+<item>to convert DC power into a lower voltage AC power</item>
+<item>to convert DC power into a higher voltage AC power</item>
+</choice>
+<toelichting>
+De voeding is het component dat netstroom omzet naar voltages die
+gebruikt worden door de componenten van de computer. Netspanning is
+wisselspanning (Alternating Current), 230V in Europa en 110V in
+Amerika. Vrijwel alle computeronderdelen maken gebruik van
+gelijkspanning (Direct Current) op voltages zoals 12V, 5V en 3.3V.
+</toelichting>
+</exercise>
+
+<!-- Vraag 18 -->
+<exercise type="multi">
+<vraag>
+Which two considerations would be of the greatest importance when building
+a workstation that will run multiple virtual machines? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">amount of RAM</item>
+<item goed="ja">number of CPU cores</item>
+<item>water cooling</item>
+<item>powerful video card</item>
+<item>high-end sound card</item>
+</choice>
+<toelichting>
+Een systeem dat meerdere virtuele machines zal draaien zal voor elke
+virtuele machine dezelfde hoeveelheid geheugen vereisen als een
+vergelijkbare fysieke machine. Bij elkaar opgeteld zal het dus een
+om een grote hoeveelheid vereist RAM geheugen gaan.
+Er vanuitgaande dat de virtuele machines een gemiddelde hoeveelheid
+rekenkracht vereisen, zullen er ook meer CPU cores nodig zijn om
+een fatsoenlijke snelheid te kunnen halen.
+Water koeling is niet gebruikelijk voor een workstation.
+Videokaart en geluidskaart zijn compleet niet interessant voor
+virtuele machines, vaak worden virtuele machines zelfs headless
+gedraaid, waarbij er dus niet eens een videokaart of geluidskaart
+gebruikt wordt.
+</toelichting>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="single">
+<vraag>
+A user playing a game on a gaming PC with a standard EIDE 5400 RPM hard
+drive finds the performance unsatisfactory. Which hard drive upgrade would
+improve performance while providing more reliability and more energy
+efficiency?
+</vraag>
+<choice>
+<item>a 7200 RPM EIDE hard drive</item>
+<item>a 7200 RPM SATA hard drive</item>
+<item>a 10,000 RPM SATA hard drive</item>
+<item goed="ja">an SSD</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="multi">
+<vraag>
+What three components should be included in a computer that is used to
+create TV commercials and music videos? (Choose three.)
+</vraag>
+<choice>
+<item>extra DIN-6 ports</item>
+<item goed="ja">specialized video card</item>
+<item>extra PS/2 ports</item>
+<item goed="ja">large and fast hard drives</item>
+<item>VGA adaptors</item>
+<item goed="ja">specialized audio card</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="multi">
+<vraag>
+What are two hardware requirements for computers that will be
+used to run multiple virtual machines? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">large amounts of RAM</item>
+<item goed="ja">a multicore CPU</item>
+<item>a high resolution video card</item>
+<item>a high speed wireless adapter</item>
+<item>multiple monitors</item>
+</choice>
+<toelichting>
+Vrijwel dezelfde vraag als een paar vragen terug.
+</toelichting>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+Which memory technology allows two memory
+modules to be accessed at the same time?
+</vraag>
+<choice>
+<item goed="ja">dual channel</item>
+<item>double-sided</item>
+<item>SRAM</item>
+<item>ECC</item>
+</choice>
+<toelichting>
+De naam zegt het feitelijk al. Met double-sided wordt waarschijnlijk
+slechts bedoeld dat er aansluitingen aan beide kanten van de
+module zitten. SRAM zegt niets over concurrency. ECC is een techniek
+voor foutcontrole, wat in principe niet op consumentenelectronica zat.
+</toelichting>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="single">
+<vraag>
+Which security feature in modern CPUs protects memory areas that
+contain part of the operating system from malware attacks?
+</vraag>
+<choice>
+<item>encryption</item>
+<item>TPM</item>
+<item goed="ja">execute disable bit</item>
+<item>LoJack</item>
+</choice>
+</exercise>
+
+<!-- Vraag 24 -->
+<!--
+<exercise>
+<vraag>
+Drag the description on left to its RAID level on the right.
+</vraag>
+<drag>
+<left>
+<item>highest performance</item>
+<item>disk mirroring</item>
+<item>combination of data striping and parity</item>
+<item>data striping without redundancy</item>
+<item>ability of data to be rebuilt with information from the other drives</item>
+<item>high performance and high protection because all data is duplicated</item>
+</left>
+<right>
+</right>
+</drag>
+</exercise>
+-->
+
+<!-- Vraag 25 -->
+<!--
+<exercise>
+<vraag>
+Match the ports or cables with their descriptions. (Not all options are used.)
+</vraag>
+</exercise>
+-->
+
+<!-- Vraag 1 -->
+<exercise type="single">
+<vraag>
+A new technician has joined the IT team and is about to service a heavy
+printer. What advice would you give this technician to avoid any injury
+when transporting the heavy printer to the service area?
+</vraag>
+<choice>
+<item goed="ja">
+Bend your knees to use the strength in your legs to lift the printer.
+</item>
+<item>Avoid bending your knees when lifting the printer.</item>
+<item>Bend your back to pick the printer up.</item>
+<item>Use your arms and back to lift the printer.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+How does an inline UPS protect computer equipment
+against electrical power brownouts and blackouts?
+</vraag>
+<choice>
+<item>by grounding excess electrical voltage</item>
+<item goed="ja">by using a battery to supply a constant level of voltage</item>
+<item>by switching from main power to a standby power source</item>
+<item>by stopping the flow of voltage to the computer</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+Which circumstance increase the likelihood of ESD damage to a computer?
+</vraag>
+<choice>
+<item goed="ja">working in low levels of humidity</item>
+<item>using a magnetic screwdriver while working on a hard drive</item>
+<item>plugging a printer into an UPS</item>
+<item>self grounding against the computer case</item>
+</choice>
+<toelichting>
+Jezelf aarden tegen de computerkast zal juist helpen ESD te verminderen.
+</toelichting>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+Which condition refers to a reduced voltage level of
+AC power that lasts for an extended period of time?
+</vraag>
+<choice>
+<item goed="ja">Brownout</item>
+<item>Sag</item>
+<item>Spike</item>
+<item>Surge</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="multi">
+<vraag>
+What are two significant sources of EMI? (Choose two.)
+</vraag>
+<choice>
+<item>infrared mice</item>
+<item>RAM modules</item>
+<item goed="ja">electrical storms</item>
+<item>LCD monitors</item>
+<item goed="ja">power lines</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="multi">
+<vraag>
+A technician is unpacking a new PCIe video adapter from an antistatic
+bag to install the card in a desktop computer. Which two measures should
+the technician use to protect the card and other computer
+components? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">Use a grounded mat on the workbench.</item>
+<item goed="ja">Use a correctly connected antistatic wrist strap.</item>
+<item>Shield the card and computer from sources of EMI.</item>
+<item>Ensure that the workplace has a low humidity environment.</item>
+<item>Connect the computer to a UPS while installing the card.</item>
+</choice>
+<toelichting>
+Een lage luchtvochtigheid zal juist problemen met statische electriciteit
+veroorzaken.
+Een UPS voorziet een computer van stroom tijdens stroomuitval. Uiteraard hoeft
+de computer niet aan te staan tijdens het plaatsen van componenten, dit is zelfs
+af te raden, hoewel het voor componenten zoals een videokaart niet strikt
+noodzakelijk is om de computer uit te zetten.
+</toelichting>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="single">
+<vraag>
+How should a technician dispose of an empty inkjet printer cartridge?
+</vraag>
+<choice>
+<item>Refill it.</item>
+<item>Throw it away.</item>
+<item goed="ja">Follow local regulations for disposal.</item>
+<item>Give it back to the customer.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>
+What makes CRT monitor disposal dangerous for
+a technician who is handling the disposal?
+</vraag>
+<choice>
+<item>potential breathing hazards</item>
+<item>potential explosive materials</item>
+<item goed="ja">potential residual high voltage</item>
+<item>potential health-damaging chemicals</item>
+</choice>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+A technician is troubleshooting connectivity issues to a PC and needs
+to verify which cable is plugged into the correct port of the patch
+panel. What tool should the technician use?
+</vraag>
+<choice>
+<item>multimeter</item>
+<item goed="ja">toner probe</item>
+<item>punch down</item>
+<item>crimper</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="single">
+<vraag>
+Which tool is designed to loosen or tighten crosshead screws?
+</vraag>
+<choice>
+<item goed="ja">phillips screwdriver</item>
+<item>hex driver</item>
+<item>flat head screwdriver</item>
+<item>torx driver</item>
+</choice>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="single">
+<vraag>
+What tool would a technician use to remove a slotted screw?
+</vraag>
+<choice>
+<item goed="ja">flat head screwdriver</item>
+<item>hex driver</item>
+<item>needle-nosed pliers</item>
+<item>Phillips head screwdriver</item>
+<item>Torx screwdriver</item>
+</choice>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+Which tool in Windows OS gives a technician access
+to initialize disks and create partitions?
+</vraag>
+<choice>
+<item>Optimize Drives</item>
+<item>Disk Cleanup</item>
+<item goed="ja">Disk Management</item>
+<item>Format</item>
+<item>Scandisk</item>
+</choice>
+<toelichting>
+Disk Management kan gebruikt worden voor het partitioneren van schijven.
+Format wordt gebruikt om partities te formatteren met een bestandssysteem.
+Scandisk wordt gebruikt om een bestaand bestandssysteem te controleren
+op fouten.
+</toelichting>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>
+Which Windows OS tool scans the critical files of the operating
+system and replaces any files that have been corrupted?
+</vraag>
+<choice>
+<item>Chkdsk</item>
+<item>Defrag</item>
+<item>Disk Cleanup</item>
+<item>Disk Management</item>
+<item>Scan System</item>
+<item goed="ja">System File Checker</item>
+</choice>
+<toelichting>
+<p>
+Chkdsk heeft een vergelijkbare functie als scandisk en wordt gebruikt om
+een bestaand bestandssysteen te controleren op fouten.
+</p>
+<p>
+Defrag wordt gebruikt om een bestaand bestandssysteem op volgorde te
+zetten.
+</p>
+<p>
+Disk Management kan gebruikt worden voor het partitioneren van schijven.
+</p>
+<p>
+System File Checker is het juiste antwoord.
+</p>
+</toelichting>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+Which tool should be used if a user needs to optimize space on a hard drive?
+</vraag>
+<choice>
+<item goed="ja">Optimize Drives</item>
+<item>Disk Management</item>
+<item>Fdisk</item>
+<item>Format</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+Why is documentation of all services and repairs
+an important organizational tool for a technician?
+</vraag>
+<choice>
+<item>It increases the cost of services and repairs.</item>
+<item>It allows the public sharing of information on the Internet.</item>
+<item>It reduces the technical skills required of new technicians.</item>
+<item goed="ja">
+It provides reference material for similar problems when
+they are encountered in the future.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<!-- niet echt mee eens -->
+<exercise type="single">
+<vraag>
+Which tool could potentially cause data loss on hard disk or floppy drives?
+</vraag>
+<choice>
+<item goed="ja">a magnetic screwdriver</item>
+<item>compressed air</item>
+<item>a lead pencil</item>
+<item>a computer vacuum cleaner</item>
+</choice>
+<toelichting>
+Deze kans is echter klein.
+</toelichting>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="single">
+<vraag>
+Why should an antistatic wrist strap be worn when working on
+electronic equipment?
+</vraag>
+<choice>
+<item>to prevent interference from clothing and loose jewelry</item>
+<item goed="ja">to equalize the electrical charge between a person and the equipment</item>
+<item>
+to prevent clothing made of silk, polyester, or wool from generating a static charge
+</item>
+<item>
+to draw static electricity away from a component and
+transfer it safely from equipment to a grounding point
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 18 -->
+<!-- niet mee eens -->
+<exercise type="single">
+<vraag>
+Which precaution should be taken when working inside computer systems?
+</vraag>
+<choice>
+<item goed="ja">Avoid using magnetized tools.</item>
+<item>Leave the power cord attached to an outlet for grounding.</item>
+<item>Wear ESD protection to repair monitors in humid environments.</item>
+<item>Avoid using ESD wrist straps and ESD mats simultaneously.</item>
+</choice>
+<toelichting>
+ESD wrist straps en matten moeten juist wel gebruikt worden.
+Het goede antwoord moet "Avoid using magnetized tools" zijn, maar dit
+zal echter vrijwel nooit een probleem opleveren en bijna niemand
+vermijd bewust gemagnetiseerde schroevendraaiers.
+</toelichting>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="single">
+<vraag>
+Which cleaning solution is recommended to
+clean the contacts of computer components?
+</vraag>
+<choice>
+<item>rubbing alcohol</item>
+<item goed="ja">isopropyl alcohol</item>
+<item>glass cleaner with ammonia</item>
+<item>water that is mixed with a small amount of dishwashing liquid</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="single">
+<vraag>
+Why should a pencil never be used as a tool when working inside a computer?
+</vraag>
+<choice>
+<item>Pencil lead is corrosive.</item>
+<item goed="ja">Pencil lead is conductive</item>
+<item>A pencil can hold a static charge.</item>
+<item>The lead in a pencil can induce current.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="single">
+<vraag>
+A technician suspects that a power supply is faulty. How can it be checked?
+</vraag>
+<choice>
+<item>by checking the temperature of the power supply</item>
+<item goed="ja">by using a multimeter</item>
+<item>by taking apart the power supply</item>
+<item>by powering up the PC after disconnecting each connector in turn</item>
+</choice>
+</exercise>
+
+<!-- Vraag 22 -->
+<!--
+<exercise type="lines">
+<vraag>
+Match the steps of fire extinguisher operation to the order in which they
+should be completed. (Not all options are used.)
+</vraag>
+</exercise>
+-->
+
+<!-- Vraag 1 -->
+<exercise type="single">
+<vraag>
+When a computer is being assembled, which action can be taken
+to help eliminate cable clutter within a computer case?
+</vraag>
+<choice>
+<item>Install a CPU without using a heat sink and fan assembly.</item>
+<item>Install a 2.5in HDD instead of a 3.5in HDD.</item>
+<item goed="ja">Install a modular power supply.</item>
+<item>Install a motherboard without using standoffs in the case.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+What is the best way to apply thermal compound when reseating a CPU?
+</vraag>
+<choice>
+<item goed="ja">
+Clean the CPU and the base of the heat sink with
+isopropyl alcohol before applying the thermal compound.
+</item>
+<item>
+Use rubbing alcohol to clean the base of the
+heat sink before applying thermal compound.
+</item>
+<item>
+Scrape off the old thermal compound on the heat sink
+with a sharp knife and apply the thermal compound liberally.
+</item>
+<item>
+Put a thick layer of thermal compound over the
+existing thermal compound before reseating the CPU.
+</item>
+<item>
+Change the base of the heat sink before applying the thermal compound.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+A technician is installing additional memory in a computer. How can
+the technician guarantee that the memory is correctly aligned?
+</vraag>
+<choice>
+<item>The label on the memory module should always face the CPU.</item>
+<item goed="ja">
+A notch in the memory module should be
+aligned with a notch in the memory slot.
+</item>
+<item>
+The arrows on the memory module should be
+aligned with the arrows on the motherboard slot.
+</item>
+<item>Memory slots are color coded, with one end red and one end blue.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+What is used to prevent the motherboard from
+touching metal portions of the computer case?
+</vraag>
+<choice>
+<item>an I/O shield</item>
+<item>thermal compound</item>
+<item goed="ja">standoffs</item>
+<item>ZIF sockets</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>
+Which statement describes the purpose of an I/O connector plate?
+</vraag>
+<choice>
+<item goed="ja">
+It makes the I/O ports of the motherboard available
+for connection in a variety of computer cases.
+</item>
+<item>
+It plugs into the motherboard and expands the
+number of available slots for adapter cards.
+</item>
+<item>
+It provides multiple connections for SATA
+hard drives to connect to the motherboard.
+</item>
+<item>
+It connects the PCIe adapter slots used for
+video directly to the CPU for faster processing.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="multi">
+<vraag>
+What are three important considerations when
+installing a CPU on a motherboard? (Choose three.)
+</vraag>
+<choice>
+<item goed="ja">Antistatic precautions are taken.</item>
+<item goed="ja">The CPU is correctly aligned and placed in the socket.</item>
+<item>The CPU contacts are first cleaned with isopropyl alcohol.</item>
+<item goed="ja">The CPU heat sink and fan assembly are correctly installed.</item>
+<item>The CMOS EPROM battery is removed prior to installing the CPU.</item>
+<item>
+Maximum insertion force is applied to the load lever so the CPU is locked in place.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="single">
+<vraag>
+Which type of drive is typically installed in a 5.25 inch (13.34 cm) bay?
+</vraag>
+<choice>
+<item>hard drive</item>
+<item goed="ja">optical drive</item>
+<item>flash drive</item>
+<item>SSD</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>
+Which type of motherboard expansion slot has four types ranging from x1 to x16
+with each type having a different length of expansion slot?
+</vraag>
+<choice>
+<item goed="ja">PCIe</item>
+<item>AGP</item>
+<item>SATA</item>
+<item>PCI</item>
+</choice>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+A technician is installing a new high-end video adapter card into an expansion
+slot on a motherboard. What may be needed to operate this video adapter card?
+</vraag>
+<choice>
+<item>PCI expansion slot</item>
+<item>PCIe x8 expansion slot</item>
+<item goed="ja">Two 8-pin power connectors</item>
+<item>24-pin ATX power connector</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="single">
+<vraag>
+When assembling a PC, how is pin 1 identified on the front panel cables so that it
+can be aligned properly with pin 1 on the motherboard panel connector?
+</vraag>
+<choice>
+<item goed="ja">by a small arrow or notch</item>
+<item>by a plus sign</item>
+<item>by a P1</item>
+<item>by a red cable</item>
+</choice>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="single">
+<vraag>
+A technician has just finished assembling a new computer. When the computer is
+powered up for the first time, the POST discovers a problem. How does the POST
+indicate the error?
+</vraag>
+<choice>
+<item goed="ja">It issues a number of short beeps.</item>
+<item>The LED on the front of the computer case flashes a number of times.</item>
+<item>It places an error message in the BIOS.</item>
+<item>It locks the keyboard.</item>
+</choice>
+<tags>
+<tag>LED</tag>
+<tag>BIOS</tag>
+<tag>POST</tag>
+</tags>
+<toelichting>
+Het BIOS zal bij de detectie van een fout tijdens de POST uiteraard een
+bericht op het beeldscherm weergeven, maar omdat er niet vanuit gegaan
+kan worden dat het graficshe gedeelte van de computer functioneel is, zal
+er ook een foutmelding gegeven worden in de vorm van pieptonen uit de
+PC-speaker. De gebruiker moet dan opzoeken wat een betreffend pieptoon
+patroon betekent.
+</toelichting>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+What is a function of the BIOS?
+</vraag>
+<choice>
+<item>enables a computer to connect to a network</item>
+<item>provides temporary data storage for the CPU</item>
+<item goed="ja">performs a check on all internal components</item>
+<item>provides graphic capabilities for games and applications</item>
+</choice>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>
+A technician has assembled a new computer and must now configure the BIOS. At
+which point must a key be pressed to start the BIOS setup program?
+</vraag>
+<choice>
+<item>before the computer is powered on</item>
+<item>during the Windows load process</item>
+<item goed="ja">during the POST</item>
+<item>after the POST, but before Windows starts to load</item>
+</choice>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+What data is stored in the CMOS memory chip?
+</vraag>
+<choice>
+<item goed="ja">BIOS settings</item>
+<item>Windows configuration settings</item>
+<item>user login information</item>
+<item>device drivers</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+What is the purpose of LoJack?
+</vraag>
+<choice>
+<item goed="ja">
+It allows the owner of a device to remotely
+locate, lock, or delete all files from the device.
+</item>
+<item>
+It ensures that a computer will only boot an operating
+system that is trusted by the motherboard manufacturer.
+</item>
+<item>
+It provides passwords for different levels of access to the BIOS.
+</item>
+<item>
+It encrypts data on hard drives to prevent access without the correct password.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise type="single">
+<vraag>
+Which is a BIOS security feature that can prevent data from being read from a
+hard drive even if the hard drive is moved to another computer?
+</vraag>
+<choice>
+<item goed="ja">drive encryption</item>
+<item>RAID</item>
+<item>secure boot</item>
+<item>BIOS passwords</item>
+</choice>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="single">
+<vraag>
+What is one purpose of adjusting the clock speed within the BIOS configuration
+settings?
+</vraag>
+<choice>
+<item>
+to allow a computer to run multiple operating systems in files or partitions
+</item>
+<item>to change the order of the bootable partitions</item>
+<item>to disable devices that are not needed or used by the computer</item>
+<item goed="ja">to allow the computer to run slower and cooler</item>
+</choice>
+<tags>
+<tag>clock speed</tag>
+<tag>BIOS</tag>
+</tags>
+<toelichting>
+<p>
+meerdere besturingssystemen, de volgorde van bootable partities en
+het uitschakelen van apparaten hebben niks met kloksnelheid te maken.
+</p>
+<p>
+Het is wel mogelijk om de computer (met name de CPU) sneller of langzamer
+te laten draaien door de kloksnelheid van de Front Side Bus aan te passen.
+Er moet wel rekening mee gehouden worden dat de kloksnelheid van het RAM
+geheugen ook afgeleid is van de Front Side Bus, deze zal dus ook
+veranderen. Ook moet voor een hogere kloksnelheid van de CPU de Vcore
+spanning van de CPU hoger zijn, wat meer stroomverbruik en hitte zal
+betekenen. Voor een lagere snelheid kan je uiteraard af met een
+lagere Vcore spanning waardoor de processor inderdaad koeler zal blijven.
+</p>
+</toelichting>
+</exercise>
+
+<!-- Vraag 18 -->
+<exercise type="multi">
+<vraag>
+A technician is assembling a new computer. Which two components are often
+easier to install before mounting the motherboard in the case? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">CPU</item>
+<item goed="ja">memory</item>
+<item>NIC</item>
+<item>sound card</item>
+<item>video card</item>
+</choice>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="multi">
+<vraag>
+Which two components are commonly replaced when a computer system with a
+newer motherboard is being upgraded? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">RAM</item>
+<item>hard disk drive</item>
+<item goed="ja">CPU</item>
+<item>optical drive</item>
+<item>CMOS battery</item>
+<item>adapter card</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="single">
+<vraag>
+A user reports that every morning when a particular computer is turned on, the
+configuration settings on that computer have to be reset. What action should be
+taken to remedy this situation?
+</vraag>
+<choice>
+<item>Replace the motherboard.</item>
+<item goed="ja">Replace the CMOS battery.</item>
+<item>Move the jumpers,</item>
+<item>Upgrade the BIOS</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="multi">
+<vraag>
+What are two reasons for installing a second hard disk drive inside an existing
+computer? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">to support a RAID array</item>
+<item>to store BIOS configuration settings</item>
+<item goed="ja">to store a system swap file</item>
+<item>to increase CPU speed</item>
+<item>to allow access to a secondary display output</item>
+</choice>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+When should a technician use unsigned drivers for newly installed computer
+hardware?
+</vraag>
+<choice>
+<item>if the unsigned driver is the most current driver available</item>
+<item>if the original installation media is not available</item>
+<item goed="ja">
+if the source of the drivers is trusted by the technician
+</item>
+<item>
+if the Windows installation media does not contain a valid signed driver
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="single">
+<vraag>
+What computer component is often required to allow a single computer to use two
+monitors simultaneously?
+</vraag>
+<choice>
+<item>an extra power supply</item>
+<item goed="ja">a second video adapter card</item>
+<item>an extra USB connection</item>
+<item>a KVM switch</item>
+</choice>
+</exercise>
+
+<!-- Vraag 24 -->
+<exercise type="single">
+<vraag>
+A technician notices that half of the memory slots on a motherboard are colored
+differently from the other half. Which technology is probably implemented on this
+system?
+</vraag>
+<choice>
+<item>virtualization</item>
+<item>ECC</item>
+<item goed="ja">double channeling</item>
+<item>double-sided</item>
+</choice>
+</exercise>
+
+<!-- Vraag 1 -->
+<exercise type="single">
+<vraag>
+Which negative environmental factor does cleaning the inside of a computer
+reduce?
+</vraag>
+<choice>
+<item goed="ja">dust</item>
+<item>EMI</item>
+<item>rust</item>
+<item>ESD</item>
+</choice>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+Which component can be easily damaged by the direct spray of compressed air
+when cleaning the inside the computer case?
+</vraag>
+<choice>
+<item goed="ja">fan</item>
+<item>heat sink</item>
+<item>power supply</item>
+<item>CPU</item>
+<item>cable connectors</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+On the production floor, a furniture plant has laptops for process monitoring and
+reporting. The production floor environment is around 80 degrees Fahrenheit (27
+degrees Celsius). The humidity level is fairly high around 70 percent. Fans are
+mounted in the ceiling for air circulation. Wood dust is prevalent. Which condition
+is most likely to adversely affect a laptop that is used in this environment?
+</vraag>
+<choice>
+<item>the temperature</item>
+<item>the humidity</item>
+<item>the air flow</item>
+<item goed="ja">the dust</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+A vegetable canning plant uses laptops for monitoring of assembly lines. The
+production environment has an ambient temperature around 75 degrees
+Fahrenheit (24 degrees Celsius). The humidity level is around 30 percent. Noise
+levels are high due to the canning machinery. The laptops are in a wooden box
+that tightly surrounds the laptop on three sides. Which factor is most likely to
+adversely affect a laptop that is used in this environment?
+</vraag>
+<choice>
+<item>the room temperature</item>
+<item>the humidity</item>
+<item>the noise</item>
+<item goed="ja">the laptop container</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>
+A scientific expedition team is using laptops for their work. The temperatures
+where the scientists are working range from -13 degrees Fahrenheit (-25 degree
+Celsius) to 80 degrees Fahrenheit (27 degrees Celsius). The humidity level is
+around 40 percent. Noise levels are low, but the terrain is rough and winds can
+reach 45 miles per hour (72 kilometers per hour). When needed, the scientists
+stop walking and enter the data using the laptop. Which condition is most likely to
+adversely affect a laptop that is used in this environment?
+</vraag>
+<choice>
+<item goed="ja">the temperature</item>
+<item>the humidity</item>
+<item>the rough terrain</item>
+<item>the wind</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="single">
+<vraag>
+What is part of creating a preventive maintenance plan?
+</vraag>
+<choice>
+<item goed="ja">
+documenting the details and frequency of each maintenance task
+</item>
+<item>performing hardware upgrades</item>
+<item>discarding all replaced parts</item>
+<item>performing a forensic audit of security breaches</item>
+</choice>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="single">
+<vraag>
+A technician is performing hardware maintenance of PCs at a construction site.
+What task should the technician perform as part of a preventive maintenance
+plan?
+</vraag>
+<choice>
+<item goed="ja">Remove dust from intake fans.</item>
+<item>Back up the data, reformat the hard drive, and reinstall the data.</item>
+<item>Develop and install forensic tracking software.</item>
+<item>Perform an audit of all software that is installed.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>
+Which task should be part of a hardware maintenance routine?
+</vraag>
+<choice>
+<item>Review security updates.</item>
+<item>Update virus definition files.</item>
+<item>Adjust the monitor for optimum resolution.</item>
+<item>Remove dust from inside the hard drive.</item>
+<item goed="ja">Check for and secure any loose cables.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+During the process of testing a theory of several probable causes to a problem,
+which should be tested first?
+</vraag>
+<choice>
+<item goed="ja">the easiest and most obvious</item>
+<item>those the customer believes to be the most important</item>
+<item>the most complex and difficult to diagnose</item>
+<item>those chosen by random selection</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="multi">
+<vraag>
+Which two items could be used to help establish a plan of action when resolving a
+computer problem? (Choose two.)
+</vraag>
+<choice>
+<item>a multimeter</item>
+<item>a loopback plug</item>
+<item goed="ja">the computer manual</item>
+<item goed="ja">the computer repair history log</item>
+<item>BIOS diagnostics</item>
+</choice>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="multi">
+<vraag>
+Which two types of data should be backed up before troubleshooting a computer
+for a customer? (Choose two.)
+</vraag>
+<choice>
+<item>BIOS system file</item>
+<item>driver files for the hard disk</item>
+<item goed="ja">Internet Explorer favorites files</item>
+<item>Windows operating system files</item>
+<item goed="ja">documents that are created by the customer</item>
+</choice>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+A customer reports that recently several files cannot be accessed. The service
+technician decides to check the hard disk status and the file system structure. The
+technician asks the customer if a backup has been performed on the disk and the
+customer replies that the backup was done a week ago to a different logical
+partition on the disk. What should the technician do before performing diagnostic
+procedures on the disk?
+</vraag>
+<choice>
+<item>Run the CHKDSK utility.</item>
+<item goed="ja">Back up the user data to a removable drive.</item>
+<item>Perform file restore from the existing backup copy at the logical partition.</item>
+<item>Install a new hard disk as the primary disk, then make the current disk a slave.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>
+What is the next step after a possible solution is implemented during a
+troubleshooting process?
+</vraag>
+<choice>
+<item>Test another possible solution.</item>
+<item>Identify other possible causes for the problem.</item>
+<item>Document the cause and the solution for the problem.</item>
+<item goed="ja">
+Verify the full system functionality and apply maintenance procedures.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+An employee reports that the antivirus software cannot obtain updates. The
+support technician notices that the license for the software has expired. The
+technician adds a new license to the software and completes the update service.
+What should the technician do next?
+</vraag>
+<choice>
+<item>Record the new license number in the log.</item>
+<item>Download advanced antivirus software from another vendor.</item>
+<item goed="ja">Run a full virus scan on the computer.</item>
+<item>
+Review the Event Viewer for the date and time that the last software update was
+performed.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+What task should be completed before escalating a problem to a higher-level
+technician?
+</vraag>
+<choice>
+<item goed="ja">Document each test that was tried.</item>
+<item>Ask the customer to open a new support request.</item>
+<item>Redo each test to ensure the accuracy of the results.</item>
+<item>Replace all hardware components with components that are known to work.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise type="single">
+<vraag>
+Which step of the six-step troubleshooting process is where a technician would
+ask the computer user to print a document on a newly installed printer?
+</vraag>
+<choice>
+<item>Test the theory to determine the cause.</item>
+<item>Identify the problem.</item>
+<item>Establish a theory of probable cause.</item>
+<item>Document findings, actions, and outcomes.</item>
+<item>
+Establish a plan of action to resolve the problem and implement the solution.
+</item>
+<item goed="ja">
+Verify full system functionality and, if applicable, implement preventive measures.
+</item>
+</choice>
+<tags>
+<tag>printer</tag>
+</tags>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="multi">
+<vraag>
+After a technician tests a theory of probable causes, what two actions should the
+technician take if the testing did not identify an exact cause? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">Establish a new theory of probable causes.</item>
+<item>Randomly replace components one at a time until the problem is solved.</item>
+<item goed="ja">Document each test tried that did not correct the problem.</item>
+<item>Verify full system functionality.</item>
+<item>Test all remaining possible causes starting with the most complex.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 18 -->
+<!-- Opmerking -->
+<exercise type="single">
+<vraag>
+What is the preferred method to remove a disc from an optical drive that fails to
+eject the disc?
+</vraag>
+<choice>
+<item goed="ja">
+Insert a pin into the small hole on the front of the drive.</item>
+<item>Use a small screwdriver and pry the drive door open.</item>
+<item>Remove the top of the drive enclosure.</item>
+<item>Send the drive to an authorized repair depot.
+</item>
+</choice>
+<tags>
+<tag>optical drive</tag>
+</tags>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="single">
+<vraag>
+A technician is called to an office where the computer is randomly rebooting.
+Which of the given components would most likely cause this issue?
+</vraag>
+<choice>
+<item>BIOS</item>
+<item>CMOS battery</item>
+<item>optical drive</item>
+<item goed="ja">power supply</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="single">
+<vraag>
+What would happen if a PC that contains a power supply that does not
+automatically adjust for input voltage is set to 230 volts and attaches to an outlet
+in the United States?
+</vraag>
+<choice>
+<item>The power supply would explode.</item>
+<item goed="ja">The PC would not turn on.</item>
+<item>The PC would display an error code.</item>
+<item>The PC would emit a series of beeps.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="single">
+<vraag>
+During the troubleshooting of a PC that will not boot, it is suspected that the
+problem is with the RAM modules. The RAM modules are removed and put into
+another PC, which successfully powers on. The RAM modules are then put back
+into the original PC and it now successfully powers on as well. What was the most
+likely cause of the problem?
+</vraag>
+<choice>
+<item>The RAM modules have bad blocks.</item>
+<item goed="ja">The RAM modules were not seated firmly.</item>
+<item>The RAM modules did not match the PC specs.</item>
+<item>The RAM modules were inserted backwards into the DIMM slots.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+After a new PCIe video card is added, the computer seems to boot successfully
+but it will not display any video. The computer was working properly before the
+new video card was installed. What is the most likely cause of the problem?
+</vraag>
+<choice>
+<item>The monitor cable is faulty.</item>
+<item>The new video card is not compatible with the CPU in the PC.</item>
+<item goed="ja">
+The saved CMOS settings are set to use the built-in video adapter.
+</item>
+<item>The PC does not have enough RAM to support the new video card.</item>
+</choice>
+<tags>
+<tag>PCIe</tag>
+<tag>video</tag>
+<tag>CMOS</tag>
+</tags>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="single">
+<vraag>
+A user has opened a ticket that indicates that the computer clock keeps losing the
+correct time. What is the most likely cause of the problem?
+</vraag>
+<choice>
+<item>The motherboard clocking crystal is damaged.</item>
+<item>The operating system needs to be patched.</item>
+<item goed="ja">The CMOS battery is loose or failing.</item>
+<item>The CPU needs to be overclocked.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 24 -->
+<exercise type="single">
+<vraag>
+An employee reports that each time a workstation is started it locks up after about
+5 minutes of use. What is the most likely cause of the problem?
+</vraag>
+<choice>
+<item>The hard disk is failing.</item>
+<item>The RAM is malfunctioning.</item>
+<item goed="ja">The CPU is overheating.</item>
+<item>The power supply fails to provide adequate voltage and current.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 25 -->
+<exercise type="single">
+<vraag>
+A user reports that images on a computer display are distorted. The technician
+sends an intern to look at the problem. What could the technician tell the intern to
+check first that does not involve hardware replacement or disassembly?
+</vraag>
+<choice>
+<item>LCD backlight adjustment</item>
+<item goed="ja">display settings</item>
+<item>work desk stability</item>
+<item>electrical interference</item>
+</choice>
+</exercise>
+
+<!-- Vraag 26 -->
+<exercise type="single">
+<vraag>
+A user has connected an external monitor to a laptop VGA port. What is the next
+step the user should take?
+</vraag>
+<choice>
+<item>Disable the current display being used by the laptop.</item>
+<item>Access the BIOS and enable the VGA port on the laptop.</item>
+<item>
+Reboot the system so that the currently connected external display can be recognized
+by the laptop.
+</item>
+<item goed="ja">
+Use a Fn key along with a multi-purpose key to send video to the external display.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 1 -->
+<exercise type="multi">
+<vraag>
+What are two functions of an operating system? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">controlling hardware access</item>
+<item goed="ja">managing applications</item>
+<item>text processing</item>
+<item>flow chart editing</item>
+<item>program compilation</item>
+<item>web browsing</item>
+<item>controlling the BIOS</item>
+</choice>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="multi">
+<vraag>
+Which two methods should a technician use
+to update a device driver? (Choose two.)
+</vraag>
+<choice>
+<item>
+Insert the operating system installation media and load the driver from there.
+</item>
+<item goed="ja">Use the media that came with the device.</item>
+<item>Buy another operating system license.</item>
+<item goed="ja">
+Download the driver from the website of the manufacturer.
+</item>
+<item>Perform a firmware update.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+What is the term for the ability of a computer
+to run multiple applications at the same time?
+</vraag>
+<choice>
+<item>multiuser</item>
+<item goed="ja">multitasking</item>
+<item>multimedia</item>
+<item>multiprocessing</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+What is provided by an operating system
+that has multiprocessing capability?
+</vraag>
+<choice>
+<item goed="ja">support for two or more processors</item>
+<item>support for two or more users</item>
+<item>the capability to run multiple applications at the same time</item>
+<item>the ability to run different parts of a program at the same time</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>
+What is used by an operating system to communicate with hardware components?
+</vraag>
+<choice>
+<item goed="ja">device driver</item>
+<item>BIOS</item>
+<item>CMOS</item>
+<item>Application Program Interface</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="single">
+<vraag>
+Which application interface is comprised of multiple APIs
+that support multimedia tasks in Windows operating systems?
+</vraag>
+<choice>
+<item goed="ja">DirectX</item>
+<item>Java</item>
+<item>Windows API</item>
+<item>OpenGL</item>
+</choice>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="single">
+<vraag>
+Which version of Windows introduced the Metro user interface, which
+can be used on desktops, laptops, mobile phones, and tablets?
+</vraag>
+<choice>
+<item>Windows XP</item>
+<item>Windows Vista</item>
+<item>Windows 7</item>
+<item goed="ja">Windows 8</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>
+Where can a technician look to determine if specific computer
+hardware or software has been tested to work with Windows 7?
+</vraag>
+<choice>
+<item goed="ja">Microsoft Compatibility Center</item>
+<item>Microsoft Knowledge Base</item>
+<item>Windows 7 manual</item>
+<item>Windows Easy Transfer</item>
+</choice>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+What is critical to consider when determining the version of Windows to install on
+a desktop computer?
+</vraag>
+<choice>
+<item>version of Microsoft Office installed</item>
+<item>type of monitor installed</item>
+<item>off-the-shelf applications installed</item>
+<item goed="ja">customized applications installed</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="single">
+<vraag>
+A user downloads and uses the Windows 7 Upgrade Advisor to generate a report
+on a PC that is being considered for an operating system upgrade. What
+information would the report contain?
+</vraag>
+<choice>
+<item goed="ja">recommended changes to hardware</item>
+<item>recommended changes to file systems</item>
+<item>recommended changes to user permissions</item>
+<item>recommended changes to directory structures</item>
+</choice>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="multi">
+<vraag>
+What are two features of the active partition
+of a hard drive that is using MBR? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">The active partition must be a primary partition.</item>
+<item>Up to four primary partitions can be marked as active.</item>
+<item>An active partition must be assigned C: as the drive letter.</item>
+<item goed="ja">
+The operating system uses the active partition to boot the system.</item>
+<item>
+The active partition may include the manufacturer recovery partition.
+</item>
+</choice>
+<toelichting>
+Met de MBR partitie methode kunnen vier primaire partities aangemaakt
+worden. Het is de bedoeling een van de vier primaire partities als
+actief te markeren. In de regel zal bij het opstarten dan het
+bootrecord van deze actieve partitie uitgevoerd worden om de
+computer op te starten. Wanneer
+toch meerdere partities als actief gemarkeerd zijn, zal de eerste van
+deze gekozen worden.
+</toelichting>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+A computer with the Windows 7 operating system fails to boot when the system is
+powered on. The technician suspects that the operating system has been attacked
+by a virus that rendered the system inoperable. What measure could be taken to
+restore system functionality?
+</vraag>
+<choice>
+<item>Use a differential backup to restore the system.</item>
+<item>Use an incremental backup to restore the system.</item>
+<item goed="ja">
+Use a system image that was created prior
+to the failure to restore the system.
+</item>
+<item>
+Run chkdsk on the affected drive to restore
+system files to their post-installation state.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>What is the purpose of a recovery partition?</vraag>
+<choice>
+<item>
+to provide a copy of the C: partition and
+data from the last backup in case of failure
+</item>
+<item>to provide a backup copy of the BIOS</item>
+<item>
+to return the system to an earlier state to recover from a failed update
+</item>
+<item>
+to restore the computer to the factory state without deleting user files
+</item>
+<item goed="ja">to restore the computer to its factory state</item>
+</choice>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+What Windows 8 tool allows the computer to be rolled back to its factory state
+without losing any user files?
+</vraag>
+<choice>
+<item>recovery partition</item>
+<item>System Restore</item>
+<item goed="ja">Refresh your PC</item>
+<item>BIOS backup</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+A Windows 8 computer locks up with a stop error during startup and then
+automatically reboots. The automatic restart setting is making it difficult to see
+any error messages. What can be done so that the error messages can be
+viewed?
+</vraag>
+<choice>
+<item>
+Use the System Recovery options to restart the operating system.
+</item>
+<item>
+Use the Command Prompt option to research the stop error messages.
+</item>
+<item>
+View the error messages and recover the
+system using the System Image Recovery tool.
+</item>
+<item goed="ja">
+Access the Advanced Startup options menu before the
+OS loads to disable the auto restart function.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise type="single">
+<vraag>
+A user installs a new video driver on a computer that was working properly. After
+the new driver is installed and the computer is restarted, the computer fails to
+boot. How can the user quickly return the computer to a working state?
+</vraag>
+<choice>
+<item>
+Restart the PC with the Windows System Recovery
+disc and use the Startup Repair utility.
+</item>
+<item goed="ja">
+Press F8 while the computer is booting and choose
+the Last Known Good Configuration option.
+</item>
+<item>
+Boot the system with the original Windows installation
+media and choose the Repair Your Computer option.
+</item>
+<item>
+Press F8 while the computer is booting and
+choose the Start Windows Normally option.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="single">
+<vraag>
+Where are the settings that are chosen
+during the installation process stored?
+</vraag>
+<choice>
+<item>in the recovery partition</item>
+<item>in BIOS</item>
+<item>in flash memory</item>
+<item goed="ja">in the Registry</item>
+</choice>
+</exercise>
+
+<!-- Vraag 18 -->
+<exercise type="single">
+<vraag>
+Why is it important to register a DLL file in Windows?
+</vraag>
+<choice>
+<item goed="ja">
+so that any program needing to use that
+specific program code can locate the file
+</item>
+<item>
+so that the operating system can be restored
+</item>
+<item>
+so that the computer can be restored to factory settings
+</item>
+<item>
+so that copyright laws are not violated when computer images are made
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="single">
+<vraag>
+A Windows 8.1 system is unable to boot properly. What
+is the procedure to boot this system into Safe Mode?
+</vraag>
+<choice>
+<item>
+From the command prompt run the shutdown -r -s command.
+</item>
+<item>
+Run the MSCONFIG utility and choose the option Selective Startup.
+</item>
+<item>
+Reboot the system and press Del or F2 depending on the system.
+</item>
+<item goed="ja">
+Reboot the system, press and hold F8 until a
+menu is displayed, and then choose Safe Mode.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="single">
+<vraag>
+A technician has installed a new video driver on a Windows 8.1 computer and now
+the monitor shows distorted images. The technician needs to install a different
+video driver that is available on a network server. What startup mode should the
+technician use to access the driver on the network?
+</vraag>
+<choice>
+<item>Safe Mode</item>
+<item>Safe Mode with Networking</item>
+<item>Debugging Mode</item>
+<item>Safe mode with Command Prompt</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="single">
+<vraag>
+A technician is considering implementing RAID 5 before
+installing Windows. Which technology does RAID 5 use?
+</vraag>
+<choice>
+<item>spanning</item>
+<item>mirroring</item>
+<item goed="ja">striping with parity</item>
+<item>lazy write</item>
+</choice>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+What is a characteristic of a spanned volume?
+</vraag>
+<choice>
+<item>
+Data is stored across two or more disks for faster read and write access.
+</item>
+<item goed="ja">
+Data is seen as one volume, but is stored across two or more disks.</item>
+<item>A copy of one disk is placed on another disk for fault tolerance.</item>
+<item>
+Data is striped across a total of three or more disks, but one
+disk is used for parity in order to provide fault tolerance.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="single">
+<vraag>
+Which Windows tool is used to determine if a dynamic disk is corrupted?
+</vraag>
+<choice>
+<item goed="ja">Disk Management</item>
+<item>Device Manager</item>
+<item>Microsoft System Preparation</item>
+<item>Bootmgr</item>
+</choice>
+</exercise>
+
+<!-- Vraag 24 -->
+<exercise type="single">
+<vraag>
+A user has upgraded a PC to Windows 7 but still needs to use an application that
+is created for the earlier version of Windows. Which mode of operation within
+Windows 7 can be used to run the application?
+</vraag>
+<choice>
+<item>real mode</item>
+<item>protected mode</item>
+<item>virtual mode</item>
+<item goed="ja">compatibility mode</item>
+<item>multiuser mode</item>
+</choice>
+</exercise>
+
+<!-- Vraag 25 -->
+<exercise type="single">
+<vraag>
+Within which folder would a user of 64-bit Windows 8 find 32-bit programs?
+</vraag>
+<choice>
+<item>C:\Program Files</item>
+<item goed="ja">C:\Program Files (x86)</item>
+<item>C:\Program Files (x64)</item>
+<item>C:\Program Files (x32)</item>
+</choice>
+</exercise>
+
+<!-- Vraag 1 -->
+<exercise type="single">
+<vraag>
+What would be a reason for a computer user to use the Task Manager
+Performance tab?
+</vraag>
+<choice>
+<item>to increase the performance of the CPU</item>
+<item>to view the processes that are running and end a process if needed</item>
+<item>to view the services that are currently running on the PC</item>
+<item goed="ja">to check the CPU usage of the PC</item>
+</choice>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+Which feature in Windows 7 and 8 allows a user to temporarily view the desktop
+that is behind open windows by moving the mouse over the right edge of the
+taskbar?
+</vraag>
+<choice>
+<item goed="ja">Peek</item>
+<item>Snap</item>
+<item>Shake</item>
+<item>Search</item>
+<item>jump lists</item>
+<item>thumbnail previews</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+What is the minimum amount of RAM and hard drive space required to install 64-
+bit Windows 8 on a PC?
+</vraag>
+<choice>
+<item>1 GB RAM and 10 GB hard disk space</item>
+<item>1 GB RAM and 16 GB hard disk space</item>
+<item>2 GB RAM and 16 GB hard disk space</item>
+<item goed="ja">2 GB RAM and 20 GB hard disk space</item>
+<item>4 GB RAM and 16 GB hard disk space</item>
+<item>4 GB RAM and 20 GB hard disk space</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+After upgrading a computer to Windows 7, a user notices that the UAC (User
+Account Control) panel appears more frequently. How can the user reduce the
+frequency with which the UAC appears?
+</vraag>
+<choice>
+<item>Reinstall all user programs in Compatibility Mode.</item>
+<item>
+Replace the graphics card with one that meets the
+minimum hardware requirements for Windows 7.
+</item>
+<item goed="ja">
+Lower the UAC setting in the Change User Account Control
+settings dialog box of the User Accounts control panel.
+</item>
+<item>
+In the Performance Options dialog box of the Performance Information
+and Tools control panel, choose Adjust for Best Performance.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>
+Which Windows utility allows Windows 7 and 8 users
+to quickly and easily share files and folders?
+</vraag>
+<choice>
+<item goed="ja">HomeGroup</item>
+<item>Action Center</item>
+<item>Services</item>
+<item>Device Manager</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="single">
+<vraag>
+Which Windows administrative tool displays the usage of a number of computer
+resources simultaneously and can help a technician decide if an upgrade is
+needed?
+</vraag>
+<choice>
+<item>Services</item>
+<item>Event Viewer</item>
+<item>Component Services</item>
+<item goed="ja">Performance Monitor</item>
+</choice>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="single">
+<vraag>
+Which type of startup must be selected for a service
+that should run each time the computer is booted?
+</vraag>
+<choice>
+<item goed="ja">automatic</item>
+<item>boot</item>
+<item>manual</item>
+<item>start</item>
+<item>startup</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>
+Which Windows tool allows an administrator to organize computer management
+tools in one location for convenient use?
+</vraag>
+<choice>
+<item>Task Scheduler</item>
+<item>Services console</item>
+<item>Performance Monitor console</item>
+<item goed="ja">Microsoft Management console</item>
+</choice>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+To which category of hypervisor does the Microsoft Virtual PC belong?
+</vraag>
+<choice>
+<item>Type 1</item>
+<item goed="ja">Type 2</item>
+<item>Type 3</item>
+<item>Type 4</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="multi">
+<vraag>
+What are two advantages of using PC virtualization? (Choose two.)
+</vraag>
+<choice>
+<item>It protects the host machine from viruses attacks.</item>
+<item goed="ja">
+It allows multiple operating systems to run on a single PC simultaneously.
+</item>
+<item>It boosts the performance of the host machine through virtualization.</item>
+<item goed="ja">It can provide cost savings.</item>
+<item>It allows network threat identification.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="single">
+<vraag>
+A college uses virtualization technology to deploy information security courses.
+Some of the lab exercises involve studying the characteristics of computer
+viruses and worms. What is an advantage of conducting the lab exercises inside
+the virtualized environment as opposed to using actual PCs?
+</vraag>
+<choice>
+<item>
+The lab exercises are performed faster inside of the virtualized environment.</item>
+<item>
+The virtualization environment has better tools to develop mitigation solutions.</item>
+<item goed="ja">
+Virus and worm attacks are more easily controlled in a virtualized environment, thus
+helping to protect the college network and its devices from attack.
+</item>
+<item>
+The viruses and worms will have limited functionality inside the virtualized environment.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="multi">
+<vraag>
+A software engineer is involved in the development of an application. For usability
+tests, the engineer needs to make sure that the application will work in both
+Windows 7 and Windows 8 environments. The features and functions must be
+verified in the actual OS environment. The engineer is using a Windows 7
+workstation. What two technologies can help the engineer achieve the usability
+tests? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">dual boot</item>
+<item>two separate CPUs</item>
+<item>storage redundancy</item>
+<item goed="ja">client-side virtualization</item>
+<item>two separate hard disks</item>
+</choice>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>
+A technician needs to use an application that is not supported by Windows
+operating systems on the PC. How can the technician make this application run
+on the PC?
+</vraag>
+<choice>
+<item>Use the Windows Compatibility mode.</item>
+<item>Install the application with elevated permissions as administrator.</item>
+<item goed="ja">
+Create a virtual machine with an operating system that supports the application.
+</item>
+<item>Install the application in safe mode.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+What preventive maintenance action should be taken to help improve system
+security?
+</vraag>
+<choice>
+<item goed="ja">Automate any antivirus scanners.</item>
+<item>Defragment the hard drive.</item>
+<item>Perform backups regularly.</item>
+<item>Error check the hard drive.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+Which Windows 7 feature would an administrator use to configure a computer to
+delete temporary files from the hard drive at 3:00 AM each day?
+</vraag>
+<choice>
+<item>Disk Cleanup</item>
+<item goed="ja">Task Scheduler</item>
+<item>Device Manager</item>
+<item>Computer Management</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise>
+<vraag type="single">
+Which command is used from the Windows command prompt to schedule a
+program to run at a specific time?
+</vraag>
+<choice>
+<item goed="ja">AT</item>
+<item>CMD</item>
+<item>TASKLIST</item>
+<item>TASKKILL</item>
+</choice>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="single">
+<vraag>
+When troubleshooting a printer problem, a technician finds that the operating
+system was automatically updated with a corrupt device driver. Which solution
+would resolve this issue?
+</vraag>
+<choice>
+<item goed="ja">Roll back the driver.</item>
+<item>Restart both the computer and the printer.</item>
+<item>Scan the downloaded driver file with a virus scanner.</item>
+<item>Upload the correct driver to the printer.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 18 -->
+<exercise type="multi">
+<vraag>
+Which two Windows utilities can be used to help maintain hard disks on
+computers that have had long periods of normal use? (Choose two.)
+</vraag>
+<choice>
+<item type="multi">Disk Cleanup</item>
+<item>Disk Maintenance</item>
+<item type="mutli">Disk Defragmenter</item>
+<item>Disk Partition</item>
+<item>Disk Format</item>
+</choice>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="single">
+<vraag>
+What is a common step that a technician can take to determine the cause of an
+operating system problem?
+</vraag>
+<choice>
+<item goed="ja">
+Boot into Safe Mode to determine if the problem is driver related.
+</item>
+<item>Test the power supply.</item>
+<item>Document the time spent to resolve the problem.</item>
+<item>Check the fan connections and ensure the fan is working properly.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="single">
+<vraag>
+Which question is an open ended question that could be used when helping a
+customer troubleshoot a Windows problem?
+</vraag>
+<choice>
+<item>Can you boot the operating system?</item>
+<item>Have you changed your password recently?</item>
+<item>Do you get a login prompt when the computer boots?</item>
+<item goed="ja">What programs have you installed recently?</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="single">
+<vraag>
+A user reports that logging into the workstation fails after a display driver has
+been updated. The user insists that the password is typed in correctly. What is the
+most likely cause of the problem?
+</vraag>
+<choice>
+<item>The password has changed.</item>
+<item goed="ja">The Caps Lock key is set to on.</item>
+<item>A display driver update failed.</item>
+<item>The display setting has changed after a driver update.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+A user reports that a video editing program does not work properly after a sound
+mixing program is installed. The technician suspects that a compatibility issue
+might be the cause of the problem. What should the technician do to verify this
+theory?"
+</vraag>
+<choice>
+<item>Update Windows OS.</item>
+<item>Update the video editing software.</item>
+<item goed="ja">Uninstall the sound mixing software.</item>
+<item>Check if an update of the sound mixing software is available.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="multi">
+<vraag>
+A user reports to a technician that his computer freezes without any error
+messages. What are two probable causes? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">An update has corrupted the operating system.</item>
+<item>A process is not using enough system resources.</item>
+<item goed="ja">The power supply is failing.</item>
+<item>The MBR is corrupted.</item>
+<item>The boot order is not set correctly in BIOS.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 24 -->
+<exercise type="single">
+<vraag>
+A technician is trying to fix a Windows 7 computer that displays an “Invalid Boot
+Disk” error after POST. What is a possible cause of the error?
+</vraag>
+<choice>
+<item>The boot.ini file is corrupt.</item>
+<item>The ntldr.exe file is corrupt.</item>
+<item>The ntdetect.com file is corrupt.</item>
+<item goed="ja">The boot order is not set correctly in the BIOS.</item>
+</choice>
+</exercise>
+
+<!-- Hoofdstuk 7 -->
+<!-- Vraag 1 -->
+<exercise type="single">
+<vraag>
+How many devices can a Bluetooth device connect to simultaneously?
+</vraag>
+<choice>
+<item>127</item>
+<item goed="ja">7</item>
+<item>10</item>
+<item>24</item>
+<item>5</item>
+</choice>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+A device has an IPv6 address of 2001:0DB8:75a3:0214:0607:1234:aa10:ba01 /64.
+What is the host identifier of the device?
+</vraag>
+<choice>
+<item>2001:0DB8:75a3</item>
+<item goed="ja">0607:1234:aa10:ba01</item>
+<item>2001:0DB8</item>
+<item>ba01</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+Which layer of the OSI model is responsible for logical addressing and routing?
+</vraag>
+<choice>
+<item>application</item>
+<item>data link</item>
+<item>network</item>
+<item>transport</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+When would a printer be considered a network host?
+</vraag>
+<choice>
+<item goed="ja">when it is connected to a switch</item>
+<item>when it is connected to a workstation</item>
+<item>when it is connected to a laptop</item>
+<item>when it is connected to a PC</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>
+Which device provides wireless connectivity to users as its primary function?
+</vraag>
+<choice>
+<item>switch</item>
+<item>router</item>
+<item goed="ja">access point</item>
+<item>modem</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="single">
+<vraag>
+Which technology is most often used to connect devices to a PAN?
+</vraag>
+<choice>
+<item>coaxial cabling</item>
+<item goed="ja">Bluetooth</item>
+<item>fiber optic cabling</item>
+<item>IEEE 802.11n wireless</item>
+</choice>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise>
+<vraag>
+Which three factors are reasons for a company to choose a client/server
+model for a network instead of peer-to-peer? (Choose three.)
+</vraag>
+<choice>
+<item>
+The network is small with fewer than eight users.
+</item>
+<item goed="ja">
+The company network requires secure access to confidential information.
+</item>
+<item goed="ja">
+The users need a central database to store inventory and sales information.
+</item>
+<item>
+Each user understands how to safely share files across a network.
+</item>
+<item goed="ja">
+The data gathered by the employees is critical
+and should be backed up on a regular basis.
+</item>
+<item>
+All employees passed a strict background check
+as part of the corporate hiring practices.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>What is a characteristic of a WAN?</vraag>
+<choice>
+<item goed="ja">
+It connects multiple networks that are geographically separated.
+</item>
+<item>
+It spans across a campus or city to enable sharing of regional resources.
+</item>
+<item>
+It is typically owned and managed by a single home or business.
+</item>
+<item>
+It requires a wireless access point to connect users to the network.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="multi">
+<vraag>
+Which three layers of the OSI model map to the application layer of the TCP/IP
+model? (Choose three.)
+</vraag>
+<choice>
+<item goed="ja">application</item>
+<item goed="ja">presentation</item>
+<item goed="ja">session</item>
+<item>transport</item>
+<item>network</item>
+<item>data link</item>
+<item>physical</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="single">
+<vraag>
+What is the correct order of the layers of the
+TCP/IP model from the top layer to the bottom?
+</vraag>
+<choice>
+<item>application, session, network, data link, physical</item>
+<item>application, internet, network access, transport</item>
+<item>network access, transport, internet, application</item>
+<item goed="ja">application, transport, internet, network access</item>
+</choice>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="single">
+<vraag>
+What TCP/IP model layer is responsible for MAC addressing?
+</vraag>
+<choice>
+<item goed="ja">network access</item>
+<item>internet</item>
+<item>transport</item>
+<item>application</item>
+</choice>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+What PDU is associated with the network layer of the OSI model?
+</vraag>
+<choice>
+<item>data</item>
+<item>frame</item>
+<item goed="ja">packet</item>
+<item>segment</item>
+</choice>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="multi">
+<vraag>
+Which two layers of the OSI model correspond to the functions
+of the TCP/IP model network access layer? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">physical</item>
+<item goed="ja">data link</item>
+<item>network</item>
+<item>transport</item>
+<item>session</item>
+</choice>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+What is identified by the 100 in the 100BASE-TX standard?
+</vraag>
+<choice>
+<item goed="ja">the maximum bandwidth in Mb/s</item>
+<item>the maximum cable distance in meters</item>
+<item>the maximum number of network nodes</item>
+<item>o the series number of the standard</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="multi">
+<vraag>
+Which two characteristics describe Ethernet technology? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">It is supported by IEEE 802.3 standards.</item>
+<item>It is supported by IEEE 802.5 standards.</item>
+<item>It typically uses an average of 16 Mb/s for data transfer rates.</item>
+<item goed="ja">It uses the CSMA/CD access control method.</item>
+<item>It uses a ring topology.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise type="single">
+<vraag>
+Which IEEE standard operates at wireless frequencies
+in both the 5 GHz and 2.4 GHz ranges?
+</vraag>
+<choice>
+<item goed="ja">802.11n</item>
+<item>802.11g</item>
+<item>802.11b</item>
+<item>802.11a</item>
+</choice>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="multi">
+<vraag>
+A customer is considering a multipurpose device to create a home network.
+Which three devices are usually integrated into a multipurpose network device?
+(Choose three.)
+</vraag>
+<choice>
+<item>web server</item>
+<item goed="ja">switch</item>
+<item goed="ja">router</item>
+<item>email server</item>
+<item goed="ja">wireless access point</item>
+<item>print server</item>
+</choice>
+</exercise>
+
+<!-- Vraag 18 -->
+<exercise type="single">
+<vraag>
+Which network device makes forwarding decisions based on
+the destination MAC address that is contained in the frame?
+</vraag>
+<choice>
+<item>repeater</item>
+<item>hub</item>
+<item goed="ja">switch</item>
+<item>router</item>
+</choice>
+</exercise>
+
+<!-- Vraag 19 -->
+<!--
+<exercise>
+<vraag>
+A router uses IP addresses to forward traffic from one network to other networks.
+</vraag>
+</exercise>
+-->
+
+<!-- Vraag 20 -->
+<exercise type="single">
+<vraag>
+A network specialist has been hired to install a network in a company that
+assembles airplane engines. Because of the nature of the business, the area is
+highly affected by electromagnetic interference. Which type of network media
+should be recommended so that the data communication will not be affected by
+EMI?
+</vraag>
+<choice>
+<item>STP</item>
+<item>coaxial</item>
+<item goed="ja">fiber optic</item>
+<item>UTP</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="single">
+<vraag>
+Which term describes a type of coaxial cable?
+</vraag>
+<choice>
+<item goed="ja">RG-6</item>
+<item>568A</item>
+<item>UTP</item>
+<item>Cat 5e</item>
+</choice>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+Which pairs of wires change termination order
+between the 568A and 568B standards?
+</vraag>
+<choice>
+<item goed="ja">green and orange</item>
+<item>green and brown</item>
+<item>blue and brown</item>
+<item>brown and orange</item>
+</choice>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="multi">
+<vraag>
+Which two types of signal interference are
+reduced more by STP than by UTP? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">RFI</item>
+<item>white noise</item>
+<item>MDF</item>
+<item>dispersion</item>
+<item goed="ja">EMI</item>
+</choice>
+</exercise>
+
+<!-- Vraag 24 -->
+<exercise type="single">
+<vraag>
+How many host addresses are available on a
+network with a subnet mask of 255.255.0.0?
+</vraag>
+<choice>
+<item goed="ja">65,534</item>
+<item>254</item>
+<item>16,777,214</item>
+<item>1024</item>
+</choice>
+<toelichting>
+256*256-2=65534
+</toelichting>
+</exercise>
+
+<!-- Vraag 25 -->
+<exercise type="single">
+<vraag>
+A technician is troubleshooting a problem where the user claims access to the
+Internet is not working, but there was access to the Internet the day before. Upon
+investigation, the technician determines that the user cannot access the network
+printer in the office either. The network printer is on the same network as the
+computer. The computer has 169.254.100.88 assigned as an IP address. What is
+the most likely problem?
+</vraag>
+<choice>
+<item goed="ja">The computer cannot communicate with a DHCP server.</item>
+<item>The IP default gateway on the computer is incorrect.</item>
+<item>The network interface card driver needs to be updated.</item>
+<item>The router that connects this network to other networks is down.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 26 -->
+<exercise type="single">
+<vraag>
+What is a characteristic of the UDP protocol?
+</vraag>
+<choice>
+<item goed="ja">low overhead</item>
+<item>guaranteed delivery</item>
+<item>error correction</item>
+<item>end-to-end establishment before delivery</item>
+</choice>
+</exercise>
+
+<!-- Hoofdstuk 8 -->
+<!-- Vraag 1 -->
+<exercise type="single">
+<vraag>
+A user notices that the data transfer rate for the gigabit NIC in the user computer
+is much slower than expected. What is a possible cause for the problem?
+</vraag>
+<choice>
+<item goed="ja">
+The NIC duplex settings have somehow been set to half-duplex.
+</item>
+<item>The NIC wake-on-LAN setting is misconfigured.</item>
+<item>Hibernation mode is causing the NIC to shutdown unexpectedly.</item>
+<item>The NIC is configured to use both IPv4 and IPv6 at the same time.</item>
+</choice>
+<toelichting>
+<p>
+Wake-on-LAN is een optie die het mogelijk maakt om een computer vanaf
+afstand uit stand-by te halen.
+</p>
+<p>
+Hibernation zal de gehele computer afsluiten, er zal dus sowieso geen data
+transfer zijn.
+</p>
+<p>
+Het is prima mogelijk om IPv4 en IPv6 tegelijkertijd te gebruiken.
+</p>
+<p>
+Half-duplex mode zal de snelheid flink doen verlagen ten opzichte van
+full-duplex mode omdat er niet gelijktijdig gezend en ontvangen kan
+worden.
+</p>
+</toelichting>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="multi">
+<vraag>
+Two LEDs are usually present on a NIC. What are
+the two primary uses for these LEDs? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">to indicate the presence of a connection</item>
+<item>
+to indicate interference from another nearby wireless or electronic device
+</item>
+<item>to indicate that the NIC has connected to a DHCP server</item>
+<item>
+to indicate that the NIC is connected to a homegroup or workgroup
+</item>
+<item goed="ja">to indicate that data transfer activity is present</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>
+What is the purpose of the network profiles that are used
+to establish a new network connection on a Windows PC?
+</vraag>
+<choice>
+<item>
+to configure NIC settings for the fastest network available
+</item>
+<item>
+to remove the need for IP addresses when connecting to a network
+</item>
+<item>
+to provide a list of ISPs that may be used for Internet access
+</item>
+<item goed="ja">
+to provide an easy way to configure or apply network
+functions based on the type of network to be joined
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+A wireless router is displaying the IP address
+of 192.168.0.1. What could this mean?
+</vraag>
+<choice>
+<item>
+The NAT function is not working on the wireless router.
+</item>
+<item goed="ja">
+The wireless router still has the factory default IP address.
+</item>
+<item>
+Dynamic IP address allocation has been configured on the router and is functioning
+correctly.
+</item>
+<item>
+The wireless router has been configured to use the frequencies on channel 1.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise type="single">
+<vraag>
+A technician is configuring the channel on a wireless router to either 1, 6, or 11.
+What is the purpose of adjusting the channel?
+</vraag>
+<choice>
+<item>to disable broadcasting of the SSID</item>
+<item>to enable different 802.11 standards</item>
+<item>to provide stronger security modes</item>
+<item goed="ja">to avoid interference from nearby wireless devices</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="single">
+<vraag>
+Which combination of user account and network location
+profile allows a user to become a member of a homegroup?
+</vraag>
+<choice>
+<item>
+an admin account with a network location profile of Work
+</item>
+<item>a guest account with a network location profile of Home</item>
+<item>an admin user account with a network location of Public</item>
+<item goed="ja">
+a standard user account with a network location profile of Home
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="single">
+<vraag>
+A business traveler connects to a wireless network with open authentication.
+What should the traveler do to secure confidential data when connecting to the
+business services?
+</vraag>
+<choice>
+<item goed="ja">Connect with a VPN.</item>
+<item>Change the network location profile to public.</item>
+<item>Change the Windows firewall settings.</item>
+<item>
+Manually configure an IP address, subnet mask, and default gateway.
+</item>
+</choice>
+<toelichting>
+<p>
+VPN wordt gebruikt om een versleutelde tunnel te maken naar een ander netwerk,
+dit wordt veel gebruikt om het bedrijfsnetwerk vanaf elders te bereiken.
+</p>
+<p>
+Het netwerk profiel op public zetten zal enkel wat triviale diensten
+uitzetten.
+</p>
+<p>
+Het is niet de bedoeling om handmatig de IP configuratie in te stellen
+op een open wifi netwerk, dit zal ook geen zin hebben.
+</p>
+</toelichting>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>
+A technician has been asked to configure a broadband connection for a
+teleworker. The technician has been instructed that all uploads and downloads for
+the connection must use existing phone lines. Which broadband technology
+should be used?
+</vraag>
+<choice>
+<item>cable</item>
+<item goed="ja">DSL</item>
+<item>ISDN</item>
+<item>POTS</item>
+</choice>
+<toelichting>
+kabelinternet maakt geen gebruik van telefoonlijnen. ISDN en POTS/PSTN maken
+wel gebruik van telefoonlijnen, maar zijn geen breedband.
+</toelichting>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+Which type of connection to the Internet is capable of the fastest transfer rates?
+</vraag>
+<choice>
+<item>ISDN</item>
+<item>POTS</item>
+<item>satellite</item>
+<item>cable</item>
+<item goed="ja">fiber</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise>
+<vraag>
+Which technology would be recommended for a business that requires workers to
+access the Internet while visiting customers at many different locations?
+</vraag>
+<choice>
+<item>ADSL</item>
+<item goed="ja">cellular</item>
+<item>ISDN</item>
+<item>VPN</item>
+</choice>
+<toelichting>
+De vraag is op dusdanige manier geformuleerd dat je doet denken dat VPN het
+goede antwoord moet zijn, maar ze vragen enkel wat je nodig hebt om overal
+toegang tot het internet te kunnen hebben, en dat is cellular.
+</toelichting>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="multi">
+<vraag>
+A small company is considering moving many of its data center functions
+to the cloud. What are three advantages of this plan? (Choose three.)
+</vraag>
+<choice>
+<item goed="ja">
+The company only needs to pay for the amount of
+processing and storage capacity that it uses.
+</item>
+<item>
+Cloud services are billed at a fixed fee no matter how
+much processing and storage are used by the company.
+</item>
+<item>
+Cloud services enable the company to own and administer its own servers and storage
+devices.
+</item>
+<item goed="ja">
+The company can increase processing and storage capacity as needed and then
+decrease capacity when it is no longer needed.
+</item>
+<item>
+Single-tenant data centers can easily grow to accommodate increasing data storage
+requirements.
+</item>
+<item goed="ja">
+As the amount of data that the company uses increases, it becomes impractical for the
+data to be stored and processed in a single-tenant data center.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+Which Cloud computing service would be best for an organization that does not
+have the technical knowledge to host and maintain applications at their local site?
+</vraag>
+<choice>
+<item goed="ja">SaaS</item>
+<item>IaaS</item>
+<item>PaaS</item>
+<item>ITaaS</item>
+</choice>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>
+A network client in a corporate environment reboots. Which type of server would
+most likely be used first?
+</vraag>
+<choice>
+<item>DNS</item>
+<item goed="ja">DHCP</item>
+<item>e-mail</item>
+<item>FTP</item>
+<item>Telnet</item>
+<item>Web</item>
+</choice>
+<toelichting>
+DHCP is nodig om een IP adres te verkrijgen. Zonder IP adres kunnen
+andere diensten op het netwerk niet gebruikt worden.
+</toelichting>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+What is a common function of a proxy server?
+</vraag>
+<choice>
+<item goed="ja">
+to store frequently accessed web pages on the internal network
+</item>
+<item>to control who is permitted to access the internal network</item>
+<item>
+to detect malicious signatures by monitoring
+traffic that is entering the internal network
+</item>
+<item>
+to provide access to a shared pool of configurable computing resources
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+ABC Company requires preventive maintenance for all local network cabling once
+a year. Which task should be included in the preventive maintenance program?
+</vraag>
+<choice>
+<item>Disconnect and reconnect all patch cables.</item>
+<item goed="ja">Inspect all patch cables for breaks.</item>
+<item>Replace all labeling on the cables.</item>
+<item>
+Replace all cable supports to prevent loose attachment points.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise type="single">
+<vraag>
+What is a benefit of performing preventative maintenance at regular intervals?
+</vraag>
+<choice>
+<item goed="ja">reduction in network downtime</item>
+<item>reduction in connectivity</item>
+<item>reduction in security threats</item>
+<item>reduction in EMI and RFI</item>
+</choice>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="single">
+<vraag>
+A user cannot access the network. While the technician is checking the computer,
+the other users on the same network report that they are having the same
+problem. Further investigation shows that the LED lights on each NIC are not lit.
+What should the technician do next?
+</vraag>
+<choice>
+<item>
+Check each computer to verify that they all have the same settings.
+</item>
+<item goed="ja">Report the problem to the network administrator.</item>
+<item>Attempt to ping devices on other networks.</item>
+<item>Use nslookup to check network connectivity.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 18 -->
+<exercise type="single">
+<vraag>
+A user can print to a printer that is on the same network, but the traffic
+of the user cannot reach the Internet. What is a possible cause of the
+problem?
+</vraag>
+<choice>
+<item goed="ja">
+The PC default gateway address is missing or incorrect.
+</item>
+<item>The PC has an incorrect IP address.</item>
+<item>The network cable connected to the user PC is faulty.</item>
+<item>The NIC on the PC is faulty.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="single">
+<vraag>
+A technician is investigating a report that a computer is unable to access network
+resources. The technician discovers that the computer has an IP address of
+169.254.27.168. What is a logical first step in diagnosing this problem?
+</vraag>
+<choice>
+<item>Attempt to ping the default gateway.</item>
+<item goed="ja">Check the NIC LED lights.</item>
+<item>Test that DNS is operating correctly.</item>
+<item>Activate Network Discovery and File Sharing.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="single">
+<vraag>
+A Windows 7 computer is unable to reach a mapped drive on a file server that is
+on another network within the organization. Further investigation shows that the
+user is able to use a printer that is connected to the same network as the
+computer. Which action should the technician perform next?
+</vraag>
+<choice>
+<item>
+Verify that DNS name resolution is operating properly.</item>
+<item>Inspect the network patch cable for wear or breaks.</item>
+<item goed="ja">
+Check Network Connection Details in the Windows GUI for the appropriate network
+connection.
+</item>
+<item>Check the link LED on the NIC.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="multi">
+<vraag>
+A user has taken a personal laptop to work. The laptop is unable to discover the
+name of the office wireless network. What are two potential causes of this
+problem? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">The wireless router is not broadcasting the SSID.</item>
+<item>The laptop has not received an IP address from the wireless router.</item>
+<item>The wireless router is set to mixed mode.</item>
+<item goed="ja">
+The network does not support the wireless protocol in use by the laptop.
+</item>
+<item>The laptop must be configured with the office workgroup name.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+A network technician attempts to ping www.example.net from a customer
+computer, but the ping fails. Access to mapped network drives and a shared
+printer are working correctly. What are two potential causes for this problem?
+(Choose two.)
+</vraag>
+<choice>
+<item>
+The Windows domain or workgroup name that
+is configured on the computer is incorrect.
+</item>
+<item>The target web server is down.</item>
+<item>The computer has been assigned a static IP address.</item>
+<item goed="ja">DNS service is unavailable on the customer network.</item>
+<item>
+The HTTP protocol is not working properly on the target server.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="single">
+<vraag>
+A technician uses the nbtstat -A 192.168.0.3 command. What does the technician
+expect to view in the command output?
+</vraag>
+<choice>
+<item goed="ja">current connections and statistics</item>
+<item>network adapter configuration information</item>
+<item>a list of routers within the traffic path</item>
+<item>computer accounts and domain specific information
+</item>
+</choice>
+</exercise>
+
+<!-- Hoofdstuk 9 -->
+<!-- Vraag 1 -->
+<exercise type="multi">
+<vraag>
+Which two statements are true of a laptop CPU
+when compared to a desktop CPU? (Choose two.)
+</vraag>
+<choice>
+<item>Laptop CPUs operate at higher clock speeds.</item>
+<item goed="ja">Laptop CPUs use smaller cooling devices.</item>
+<item>Laptop CPUs consume more power.</item>
+<item>Laptop CPUs are interchangeable with desktop CPUs.</item>
+<item goed="ja">Laptop CPUs are designed to produce less heat.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 2 -->
+<exercise type="single">
+<vraag>
+Which laptop component makes use of throttling
+to reduce power consumption and heat?
+</vraag>
+<choice>
+<item goed="ja">CPU</item>
+<item>motherboard</item>
+<item>optical drive</item>
+<item>hard drive</item>
+</choice>
+</exercise>
+
+<!-- Vraag 3 -->
+<exercise type="single">
+<vraag>Why are SODIMMs well suited for laptops?</vraag>
+<choice>
+<item goed="ja">They have a small form factor.</item>
+<item>They connect to external ports.</item>
+<item>They do not produce heat.</item>
+<item>They are interchangeable with desktops.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 4 -->
+<exercise type="single">
+<vraag>
+What is a characteristic of laptop motherboards?
+</vraag>
+<choice>
+<item>
+Laptop motherboards use the same form factors as desktop motherboards.
+</item>
+<item goed="ja">Laptop motherboards are proprietary.</item>
+<item>Laptop motherboards use standard form factors.</item>
+<item>
+Laptop motherboard components are compatible with desktop motherboards.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 5 -->
+<exercise>
+<vraag>
+Which laptop component converts DC power to AC power?
+</vraag>
+<choice>
+<item>fluorescent tube</item>
+<item goed="ja">inverter</item>
+<item>power supply</item>
+<item>backlight</item>
+</choice>
+</exercise>
+
+<!-- Vraag 6 -->
+<exercise type="single">
+<vraag>
+Where is a Wi-Fi antenna commonly located on a laptop?
+</vraag>
+<choice>
+<item>on an external USB adapter</item>
+<item goed="ja">above the laptop screen</item>
+<item>next to the keyboard</item>
+<item>on the side of the laptop</item>
+</choice>
+</exercise>
+
+<!-- Vraag 7 -->
+<exercise type="multi">
+<vraag>
+Which two methods can be used to configure
+laptop ACPI power options? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">BIOS settings</item>
+<item goed="ja">Windows Power Options utility</item>
+<item>Windows UAC settings</item>
+<item>Windows AERO theme settings</item>
+<item>power dial</item>
+</choice>
+</exercise>
+
+<!-- Vraag 8 -->
+<exercise type="single">
+<vraag>
+A user needs to connect a Bluetooth device to a laptop. Which type of cable is
+needed to accomplish this?
+</vraag>
+<choice>
+<item goed="ja">None. Bluetooth connections are wireless.</item>
+<item>VGA cable</item>
+<item>USB cable</item>
+<item>EIA/TIA 232 cable</item>
+<item>parallel cable</item>
+</choice>
+</exercise>
+
+<!-- Vraag 9 -->
+<exercise type="single">
+<vraag>
+A technician has installed a wireless Ethernet card in a Windows 7 laptop. Where
+would the technician configure a new wireless connection?
+</vraag>
+<choice>
+<item goed="ja">
+Control Panel > Networking and Sharing Center > Set up a new connection or network
+</item>
+<item>
+Control Panel > Administrative Tools > Services
+</item>
+<item>
+Control Panel > Internet Options
+</item>
+<item>
+Control Panel > System > Device Manager
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 10 -->
+<exercise type="single">
+<vraag>
+Which technology provides laptops the ability to function on a cellular network?
+</vraag>
+<choice>
+<item goed="ja">mobile hotspot</item>
+<item>Bluetooth</item>
+<item>infrared</item>
+<item>802.11 Wi-Fi</item>
+</choice>
+</exercise>
+
+<!-- Vraag 11 -->
+<exercise type="single">
+<vraag>
+A technician is trying to remove a SODIMM module from a laptop. What is the
+correct way to do this?
+</vraag>
+<choice>
+<item goed="ja">
+Press outward on the clips that hold the sides of the SODIMM.
+</item>
+<item>
+Pull outward by holding the center of the SODIMM module.
+</item>
+<item>Apply downward force on the SODIMM module.</item>
+<item>Desolder the SODIMM module.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 12 -->
+<exercise type="single">
+<vraag>
+When replacing or adding memory to a laptop, where can a technician
+find the maximum amount of RAM each memory slot can support?
+</vraag>
+<choice>
+<item>BIOS</item>
+<item>System Properties window</item>
+<item>POST screen</item>
+<item goed="ja">website of manufacturer</item>
+</choice>
+<toelichting>
+De maximale hoeveelheid RAM die ondersteund wordt, wordt
+bepaald door het moederbord.
+</toelichting>
+</exercise>
+
+<!-- Vraag 13 -->
+<exercise type="single">
+<vraag>
+What should be done immediately after a CPU is
+latched in and screwed down to a laptop motherboard?
+</vraag>
+<choice>
+<item>
+The heat sink should be attached to the CPU.
+</item>
+<item>
+The cooling fan should be fastened to the motherboard.
+</item>
+<item>
+The power cable should be attached from the cooling fan to the motherboard.
+</item>
+<item goed="ja">
+The locked down CPU should be protected with thermal paste.
+</item>
+</choice>
+<toelichting>
+De geleiding van warmte tussen de CPU en het koelblok gaat niet over
+100% van het oppervlak door minimale oneffenheden. Koelpasta helpt
+deze oneffenheden op te vullen om toch wat geleiding te krijgen. De
+beste koelpasta zal echter niet zo goed geleiden als direct contact.
+Let daarom op niet teveel koelpasta te gebruiken: beter te weinig
+koelpasta dan te veel!
+</toelichting>
+</exercise>
+
+<!-- Vraag 14 -->
+<exercise type="single">
+<vraag>
+Which technology allows a mobile device to establish wireless communication
+with another mobile device by touching them together?
+</vraag>
+<choice>
+<item>Bluetooth</item>
+<item goed="ja">NFC</item>
+<item>IR</item>
+<item>Lightning connector</item>
+</choice>
+</exercise>
+
+<!-- Vraag 15 -->
+<exercise type="single">
+<vraag>
+Which technology will allow a mobile device to share
+an Internet connection with other devices via tethering?
+</vraag>
+<choice>
+<item>infrared</item>
+<item goed="ja">Bluetooth</item>
+<item>near field communication</item>
+<item>Wi-Fi</item>
+</choice>
+<toelichting>
+Het goede antwoord is aangegeven als Bluetooth, maar infra-rood
+en Wi-Fi zijn wel degelijk methodes om tethering toe te passen.
+</toelichting>
+</exercise>
+
+<!-- Vraag 16 -->
+<exercise type="multi">
+<vraag>
+What are two differences between an e-reader and a tablet device? (Choose two.)
+</vraag>
+<choice>
+<item>
+An e-reader only supports Wi-Fi connectivity but a
+tablet can support both Wi-Fi and cellular connectivity.
+</item>
+<item goed="ja">
+An e-reader commonly has longer battery life than a tablet device.
+</item>
+<item>
+A tablet device is usually lighter in weight than an e-reader.
+</item>
+<item goed="ja">
+A tablet device screen may be harder to read
+in direct sunlight than an e-reader screen.
+</item>
+<item>
+A tablet uses an electronic paper technology that
+provides better performance than an e-reader.
+</item>
+</choice>
+</exercise>
+
+<!-- Vraag 17 -->
+<exercise type="single">
+<vraag>
+What type of device is commonly used to measure and
+collect daily activity data for achieving personal goals?
+</vraag>
+<choice>
+<item>phablet</item>
+<item>smart camera</item>
+<item goed="ja">fitness monitor</item>
+<item>Global Positioning System</item>
+</choice>
+</exercise>
+
+<!-- Vraag 18 -->
+<exercise type="multi">
+<vraag>
+A technician has been asked to decide which laptop components should be
+cleaned on a monthly basis as part of a maintenance routine. What are two
+examples of components that should be included? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">exterior case</item>
+<item goed="ja">keyboard</item>
+<item>CPU</item>
+<item>optical drive</item>
+<item>RAM</item>
+</choice>
+</exercise>
+
+<!-- Vraag 19 -->
+<exercise type="multi">
+<vraag>
+To clean laptops, which two products are recommended? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">cotton swabs</item>
+<item goed="ja">mild cleaning solution</item>
+<item>ammonia</item>
+<item>rubbing alcohol</item>
+<item>car wax</item>
+</choice>
+</exercise>
+
+<!-- Vraag 20 -->
+<exercise type="multi">
+<vraag>
+What two steps must be taken before performing a cleaning procedure on a laptop
+computer? (Choose two.)
+</vraag>
+<choice>
+<item goed="ja">
+Disconnect the laptop from the electrical outlet.
+</item>
+<item goed="ja">Remove all installed batteries.</item>
+<item>Wipe the surface of the touch pad.</item>
+<item>Clean the screen with a cloth.</item>
+<item>Insert the cleaning disk into the optical drive.</item>
+<item>Backup the registry.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 21 -->
+<exercise type="single">
+<vraag>
+What is the first step in the process of troubleshooting a laptop?
+</vraag>
+<choice>
+<item goed="ja">Identify the problem.</item>
+<item>Establish probable causes.</item>
+<item>Determine the exact cause.</item>
+<item>Verify full functionality.</item>
+</choice>
+<toelichting>
+Uiteraard moet je eerst weten wat het probleem is voor je het
+probeert op te lossen.
+</toelichting>
+</exercise>
+
+<!-- Vraag 22 -->
+<exercise type="single">
+<vraag>
+What is the next step in the troubleshooting process
+after a solution has been implemented on a laptop?
+</vraag>
+<choice>
+<item>Verify the solution.</item>
+<item goed="ja">Document the solution.</item>
+<item>Ask the customer to explain the problem.</item>
+<item>Return the device to the customer.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 23 -->
+<exercise type="single">
+<vraag>
+While troubleshooting a mobile device, a technician determines that the battery
+is not holding a charge. What is the next step in the troubleshooting process?
+</vraag>
+<choice>
+<item>Implement a solution.</item>
+<item>Document the findings.</item>
+<item goed="ja">Determine the exact cause.</item>
+<item>Verify the solution and full system functionality.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 24 -->
+<exercise type="single">
+<vraag>
+A technician notices that a laptop display appears stretched
+and pixelated. What is a probable cause of this?
+</vraag>
+<choice>
+<item goed="ja">The display properties are incorrectly set.</item>
+<item>The power management features are incorrectly set.</item>
+<item>The power inverter is failing.</item>
+<item>The screen has been burned in.</item>
+<item>One of the RAM modules is failing.</item>
+</choice>
+</exercise>
+
+<!-- Vraag 25 -->
+<exercise type="single">
+<vraag>
+A user with a company-issued smartphone notices that there is a gap at the end of
+the device. A technician examines the smartphone and discovers that the battery
+is swollen. What should the technician do next?
+</vraag>
+<choice>
+<item>Use the smartphone until the battery is completely discharged.</item>
+<item>Clean the battery leads with baking soda.</item>
+<item goed="ja">Replace the battery.</item>
+<item>Use a multimeter to see if the output voltage is within range.</item>
+</choice>
+</exercise>
+
+</exam>
+
+
+
