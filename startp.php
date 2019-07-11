@@ -1,6 +1,6 @@
-<!DOCTYPE html>
 <?php
 session_start();
+printf("<!DOCTYPE html>\r\n");
 /*
 initialiseert de test
 selecteerd vragen
@@ -30,34 +30,31 @@ foreach ($map as $foo)
 {
     $exercise = $xml->exercise[$foo];
 
-    foreach ($exercise->tags->tag as $tag)
+    if (isset($exercise->tags))
     {
-        $x = $tag[0]->__toString();
-
-        if (!isset($tags[$x]))
-            $tags[$x] = 0;
-
-        $tags[$x]++;
+        foreach ($exercise->tags->tag as $tag)
+        {
+            $x = $tag[0]->__toString();
+    
+            if (!isset($tags[$x]))
+                $tags[$x] = 0;
+    
+            $tags[$x]++;
+        }
     }
 
-    $n_items = $exercise->choice->item->count();    // number of items
-    $arr = range(0, $n_items - 1);
-    shuffle($arr);
-    $_SESSION['ans_map'][$n] = $arr;
+    if (isset($exercise->choice))
+    {
+        $n_items = $exercise->choice->item->count();    // number of items
+        $arr = range(0, $n_items - 1);
+        shuffle($arr);
+        $_SESSION['ans_map'][$n] = $arr;
+    }
     $n++;
 }
 
 printf("<html>\r\n<head>\r\n<title>Start Practice</title>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
-?>
-<style>
-label {
-    display: inline-block;
-    width: 200px;
-}
-</style>
-
-<?php
 printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End exam</a>\r\n");
 printf("<a href=\"logout.php\">Log out %s</a>\r\n", $_SESSION['username']);
 printf("</header>\r\n<h1>Start Practice</h1>\r\n");
@@ -65,22 +62,25 @@ printf("<h2>%u vragen</h2>\r\n", $qcnt);
 printf("<a href=\"practice2.php\">Start</a>\r\n");
 
 // tags
-$maxtags = max($tags);
-printf("<table>\r\n<caption>Tags</caption>\r\n");
-
-foreach ($tags as $tag => $cnt)
+if (!empty($tags))
 {
-    printf("<tr>\r\n");
-    printf("<td>%s</td>\r\n", $tag);
-    printf("<td>%u</td>\r\n", $cnt);
-
-    printf("<td><progress value=\"%u\" max=\"%u\">%u/%u</progress></td>\r\n",
-        $cnt, $maxtags, $cnt, $maxtags);
-
-    printf("</tr>\r\n");
+    $maxtags = max($tags);
+    printf("<table>\r\n<caption>Tags</caption>\r\n");
+    
+    foreach ($tags as $tag => $cnt)
+    {
+        printf("<tr>\r\n");
+        printf("<td>%s</td>\r\n", $tag);
+        printf("<td>%u</td>\r\n", $cnt);
+    
+        printf("<td><progress value=\"%u\" max=\"%u\">%u/%u</progress></td>\r\n",
+            $cnt, $maxtags, $cnt, $maxtags);
+    
+        printf("</tr>\r\n");
+    }
+    
+    printf("</table>\r\n</body>\r\n</html>\r\n");
 }
-
-printf("</body>\r\n</html>\r\n");
 ?>
 
 

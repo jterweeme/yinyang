@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<exam>
+<title>W3Schools HTML</title>
+
+<exercise type="single">
+<vraag>
+What does HTML stand for?
+</vraag>
+<choice>
+<item goed="ja">Hyper Text Markup Language</item>
+<item>Hyperlinks and Text Markup Language</item>
+<item>Home Tool Markup Language</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who is making the Web standards?
+</vraag>
+<choice>
+<item>Microsoft</item>
+<item>Google</item>
+<item goed="ja">The World Wide Web Consortium</item>
+<item>Mozilla</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Choose the correct HTML element for the largest heading:
+</vraag>
+<choice>
+<item goed="ja">h1</item>
+<item>heading</item>
+<item>h6</item>
+<item>head</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML element for inserting a line break?
+</vraag>
+<choice>
+<item>lb</item>
+<item goed="ja">br</item>
+<item>break</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for adding a background color?
+</vraag>
+<choice>
+<item>[background]yellow[/background]</item>
+<item goed="ja">[body style="background-color:yellow;"]</item>
+<item>[body bg="yellow"]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Choose the correct HTML element to define important text
+</vraag>
+<choice>
+<item>i</item>
+<item>b</item>
+<item>strong</item>
+<item>important</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Choose the correct HTML element to define emphasized text
+</vraag>
+<choice>
+<item>i</item>
+<item>italic</item>
+<item goed="ja">em</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for creating a hyperlink?
+</vraag>
+<choice>
+<item>[a url="http://www.w3schools.com"]W3Schools.com[/a]</item>
+<item>[a]http://www.w3schools.com[/a]</item>
+<item>[a name="http://www.w3school.com"]W3Schools.com[/a]</item>
+<item goed="ja">[a href="http://www.w3schools.com"]W3Schools[/a]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which character is used to indicate an end tag?
+</vraag>
+<choice>
+<item>^</item>
+<item goed="ja">[</item>
+<item>/</item>
+<item>*</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+How can you open a link in a new tab/browser window?
+</vraag>
+<choice>
+<item>[a href="url" target="new"]</item>
+<item>[a href="url" target="_blank"]</item>
+<item>[a href="url" new]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which of these elements are all [table] elements?
+</vraag>
+<choice>
+<item>table tr tt</item>
+<item goed="ja">table tr td</item>
+<item>table head tfoot</item>
+<item>thead body tr</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Inline elements are normally displayed without starting a new line.
+</vraag>
+<choice>
+<item goed="ja">True</item>
+<item>False</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+How can you make a numbered list?
+</vraag>
+<choice>
+<item goed="ja">ol</item>
+<item>ul</item>
+<item>dl</item>
+<item>list</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+How can you make a bulleted list?
+</vraag>
+<choice>
+<item>ol</item>
+<item goed="ja">ul</item>
+<item>list</item>
+<item>dl</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for making a checkbox?
+</vraag>
+<choice>
+<item goed="ja">[input type="checkbox"]</item>
+<item>[checkbox]</item>
+<item>[input type="check"]</item>
+<item>[check]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for making a text input field?
+</vraag>
+<choice>
+<item>[textinput type="text"]</item>
+<item goed="ja">[input type="text"]</item>
+<item>[textfield]</item>
+<item>[input type="textfield"]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for making a drop-down list?
+</vraag>
+<choice>
+<item>[input type="dropdown"]</item>
+<item>[list]</item>
+<item goed="ja">[select]</item>
+<item>[input type="list"]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for making a text area?
+</vraag>
+<choice>
+<item>[input type="textbox"]</item>
+<item goed="ja">[textarea]</item>
+<item>[input type="textarea"]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for inserting an image?
+</vraag>
+<choice>
+<item>[image src="image.gif" alt="MyImage"]</item>
+<item>[img alt="MyImage">image.gif[/img]</item>
+<item>[img href="image.gif" alt="MyImage"]</item>
+<item goed="ja">[img src="image.gif" alt="MyImage"]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML for inserting a background image?
+</vraag>
+<choice>
+<item goed="ja">[body style="background-image:url(background.gif)"]</item>
+<item>[body bg="background.gif"]</item>
+<item>[background img="background.gif"]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+An [iframe] is used to display a web page within a web page.
+</vraag>
+<choice>
+<item>There is no such thing as an [iframe]</item>
+<item goed="ja">True</item>
+<item>False</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+HTML comments start with [!-- and end with --]
+</vraag>
+<choice>
+<item goed="ja">True</item>
+<item>False</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Block elements are normally displayed without starting a new line.
+</vraag>
+<choice>
+<item>True</item>
+<item goed="ja">False</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which HTML element defines the title of a document?
+</vraag>
+<choice>
+<item>[meta]</item>
+<item goed="ja">[title]</item>
+<item>[head]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which HTML attribute specifies an alternate text
+for an image, if the image cannot be displayed?
+</vraag>
+<choice>
+<item>src</item>
+<item>longdesc</item>
+<item>title</item>
+<item goed="ja">alt</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which doctype is correct for HTML5?
+</vraag>
+<choice>
+<item>
+[!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN" "http://www.w3.org/TR/html5/strict.dtd"]
+</item>
+<item>[!DOCTYPE HTML5]</item>
+<item goed="ja">[!DOCTYPE html]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which HTML element is used to specify a footer for a document or section?
+</vraag>
+<choice>
+<item>[section]</item>
+<item goed="ja">[footer]</item>
+<item>[bottom]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+In HTML, you can embed SVG elements directly into an HTML page.
+</vraag>
+<choice>
+<item>False</item>
+<item goed="ja">True</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML element for playing video files?
+</vraag>
+<choice>
+<item goed="ja">[video]</item>
+<item>[movie]</item>
+<item>[media]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+What is the correct HTML element for playing audio files?
+</vraag>
+<choice>
+<item>[sound]</item>
+<item goed="ja">[audio]</item>
+<item>[mp3]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The HTML global attribute, "contenteditable" is used to:
+</vraag>
+<choice>
+<item>
+Return the position of the first found occurrence of content inside a string
+</item>
+<item>
+Specifies a context menu for an element. The menu
+appears when a user right-clicks on the element
+</item>
+<item goed="ja">
+Specify whether the content of an element should be editable or not
+</item>
+<item>Update content from the server</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+In HTML, onblur and onfocus are:
+</vraag>
+<choice>
+<item>HTML elements</item>
+<item goed="ja">Event attributes</item>
+<item>Style attributes</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Graphics defined by SVG is in which format?
+</vraag>
+<choice>
+<item>HTML</item>
+<item goed="ja">XML</item>
+<item>CSS</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The HTML [canvas] element is used to:
+</vraag>
+<choice>
+<item>manipulate data in MySQL</item>
+<item goed="ja">draw graphics</item>
+<item>display database records</item>
+<item>create draggable elements</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+In HTML, which attribute is used to specify
+that an input field must be filled out?
+</vraag>
+<choice>
+<item>formvalidate</item>
+<item goed="ja">required</item>
+<item>placeholder</item>
+<item>validate</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which input type defines a slider control?
+</vraag>
+<choice>
+<item>slider</item>
+<item>search</item>
+<item>controls</item>
+<item>range</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which HTML element is used to display a scalar measurement within a range?
+</vraag>
+<choice>
+<item>[measure]</item>
+<item>[range]</item>
+<item>[gauge]</item>
+<item>[meter]</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which HTML element defines navigation links?
+</vraag>
+<choice>
+<item>[navigation]</item>
+<item goed="ja">[nav]</item>
+<item>navigate</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+In HTML, what does the [aside] element define?
+</vraag>
+<choice>
+<item>
+The ASCII character-set; to send information between computers on the Internet
+</item>
+<item>A navigation list to be shown at the left side of the page</item>
+<item goed="ja">Content inside from the page content</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which HTML element is used to specify a header for a document or section?
+</vraag>
+<choice>
+<item goed="ja">[header]</item>
+<item>[section]</item>
+<item>[top]</item>
+<item>[head]</item>
+</choice>
+</exercise>
+
+</exam>
+
+

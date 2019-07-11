@@ -32,3 +32,31 @@ table tr td {
     color: red;
 }
 
+ol.dragdrop {
+    border: 1px dotted black;
+    list-style: none;
+}
+
+ol.dragdrop li {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+ul.dragdrop {
+    border: 1px dotted black;
+    list-style: none;
+}
+
+ul.dragdrop li {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+

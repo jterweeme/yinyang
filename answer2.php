@@ -57,6 +57,7 @@ if (strcmp($qtype, "single") == 0)
         printf("%s</label>\r\n</p>\r\n", $item);
     }
 }
+
 if (strcmp($qtype, "multi") == 0)
 {
     $n = 0;
@@ -84,6 +85,28 @@ if (strcmp($qtype, "multi") == 0)
         printf("%s</label>\r\n</p>\r\n", $item);
         $n++;
     }
+}
+
+if (strcmp($qtype, "dragdrop") == 0)
+{
+    printf("<ul class=\"dragdrop\">\r\n");
+
+    foreach ($exercise->ol->li as $li)
+    {
+        printf("<li></li>\r\n");
+    }
+
+    printf("</ul>\r\n");
+
+    printf("<ol class=\"dragdrop\">\r\n");
+    $n = 0;
+
+    foreach ($exercise->ol->li as $li)
+    {
+        printf("<li>%s</li>\r\n", $li);
+        $n++;
+    }
+    printf("</ol>\r\n");
 }
 printf("<div class=\"toelichting\">%s</div>\r\n", $exercise->toelichting->asXML());
 $disabled = "";

@@ -17,6 +17,9 @@ Lawrence Welk was een jazz muzikant.
 Tommy Dorsey was een jazz muzikant.
 Les Brown was een jazz muzikant van de "Les Brown and His Band of Renown".
 </toelichting>
+<tags>
+<tag>muziek</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -31,6 +34,9 @@ How many molecules are in a glass of water?
 as many as there are glasses of water in the whole world
 </item>
 </choice>
+<tags>
+<tag>wetenschap</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -43,6 +49,9 @@ Captain Kangaroo's sidekick was
 <item>Mr. Rogers</item>
 <item goed="ja">Mr. Greenjeans</item>
 </choice>
+<tags>
+<tag>televisie</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -55,6 +64,9 @@ Herb Alpert and the ... Brass
 <item>Canadian</item>
 <item>Top</item>
 </choice>
+<tags>
+<tag>muziek</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -67,6 +79,9 @@ Who wrote "To be, or not to be?"
 <item>George Bernard Shaw</item>
 <item>Tennessee Williams</item>
 </choice>
+<tags>
+<tag>literatuur</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -95,6 +110,9 @@ Who is not a sportscaster?
 Jayne Mansfield was een Hollywood sex symbool tijdens
 de jaren '50 en begin jaren '60.
 </toelichting>
+<tags>
+<tag>sport</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -107,6 +125,9 @@ Blackjack is ...
 <item>related to Caucasian Tom</item>
 <item>a kind of car sold only in Fresno</item>
 </choice>
+<tags>
+<tag>spel</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -119,6 +140,9 @@ Bonnie and ...
 <item>Hubbard</item>
 <item>Clod</item>
 </choice>
+<tags>
+<tag>geschiedenis</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -131,6 +155,9 @@ Bonnie and ...
 <item goed="ja">creatures from outer space</item>
 <item>a bicycle race across Alaska</item>
 </choice>
+<tags>
+<tag>film</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -143,6 +170,9 @@ Hugh Hefner is usually photographed in ...
 <item>his current lover's arms</item>
 <item goed="ja">pajamas</item>
 </choice>
+<tags>
+<tag>media</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -155,6 +185,9 @@ IBM stand for ...
 <item>Italian Branch of the Mafia</item>
 <item>Iranian Broom Makers</item>
 </choice>
+<tags>
+<tag>technologie</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -167,6 +200,9 @@ Oral Roberts is ...
 <item>best done with a friend</item>
 <item>shy</item>
 </choice>
+<tags>
+<tag>televisie</tag>
+</tags>
 </exercise>
 
 <!--
@@ -193,6 +229,9 @@ G. Gordon Liddy was associated with ...
 <item>Elizabeth Taylor</item>
 <item goed="ja">the Plumbers</item>
 </choice>
+<tags>
+<tag>geschiedenis</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -217,6 +256,9 @@ Does a pair of queens beat three deuces?
 <item>No, in canasta</item>
 <item>It depends on what the three deuces said</item>
 </choice>
+<tags>
+<tag>spel</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -229,6 +271,9 @@ Which is non-alcoholic?
 <item goed="ja">Perrier</item>
 <item>tequila</item>
 </choice>
+<tags>
+<tag>drinken</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -241,6 +286,9 @@ Calvin Klein is ...
 <item goed="ja">a clothing designer</item>
 <item>President of the Coarsegold Chamber of Commerce</item>
 </choice>
+<tags>
+<tag>kleding</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -265,6 +313,9 @@ Bourbon Street is in ...
 <item>"Monopoly"</item>
 <item goed="ja">New Orleans, Louisiana</item>
 </choice>
+<tags>
+<tag>geografie</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -277,6 +328,9 @@ Which song was not recorded by Elvis?
 <item goed="ja">What'd I Say</item>
 <item>Heartbreak Hotel</item>
 </choice>
+<tags>
+<tag>muziek</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -289,6 +343,9 @@ Mohammed Ali is ...
 <item goed="ja">a professional boxer</item>
 <item>a singer</item>
 </choice>
+<tags>
+<tag>sport</tag>
+</tags>
 </exercise>
 
 <exercise type="single">
@@ -304,6 +361,9 @@ Which U.S. President was not elected to office?
 <toelichting>
 Gerald Ford werd president nadat Richard Nixon aftrad.
 </toelichting>
+<tags>
+<tag>politiek</tag>
+</tags>
 </exercise>
 
 <exercise type="single">

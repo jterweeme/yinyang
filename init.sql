@@ -36,14 +36,14 @@ CREATE TABLE IF NOT EXISTS assignment
 );
 
 INSERT INTO xuser(name, password) VALUES
-    ("jasper", "02b0732024cad6ad3dc2989bc82a1ef5");
+    ("jterweeme", "02b0732024cad6ad3dc2989bc82a1ef5");
 
 INSERT INTO xgroup(name) VALUES
     ("admin"),
     ("groep1");
 
 INSERT INTO member(groupname, username) VALUES
-    ("admin", "jasper");
+    ("admin", "jterweeme");
 
 INSERT INTO assignment(groupname, examfile) VALUES
     ("groep1", "ite60.xml");

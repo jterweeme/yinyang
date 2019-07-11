@@ -1,0 +1,842 @@
+<?xml version="1.0"?>
+<exam>
+<title>Een tegen honderd</title>
+
+<exercise type="single">
+<vraag>
+<p>#86</p>
+<p>#1, makkelijk</p>
+<p>
+Welke twee ministers boden op 16 oktober jl. hun
+ontslag aan, waarna het kabinet-Balkenende viel?
+</p>
+</vraag>
+<choice>
+<item>Wijnschenk en Bomhoff</item>
+<item>Heinsbroek en Nawijn</item>
+<item goed="ja">Bomhoff en Heinsbroek</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+<tag>politiek</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#2, makkelijk</p>
+-->
+<p>
+Welk nummer van Ramses Shaffy was GEEN duet met
+Liesbeth List?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Laat me</item>
+<item>Pastorale</item>
+<item>Aan de andere kant van de heuvels</item>
+</choice>
+<tags>
+<tag>muziek</tag>
+<tag>nederlands</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#3, makkelijk</p>
+-->
+<p>
+Wie zal dit jaar, net als vorig jaar, voor een
+Duitse televisiezender verslag doen van Domino Day?
+</p>
+</vraag>
+<choice>
+<item>Irene Moors</item>
+<item goed="ja">Linda de Mol</item>
+<item>Myrna Goossen</item>
+</choice>
+<tags>
+<tag>televisie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#4, moeilijk</p>
+-->
+<p>
+Messing is een legering van koper en ...?
+</p>
+</vraag>
+<choice>
+<item>Brons</item>
+<item>Zilver</item>
+<item goed="ja">Zink</item>
+</choice>
+<tags>
+<tag>scheikunde</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#5, makkelijk</p>
+-->
+<p>
+Hoe heet een volksgroep of stand, waar een
+inwoner van India al vanaf zijn geboorte bij hoort?
+</p>
+</vraag>
+<choice>
+<item>Cyste</item>
+<item goed="ja">Kaste</item>
+<item>Geste</item>
+</choice>
+<tags>
+<tag>cultuur</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#6, moeilijk</p>
+-->
+<p>
+Wat is de voornaam van de Duitse zakenman
+Schindler, hoofdpersoon uit de film 'Schindler's List'?
+</p>
+</vraag>
+<choice>
+<item>Anton</item>
+<item>Stephan</item>
+<item goed="ja">Oskar</item>
+</choice>
+<tags>
+<tag>film</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#7, moeilijk, Uitvindingen</p>
+-->
+<p>Welke van onderstaande zaken is het eerst uitgevonden?</p>
+</vraag>
+<choice>
+<item goed="ja">Ritssluiting</item>
+<item>Nylon kousen</item>
+<item>Elektrische stofzuiger</item>
+</choice>
+<toelichting>
+<p>
+De eerste nylon kousen werden verkocht op
+27 oktober 1939, in Wilmington, Delaware.
+</p>
+<p>
+In 1907, James Murray Spangler uit Canton, Ohio
+vond de eerste elektrische stofzuiger uit.
+</p>
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#8, Dierenrijk, moeilijk</p>
+-->
+<p>Hoe wordt de dodo ook wel genoemd in Nederland?</p>
+</vraag>
+<choice>
+<item>Paradijsvogel</item>
+<item goed="ja">Walgvogel</item>
+<item>Spotvogel</item>
+</choice>
+<tags>
+<tag>dieren</tag>
+<tag>nederlands</tag>
+</tags>
+<toelichting>
+Nederlandse zeelui gaven de dodo deze naam omdat hij zo vies
+smaakte. Het jaartal van uitsterven wordt het vaakst als 1662
+genoemd.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#9, Zwangerschap, makkelijk</p>
+-->
+<p>
+Met welk onderzoek kun je direct vaststellen
+of het hartje van een ongeboren kindje klopt?
+</p>
+</vraag>
+<choice>
+<item>Vlokkentest</item>
+<item goed="ja">Echoscopie</item>
+<item>Vruchtwaterpunctie</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86</p>
+<p>#10, Televisie, moeilijk</p>
+<p>
+Welke sport beoefende Studio Sport-presentator
+Mart Smeets vroeger op professioneel niveau?
+</p>
+</vraag>
+<choice>
+<item>Voetbal</item>
+<item goed="ja">Basketbal</item>
+<item>Wielrennen</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+<tag>sport</tag>
+<tag>televisie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86</p>
+<p>#11, Goede doelen, moeilijk</p>
+<p>
+Waartegen moet men katten na binnenkomst in het asiel
+inenten volgens het Honden- en Kattenbesluit '99?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Kattenziekte en niesziekte</item>
+<item>Kattenziekte en vlooien</item>
+<item>Kattenziekte en spoelwormen</item>
+</choice>
+<tags>
+<tag>dieren</tag>
+<tag>nederlands</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86</p>
+<p>#12, Voetbal, moeilijk</p>
+<p>
+Welke voetbalploeg werd het afgelopen seizoen
+kampioen van de Gouden Gids Divisie?
+</p>
+</vraag>
+<choice>
+<item goed="ja">FC Zwolle</item>
+<item>Excelsior</item>
+<item>FC Den Bosch</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+<tag>sport</tag>
+<tag>voetbal</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#13, Mythologie, moeilijk</p>
+-->
+<p>
+Welke koning wenste dat alles wat
+hij aanraakte in goud zou veranderen?
+</p>
+</vraag>
+<choice>
+<item>Minos</item>
+<item>Leonidas</item>
+<item goed="ja">Midas</item>
+</choice>
+<tags>
+<tag>mythologie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#14, Ontdekkingsreizigers, moeilijk</p>
+-->
+<p>
+Hoe staat het boek waarin de ontdekkingsreizen
+van Marco Polo beschreven worden bekend?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Il Milione</item>
+<item>Il Vaggio</item>
+<item>Il Giro</item>
+</choice>
+<tags>
+<tag>geschiedenis</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#1, Nederlandse economie, makkelijk</p>
+-->
+<p>
+Waar staat de letter B voor in de afkorting
+BNP, die in de economie wordt gebruikt?
+</p>
+</vraag>
+<choice>
+<item>Binnenlands</item>
+<item goed="ja">Bruto</item>
+<item>Belastbaar</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#86</p>
+<p>#2, Plantenrijk, makkelijk</p>
+-->
+<p>
+Wat is de Nederlandse benaming voor 'mistletoe'?
+</p>
+</vraag>
+<choice>
+<item>Lijsterbes</item>
+<item>Hulst</item>
+<item goed="ja">Maretak</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+<tag>taal</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86, #3, Cabaret, makkelijk</p>
+<p>
+Hoe heet de televisieserie waarin Plien en Bianca de rol
+spelen van Ingrid en Irma, die zich altijd vervelen?
+</p>
+</vraag>
+<choice>
+<item>Biks!</item>
+<item goed="ja">Zaai</item>
+<item>Willem Wever</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+<tag>televisie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86, #4, Italiaanse taal, moeilijk</p>
+<p>
+Vivaldi componeerde 'Le Quattro Stagioni' ofwel 'De
+Vier Jaargetijden'. Welk jaargetijde is l'estate?
+</p>
+</vraag>
+<choice>
+<item>De winter</item>
+<item>De herfst</item>
+<item goed="ja">De zomer</item>
+</choice>
+<tags>
+<tag>muziek</tag>
+<tag>taal</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86, #5, Nederlandse geschiedenis, moeilijk</p>
+<p>Wat was 'poekelen' in de Limburgse mijnbouwwereld?</p>
+</vraag>
+<choice>
+<item>Naar beneden gaan met de lift</item>
+<item goed="ja">Elkaars rug wassen na werktijd</item>
+<item>Stiekem kolen achterover drukken</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+<tag>taal</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86, #6, Edelstenen, makkelijk</p>
+<p>
+Hoe heet de ovaal geslepen diamant van 108,93 karaat,
+die deel uitmaakt van de Britse kroonjuwelen?
+</p>
+</vraag>
+<choice>
+<item>De Regent</item>
+<item goed="ja">Koh-I-Noor</item>
+<item>De Blauwe Hope</item>
+</choice>
+<tags>
+<tag>monarchie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>#86, #7, Topografie van Europa, moeilijk</p>
+<p>
+Welk van onderstaande landen is GEEN buurland
+van Hongarije?
+</p>
+</vraag>
+<choice>
+<item>Roemenie</item>
+<item>Slovenie</item>
+<item goed="ja">Tsjechie</item>
+</choice>
+<tags>
+<tag>geografie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#2, ETEN, makkelijk</p>
+<p>
+Hoe heet het bladerdeeggebak met nootjes en
+honing uit de Turkse en Griekse keuken?
+</p>
+</vraag>
+<choice>
+<item>Baba</item>
+<item goed="ja">Baklava</item>
+<item>Blini</item>
+</choice>
+<tags>
+<tag>eten en drinken</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#3, WETENSCHAP &amp; TECHNIEK, moeilijk</p>
+<p>
+Hoe worden in transistors gebruikte stoffen als
+kristallijn silicium en germanium genoemd?
+</p>
+</vraag>
+<choice>
+<item>Polymeren</item>
+<item>Quarks</item>
+<item goed="ja">Halfgeleiders</item>
+</choice>
+<tags>
+<tag>scheikunde</tag>
+<tag>technologie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#4, FEESTDAGEN, moeilijk</p>
+<p>Wie staan centraal met Halloween?</p>
+</vraag>
+<choice>
+<item>Zieke mensen</item>
+<item>Christelijke heiligen</item>
+<item goed="ja">Verdoemde zielen</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#5, COMPUTER &amp; INTERNET, moeilijk</p>
+<p>
+Veel domeinnamen eindigen op '.com'. Waar
+staat 'com' voor?
+</p>
+</vraag>
+<choice>
+<item>Communication</item>
+<item goed="ja">Commercial</item>
+<item>Community</item>
+</choice>
+<tags>
+<tag>technologie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#6, TOPOGRAFIE VAN AFRIKA, moeilijk</p>
+<p>
+AMREF Flying Doctors is voornamelijk actief in
+Oost-Afrika. Welk land ligt NIET in Oost-Afrika?
+</p>
+</vraag>
+<choice>
+<item>Oeganda</item>
+<item>Tanzania</item>
+<item goed="ja">Ghana</item>
+</choice>
+<tags>
+<tag>geografie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#7, WOORDBETEKENIS, moeilijk</p>
+<p>
+Wat doe je volgens jongerentaal
+als je aan het 'dissen' bent?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Iemand opnaaien</item>
+<item>Relaxen</item>
+<item>Mateloos eten</item>
+</choice>
+<tags>
+<tag>taal</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#8, GRIEKSE MYTHOLOGIE, moeilijk</p>
+-->
+<p>
+Wie waarschuwde de Trojanen voor het bekende
+houten paard en voorzag daarmee de Griekse list?
+</p>
+</vraag>
+<choice>
+<item>Menelaos</item>
+<item goed="ja">Laocoon</item>
+<item>Aeneas</item>
+</choice>
+<tags>
+<tag>geschiedenis</tag>
+<tag>mythologie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#9, TELEVISIE, makkelijk</p>
+-->
+<p>
+<!-- oorspronkelijke vraag:
+Hoe heet het homoseksuele personage uit deze
+serie aan wie dikwijls werd gevraagd: "Are you free?"?
+-->
+Hoe heet het homoseksuele personage uit de
+serie "Are you being served?" aan wie dikwijls
+werd gevraagd: "Are you free?"?
+</p>
+</vraag>
+<choice>
+<item>Mr. Rumbold</item>
+<item>Captain Peacock</item>
+<item goed="ja">Mr. Humphries</item>
+</choice>
+<tags>
+<tag>televisie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#10, WIELRENNEN, makkelijk</p>
+<p>
+Welke trui draagt de winnaar
+van het WK wielrennen op de weg?
+</p>
+</vraag>
+<choice>
+<item>Bolletjestrui</item>
+<item goed="ja">Regenboogtrui</item>
+<item>Roze trui</item>
+</choice>
+<tags>
+<tag>sport</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#1, MEDISCH, makkelijk</p>
+<p>
+Welk menselijk orgaan wordt
+getroffen bij de ziekte SARS?
+</p>
+</vraag>
+<choice>
+<item>Hart</item>
+<item goed="ja">Longen</item>
+<item>Hersenen</item>
+</choice>
+<tags>
+<tag>biologie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#2, GESCHIEDENIS, makkelijk</p>
+-->
+<p>
+Door welk gebergte trok Hannibal in 218 voor
+Christus met zijn leger van olifanten?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Alpen</item>
+<item>Karpaten</item>
+<item>Kaukasus</item>
+</choice>
+<tags>
+<tag>geschiedenis</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#3, AMERIKAANSE POLITIEK, moeilijk</p>
+<p>
+Onder welke president diende de huidige vice-president
+Dick Cheney als minister van Defensie?
+</p>
+</vraag>
+<choice>
+<item>Ronald Reagan</item>
+<item goed="ja">George Bush sr.</item>
+<item>Bill Clinton</item>
+</choice>
+<tags>
+<tag>politiek</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#4, ALGEMEEN, makkelijk</p>
+-->
+<p>
+Hoe heet de inkt die in Europa en
+Amerika vaak als tekeninkt wordt gebruikt?
+</p>
+</vraag>
+<choice>
+<item>West-Indische inkt</item>
+<item goed="ja">Oost-Indische inkt</item>
+<item>Zuid-Indische inkt</item>
+</choice>
+<tags>
+<tag>gebruiksvoorwerp</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#5, SHOWBIZZ, moeilijk</p>
+-->
+<p>
+Waar in Amsterdam staat het huis waar 'De Tokkies'
+uit zijn gezet voordat ze bekend werden?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Burgemeester van Leeuwenlaan</item>
+<item>Mercatorplein</item>
+<item>Smaragdplein</item>
+</choice>
+<tags>
+<tag>amsterdam</tag>
+<tag>nederlands</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#6, AFRIKA, makkelijk</p>
+-->
+<p>
+Welk soort uitgestrekte vlakte
+treft men NIET aan in Oost-Afrika?
+</p>
+</vraag>
+<choice>
+<item>Savanne</item>
+<item>Steppe</item>
+<item goed="ja">Toendra</item>
+</choice>
+<tags>
+<tag>geografie</tag>
+</tags>
+<toelichting>
+Toendra vindt men in het uiterste noorden van de wereld,
+waar de grond permanent bevroren is.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#7, MEDIA, makkelijk</p>
+-->
+<p>
+Wat was 'War of the Worlds' uit 1938 van Orson
+Welles, dat over de landing van marsmannetjes ging?
+</p>
+</vraag>
+<choice>
+<item>Strip</item>
+<item goed="ja">Hoorspel</item>
+<item>Tv-serie</item>
+</choice>
+<tags>
+<tag>media</tag>
+</tags>
+<toelichting>
+Televisie bestond nog niet in 1938.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#8, KALENDER, makkelijk</p>
+-->
+<p>
+Wanneer gaat in 2005 de zomertijd in?
+</p>
+</vraag>
+<choice>
+<item>Laatste weekeinde van februari</item>
+<item goed="ja">Laatste weekeinde van maart</item>
+<item>Laatste weekeinde van april</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2004, 31 oktober</p>
+<p>#9, POPMUZIEK, makkelijk</p>
+-->
+<p>
+In 1992 voerde Bill Clinton campagne met een
+Fleetwood Macnummer met de tekst 'Don't stop ...?'
+</p>
+</vraag>
+<choice>
+<item>Me now</item>
+<item>'Til you get enough</item>
+<item goed="ja">Thinking about tomorrow</item>
+</choice>
+<tags>
+<tag>muziek</tag>
+<tag>politiek</tag>
+</tags>
+<toelichting>
+"Don't stop me now" is van Queen.
+"Don't stop 'til you get enough" is van Michael Jackson.
+"Don't stop thinking about tomorrow" is van Fleetwood Mac.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#10, VERKEER &amp; VERVOER, makkelijk</p>
+<p>Vanaf welke leeftijd moet een auto APK gekeurd worden?</p>
+</vraag>
+<choice>
+<item>1 jaar</item>
+<item>2 jaar</item>
+<item goed="ja">3 jaar</item>
+</choice>
+<tags>
+<tag>verkeer</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<p>2004, 31 oktober</p>
+<p>#11, FILM, makkelijk</p>
+<p>
+Hoe heet deze omstreden film die gaat over
+Hitlers laatste dagen in de bunker?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Der Untergang</item>
+<item>Der langste Tag</item>
+<item>Der Bunker</item>
+</choice>
+<tags>
+<tag>film</tag>
+</tags>
+</exercise>
+
+</exam>
+
+
+

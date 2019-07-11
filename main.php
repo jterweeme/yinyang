@@ -74,14 +74,18 @@ if (isset($_SESSION['admin']))
     while ($row = $users->fetchArray(1))
     {
         printf("<tr>\r\n\t<td>%s</td>\r\n", $row['name']);
-        printf("\t<td><a href=\"kill.php?username=%s\">Kill</a></td>\r\n", $row['name']);
+
+        printf("\t<td><a href=\"admin.php?action=kill&username=%s\">Kill</a></td>\r\n",
+            $row['name']);
+
         printf("</tr>\r\n");
     }
 
     printf("</table>\r\n");
 
     // add user functie
-    printf("<form method=\"post\" action=\"adduser.php\">\r\n");
+    printf("<form method=\"get\" action=\"admin.php\">\r\n");
+    printf("\t<input name=\"action\" type=\"hidden\" value=\"adduser\"/>\r\n");
     printf("\t<input name=\"name\"/>\r\n");
     printf("\t<input type=\"submit\" value=\"Add\"/>\r\n");
     printf("</form>\r\n");
@@ -95,14 +99,18 @@ if (isset($_SESSION['admin']))
     {
         printf("<tr>\r\n");
         printf("\t<td>%s</td>\r\n", $row['name']);
-        printf("\t<td><a href=\"#\">Delete</a></td>\r\n");
+
+        printf("\t<td><a href=\"admin.php?action=rmgroup&groupname=%s\">Delete</a></td>\r\n",
+            $row['name']);
+
         printf("</tr>\r\n");
     }
 
     printf("</table>\r\n");
 
     // create group
-    printf("<form action=\"addgroup.php\" method=\"post\">\r\n");
+    printf("<form action=\"admin.php\" method=\"get\">\r\n");
+    printf("\t<input name=\"action\" value=\"mkgroup\" type=\"hidden\"/>\r\n");
     printf("\t<input name=\"groupname\"/>\r\n");
     printf("\t<input name=\"creategroup\" type=\"submit\" value=\"Create\"/>\r\n");
     printf("</form>\r\n");
@@ -117,33 +125,32 @@ if (isset($_SESSION['admin']))
         printf("<tr>\r\n");
         printf("\t<td>%s</td>\r\n", $row['groupname']);
         printf("\t<td>%s</td>\r\n", $row['username']);
+        printf("\t<td>");
 
-        printf("\t<td><a href=\"kick.php?groupname=%s&username=%s\">Kick</a></td>\r\n",
+        printf("<a href=\"admin.php?action=kick&groupname=%s&username=%s\">Kick</a>",
                 $row['groupname'], $row['username']);
 
+        printf("</td>\r\n");
         printf("</tr>\r\n");
     }
 
     printf("</table>\r\n");
 
     // assign user to group
-    printf("<form action=\"addmember.php\" method=\"get\">\r\n");
+    printf("<form action=\"admin.php\" method=\"get\">\r\n");
+    printf("<input name=\"action\" value=\"group\" type=\"hidden\"/>\r\n");
     printf("<select name=\"groupname\">\r\n");
     $groupnames->reset();   // terug naar eerste row
 
     while ($row = $groupnames->fetchArray(1))
-    {
         printf("\t<option>%s</option>\r\n", $row['name']);
-    }
 
     printf("</select>\r\n");
     printf("<select name=\"username\">\r\n");
     $users->reset();        // terug naar eeste row
     
     while ($row = $users->fetchArray(1))
-    {
         printf("\t<option>%s</option>\r\n", $row['name']);
-    }
 
     printf("</select>\r\n");
     printf("<input type=\"submit\" value=\"Add\"/>\r\n");
@@ -164,16 +171,17 @@ if (isset($_SESSION['admin']))
     }
 
     printf("</table>\r\n");
-    printf("<form>\r\n");
-    printf("<select>\r\n");
+
+    // assign
+    printf("<form action=\"admin.php\" method=\"get\">\r\n");
+    printf("<input name=\"action\" value=\"assign\" type=\"hidden\"/>\r\n");
+    printf("<select name=\"groupname\">\r\n");
     $groupnames->reset();
     
     while ($row = $groupnames->fetchArray(1))
-    {
         printf("<option>%s</option>\r\n", $row['name']);
-    }
 
-    printf("</select>\r\n<select>\r\n");
+    printf("</select>\r\n<select name=\"fn\">\r\n");
     $users->reset();
 
     foreach ($ar as $fn)
