@@ -23,6 +23,7 @@ $_SESSION['qcnt'] = $qcnt;
 $map = range(0, $qcnt - 1);
 shuffle($map);
 $_SESSION['map'] = $map;
+$_SESSION['answers'] = array_fill(0, $qcnt, 0);
 
 $n = 0;
 foreach ($map as $foo)
@@ -38,10 +39,7 @@ foreach ($map as $foo)
 printf("<html>\r\n<head>\r\n<title>Start</title>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
 printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End exam</a>\r\n");
-
-?>
-<a href="logout.php">
-<?php
+printf("<a href=\"logout.php\">\r\n");
 printf("Log out %s", $_SESSION['username']);
 ?>
 </a>

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php
 session_start();
+
+//print_r($_SESSION);
+
 $path = sprintf("exams/%s", $_SESSION['fn']);
 $xml = simplexml_load_file($path);
 
@@ -27,7 +30,7 @@ foreach ($map as $foo)
 {
     $exercise = $xml->exercise[$foo];
     
-    if ($_SESSION['answers'][$n] == idxGoed($exercise->choice))
+    if ($_SESSION['answers'][$n] == idxGoed($exercise->choice) + 1)
         $n_goed++;
     else
         $n_fout++;
@@ -35,12 +38,18 @@ foreach ($map as $foo)
     $n++;
 }
 
+$date = date("Y-m-d");
+
 // write results file
-$path = sprintf("results/%s.xml", $_SESSION['username']);
+$path = sprintf("results/%s-%s.xml", $_SESSION['username'], $date);
 $fp = fopen($path, 'w');
 fwrite($fp, "<?xml version=\"1.0\"?>\n");
 fwrite($fp, "<result>\n");
 $tmp = sprintf("<user>%s</user>\n", $_SESSION['username']);
+fwrite($fp, $tmp);
+$tmp = sprintf("<exam>%s</exam>\n", $_SESSION['fn']);
+fwrite($fp, $tmp);
+$tmp = sprintf("<date>%s</date>\n", $date);
 fwrite($fp, $tmp);
 $tmp = sprintf("<score>%u/%u</score>\n", $n_goed, $qcnt);
 fwrite($fp, $tmp);
@@ -54,15 +63,8 @@ foreach ($map as $foo)
     $xidxGoed = idxGoed($exercise->choice);
     $goed = 0;
 
-    if ($_SESSION['answers'][$n] == $xidxGoed)
-    {
+    if (($_SESSION['answers'][$n] - 1) == $xidxGoed)
         $goed = 1;
-        fwrite($fp, "\n<goed />\n");
-    }
-    else
-    {
-        fwrite($fp, "\n<fout />\n");
-    }
 
     fwrite($fp, "<choice>\n");
     
@@ -70,11 +72,11 @@ foreach ($map as $foo)
     {
         $item = $exercise->choice->item[$tmp];
 
-        if ($tmp == $xidxGoed && $goed == 1)
+        if ($tmp == $xidxGoed && $_SESSION['answers'][$n] == $tmp + 1)
             fwrite($fp, "<item goed=\"ja\" checked=\"checked\">");
         else if ($tmp == $xidxGoed)
             fwrite($fp, "<item goed=\"ja\">");
-        else if ($_SESSION['answers'][$n] == $tmp)
+        else if ($_SESSION['answers'][$n] == $tmp + 1)
             fwrite($fp, "<item checked=\"checked\">");
         else
             fwrite($fp, "<item>");
@@ -84,6 +86,14 @@ foreach ($map as $foo)
     }
 
     fwrite($fp, "</choice>\n");
+
+    if (isset($exercise->toelichting))
+    {
+        fwrite($fp, "<toelichting>\n");
+        fwrite($fp, $exercise->toelichting->asXML());
+        fwrite($fp, "</toelichting>\n");
+    }
+
     fwrite($fp, "</exercise>\n\n");
     $n++;
 }

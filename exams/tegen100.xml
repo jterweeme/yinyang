@@ -4,6 +4,167 @@
 
 <exercise type="single">
 <vraag>
+<!--
+<p>#42</p>
+<p>Marja de Haas</p>
+<p>#19, Eten &amp; Drinken, makkelijk</p>
+-->
+<p>
+Wat is GEEN kaas?
+</p>
+</vraag>
+<choice>
+<item>Edammer</item>
+<item goed="ja">Schiedammer</item>
+<item>Maaslander</item>
+</choice>
+<tags>
+<tag>eten en drinken</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#42</p>
+<p>Marja de Haas</p>
+<p>#20, Politiek, makkelijk</p>
+-->
+<p>
+Wie was de opvolger van Hans van Mierlo
+als lijsttrekker van D66 in 1998?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Els Borst</item>
+<item>Thom de Graaff</item>
+<item>Gerrit Jan Wolffensperger</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#42</p>
+<p>Maril Renders</p>
+<p>#1, Algemeen, makkelijk</p>
+-->
+<p>Wat is het netnummer van Den Haag</p>
+</vraag>
+<choice>
+<item>010</item>
+<item>030</item>
+<item goed="ja">070</item>
+</choice>
+<toelichting>
+010 = Rotterdam
+030 = Utrecht
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#42</p>
+<p>Maril Renders</p>
+<p>#2, Media, moeilijk</p>
+-->
+<p>
+Wie was de assistent van
+Martin Brozius in 'Ren je Rot'?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Lars Boom</item>
+<item>Arnout Koffij</item>
+<item>Hans Smolders</item>
+</choice>
+<tags>
+<tag>televisie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#42</p>
+<p>Maril Renders</p>
+<p>#3, Geografie, makkelijk</p>
+-->
+<p>
+Hoe noem je de verklaring van
+tekens op een landkaart?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Legenda</item>
+<item>Signatuur</item>
+<item>Legende</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#42</p>
+<p>Maril Renders</p>
+<p>#4, Geschiedenis, makkelijk</p>
+-->
+<p>
+Op welk land veroverde Piet
+Hein in 1628 de zilvervloot?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Spanje</item>
+<item>Portugal</item>
+<item>Engeland</item>
+</choice>
+<tags>
+<tag>geschiedenis</tag>
+<tag>nederlands</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>#42</p>
+<p>Maril Renders</p>
+<p>#5, Goede Doelen, makkelijk</p>
+-->
+<p>
+De IVN betitelt september als Groene Maand, maar
+wat is het gebruikelijke synoniem van september?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Herfstmaand</item>
+<item>Slachtmaand</item>
+<item>Sprokkelmaand</item>
+</choice>
+<tags>
+<tag>nederlands</tag>
+<tag>taal</tag>
+</tags>
+<toelichting>
+louwmaand = januari
+sprokkelmaand = februari
+lentemaand = maart
+grasmaand = april
+bloeimaand = mei
+zomermaand = juni
+hooimaand = juli
+oogstmaand = augustus
+herfstmaand = september
+wijnmaand = oktober
+slachtmaand = november
+wintermaand = december
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
 <p>#86</p>
 <p>#1, makkelijk</p>
 <p>
@@ -803,8 +964,10 @@ Fleetwood Macnummer met de tekst 'Don't stop ...?'
 
 <exercise type="single">
 <vraag>
+<!--
 <p>2004, 31 oktober</p>
 <p>#10, VERKEER &amp; VERVOER, makkelijk</p>
+-->
 <p>Vanaf welke leeftijd moet een auto APK gekeurd worden?</p>
 </vraag>
 <choice>
@@ -834,6 +997,155 @@ Hitlers laatste dagen in de bunker?
 <tags>
 <tag>film</tag>
 </tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>Frank Zebregs</p>
+<p>Sport</p>
+-->
+<p>
+Wie is sinds 2001 president van het
+Internationaal Olympisch Comite?
+</p>
+</vraag>
+<choice>
+<item>Juan Antonio Samaranch</item>
+<item goed="ja">Jacques Rogge</item>
+<item>Anton Geesink</item>
+</choice>
+<tags>
+<tag>sport</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>Frank Zebregs</p>
+<p>Muziek</p>
+-->
+<p>
+Wat wordt er op 3 juni 2009 ter
+ere van ABBA in Stockholm geopend?
+</p>
+</vraag>
+<choice>
+<item>Park</item>
+<item goed="ja">Museum</item>
+<item>Conservatorium</item>
+</choice>
+<tags>
+<tag>muziek</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>Frank Zebregs</p>
+<p>Geografie</p>
+-->
+<p>
+Welk land bestaat uit 26 kantons, zoals
+Wallis, Schaffhausen en Sankt Gallen?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Zwitserland</item>
+<item>Oostenrijk</item>
+<item>Duitsland</item>
+</choice>
+<tags>
+<tag>geografie</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>#243</p>
+<p>Cees Poppe</p>
+<p>Dieren</p>
+-->
+<p>
+Waarvoor staat de letter 'T' in de naam van T-rex,
+een van de bekendste vleesetende dinosauriers?
+</p>
+</vraag>
+<choice>
+<item>Terrible</item>
+<item>Trias</item>
+<item goed="ja">Tyrannosaurus</item>
+</choice>
+<tags>
+<tag>dieren</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>#243</p>
+<p>Literatuur</p>
+-->
+<p>
+Welk boek is de opvolger van 'De vliegeraar',
+de bestseller van Khaled Hosseini?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Duizend schitterende zonnen</item>
+<item>Het gesloten koninkrijk</item>
+<item>Tot het voorbij is</item>
+</choice>
+<tags>
+<tag>literatuur</tag>
+</tags>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>#243</p>
+<p>Economie</p>
+-->
+<p>
+Hoe heet binnen een bedrijf iemand die door
+een coach begeleid en opgeleid wordt?
+</p>
+</vraag>
+<choice>
+<item>Controller</item>
+<item goed="ja">Trainee</item>
+<item>Management-assistent</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>#243</p>
+<p>Literatuur</p>
+-->
+<p>
+Onder wiens leiding voeren de scheepsjongens Hajo, Padde
+en Rolf naar de Oost?
+</p>
+</vraag>
+<choice>
+<item>Jan de Witt</item>
+<item goed="ja">Willem Bontekoe</item>
+<item>Michiel de Ruyter</item>
+</choice>
 </exercise>
 
 </exam>

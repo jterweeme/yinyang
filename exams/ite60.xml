@@ -210,6 +210,10 @@ traditionele North- Southbridge architectuur is dus feitelijk komen te
 vervallen in hedendaagse computersystemen.
 </p>
 </toelichting>
+<tags>
+<tag>chipset</tag>
+<tag>Northbridge</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 9 -->
@@ -233,6 +237,9 @@ staat voor 2^30 bytes. Een gigabyte aangeduid als GB kan voor
 10^9 of 2^30 bytes staan, dus let op.
 "Pages per minute" en "clusters per minute" zijn geen bestaande termen.
 </toelichting>
+<tags>
+<tag>hard-disk</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 10 -->
@@ -254,6 +261,9 @@ en VGA zijn respectievelijk een digitale en analoge standaard voor monitoren, ge
 van beide ondersteunen geluid. HDMI ondersteund wel geluid, het videosignaal van HDMI
 is identiek aan DVI.
 </toelichting>
+<tags>
+<tag>interface</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 11 -->
@@ -298,6 +308,10 @@ an internal hard drive to the motherboard?
 <item>eSATA</item>
 <item>Thunderbolt</item>
 </choice>
+<tags>
+<tag>connector</tag>
+<tag>interface</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 14 -->
@@ -647,6 +661,9 @@ panel. What tool should the technician use?
 <item>punch down</item>
 <item>crimper</item>
 </choice>
+<tags>
+<tag>tool</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 10 -->
@@ -660,6 +677,9 @@ Which tool is designed to loosen or tighten crosshead screws?
 <item>flat head screwdriver</item>
 <item>torx driver</item>
 </choice>
+<tags>
+<tag>tool</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 11 -->
@@ -674,6 +694,9 @@ What tool would a technician use to remove a slotted screw?
 <item>Phillips head screwdriver</item>
 <item>Torx screwdriver</item>
 </choice>
+<tags>
+<tag>tool</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 12 -->
@@ -695,6 +718,9 @@ Format wordt gebruikt om partities te formatteren met een bestandssysteem.
 Scandisk wordt gebruikt om een bestaand bestandssysteem te controleren
 op fouten.
 </toelichting>
+<tags>
+<tag>windows</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 13 -->
@@ -727,6 +753,9 @@ Disk Management kan gebruikt worden voor het partitioneren van schijven.
 System File Checker is het juiste antwoord.
 </p>
 </toelichting>
+<tags>
+<tag>windows</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 14 -->
@@ -740,6 +769,9 @@ Which tool should be used if a user needs to optimize space on a hard drive?
 <item>Fdisk</item>
 <item>Format</item>
 </choice>
+<tags>
+<tag>hard-disk</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 15 -->
@@ -862,6 +894,14 @@ A technician suspects that a power supply is faulty. How can it be checked?
 Match the steps of fire extinguisher operation to the order in which they
 should be completed. (Not all options are used.)
 </vraag>
+<items>
+<item>Aim at the base of the fire.</item>
+<item>Evaluate the coverage area of the fire.</item>
+<item>Squeeze the lever.</item>
+<item>Pull the pin.</item>
+<item>Notify the fire department.</item>
+<item>Sweep the nozzle from side to side.</item>
+</items>
 </exercise>
 -->
 

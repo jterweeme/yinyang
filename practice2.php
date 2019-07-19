@@ -46,6 +46,7 @@ printf("<h1>Practice</h1>\r\n");
 printf("<div>\r\n%s\r\n</div>\r\n", $exercise->vraag->asXML());
 printf("<form method=\"post\">\r\n");
 
+// single antwoord vragen
 if (strcmp($qtype, "single") == 0)
 {
     foreach ($_SESSION['ans_map'][$q] as $n)
@@ -55,14 +56,18 @@ if (strcmp($qtype, "single") == 0)
         $checked = "";
 
         if (isset($_SESSION['answers'][$q]))
-            if ($_SESSION['answers'][$q] == $n)
+            if ($_SESSION['answers'][$q] == $n + 1)
                 $checked = "checked";
 
-        printf("<input type=\"radio\" value=\"%u\" name=\"choice\" %s/>\r\n", $n, $checked);
-        printf("<label>%s</label>\r\n</p>\r\n", $item);
+        printf("<input id=\"r%u\" type=\"radio\" value=\"%u\" name=\"choice\" %s/>\r\n",
+            $n + 1, $n + 1, $checked);
+        // de $n + 1 maakt het mogelijk om een 0 waarde over te laten voor blanco antwoord
+
+        printf("<label for=\"r%u\">%s</label>\r\n</p>\r\n", $n + 1, $item);
     }
 }
 
+// multiple antwoord vragen
 if (strcmp($qtype, "multi") == 0)
 {
     $n = 0;
@@ -122,11 +127,6 @@ printf("<input type=\"submit\" formaction=\"practice2.php\" ".
     "name=\"button\" value=\"Next\" %s/>\r\n", $disabled);
 
 printf("</form>\r\n");
-/*
-printf("<pre>\r\n");
-print_r($_SESSION);
-printf("</pre>\r\n");
-*/
 printf("</body>\r\n</html>\r\n");
 ?>
 

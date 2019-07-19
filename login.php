@@ -70,6 +70,7 @@ label, input
 if ($status == 1)
     printf("<meta http-equiv=\"Refresh\" content=\"0;url=main.php\">\r\n")
 ?>
+<link rel="Shortcut Icon" href="yinyang.svg"/>
 </head>
 <body>
 <h1>YinYang</h1>

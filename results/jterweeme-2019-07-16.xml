@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<result>
+<user>jterweeme</user>
+<exam>larry.xml</exam>
+<date>2019-07-18</date>
+<score>6/33</score>
+<exercise type="single">
+<vraag>
+Which is not a currency
+</vraag><choice>
+<item checked="checked">yen</item>
+<item goed="ja">fennel</item>
+<item>rupee</item>
+<item>lira</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Kwi-Chang-Caine became famous
+by saying ...
+</vraag><choice>
+<item checked="checked">I am not a crook.</item>
+<item>The barren fig tree bears no plums.</item>
+<item goed="ja">Aaaaaiiiyeeeaagggh!</item>
+<item>Hi, sailor. New in town?</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+IBM stand for ...
+</vraag><choice>
+<item>Iranian Broom Makers</item>
+<item checked="checked">Ittsy Bittsy Men</item>
+<item goed="ja">International Business Machines</item>
+<item>Italian Branch of the Mafia</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Hugh Hefner is usually photographed in ...
+</vraag><choice>
+<item>a hot tub</item>
+<item>his current lover's arms</item>
+<item checked="checked">the nude</item>
+<item goed="ja">pajamas</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Bourbon Street is in ...
+</vraag><choice>
+<item>"Monopoly"</item>
+<item checked="checked">Whiskeyville, Indiana</item>
+<item goed="ja">New Orleans, Louisiana</item>
+<item>Jackass Flats, Idaho</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who is not a famous musician?
+</vraag><choice>
+<item checked="checked">Lawrence Welk</item>
+<item>Les Brown</item>
+<item goed="ja">Steve Garvey</item>
+<item>Tommy Dorsey</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+A result of Watergate was ...
+</vraag><choice>
+<item>Gerald Ford quit</item>
+<item>Jimmy Carter quit</item>
+<item goed="ja">Richard Nixon quit</item>
+<item checked="checked">the loss of water</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which song was not recorded by Elvis?
+</vraag><choice>
+<item goed="ja">What'd I Say</item>
+<item checked="checked">Hound Dog</item>
+<item>Heartbreak Hotel</item>
+<item>Love Me Tender</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Captain Kangaroo's sidekick was
+</vraag><choice>
+<item>Mr. Rogers</item>
+<item checked="checked">Mr. Potato Head</item>
+<item>Winnie the Pooh</item>
+<item goed="ja">Mr. Greenjeans</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+G. Gordon Liddy was associated with ...
+</vraag><choice>
+<item>Elizabeth Taylor</item>
+<item goed="ja">the Plumbers</item>
+<item>Calvin Klein</item>
+<item checked="checked">the Mob</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Calvin Klein is ...
+</vraag><choice>
+<item goed="ja">a clothing designer</item>
+<item>a movie star</item>
+<item checked="checked">married to Brooke Shields</item>
+<item>President of the Coarsegold Chamber of Commerce</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Herb Alpert and the ... Brass
+</vraag><choice>
+<item>Canadian</item>
+<item>Top</item>
+<item goed="ja" checked="checked">Tijuana</item>
+<item>Boss</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Mohammed Ali is ...
+</vraag><choice>
+<item>an Arab terrorist</item>
+<item goed="ja">a professional boxer</item>
+<item>a singer</item>
+<item checked="checked">a ballet star</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Oral Roberts is ...
+</vraag><choice>
+<item>shy</item>
+<item goed="ja">an evangelist</item>
+<item>best done with a friend</item>
+<item checked="checked">a thermometer technique</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which is non-alcoholic?
+</vraag><choice>
+<item goed="ja">Perrier</item>
+<item checked="checked">whiskey</item>
+<item>tequila</item>
+<item>Grand Marnier</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+"Close Encounters of the Third Kind" is about ...
+</vraag><choice>
+<item>a bicycle race across Alaska</item>
+<item>homo- and heterosexual sex</item>
+<item checked="checked">politics in third-world countries</item>
+<item goed="ja">creatures from outer space</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who is not a sportscaster?
+</vraag><choice>
+<item checked="checked">Jayne Kennedy</item>
+<item goed="ja">Jayne Mansfield</item>
+<item>Frank Gifford</item>
+<item>Howard Cosell</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+How many molecules are in a glass of water?
+</vraag><choice>
+<item goed="ja">
+as many as there are glasses of water in the whole world
+</item>
+<item checked="checked">one million</item>
+<item>one trillion</item>
+<item>one million trillion</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+A 747 is ...
+</vraag><choice>
+<item>a perfect bowling score</item>
+<item>a prime number</item>
+<item goed="ja">a large airplane</item>
+<item checked="checked">a cocktail</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The song "American Pie" was about ...
+</vraag><choice>
+<item checked="checked">miscegnation</item>
+<item>four minutes too long</item>
+<item>Marilyn Chambers</item>
+<item goed="ja">a dead rock star</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Johnny Carson is ...
+</vraag><choice>
+<item>an actor</item>
+<item checked="checked">a singer</item>
+<item>David Letterman's sidekick</item>
+<item goed="ja">Ed McMahon's sidekick</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which U.S. President was not elected to office?
+</vraag><choice>
+<item checked="checked">Johnson</item>
+<item goed="ja">Ford</item>
+<item>Eisenhower</item>
+<item>Cleveland</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who wrote "To be, or not to be?"
+</vraag><choice>
+<item>George Bernard Shaw</item>
+<item>Paul McCartney</item>
+<item goed="ja" checked="checked">Bill Shakespeare</item>
+<item>Tennessee Williams</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The most populous city in the United States is ...
+</vraag><choice>
+<item>Chicago</item>
+<item>Mexico City</item>
+<item goed="ja">New York</item>
+<item checked="checked">Los Angeles</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Former Congressman Wilbur Mills went for a dip in the
+Tidal Basin with ...
+</vraag><choice>
+<item goed="ja">a stripper named Fanne</item>
+<item>his dog Spot</item>
+<item>a 20-year-old secretary</item>
+<item checked="checked">nothing but his pride</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The 1973 album "Dark Side of the Moon"
+was recorded by ...
+</vraag><choice>
+<item>Bad News</item>
+<item>Deep Purple</item>
+<item goed="ja" checked="checked">Pink Floyd</item>
+<item>the Grateful Dead</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The slogan "It takes two hands to
+handle a whopper" refers to ...
+</vraag><choice>
+<item goed="ja">a hamburger</item>
+<item>overstuffed grocery bags</item>
+<item>fishing</item>
+<item checked="checked">John Holmes</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Mork was from the planet
+</vraag><choice>
+<item>Vulcan</item>
+<item goed="ja" checked="checked">Ork</item>
+<item>Krypton</item>
+<item>Pluto</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Bonnie and ...
+</vraag><choice>
+<item checked="checked">Ronnie</item>
+<item goed="ja">Clyde</item>
+<item>Clod</item>
+<item>Hubbard</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Charlie McCarthy and ...
+</vraag><choice>
+<item goed="ja">Edgar Bergen</item>
+<item checked="checked">John Lennon</item>
+<item>Albert Einstein</item>
+<item>Louis Pasteur</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Blackjack is ...
+</vraag><choice>
+<item>related to Caucasian Tom</item>
+<item goed="ja" checked="checked">an ace and a face card</item>
+<item>a kind of car sold only in Fresno</item>
+<item>used by policemen</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+John Belushi was on ...
+</vraag><choice>
+<item checked="checked">Mr Rogers</item>
+<item>My Mother the Car</item>
+<item goed="ja">Saturday Night Live</item>
+<item>The PTL club</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Does a pair of queens beat three deuces?
+</vraag><choice>
+<item goed="ja" checked="checked">Yes, in blackjack</item>
+<item>No, in canasta</item>
+<item>Yes, in poker</item>
+<item>It depends on what the three deuces said</item>
+</choice>
+</exercise>
+
+</result>

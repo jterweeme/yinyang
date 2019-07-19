@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 /*
 Jasper ter Weeme 2019
@@ -22,50 +21,92 @@ if (!isset($_SESSION['username']))
     printf(redirect("login.php"));
     die();
 }
-?>
-<html lang="en">
-<head>
-<link rel="stylesheet" type="text/css" href="common.css"/>
-<title>Main</title>
-</head>
-<body>
-<header>
-<?php
+
+printf("<!DOCTYPE html>\r\n");
+printf("<html lang=\"en\">\r\n<head>\r\n");
+printf("<link rel=\"Shortcut Icon\" href=\"yinyang.svg\"/>\r\n");
+printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
+printf("<title>Main</title>\r\n</head>\r\n<body>\r\n<header>\r\n");
 printf("\t<a href=\"chpasswd.php\">Verander wachtwoord</a>\r\n");
 printf("\t<a href=\"logout.php\">Log out %s</a>\r\n", $_SESSION['username']);
-?>
-</header>
-<table>
-<caption>Exams</caption>
-<?php
+printf("</header>\r\n<table>\r\n<caption>Exams</caption>\r\n");
 $ar = scandir("exams");
+
+// open database connectie
+$handle = new SQLite3("yinyang.sqlite3");
+
+$query = sprintf("SELECT groupname FROM member WHERE username=\"%s\"", $_SESSION['username']);
+$resultset = $handle->query($query);
+$groups = [];
+
+while ($row = $resultset->fetchArray(1))
+    array_push($groups, $row['groupname']);
+
+function toegang($fn)
+{
+    if (isset($_SESSION['admin']))
+        return true;
+
+    global $handle;
+    $query = sprintf("SELECT groupname FROM assignment WHERE examfile=\"%s\"", $fn);
+    $resultset = $handle->query($query);
+    global $groups;
+
+    while ($row = $resultset->fetchArray(1))
+        if (in_array($row['groupname'], $groups, TRUE))
+            return true;
+
+    return false;
+}
 
 foreach ($ar as $fn)
 {
     $path = pathinfo($fn);
 
-    if (strcmp($path['extension'], "xml") == 0)
-    {
+    if (strcmp($path['extension'], "xml") != 0)
+        continue;
 
+    if (toegang($fn) == false)
+        continue;
+
+    $xml2 = new DOMDocument();
+    $path = sprintf("exams/%s", $fn);
+    $xml2->load($path);
+    $valid = $xml2->schemaValidate("exam.xsd");
+
+    if ($valid)
         printf("<tr>\r\n");
-        printf("\t<td>%s</td>\r\n", $fn);
-        $xml = simplexml_load_file("exams/" . $fn);
-        printf("\t<td>%s</td>\r\n", $xml->title[0]);
-        $qcnt = $xml->exercise->count();    // aantal vragen
-        printf("\t<td>%u</td>\r\n", $qcnt);
-        printf("\t<td><a href=\"startp.php?fn=%s\">Practice</a></td>\r\n", $fn);
-        printf("\t<td><a href=\"start.php?fn=%s\">Exam</a></td>\r\n", $fn);
-        printf("</tr>\r\n");
+    else
+        printf("<tr class=\"strike\">\r\n");
+
+    printf("\t<td>%s</td>\r\n", $fn);
+    $titleLmnt = $xml2->getElementsByTagName('title')->item(0);
+    printf("\t<td>%s</td>\r\n", $titleLmnt->textContent);
+    $exercises = $xml2->getElementsByTagName('exercise');
+    printf("\t<td>%u</td>\r\n", $exercises->length);
+    printf("\t<td>");
+    printf("<a href=\"startp.php?fn=%s\">Practice</a>", $fn);
+    printf("</td>\r\n");
+    printf("\t<td><a href=\"start.php?fn=%s\">Exam</a></td>\r\n", $fn);
+
+    if (isset($_SESSION['admin']))
+    {
+        printf("\t<td><a href=\"edit.php?fn=%s\">Edit</a></td>\r\n", $fn);
+        printf("\t<td><a href=\"view.php?fn=%s\">View</a></td>\r\n", $fn);
     }
+
+    printf("</tr>\r\n");
 }
 
 printf("</table>\r\n");
 
-// open database connectie
-$handle = new SQLite3("yinyang.sqlite3");
-
 if (isset($_SESSION['admin']))
 {
+    printf("<form method=\"get\">\r\n");
+    printf("<input value=\"*.xml\"/>\r\n");
+    printf("<input type=\"submit\" value=\"New\"/>\r\n");
+    printf("</form>\r\n");
+
     // users
     $query = "SELECT name FROM xuser";
     $users = $handle->query($query);
@@ -166,7 +207,12 @@ if (isset($_SESSION['admin']))
         printf("<tr>\r\n");
         printf("\t<td>%s</td>\r\n", $row['groupname']);
         printf("\t<td>%s</td>\r\n", $row['examfile']);
-        printf("\t<td><a href=\"#\">Delete</a></td>\r\n");
+        printf("\t<td>");
+
+        printf("<a href=\"admin.php?action=scrape&groupname=%s&fn=%s\">Delete</a>",
+            $row['groupname'], $row['examfile']);
+
+        printf("</td>\r\n");
         printf("</tr>\r\n");
     }
 
@@ -179,26 +225,37 @@ if (isset($_SESSION['admin']))
     $groupnames->reset();
     
     while ($row = $groupnames->fetchArray(1))
-        printf("<option>%s</option>\r\n", $row['name']);
+        printf("\t<option>%s</option>\r\n", $row['name']);
 
     printf("</select>\r\n<select name=\"fn\">\r\n");
     $users->reset();
 
     foreach ($ar as $fn)
     {
-        if (strcmp($fn, ".") == 0)
+        if (strcmp($fn, ".") == 0 || strcmp($fn, "..") == 0)
             continue;
 
-        if (strcmp($fn, "..") == 0)
-            continue;
-
-        printf("<option>%s</option>\r\n", $fn);
+        printf("\t<option>%s</option>\r\n", $fn);
     }
 
     printf("</select>\r\n");
     printf("<input type=\"submit\" value=\"Assign\"/>\r\n");
     printf("</form>\r\n");
-    printf("<table>\r\n<caption>Results</caption>\r\n</table>");
+    printf("<table>\r\n<caption>Results</caption>\r\n");
+
+    $ar = scandir("results");
+
+    foreach ($ar as $fn)
+    {
+        if (strcmp($fn, ".") == 0 || strcmp($fn, "..") == 0)
+            continue;
+
+        printf("<tr>\r\n");
+        printf("<td><a href=\"result.php?fn=%s\">%s</a></td>\r\n", $fn, $fn);
+        printf("</tr>\r\n");
+    }
+
+    printf("</table>\r\n");
 }
 
 printf("</body>\r\n</html>\r\n");

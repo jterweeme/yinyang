@@ -49,6 +49,18 @@ if (isset($_SESSION['admin']) && isset($_GET['action']))
         $db->close();
     }
 
+    // schrap examen
+    if (strcmp($_GET['action'], "scrape") == 0)
+    {
+        $db = new SQLite3("yinyang.sqlite3");
+
+        $query = sprintf("DELETE FROM assignment WHERE groupname=\"%s\" AND examfile=\"%s\";",
+            $_GET['groupname'], $_GET['fn']);
+
+        $result = $db->query($query);
+        $db->close();
+    }
+
     // trap gebruiker uit groep
     if (strcmp($_GET['action'], "kick") == 0)
     {

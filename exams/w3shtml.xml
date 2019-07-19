@@ -39,7 +39,8 @@ Choose the correct HTML element for the largest heading:
 
 <exercise type="single">
 <vraag>
-What is the correct HTML element for inserting a line break?
+What is the correct HTML element
+for inserting a line break?
 </vraag>
 <choice>
 <item>lb</item>
@@ -53,9 +54,9 @@ What is the correct HTML element for inserting a line break?
 What is the correct HTML for adding a background color?
 </vraag>
 <choice>
-<item>[background]yellow[/background]</item>
-<item goed="ja">[body style="background-color:yellow;"]</item>
-<item>[body bg="yellow"]</item>
+<item>&amp;lt;background&amp;gt;yellow&amp;lt;/background&amp;gt;</item>
+<item goed="ja">&amp;lt;body style="background-color:yellow;"&amp;gt;</item>
+<item>&amp;lt;body bg="yellow"&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -64,21 +65,22 @@ What is the correct HTML for adding a background color?
 Choose the correct HTML element to define important text
 </vraag>
 <choice>
-<item>i</item>
-<item>b</item>
-<item>strong</item>
-<item>important</item>
+<item>&amp;lt;i&amp;gt;</item>
+<item>&amp;lt;b&amp;gt;</item>
+<item goed="ja">&amp;lt;strong&amp;gt;</item>
+<item>&amp;lt;important&amp;gt;</item>
 </choice>
 </exercise>
 
 <exercise type="single">
 <vraag>
-Choose the correct HTML element to define emphasized text
+Choose the correct HTML element
+to define emphasized text
 </vraag>
 <choice>
-<item>i</item>
-<item>italic</item>
-<item goed="ja">em</item>
+<item>&amp;lt;i&amp;gt;</item>
+<item>&amp;lt;italic&amp;gt;</item>
+<item goed="ja">&amp;lt;em&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -87,10 +89,12 @@ Choose the correct HTML element to define emphasized text
 What is the correct HTML for creating a hyperlink?
 </vraag>
 <choice>
-<item>[a url="http://www.w3schools.com"]W3Schools.com[/a]</item>
-<item>[a]http://www.w3schools.com[/a]</item>
-<item>[a name="http://www.w3school.com"]W3Schools.com[/a]</item>
-<item goed="ja">[a href="http://www.w3schools.com"]W3Schools[/a]</item>
+<item>&amp;lt;a url="http://www.w3schools.com"&amp;gt;W3Schools.com&amp;lt;/a&amp;gt;</item>
+<item>&amp;lt;a&amp;gt;http://www.w3schools.com&amp;lt;/a&amp;gt;</item>
+<item>&amp;lt;a name="http://www.w3school.com"&amp;gt;W3Schools.com&amp;lt;/a&amp;gt;</item>
+<item goed="ja">
+&amp;lt;a href="http://www.w3schools.com"&amp;gt;W3Schools&amp;lt;/a&amp;gt;
+</item>
 </choice>
 </exercise>
 
@@ -100,8 +104,8 @@ Which character is used to indicate an end tag?
 </vraag>
 <choice>
 <item>^</item>
-<item goed="ja">[</item>
-<item>/</item>
+<item>&amp;lt;</item>
+<item goed="ja">/</item>
 <item>*</item>
 </choice>
 </exercise>
@@ -111,15 +115,15 @@ Which character is used to indicate an end tag?
 How can you open a link in a new tab/browser window?
 </vraag>
 <choice>
-<item>[a href="url" target="new"]</item>
-<item>[a href="url" target="_blank"]</item>
-<item>[a href="url" new]</item>
+<item>&amp;lt;a href="url" target="new"&amp;gt;</item>
+<item goed="ja">&amp;lt;a href="url" target="_blank"&amp;gt;</item>
+<item>&amp;lt;a href="url" new&amp;gt;</item>
 </choice>
 </exercise>
 
 <exercise type="single">
 <vraag>
-Which of these elements are all [table] elements?
+Which of these elements are all &lt;table&gt; elements?
 </vraag>
 <choice>
 <item>table tr tt</item>
@@ -168,10 +172,10 @@ How can you make a bulleted list?
 What is the correct HTML for making a checkbox?
 </vraag>
 <choice>
-<item goed="ja">[input type="checkbox"]</item>
-<item>[checkbox]</item>
-<item>[input type="check"]</item>
-<item>[check]</item>
+<item goed="ja">&amp;lt;input type="checkbox"&amp;gt;</item>
+<item>&amp;lt;checkbox&amp;gt;</item>
+<item>&amp;lt;input type="check"&amp;gt;</item>
+<item>&amp;lt;check&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -180,10 +184,10 @@ What is the correct HTML for making a checkbox?
 What is the correct HTML for making a text input field?
 </vraag>
 <choice>
-<item>[textinput type="text"]</item>
-<item goed="ja">[input type="text"]</item>
-<item>[textfield]</item>
-<item>[input type="textfield"]</item>
+<item>&amp;lt;textinput type="text"&amp;gt;</item>
+<item goed="ja">&amp;lt;input type="text"&amp;gt;</item>
+<item>&amp;lt;textfield&amp;gt;</item>
+<item>&amp;lt;input type="textfield"&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -192,10 +196,10 @@ What is the correct HTML for making a text input field?
 What is the correct HTML for making a drop-down list?
 </vraag>
 <choice>
-<item>[input type="dropdown"]</item>
-<item>[list]</item>
-<item goed="ja">[select]</item>
-<item>[input type="list"]</item>
+<item>&amp;lt;input type="dropdown"&amp;gt;</item>
+<item>&amp;lt;list&amp;gt;</item>
+<item goed="ja">&amp;lt;select&amp;gt;</item>
+<item>&amp;lt;input type="list"&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -204,9 +208,9 @@ What is the correct HTML for making a drop-down list?
 What is the correct HTML for making a text area?
 </vraag>
 <choice>
-<item>[input type="textbox"]</item>
-<item goed="ja">[textarea]</item>
-<item>[input type="textarea"]</item>
+<item>&amp;lt;input type="textbox"&amp;gt;</item>
+<item goed="ja">&amp;lt;textarea&amp;gt;</item>
+<item>&amp;lt;input type="textarea"&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -215,10 +219,10 @@ What is the correct HTML for making a text area?
 What is the correct HTML for inserting an image?
 </vraag>
 <choice>
-<item>[image src="image.gif" alt="MyImage"]</item>
-<item>[img alt="MyImage">image.gif[/img]</item>
-<item>[img href="image.gif" alt="MyImage"]</item>
-<item goed="ja">[img src="image.gif" alt="MyImage"]</item>
+<item>&amp;lt;image src="image.gif" alt="MyImage"&amp;gt;</item>
+<item>&amp;lt;img alt="MyImage"&amp;gt;image.gif&amp;lt;/img&amp;gt;</item>
+<item>&amp;lt;img href="image.gif" alt="MyImage"&amp;gt;</item>
+<item goed="ja">&amp;lt;img src="image.gif" alt="MyImage"&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -227,18 +231,18 @@ What is the correct HTML for inserting an image?
 What is the correct HTML for inserting a background image?
 </vraag>
 <choice>
-<item goed="ja">[body style="background-image:url(background.gif)"]</item>
-<item>[body bg="background.gif"]</item>
-<item>[background img="background.gif"]</item>
+<item goed="ja">&amp;lt;body style="background-image:url(background.gif)"&amp;gt;</item>
+<item>&amp;lt;body bg="background.gif"&amp;gt;</item>
+<item>&amp;lt;background img="background.gif"&amp;gt;</item>
 </choice>
 </exercise>
 
 <exercise type="single">
 <vraag>
-An [iframe] is used to display a web page within a web page.
+An &lt;iframe&gt; is used to display a web page within a web page.
 </vraag>
 <choice>
-<item>There is no such thing as an [iframe]</item>
+<item>There is no such thing as an &amp;lt;iframe&amp;gt;</item>
 <item goed="ja">True</item>
 <item>False</item>
 </choice>
@@ -246,7 +250,7 @@ An [iframe] is used to display a web page within a web page.
 
 <exercise type="single">
 <vraag>
-HTML comments start with [!-- and end with --]
+HTML comments start with &amp;lt;!-- and end with --&amp;gt;
 </vraag>
 <choice>
 <item goed="ja">True</item>
@@ -269,9 +273,9 @@ Block elements are normally displayed without starting a new line.
 Which HTML element defines the title of a document?
 </vraag>
 <choice>
-<item>[meta]</item>
-<item goed="ja">[title]</item>
-<item>[head]</item>
+<item>&amp;lt;meta&amp;gt;</item>
+<item goed="ja">&amp;lt;title&amp;gt;</item>
+<item>&amp;lt;head&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -294,27 +298,31 @@ Which doctype is correct for HTML5?
 </vraag>
 <choice>
 <item>
-[!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN" "http://www.w3.org/TR/html5/strict.dtd"]
+!&amp;lt;DOCTYPE HTML PUBLIC
+"-//W3C//DTD HTML 5.0//EN"
+"http://www.w3.org/TR/html5/strict.dtd"&amp;gt;
 </item>
-<item>[!DOCTYPE HTML5]</item>
-<item goed="ja">[!DOCTYPE html]</item>
+<item>&amp;lt;!DOCTYPE HTML5&amp;gt;</item>
+<item goed="ja">&amp;lt;!DOCTYPE html&amp;gt;</item>
 </choice>
 </exercise>
 
 <exercise type="single">
 <vraag>
-Which HTML element is used to specify a footer for a document or section?
+Which HTML element is used to specify
+a footer for a document or section?
 </vraag>
 <choice>
-<item>[section]</item>
-<item goed="ja">[footer]</item>
-<item>[bottom]</item>
+<item>&amp;lt;section&amp;gt;</item>
+<item goed="ja">&amp;lt;footer&amp;gt;</item>
+<item>&amp;lt;bottom&amp;gt;</item>
 </choice>
 </exercise>
 
 <exercise type="single">
 <vraag>
-In HTML, you can embed SVG elements directly into an HTML page.
+In HTML, you can embed SVG elements
+directly into an HTML page.
 </vraag>
 <choice>
 <item>False</item>
@@ -324,12 +332,13 @@ In HTML, you can embed SVG elements directly into an HTML page.
 
 <exercise type="single">
 <vraag>
-What is the correct HTML element for playing video files?
+What is the correct HTML
+element for playing video files?
 </vraag>
 <choice>
-<item goed="ja">[video]</item>
-<item>[movie]</item>
-<item>[media]</item>
+<item goed="ja">&amp;lt;video&amp;gt;</item>
+<item>&amp;lt;movie&amp;gt;</item>
+<item>&amp;lt;media&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -338,9 +347,9 @@ What is the correct HTML element for playing video files?
 What is the correct HTML element for playing audio files?
 </vraag>
 <choice>
-<item>[sound]</item>
-<item goed="ja">[audio]</item>
-<item>[mp3]</item>
+<item>&amp;lt;sound&amp;gt;</item>
+<item goed="ja">&amp;lt;audio&amp;gt;</item>
+<item>&amp;lt;mp3&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -387,7 +396,7 @@ Graphics defined by SVG is in which format?
 
 <exercise type="single">
 <vraag>
-The HTML [canvas] element is used to:
+The HTML &lt;canvas&gt; element is used to:
 </vraag>
 <choice>
 <item>manipulate data in MySQL</item>
@@ -418,19 +427,20 @@ Which input type defines a slider control?
 <item>slider</item>
 <item>search</item>
 <item>controls</item>
-<item>range</item>
+<item goed="ja">range</item>
 </choice>
 </exercise>
 
 <exercise type="single">
 <vraag>
-Which HTML element is used to display a scalar measurement within a range?
+Which HTML element is used to display
+a scalar measurement within a range?
 </vraag>
 <choice>
-<item>[measure]</item>
-<item>[range]</item>
-<item>[gauge]</item>
-<item>[meter]</item>
+<item>&amp;lt;measure&amp;gt;</item>
+<item>&amp;lt;range&amp;gt;</item>
+<item>&amp;lt;gauge&amp;gt;</item>
+<item goed="ja">&amp;lt;meter&amp;gt;</item>
 </choice>
 </exercise>
 
@@ -439,15 +449,15 @@ Which HTML element is used to display a scalar measurement within a range?
 Which HTML element defines navigation links?
 </vraag>
 <choice>
-<item>[navigation]</item>
-<item goed="ja">[nav]</item>
-<item>navigate</item>
+<item>&amp;lt;navigation&amp;gt;</item>
+<item goed="ja">&amp;lt;nav&amp;gt;</item>
+<item>&amp;lt;navigate&amp;gt;</item>
 </choice>
 </exercise>
 
 <exercise type="single">
 <vraag>
-In HTML, what does the [aside] element define?
+In HTML, what does the &amp;lt;aside&amp;gt; element define?
 </vraag>
 <choice>
 <item>
@@ -463,10 +473,10 @@ The ASCII character-set; to send information between computers on the Internet
 Which HTML element is used to specify a header for a document or section?
 </vraag>
 <choice>
-<item goed="ja">[header]</item>
-<item>[section]</item>
-<item>[top]</item>
-<item>[head]</item>
+<item goed="ja">&amp;lt;header&amp;gt;</item>
+<item>&amp;lt;section&amp;gt;</item>
+<item>&amp;lt;top&amp;gt;</item>
+<item>&amp;lt;head&amp;gt;</item>
 </choice>
 </exercise>
 

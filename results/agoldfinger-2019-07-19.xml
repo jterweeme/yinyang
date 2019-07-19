@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<result>
+<user>agoldfinger</user>
+<exam>test5.xml</exam>
+<date>2019-07-19</date>
+<score>0/13</score>
+<exercise type="single">
+<vraag>
+A 747 is ...
+</vraag><choice>
+<item>a perfect bowling score</item>
+<item>a cocktail</item>
+<item>a prime number</item>
+<item goed="ja">a large airplane</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who wrote "To be, or not to be?"
+</vraag><choice>
+<item>George Bernard Shaw</item>
+<item>Tennessee Williams</item>
+<item>Paul McCartney</item>
+<item goed="ja">Bill Shakespeare</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which U.S. President was not elected to office?
+</vraag><choice>
+<item goed="ja">Ford</item>
+<item>Cleveland</item>
+<item>Johnson</item>
+<item>Eisenhower</item>
+</choice>
+<toelichting>
+<toelichting>
+Gerald Ford werd president nadat Richard Nixon aftrad.
+</toelichting></toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Bourbon Street is in ...
+</vraag><choice>
+<item>Jackass Flats, Idaho</item>
+<item>Whiskeyville, Indiana</item>
+<item goed="ja">New Orleans, Louisiana</item>
+<item>"Monopoly"</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Who is not a sportscaster?
+</vraag><choice>
+<item>Frank Gifford</item>
+<item>Howard Cosell</item>
+<item goed="ja">Jayne Mansfield</item>
+<item>Jayne Kennedy</item>
+</choice>
+<toelichting>
+<toelichting>
+Jayne Mansfield was een Hollywood sex symbool tijdens
+de jaren '50 en begin jaren '60.
+</toelichting></toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+"Close Encounters of the Third Kind" is about ...
+</vraag><choice>
+<item>politics in third-world countries</item>
+<item>homo- and heterosexual sex</item>
+<item goed="ja">creatures from outer space</item>
+<item>a bicycle race across Alaska</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Blackjack is ...
+</vraag><choice>
+<item>a kind of car sold only in Fresno</item>
+<item goed="ja">an ace and a face card</item>
+<item>related to Caucasian Tom</item>
+<item>used by policemen</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+G. Gordon Liddy was associated with ...
+</vraag><choice>
+<item goed="ja">the Plumbers</item>
+<item>Calvin Klein</item>
+<item>the Mob</item>
+<item>Elizabeth Taylor</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+IBM stand for ...
+</vraag><choice>
+<item>Iranian Broom Makers</item>
+<item>Italian Branch of the Mafia</item>
+<item>Ittsy Bittsy Men</item>
+<item goed="ja">International Business Machines</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+The 1973 album "Dark Side of the Moon"
+was recorded by ...
+</vraag><choice>
+<item>Bad News</item>
+<item>the Grateful Dead</item>
+<item>Deep Purple</item>
+<item goed="ja">Pink Floyd</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Former Congressman Wilbur Mills went for a dip in the
+Tidal Basin with ...
+</vraag><choice>
+<item goed="ja">a stripper named Fanne</item>
+<item>nothing but his pride</item>
+<item>his dog Spot</item>
+<item>a 20-year-old secretary</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Mork was from the planet
+</vraag><choice>
+<item>Pluto</item>
+<item goed="ja">Ork</item>
+<item>Krypton</item>
+<item>Vulcan</item>
+</choice>
+<toelichting>
+<toelichting>
+Mork &amp; Mindy is an American sitcom that aired on ABC from
+September 14, 1978 to May 27, 1982. A spin-off after a highly
+successful episode of Happy Days, it starred Robin Williams as
+Mork, an extraterrestrial who comes to Earth from the planet Ork
+in a small, one-Orkan egg-shaped spaceship.
+
+https://en.wikipedia.org/wiki/Mork_%26_Mindy
+</toelichting></toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Which is not a currency
+</vraag><choice>
+<item>rupee</item>
+<item>lira</item>
+<item>yen</item>
+<item goed="ja">fennel</item>
+</choice>
+<toelichting>
+<toelichting>
+De yen is de munteenheid in Japan,
+de lira was dat in Italie, de rupee in India.
+Een fennel is een soort van wortel.
+</toelichting></toelichting>
+</exercise>
+
+</result>

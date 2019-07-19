@@ -1,7 +1,9 @@
 body
 {
+    margin-left: auto;
     width: 700px;
-    margin: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
     font-family: sans-serif;
 }
 
@@ -16,6 +18,10 @@ table {
 
 table tr td {
     border-bottom: 1px dotted black;
+}
+
+table tr.strike td {
+    text-decoration: line-through;
 }
 
 .toelichting {

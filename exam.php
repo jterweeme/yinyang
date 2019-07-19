@@ -66,13 +66,13 @@ if (strcmp($qtype, "single") == 0)
         $checked = "";
 
         if (isset($_SESSION['answers'][$q]))
-            if ($_SESSION['answers'][$q] == $n)
+            if ($_SESSION['answers'][$q] == $n + 1)
                 $checked = "checked";
 
         printf("<input id=\"r%u\" type=\"radio\" value=\"%u\" name=\"choice\" %s/>\r\n",
-            $n, $n, $checked);
+            $n + 1, $n + 1, $checked);
 
-        printf("<label for=\"r%u\">%s</label>\r\n</p>\r\n", $n, $item);
+        printf("<label for=\"r%u\">%s</label>\r\n</p>\r\n", $n + 1, $item);
     }
 }
 

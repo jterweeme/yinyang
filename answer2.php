@@ -7,7 +7,10 @@ session_start();
 
 $q = $_SESSION['q'];    // huidig vraagnummer
 $qx = $_SESSION['map'][$q]; // huidige vraagnummer in xml
-$xml = simplexml_load_file("exams/" . $_SESSION['fn']);
+$path = sprintf("exams/%s", $_SESSION['fn']);
+$xml = simplexml_load_file($path);
+//$xml2 = new DOMDocument();
+//$xml2->load($path);
 $exercise = $xml->exercise[$qx];
 $qtype = $exercise['type'];
 
@@ -42,17 +45,25 @@ if (strcmp($qtype, "single") == 0)
         $item = $exercise->choice->item[$n];
         $checked = "";
 
-        if ($n == $a)
-            $checked = "checked";
+        if (isset($a))
+            if ($n == $a - 1)
+                $checked = "checked";
 
         printf("<p>\r\n<input disabled type=\"radio\" %s/>\r\n", $checked);
 
         if (isset($exercise->choice->item[$n]['goed']))
+        {
             printf("<label class=\"groen\">");
-        else if ($n == $a)
-            printf("<label class=\"rood\">");
+        }
+        else if (isset($a))
+        {
+            if ($n == $a - 1)
+                printf("<label class=\"rood\">");
+        }
         else
+        {
             printf("<label>");
+        }
 
         printf("%s</label>\r\n</p>\r\n", $item);
     }
