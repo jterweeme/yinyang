@@ -33,6 +33,10 @@ per behuizing en is ook niet essentieel voor het gebruik van de
 computer.
 </p>
 </toelichting>
+<tags>
+<tag>hoofdstuk1</tag>
+<tag>case</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 2 -->
@@ -61,6 +65,7 @@ Een videokaart zal aangesloten worden op een PCIe, AGP of PCI slot.
 </p>
 </toelichting>
 <tags>
+<tag>hoofdstuk1</tag>
 <tag>floppy drive</tag>
 <tag>PATA</tag>
 <tag>optical drive</tag>
@@ -82,6 +87,11 @@ electrons moving through a circuit per second?
 <item>resistance</item>
 <item>power</item>
 </choice>
+<tags>
+<tag>hoofdstuk1</tag>
+<tag>electricity</tag>
+<tag>physics</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 4 -->
@@ -100,6 +110,10 @@ the work required to move electrons through a circuit multiplied
 by the number of electrons flowing through a circuit per second
 </item>
 </choice>
+<tags>
+<tag>hoofdstuk1</tag>
+<tag>electricity</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 5 -->
@@ -124,6 +138,7 @@ Dit is uiteraard ongeschikt als cache geheugen, maar wordt gebruikt om
 firmware zoals het BIOS in op te slaan.
 </toelichting>
 <tags>
+<tag>hoofdstuk1</tag>
 <tag>cache geheugen</tag>
 <tag>DRAM</tag>
 <tag>ROM</tag>
@@ -154,6 +169,7 @@ Ook is een netwerkkaart al jarenlang erg smal, zoals de kaart in de
 afbeelding.
 </toelichting>
 <tags>
+<tag>hoofdstuk1</tag>
 <tag>RJ45</tag>
 <tag>RAID</tag>
 <tag>video</tag>
@@ -172,6 +188,10 @@ CPU and other components on the motherboard?
 <item>CMOS</item>
 <item goed="ja">Chipset</item>
 </choice>
+<tags>
+<tag>hoofdstuk1</tag>
+<tag>motherboard</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 8 -->

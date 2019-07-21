@@ -16,6 +16,7 @@ if (!isset($_GET['fn']))
 
 $_SESSION['q'] = 0;             // vraagteller, eerste vraag
 $_SESSION['fn'] = $_GET['fn'];  // filename
+$_SESSION['mode'] = "exam";
 $path = sprintf("exams/%s", $_SESSION['fn']);
 $xml = simplexml_load_file($path);
 $qcnt = $xml->exercise->count();    // aantal vragen in xml file
@@ -29,34 +30,41 @@ $n = 0;
 foreach ($map as $foo)
 {
     $exercise = $xml->exercise[$foo];
-    $n_items = $exercise->choice->item->count();    // number of items
-    $arr = range(0, $n_items - 1);
-    shuffle($arr);
-    $_SESSION['ans_map'][$n] = $arr;
+
+    if (strcmp($exercise['type'], "single") == 0)
+    {
+        $n_items = $exercise->choice->item->count();    // number of items
+        $arr = range(0, $n_items - 1);
+        shuffle($arr);
+        $_SESSION['ans_map'][$n] = $arr;
+        $_SESSION['answers'][$n] = 0;
+    }
+    else if (strcmp($exercise['type'], "multi") == 0)
+    {
+        $n_items = $exercise->choice->item->count();
+        $arr = range(0, $n_items - 1);
+        shuffle($arr);
+        $_SESSION['ans_map'][$n] = $arr;
+        $_SESSION['answers'][$n] = array_fill(0, $n_items, 0);
+    }
     $n++;
 }
 
-printf("<html>\r\n<head>\r\n<title>Start</title>\r\n");
+printf("<html lang=\"en\">\r\n<head>\r\n<title>Start</title>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
 printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End exam</a>\r\n");
 printf("<a href=\"logout.php\">\r\n");
 printf("Log out %s", $_SESSION['username']);
-?>
-</a>
-</header>
-<h1>Exam</h1>
-<?php
-
+printf("</a></header><h1>Exam</h1>\r\n");
 printf("<h2>%u vragen</h2>\r\n", $qcnt);
+printf("<a href=\"exam.php\">Start</a>\r\n");
 
-/*
+// debug
 printf("<pre>\r\n");
-print_r($map);
+print_r($_SESSION);
 printf("</pre>\r\n");
-*/
+
+printf("</body>\r\n</html>\r\n");
 ?>
-<a href="exam.php">Start</a>
-</body>
-</html>
 
 

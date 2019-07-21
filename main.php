@@ -10,6 +10,7 @@ include 'common.php';
 unset($_SESSION['q']);
 unset($_SESSION['qcnt']);
 unset($_SESSION['map']);
+unset($_SESSION['mode']);
 unset($_SESSION['fn']);
 unset($_SESSION['ans_map']);
 unset($_SESSION['array']);
@@ -252,6 +253,15 @@ if (isset($_SESSION['admin']))
 
         printf("<tr>\r\n");
         printf("<td><a href=\"result.php?fn=%s\">%s</a></td>\r\n", $fn, $fn);
+
+        $path = sprintf("results/%s", $fn);
+        $xml = new DOMDocument();
+        $xml->load($path);
+        $exam = $xml->getElementsByTagName("exam")->item(0);
+        printf("<td>%s</td>\r\n", $exam->textContent);
+        $score = $xml->getElementsByTagName("score")->item(0);
+        printf("<td>%s</td>\r\n", $score->textContent);
+
         printf("</tr>\r\n");
     }
 

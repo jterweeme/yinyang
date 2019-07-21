@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <exam>
-<title>IT Essentials (ITE v6.0)</title>
+<title>IT Essentials (ITE v6.0) Snapshot</title>
 
 <!-- Hoofdstuk 1 -->
 <!-- Vraag 1 -->
-<!--
 <exercise type="multi">
 <vraag>
 What are two factors that must be considered when choosing
@@ -35,7 +34,6 @@ computer.
 </p>
 </toelichting>
 </exercise>
--->
 
 <!-- Vraag 2 -->
 <exercise type="single">

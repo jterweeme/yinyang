@@ -137,6 +137,9 @@ BNP, die in de economie wordt gebruikt?
 <item>Binnenlands</item>
 <item>Belastbaar</item>
 </choice>
+<toelichting>
+Bruto Nationaal Product
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -213,6 +216,11 @@ als je aan het 'dissen' bent?
 <item>Paradijsvogel</item>
 <item>Spotvogel</item>
 </choice>
+<toelichting>
+Nederlandse zeelui gaven de dodo deze naam omdat hij zo vies
+smaakte. Het jaartal van uitsterven wordt het vaakst als 1662
+genoemd.
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -397,6 +405,10 @@ treft men NIET aan in Oost-Afrika?
 <item goed="ja" checked="checked">Toendra</item>
 <item>Steppe</item>
 </choice>
+<toelichting>
+Toendra vindt men in het uiterste noorden van de wereld,
+waar de grond permanent bevroren is.
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -594,6 +606,16 @@ ere van ABBA in Stockholm geopend?
 <item>Nylon kousen</item>
 <item>Elektrische stofzuiger</item>
 </choice>
+<toelichting>
+<p>
+De eerste nylon kousen werden verkocht op
+27 oktober 1939, in Wilmington, Delaware.
+</p>
+<p>
+In 1907, James Murray Spangler uit Canton, Ohio
+vond de eerste elektrische stofzuiger uit.
+</p>
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -641,6 +663,10 @@ Schindler, hoofdpersoon uit de film 'Schindler's List'?
 <item goed="ja" checked="checked">070</item>
 <item>030</item>
 </choice>
+<toelichting>
+010 = Rotterdam
+030 = Utrecht
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -843,6 +869,11 @@ Fleetwood Macnummer met de tekst 'Don't stop ...?'
 <item>Me now</item>
 <item>'Til you get enough</item>
 </choice>
+<toelichting>
+"Don't stop me now" is van Queen.
+"Don't stop 'til you get enough" is van Michael Jackson.
+"Don't stop thinking about tomorrow" is van Fleetwood Mac.
+</toelichting>
 </exercise>
 
 <exercise type="single">
