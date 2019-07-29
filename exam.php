@@ -48,23 +48,23 @@ if (isset($_POST['button']))
     }
 }
 
-$q = $_SESSION['q'];
+$q = $_SESSION['q'];    // nummer van vraag
 $qx = $_SESSION['map'][$q]; // nummer van vraag in XML
 $exercise = $xml->exercise[$qx];
 $qtype = $exercise['type'];
+
+printf("<html lang=\"en\">\r\n<head>\r\n<title>Exam</title>\r\n");
 ?>
-<html lang="en">
-<head>
-<title>Practice</title>
 <link rel="stylesheet" type="text/css" href="common.css"/>
 </head>
 <body>
 <?php
 //print_r($_SESSION);
 
+// header
 printf("<header>\r\n");
 printf("<a href=\"main.php\">End exam</a>\r\n");
-printf("<a href=\"logout.php\">Log out %s</a>", $_SESSION['username']);
+printf("<a href=\"logout.php\">Log out %s</a>\r\n", $_SESSION['username']);
 printf("</header>\r\n");
 
 // progress
@@ -72,7 +72,7 @@ printf("<p>%u/%u <progress max=\"%u\" value=\"%u\">%u/%u</progress></p>\r\n",
     $q + 1, $_SESSION['qcnt'], $_SESSION['qcnt'], $q + 1, $q + 1, $_SESSION['qcnt']);
 
 printf("<h1>Exam</h1>\r\n");
-printf("<p>\r\n%s\r\n</p>\r\n", $exercise->vraag->asXML());
+printf("<p>\r\n%s\r\n</p>\r\n", innerCode($exercise->vraag, "vraag"));
 printf("<form method=\"post\">\r\n");
 
 // single antwoord vragen

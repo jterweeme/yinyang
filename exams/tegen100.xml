@@ -457,6 +457,18 @@ van Marco Polo beschreven worden bekend?
 <tags>
 <tag>geschiedenis</tag>
 </tags>
+<toelichting>
+Book of the Marvels of the World (French: Livre des Merveilles du Monde) or
+"Description of the World" (Devisement du Monde), in Italian "Il Milione"
+(lit. The Million, deriving from Polo's nickname "Emilione") or "Oriente
+Poliano" ("Polian East") and in English commonly called "The Travels of
+Marco Polo", is a 13th-century travelogue written down by Rustichello da
+Pisa from stories told by Italian explorer Marco Polo, describing Polo's
+travels through Asia between 1271 and 1295, and his experiences at the
+court of Kublai Khan.
+
+https://en.wikipedia.org/wiki/The_Travels_of_Marco_Polo
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -1072,7 +1084,7 @@ Wallis, Schaffhausen en Sankt Gallen?
 <vraag>
 <!--
 <p>2008</p>
-<p>#243</p>
+<p>afl. #243</p>
 <p>Cees Poppe</p>
 <p>Dieren</p>
 -->
@@ -1095,7 +1107,8 @@ een van de bekendste vleesetende dinosauriers?
 <vraag>
 <!--
 <p>2008</p>
-<p>#243</p>
+<p>afl. #243</p>
+<p>Cees Poppe</p>
 <p>Literatuur</p>
 -->
 <p>
@@ -1117,7 +1130,8 @@ de bestseller van Khaled Hosseini?
 <vraag>
 <!--
 <p>2008</p>
-<p>#243</p>
+<p>afl. #243</p>
+<p>Cees Poppe</p>
 <p>Economie</p>
 -->
 <p>
@@ -1136,7 +1150,8 @@ een coach begeleid en opgeleid wordt?
 <vraag>
 <!--
 <p>2008</p>
-<p>#243</p>
+<p>afl. #243</p>
+<p>Cees Poppe</p>
 <p>Literatuur</p>
 -->
 <p>
@@ -1148,6 +1163,46 @@ en Rolf naar de Oost?
 <item>Jan de Witt</item>
 <item goed="ja">Willem Bontekoe</item>
 <item>Michiel de Ruyter</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>afl. #243</p>
+<p>Cees Poppe</p>
+<p>Cultuur</p>
+-->
+<p>
+Hoe wordt de Chinese bewegingsleer genoemd
+die gebasseerd is op gevechtshandelingen?
+</p>
+</vraag>
+<choice>
+<item goed="ja">Tai Chi</item>
+<item>Feng shui</item>
+<item>Jiujitsu</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!--
+<p>2008</p>
+<p>afl. #243</p>
+<p>Cees Poppe</p>
+<p>Taal</p>
+-->
+<p>
+Waar ligt de klemtoon in het
+volgende woord, volgens Van Dale?
+</p>
+</vraag>
+<choice>
+<item>NOR-maliter</item>
+<item goed="ja">Nor-MA-liter</item>
+<item>Norma-LI-ter</item>
 </choice>
 </exercise>
 

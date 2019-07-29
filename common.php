@@ -8,6 +8,21 @@ function redirect($target)
 
     return $ret;
 }
+
+// workaround
+function innerCode($xml, $tag)
+{
+    $ret = $xml->asXML();
+    $xmllen = strlen($ret);
+    $taglen = strlen($tag);
+    $prelen = $taglen + 3;
+    $postlen = $taglen + 4;
+    $cutlen = $prelen + $postlen;
+    return substr($ret, $prelen, $xmllen - $cutlen);
+    return $xml->asXML();
+}
+
+
 ?>
 
 

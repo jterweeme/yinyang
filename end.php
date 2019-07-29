@@ -66,8 +66,21 @@ foreach ($map as $foo)
 
 $date = date("Y-m-d");
 
+$path = "";
+$nr = 0;
+
+while (true)
+{
+    $path = sprintf("results/%s-%s-%d.xml", $_SESSION['username'], $date, $nr);
+
+    if (!file_exists($path))
+        break;
+
+    $nr++;
+}
+
 // write results file
-$path = sprintf("results/%s-%s.xml", $_SESSION['username'], $date);
+//$path = sprintf("results/%s-%s.xml", $_SESSION['username'], $date);
 $fp = fopen($path, 'w');
 fwrite($fp, "<?xml version=\"1.0\"?>\n");
 fwrite($fp, "<result>\n");

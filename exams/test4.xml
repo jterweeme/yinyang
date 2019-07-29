@@ -132,5 +132,47 @@ firmware zoals het BIOS in op te slaan.
 </tags>
 </exercise>
 
+<!-- Vraag 24 -->
+<exercise type="dragdrop">
+<vraag>
+Drag the description on left to its RAID level on the right.
+</vraag>
+<drag>
+    <choice>
+        <item xid="striping">data striping without redundancy</item>
+        <item xid="performance">highest performance</item>
+        <item xid="mirroring">disk mirroring</item>
+        <item xid="duplication">
+highest performance and high protection because all data is duplicated
+        </item>
+        <item xid="combi">combination of data striping and parity</item>
+        <item xid="rebuild">
+ability of data to be rebuilt with information from the other drives
+        </item>
+    </choice>
+    <drop>
+        <p>RAID 0</p>
+        <ul>
+            <li ref="striping"/>
+            <li ref="performance"/>
+        </ul>
+        <p>RAID 1</p>
+        <ul>
+            <li ref="mirroring"/>
+            <li ref="performance"/>
+        </ul>
+        <p>RAID 5</p>
+        <ul>
+            <li ref="combi"/>
+            <li ref="rebuild"/>
+        </ul>
+    </drop>
+</drag>
+<tags>
+<tag>hoofdstuk1</tag>
+<tag>RAID</tag>
+</tags>
+</exercise>
+
 </exam>
 

@@ -21,20 +21,29 @@
 
 <exercise type="dragdrop">
 <vraag>
-<p>7 oktober 2006 vliegensvlugge vraag</p>
-<p>
-Zet deze woorden uit de hit van
-Robbie Williams in de juiste volgorde
-</p>
+    <p>7 oktober 2006 vliegensvlugge vraag</p>
+    <p>
+        Zet deze woorden uit de hit van
+        Robbie Williams in de juiste volgorde
+    </p>
 </vraag>
-<ol>
-<li>Let</li>
-<li>Me</li>
-<li>Entertain</li>
-<li>You</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="entertain">Entertain</item>
+        <item xid="let">Let</item>
+        <item xid="you">You</item>
+        <item xid="me">Me</item>
+    </choice>
+    <drop>
+        <ul><li ref="let"/></ul>
+        <ul><li ref="me"/></ul>
+        <ul><li ref="entertain"/></ul>
+        <ul><li ref="you"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>muziek</tag>
+    <tag>muziek</tag>
 </tags>
 </exercise>
 
@@ -58,18 +67,18 @@ Wat is een typische snack voor veel zwangere vrouwen?
 
 <exercise type="single">
 <vraag>
-<p>7 oktober 2006: $50</p>
-<p>Hoe noemen we een grootse en enthousiast applaus?</p>
+    <p>7 oktober 2006: $50</p>
+    <p>Hoe noemen we een grootse en enthousiast applaus?</p>
 </vraag>
 <choice>
-<item>Obstipatie</item>
-<item goed="ja">Ovatie</item>
-<item>Oratie</item>
-<item>Ovulatie</item>
+    <item>Obstipatie</item>
+    <item goed="ja">Ovatie</item>
+    <item>Oratie</item>
+    <item>Ovulatie</item>
 </choice>
 <tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
+    <tag>nederlands</tag>
+    <tag>taal</tag>
 </tags>
 <toelichting>
 Obstipatie is verstopping (van de darmen).
@@ -145,26 +154,28 @@ Sil vous plait
 <tag>voetbal</tag>
 </tags>
 <toelichting>
+<pre>
        1998: Nederland
        2002: Zuid-Korea
 22/JUL/2005: Australie
  1/AUG/2010: Turkije
+</pre>
 </toelichting>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>7 oktober 2006: $2,000</p>
-<p>
-Met wie is Paul McCartney op dit moment
-in een echtscheidingsstrijd verwikkeld?
-</p>
+    <p>7 oktober 2006: $2,000</p>
+    <p>
+        Met wie is Paul McCartney op dit moment
+        in een echtscheidingsstrijd verwikkeld?
+    </p>
 </vraag>
 <choice>
-<item goed="ja">Heather Mills</item>
-<item>Linda Eastman</item>
-<item>Jennifer Saunders</item>
-<item>Christy Turlington</item>
+    <item goed="ja">Heather Mills</item>
+    <item>Linda Eastman</item>
+    <item>Jennifer Saunders</item>
+    <item>Christy Turlington</item>
 </choice>
 <tags>
 <tag>muziek</tag>
@@ -196,20 +207,20 @@ zwaaien bij onveilige situaties tijdens de race?
 
 <exercise type="single">
 <vraag>
-<p>7 oktober 2006: $8,000</p>
-<p>
-Welk van de volgende woorden is geen
-vertaling van het woord woensdag?
-</p>
+    <p>7 oktober 2006: $8,000</p>
+    <p>
+        Welk van de volgende woorden is geen
+        vertaling van het woord woensdag?
+    </p>
 </vraag>
 <choice>
-<item>Mercredi</item>
-<item>Mittwoch</item>
-<item>Miercoles</item>
-<item goed="ja">Martedi</item>
+    <item>Mercredi</item>
+    <item>Mittwoch</item>
+    <item>Miercoles</item>
+    <item goed="ja">Martedi</item>
 </choice>
 <tags>
-<tag>taal</tag>
+    <tag>taal</tag>
 </tags>
 <toelichting>
 Mercredi is Frans voor woensdag.
@@ -277,23 +288,40 @@ in 1933, World Trade Center ook niet meer in 2005.
 
 <exercise type="dragdrop">
 <vraag>
-<p>2 december 2006: vliegensvlugge vraag</p>
-<p>
-Zet deze voetbalclubs waar Patrick Kluivert
-gespeeld heeft in chronologische volgorde.
-</p>
+    <p>2 december 2006: vliegensvlugge vraag</p>
+    <p>
+        Zet deze voetbalclubs waar Patrick Kluivert
+        gespeeld heeft in chronologische volgorde.
+    </p>
 </vraag>
-<ol>
-<li>Ajax</li>
-<li>AC Milan</li>
-<li>Barcelona</li>
-<li>PSV</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="acmilan">AC Milan</item>
+        <item xid="barcelona">Barcelona</item>
+        <item xid="ajax">Ajax</item>
+        <item xid="psv">PSV</item>
+    </choice>
+    <drop>
+        <ul><li ref="ajax"/></ul>
+        <ul><li ref="acmilan"/></ul>
+        <ul><li ref="barcelona"/></ul>
+        <ul><li ref="psv"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>nederlands</tag>
-<tag>sport</tag>
-<tag>voetbal</tag>
+    <tag>nederlands</tag>
+    <tag>sport</tag>
+    <tag>voetbal</tag>
 </tags>
+<toelichting>
+<pre>
+Ajax: 1994-1997
+AC Milan: 1997-1998
+Barcelona: 1998-2004
+PSV: 2004-?
+</pre>
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -359,19 +387,48 @@ personage Spock uit de tv-serie 'Star Trek'?
 
 <exercise type="single">
 <vraag>
-<p>2 december 2006: $250</p>
-<p>
-Welk eiland ligt tussen Ierland en het Europese vasteland?
-</p>
+    <p>2 december 2006: $250</p>
+    <p>
+        Welk eiland ligt tussen Ierland
+        en het Europese vasteland?
+    </p>
 </vraag>
 <choice>
-<item>Groenland</item>
-<item>Nova Zembla</item>
-<item>Corsica</item>
-<item goed="ja">Groot-Brittannie</item>
+    <item>Groenland</item>
+    <item>Nova Zembla</item>
+    <item>Corsica</item>
+    <item goed="ja">Groot-Brittannie</item>
 </choice>
 <tags>
 <tag>geografie</tag>
+</tags>
+</exercise>
+
+<exercise type="dragdrop">
+<vraag>
+    <p>20 januari 2007: vvv</p>
+    <p>
+        Zet deze woorden uit de titel van een
+        Amerikaanse soapserie in de juiste volgorde.
+    </p>
+</vraag>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="the">The</item>
+        <item xid="world">World</item>
+        <item xid="turns">Turns</item>
+        <item xid="as">As</item>
+    </choice>
+    <drop>
+        <ul><li ref="as"/></ul>
+        <ul><li ref="the"/></ul>
+        <ul><li ref="world"/></ul>
+        <ul><li ref="turns"/></ul>
+    </drop>
+</drag>
+<tags>
+    <tag>televisie</tag>
 </tags>
 </exercise>
 
@@ -394,20 +451,21 @@ Welk eiland ligt tussen Ierland en het Europese vasteland?
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $50</p>
-<p>
-Hoe heet de 112 meter hoge kerktoren in Utrecht in de volksmond?
-</p>
+    <p>20 januari 2007: $50</p>
+    <p>
+        Hoe heet de 112 meter hoge kerktoren
+        in Utrecht in de volksmond?
+    </p>
 </vraag>
 <choice>
-<item>De Zot</item>
-<item>De Stom</item>
-<item>De Dwaas</item>
-<item goed="ja">De Dom</item>
+    <item>De Zot</item>
+    <item>De Stom</item>
+    <item>De Dwaas</item>
+    <item goed="ja">De Dom</item>
 </choice>
 <tags>
-<tag>gebouwen</tag>
-<tag>nederlands</tag>
+    <tag>gebouwen</tag>
+    <tag>nederlands</tag>
 </tags>
 </exercise>
 
@@ -431,18 +489,18 @@ Hoe heet de 112 meter hoge kerktoren in Utrecht in de volksmond?
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $250</p>
-<p>Wat hebben brutalen volgens het spreekwoord?</p>
+    <p>20 januari 2007: $250</p>
+    <p>Wat hebben brutalen volgens het spreekwoord?</p>
 </vraag>
 <choice>
-<item goed="ja">De halve wereld</item>
-<item>Veel vrouwen</item>
-<item>Een dikke huid</item>
-<item>Het meeste geld</item>
+    <item goed="ja">De halve wereld</item>
+    <item>Veel vrouwen</item>
+    <item>Een dikke huid</item>
+    <item>Het meeste geld</item>
 </choice>
 <tags>
-<tag>spreekwoord</tag>
-<tag>nederlands</tag>
+    <tag>spreekwoord</tag>
+    <tag>nederlands</tag>
 </tags>
 </exercise>
 
@@ -467,22 +525,22 @@ kleine, min of meer nutteloze voorwerpen?
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $1,000</p>
-<p>
-Hoe heet de kaalhoofdige parlementaire
-verslaggever van het 'RTL Nieuws'?
-</p>
+    <p>20 januari 2007: $1,000</p>
+    <p>
+        Hoe heet de kaalhoofdige parlementaire
+        verslaggever van het 'RTL Nieuws'?
+    </p>
 </vraag>
 <choice>
-<item>Ferry Mingelen</item>
-<item>Roelof Hemmen</item>
-<item>Karel van de Graaf</item>
-<item goed="ja">Frits Wester</item>
+    <item>Ferry Mingelen</item>
+    <item>Roelof Hemmen</item>
+    <item>Karel van de Graaf</item>
+    <item goed="ja">Frits Wester</item>
 </choice>
 <tags>
-<tag>televisie</tag>
-<tag>politiek</tag>
-<tag>nederlands</tag>
+    <tag>televisie</tag>
+    <tag>politiek</tag>
+    <tag>nederlands</tag>
 </tags>
 </exercise>
 
@@ -507,11 +565,14 @@ In welke sport is de 147 kilo zware Shaquille
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $4,000</p>
-<p>
-Welke boyband scoorde eind 2006 met 'Patience' voor het
-eerst in tien jaar weer een nummer 1-hit in Engeland?
-</p>
+    <p>20 januari 2007: $4,000</p>
+<!--
+    <p>Jord de Boer</p>
+-->
+    <p>
+        Welke boyband scoorde eind 2006 met 'Patience' voor het
+        eerst in tien jaar weer een nummer 1-hit in Engeland?
+    </p>
 </vraag>
 <choice>
 <item>Backstreet Boys</item>
@@ -526,26 +587,29 @@ eerst in tien jaar weer een nummer 1-hit in Engeland?
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $8,000</p>
-<p>
-Hoe wordt de maand april ook wel genoemd?
-</p>
+<!--
+    <p>20 januari 2007: $8,000</p>
+    <p>Jord de Boer</p>
+-->
+    <p>Hoe wordt de maand april ook wel genoemd?</p>
 </vraag>
 <choice>
-<item goed="ja">Grasmaand</item>
-<item>Slachtmaand</item>
-<item>Hooimaand</item>
-<item>Sprokkelmaand</item>
+    <item goed="ja">Grasmaand</item>
+    <item>Slachtmaand</item>
+    <item>Hooimaand</item>
+    <item>Sprokkelmaand</item>
 </choice>
 <tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
+    <tag>nederlands</tag>
+    <tag>taal</tag>
 </tags>
 <toelichting>
+<pre>
 Februari Sprokkelmaand.
 April Grasmaand.
 Juli Hooimaand.
 November Slachtmaand.
+</pre>
 </toelichting>
 </exercise>
 
@@ -568,77 +632,113 @@ November Slachtmaand.
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $32,000</p>
-<p>
-Wie was, voordat hij president van de
-Verenigde Staten werd, pindaboer van beroep?
-</p>
+    <p>20 januari 2007: $32,000</p>
+    <p>
+        Wie was, voordat hij president van de
+        Verenigde Staten werd, pindaboer van beroep?
+    </p>
 </vraag>
 <choice>
-<item goed="ja">Jimmy Carter</item>
-<item>Gerald Ford</item>
-<item>Ronald Reagan</item>
-<item>Bill Clinton</item>
+    <item goed="ja">Jimmy Carter</item>
+    <item>Gerald Ford</item>
+    <item>Ronald Reagan</item>
+    <item>Bill Clinton</item>
 </choice>
 <tags>
-<tag>politiek</tag>
+    <tag>politiek</tag>
 </tags>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $64,000</p>
-<p>
-Welke bekende vrouw stond in 1983 naakt in het
-eerste nummer van de Nederlandse 'Playboy'?
-</p>
+    <p>20 januari 2007: $64,000</p>
+    <p>
+        Welke bekende vrouw stond in 1983 naakt in het
+        eerste nummer van de Nederlandse 'Playboy'?
+    </p>
 </vraag>
 <choice>
-<item>Viola Holt</item>
-<item goed="ja">Jerney Kaagman</item>
-<item>Patricia Paay</item>
-<item>Tatjana Simic</item>
+    <item>Viola Holt</item>
+    <item goed="ja">Jerney Kaagman</item>
+    <item>Patricia Paay</item>
+    <item>Tatjana Simic</item>
 </choice>
 <tags>
-<tag>media</tag>
-<tag>nederlands</tag>
+    <tag>media</tag>
+    <tag>nederlands</tag>
 </tags>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $125,000</p>
-<p>Wie is de beschermheilige van de stad Amsterdam?</p>
+    <p>20 januari 2007: $125,000</p>
+    <p>Wie is de beschermheilige van de stad Amsterdam?</p>
 </vraag>
 <choice>
-<item>Sint Maarten</item>
-<item>Sint Petrus</item>
-<item goed="ja">Sint Nicolaas</item>
-<item>Sint Servaas</item>
+    <item>Sint Maarten</item>
+    <item>Sint Petrus</item>
+    <item goed="ja">Sint Nicolaas</item>
+    <item>Sint Servaas</item>
 </choice>
 <tags>
-<tag>nederlands</tag>
+    <tag>nederlands</tag>
 </tags>
+</exercise>
+
+<exercise type="dragdrop">
+<vraag>
+    <p>20 januari 2007: vvv</p>
+    <p>
+        Zet deze vrouwelijke leden van het Honinklijk Huis
+        op volgorde van leeftijd en begin bij de jongste.
+    </p>
+</vraag>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="maxima">Maxima</item>
+        <item xid="alexia">Alexia</item>
+        <item xid="margriet">Margriet</item>
+        <item xid="beatrix">Beatrix</item>
+    </choice>
+    <drop>
+        <ul><li ref="alexia"/></ul>
+        <ul><li ref="maxima"/></ul>
+        <ul><li ref="margriet"/></ul>
+        <ul><li ref="beatrix"/></ul>
+    </drop>
+</drag>
+<tags>
+    <tag>monarchie</tag>
+</tags>
+<toelichting>
+<pre>
+Alexia 2005
+Maxima 1971
+Margriet 1943
+Beatrix 1938
+</pre>
+</toelichting>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $25</p>
-<p>
-Hoe gaat het volgens de zegswijze als
-alles loopt zoals het moet verlopen?
-</p>
+    <p>20 januari 2007: $25</p>
+    <p>
+        Hoe gaat het volgens de zegswijze als
+        alles loopt zoals het moet verlopen?
+    </p>
 </vraag>
 <choice>
-<item>Z'n halletje</item>
-<item>Z'n tunneltje</item>
-<item goed="ja">Z'n gangetje</item>
-<item>Z'n vestibuletje</item>
+    <item>Z'n halletje</item>
+    <item>Z'n tunneltje</item>
+    <item goed="ja">Z'n gangetje</item>
+    <item>Z'n vestibuletje</item>
 </choice>
 <tags>
-<tag>nederlands</tag>
-<tag>spreekwoord</tag>
-<tag>taal</tag>
+    <tag>nederlands</tag>
+    <tag>spreekwoord</tag>
+    <tag>taal</tag>
 </tags>
 </exercise>
 
@@ -728,16 +828,14 @@ De hoeveelste planeet is de aarde gezien vanaf de zon?
 
 <exercise type="single">
 <vraag>
-<p>17 februari 2007: $32,000</p>
-<p>
-Wie regisseerde de film 'La Dolce Vita' uit 1960?
-</p>
+    <p>17 februari 2007: $32,000</p>
+    <p>Wie regisseerde de film 'La Dolce Vita' uit 1960?</p>
 </vraag>
 <choice>
-<item>Pier Paolo Pasolini</item>
-<item goed="ja">Federico Fellini</item>
-<item>Bernardo Bertolucci</item>
-<item>Roberto Rossellini</item>
+    <item>Pier Paolo Pasolini</item>
+    <item goed="ja">Federico Fellini</item>
+    <item>Bernardo Bertolucci</item>
+    <item>Roberto Rossellini</item>
 </choice>
 <tags>
 <tag>film</tag>
@@ -746,16 +844,14 @@ Wie regisseerde de film 'La Dolce Vita' uit 1960?
 
 <exercise type="single">
 <vraag>
-<p>17 februari 2007: $64,000</p>
-<p>
-Hoe kwam de Griekse wijsgeer Socrates aan zijn eind?
-</p>
+    <p>17 februari 2007: $64,000</p>
+    <p>Hoe kwam de Griekse wijsgeer Socrates aan zijn eind?</p>
 </vraag>
 <choice>
-<item>Slangenbeet</item>
-<item>Brandstapel</item>
-<item goed="ja">Gifbeker</item>
-<item>Guillotine</item>
+    <item>Slangenbeet</item>
+    <item>Brandstapel</item>
+    <item goed="ja">Gifbeker</item>
+    <item>Guillotine</item>
 </choice>
 <tags>
 <tag>geschiedenis</tag>
@@ -801,6 +897,7 @@ oprichtingsjaar en begin bij de oudste omroep.
 <tag>televisie</tag>
 </tags>
 <toelichting>
+<pre>
 KRO: 23 april 1925
 TROS: 1964
 EO: 21 april 1967
@@ -809,6 +906,7 @@ MAX: 2002
 AVROTROS: 1 januari 2014
 KRONCRV: 1 januari 2014
 BNNVARA: 1 september 2018
+</pre>
 </toelichting>
 </exercise>
 
@@ -2252,26 +2350,36 @@ Welk van deze landen ligt op het zuidelijk halfrond?
 
 <exercise type="dragdrop">
 <vraag>
-<p>17 november 2007: vliegensvlugge vraag</p>
-<p>
-Zet deze films die zich in Londen afspelen op
-chronologische volgorde van verschijnen.
-</p>
+    <p>17 november 2007: vliegensvlugge vraag</p>
+    <p>
+        Zet deze films die zich in Londen afspelen op
+        chronologische volgorde van verschijnen.
+    </p>
 </vraag>
-<ol>
-<li>Mary Poppins</li>
-<li>A Fish Called Wanda</li>
-<li>Notting Hill</li>
-<li>Bridget Jones's Diary</li>
-</ol>
+<drag>
+    <choice>
+        <item xid="poppins">Mary Poppins</item>
+        <item xid="wanda">A Fish Called Wanda</item>
+        <item xid="nhill">Notting Hill</item>
+        <item xid="bridget">Bridget Jones's Diary</item>
+    </choice>
+    <drop>
+        <ul><li ref="poppins"/></ul>
+        <ul><li ref="wanda"/></ul>
+        <ul><li ref="nhill"/></ul>
+        <ul><li ref="bridget"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>film</tag>
+    <tag>film</tag>
 </tags>
 <toelichting>
+<pre>
 Mary Poppins: 1964
 A Fish Called Wanda: 1988
 Notting Hill: 21 mei 1999
 Bridget Jones's Diary: 13 april 2001
+</pre>
 </toelichting>
 </exercise>
 
@@ -2572,11 +2680,13 @@ https://nl.wikipedia.org/wiki/Beeldenstorm
 </tags>
 </exercise>
 
-<!-- 1 december 2007: $500 -->
 <exercise type="single">
 <vraag>
+<p>1 december 2007: $500</p>
+<p>
 De achternaam van welke zanger is of was
 in overeenstemming met zijn huidskleur?
+</p>
 </vraag>
 <choice>
 <item>Barry White</item>
@@ -2686,20 +2796,29 @@ deel de grens tussen Duitsland en Polen?
 
 <exercise type="dragdrop">
 <vraag>
-<p>8 december 2007: vliegensvlugge vraag</p>
-<p>
+    <p>8 december 2007: vliegensvlugge vraag</p>
+    <p>
 Zet deze volwassen mannetjesapen op volgorde
 van gemiddeld gewicht en begin met de zwaarste.
-</p>
+    </p>
 </vraag>
-<ol>
-<li>Berggorilla</li>
-<li>Orang-Oetan</li>
-<li>Bonobo</li>
-<li>Doodshoofdaapje</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="berggorilla">Berggorilla</item>
+        <item xid="orangoetan">Orang-Oetan</item>
+        <item xid="bonobo">Bonobo</item>
+        <item xid="doodshoofdaapje">Doodshoofdaapje</item>
+    </choice>
+    <drop>
+        <ul><li ref="berggorilla"/></ul>
+        <ul><li ref="orangoetan"/></ul>
+        <ul><li ref="bonobo"/></ul>
+        <ul><li ref="doodshoofdaapje"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>dieren</tag>
+    <tag>dieren</tag>
 </tags>
 </exercise>
 
@@ -2726,18 +2845,18 @@ als je hem gemakkelijk aankunt?
 
 <exercise type="single">
 <vraag>
-<p>8 december 2007: $50</p>
-<p>De bondscoach van Jong Oranje heet Foppe ...?</p>
+    <p>8 december 2007: $50</p>
+    <p>De bondscoach van Jong Oranje heet Foppe ...?</p>
 </vraag>
 <choice>
-<item>De Ram</item>
-<item>De Woerd</item>
-<item>De Bok</item>
-<item goed="ja">De Haan</item>
+    <item>De Ram</item>
+    <item>De Woerd</item>
+    <item>De Bok</item>
+    <item goed="ja">De Haan</item>
 </choice>
 <tags>
-<tag>sport</tag>
-<tag>voetbal</tag>
+    <tag>sport</tag>
+    <tag>voetbal</tag>
 </tags>
 </exercise>
 
@@ -2781,9 +2900,7 @@ voorkomende spinachtige?
 
 <exercise type="single">
 <vraag>
-<p>
-8 december 2007: $500
-</p>
+<p>8 december 2007: $500</p>
 Met wie is Patricia Paay getrouwd?
 </vraag>
 <choice>
@@ -2823,53 +2940,66 @@ Welke van deze tv-series gaat niet over
 het reilen en zeilen in een ziekenhuis?
 </vraag>
 <choice>
-<item>House</item>
-<item>ER</item>
-<item>Grey's Anatomy</item>
-<item goed="ja">Brothers &amp; Sisters</item>
+    <item>House</item>
+    <item>ER</item>
+    <item>Grey's Anatomy</item>
+    <item goed="ja">Brothers &amp; Sisters</item>
 </choice>
 <tags>
-<tag>media</tag>
-<tag>televisie</tag>
+    <tag>media</tag>
+    <tag>televisie</tag>
 </tags>
 </exercise>
 
 <exercise type="dragdrop">
 <vraag>
-<p>8 december 2007: vliegensvlugge vraag</p>
-<p>
-Zet deze buurlanden van China in oplopende volgorde
-van grootte en begin bij het kleinste land.
-</p>
+    <p>8 december 2007: vliegensvlugge vraag</p>
+    <p>
+        Zet deze buurlanden van China in oplopende volgorde
+        van grootte en begin bij het kleinste land.
+    </p>
 </vraag>
-<ol>
-<li>Noord-Korea</li>
-<li>Pakistan</li>
-<li>India</li>
-<li>Rusland</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="rusland">Rusland</item>
+        <item xid="india">India</item>
+        <item xid="pakistan">Pakistan</item>
+        <item xid="nkorea">Noord-Korea</item>
+    </choice>
+    <drop>
+        <ul><li ref="nkorea"/></ul>
+        <ul><li ref="pakistan"/></ul>
+        <ul><li ref="india"/></ul>
+        <ul><li ref="rusland"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>geografie</tag>
+    <tag>geografie</tag>
 </tags>
 <toelichting>
+<pre>
 Noord-Korea: 120,540 km2
 Pakistan: 881,913 km2
 India: 3,287,263 km2
 Rusland: 17,098,246 km2
+</pre>
 </toelichting>
 </exercise>
 
-<!-- 8 december 2007: $25 -->
 <exercise type="single">
 <vraag>
+<p>8 december 2007: $25</p>
+<p>
 Hoe heet het type bromfiets waarop
 je maximaal 25 km/u mag rijden?
+</p>
 </vraag>
 <choice>
-<item>Sikfiets</item>
-<item>Baardfiets</item>
-<item>Stoppeltjesfiets</item>
-<item goed="ja">Snorfiets</item>
+    <item>Sikfiets</item>
+    <item>Baardfiets</item>
+    <item>Stoppeltjesfiets</item>
+    <item goed="ja">Snorfiets</item>
 </choice>
 <tags>
 <tag>nederlands</tag>
@@ -3252,18 +3382,27 @@ voor een deel af in Amsterdam?
 
 <exercise type="dragdrop">
 <vraag>
-<p>15 december 2007: vliegensvlugge vraag</p>
-<p>Zet deze woorden op alfabetische volgorde.</p>
+    <p>15 december 2007: vliegensvlugge vraag</p>
+    <p>Zet deze woorden op alfabetische volgorde.</p>
 </vraag>
-<ol>
-<li>Boekenbal</li>
-<li>Boekenkast</li>
-<li>Boekhouding</li>
-<li>Boeking</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="bal">Boekenbal</item>
+        <item xid="boeking">Boeking</item>
+        <item xid="kast">Boekenkast</item>
+        <item xid="houding">Boekhouding</item>
+    </choice>
+    <drop>
+        <ul><li ref="bal"/></ul>
+        <ul><li ref="kast"/></ul>
+        <ul><li ref="houding"/></ul>
+        <ul><li ref="boeking"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
+    <tag>nederlands</tag>
+    <tag>taal</tag>
 </tags>
 </exercise>
 

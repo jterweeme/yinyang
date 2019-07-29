@@ -38,6 +38,7 @@ printf("<h1>Answer</h1>\r\n");
 printf("<p>%s</p>\r\n", $xml->exercise[$qx]->vraag->asXML());
 printf("<form method=\"post\">\r\n");
 
+// single antwoord vragen
 if (strcmp($qtype, "single") == 0)
 {
     foreach ($_SESSION['ans_map'][$q] as $n)
@@ -69,6 +70,7 @@ if (strcmp($qtype, "single") == 0)
     }
 }
 
+// multiple antwoord vragen
 if (strcmp($qtype, "multi") == 0)
 {
     $n = 0;
@@ -98,6 +100,14 @@ if (strcmp($qtype, "multi") == 0)
     }
 }
 
+// open vragen
+if (strcmp($qtype, "open") == 0)
+{
+    printf("\t<p><input name=\"antwoord\" value=\"%s\"/></p>\r\n",
+        $exercise->answer->__toString());
+}
+
+// dragdrop vragen
 if (strcmp($qtype, "dragdrop") == 0)
 {
     printf("<ul class=\"dragdrop\">\r\n");
@@ -137,7 +147,15 @@ if ($q == $_SESSION['qcnt'] - 1)
 printf("<input type=\"submit\" formaction=\"practice2.php\" ".
     "name=\"button\" value=\"Next\" %s/>\r\n", $disabled);
 
-printf("</form>\r\n</body>\r\n</html>\r\n");
+printf("</form>\r\n");
+
+// debug
+printf("<pre>\r\n");
+print_r($_POST);
+print_r($_SESSION);
+printf("</pre>\r\n");
+
+printf("</body>\r\n</html>\r\n");
 ?>
 
 

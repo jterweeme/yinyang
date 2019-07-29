@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
 /*
 Jasper ter Weeme 2019
@@ -23,7 +24,6 @@ if (!isset($_SESSION['username']))
     die();
 }
 
-printf("<!DOCTYPE html>\r\n");
 printf("<html lang=\"en\">\r\n<head>\r\n");
 printf("<link rel=\"Shortcut Icon\" href=\"yinyang.svg\"/>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");

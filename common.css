@@ -28,26 +28,12 @@ table tr.strike td {
     font-style: italic;
 }
 
-.groen
-{
+.groen {
     color: green;
 }
 
-.rood
-{
+.rood {
     color: red;
-}
-
-ol.dragdrop {
-    border: 1px dotted black;
-    list-style: none;
-}
-
-ol.dragdrop li {
-    margin-top: 10px;
-    width: 200px;
-    height: 40px;
-    border: 1px solid black;
 }
 
 ul.dragdrop {
@@ -63,6 +49,14 @@ ul.dragdrop li {
     height: 40px;
     border: 1px solid black;
     text-align: center;
+}
+
+div.exercise {
+    border-bottom: 1px dotted gray;
+}
+
+div.vraag {
+    font-weight: bold;
 }
 
 

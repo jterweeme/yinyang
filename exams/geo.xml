@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<exam>
+<title>Geografie</title>
+
+<exercise type="open">
+<vraag>
+Wat is de hoofdstad van Nederland?
+</vraag>
+<answer case-sensitive="no">Amsterdam</answer>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Wat is de hoofdstad van Vietnam?
+</vraag>
+<choice>
+<item>Da Lat</item>
+<item goed="ja">Hanoi</item>
+<item>Saigon</item>
+<item>Hai Phong</item>
+</choice>
+</exercise>
+
+<exercise type="open">
+<vraag>
+Wat is de hoofdstad van Japan?
+</vraag>
+<answer case-sensitive="no">Tokyo</answer>
+</exercise>
+
+<exercise type="open">
+<vraag>
+Wat is de hoofdstad van Canada?
+</vraag>
+<answer case-sensitive="no">Ottawa</answer>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Wat is de hoofdstad van de Verenigde Staten?
+</vraag>
+<choice>
+<item>New York</item>
+<item goed="ja">Washington D.C.</item>
+<item>Denver</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+Wat is de hoofdstad van Uruguay?
+</vraag>
+<choice>
+<item>Asuncion</item>
+<item goed="ja">Montevideo</item>
+<item>La Paz</item>
+<item>Lima</item>
+</choice>
+</exercise>
+
+</exam>
+
+
+

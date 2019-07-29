@@ -2,7 +2,6 @@
 <exam>
 <title>IT Essentials (ITE v6.0)</title>
 
-<!-- Hoofdstuk 1 -->
 <!-- Vraag 1 -->
 <exercise type="multi">
 <vraag>
@@ -231,6 +230,7 @@ vervallen in hedendaagse computersystemen.
 </p>
 </toelichting>
 <tags>
+<tag>hoofdstuk1</tag>
 <tag>chipset</tag>
 <tag>Northbridge</tag>
 </tags>
@@ -258,6 +258,7 @@ staat voor 2^30 bytes. Een gigabyte aangeduid als GB kan voor
 "Pages per minute" en "clusters per minute" zijn geen bestaande termen.
 </toelichting>
 <tags>
+<tag>hoofdstuk1</tag>
 <tag>hard-disk</tag>
 </tags>
 </exercise>
@@ -282,6 +283,7 @@ van beide ondersteunen geluid. HDMI ondersteund wel geluid, het videosignaal van
 is identiek aan DVI.
 </toelichting>
 <tags>
+<tag>hoofdstuk1</tag>
 <tag>interface</tag>
 </tags>
 </exercise>
@@ -298,6 +300,9 @@ Which two devices are considered input devices? (Choose two.)
 <item>projector</item>
 <item>speakers</item>
 </choice>
+<tags>
+<tag>hoofdstuk1</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 12 -->
@@ -425,6 +430,9 @@ virtuele machines, vaak worden virtuele machines zelfs headless
 gedraaid, waarbij er dus niet eens een videokaart of geluidskaart
 gebruikt wordt.
 </toelichting>
+<tags>
+<tag>hoofdstuk1</tag>
+</tags>
 </exercise>
 
 <!-- Vraag 19 -->

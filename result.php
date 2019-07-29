@@ -23,7 +23,12 @@ $xsl->load("result.xsl");
 $proc = new XSLTProcessor;
 $proc->importStyleSheet($xsl);
 $tree = $proc->transformToDoc($xml);
-printf("%s", $tree->saveHTML($tree->getElementsByTagName("body")->item(0)));
+
+// workaround buitenste body tag verwijderen
+$buf = $tree->saveHTML($tree->getElementsByTagName("body")->item(0));
+$cut = substr($buf, 6, strlen($buf) - 13);
+printf("%s", $cut);
+//printf("%s", $tree->saveHTML($tree->getElementsByTagName("body")->item(0)));
 //printf("%s", $proc->transformToXML($xml));
 
 
