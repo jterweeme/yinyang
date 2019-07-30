@@ -135,7 +135,7 @@ $disabled = "";
 if ($q == 0)
     $disabled = "disabled";     // eerste vraag, disable prev button
 
-printf("<input type=\"submit\" formaction=\"practice2.php\" ".
+printf("<input type=\"submit\" formaction=\"exam.php\" ".
     "name=\"button\" value=\"Previous\" %s/>\r\n", $disabled);
 
 printf("<input type=\"submit\" formaction=\"answer2.php\" value=\"Antwoord\" disabled/>\r\n");
@@ -144,7 +144,7 @@ $disabled = "";
 if ($q == $_SESSION['qcnt'] - 1)
     $disabled = "disabled";     // laatste vraag, disable next button
 
-printf("<input type=\"submit\" formaction=\"practice2.php\" ".
+printf("<input type=\"submit\" formaction=\"exam.php\" ".
     "name=\"button\" value=\"Next\" %s/>\r\n", $disabled);
 
 printf("</form>\r\n");

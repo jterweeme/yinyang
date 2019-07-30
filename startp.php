@@ -96,7 +96,7 @@ printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End exam</a>\r\n")
 printf("<a href=\"logout.php\">Log out %s</a>\r\n", $_SESSION['username']);
 printf("</header>\r\n<h1>Start Practice</h1>\r\n");
 printf("<h2>%u vragen</h2>\r\n", $qcnt);
-printf("<a href=\"practice2.php\">Start</a>\r\n");
+printf("<a href=\"exam.php\">Start</a>\r\n");
 
 // tags
 if (!empty($tags))

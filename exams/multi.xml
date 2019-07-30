@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<exam>
+<title>Multi antwoorden test</title>
+
+<exercise type="multi">
+<vraag>
+Welke van deze plaatsen liggen in California?
+</vraag>
+<choice>
+    <item goed="ja">Sacramento</item>
+    <item>Las Vegas</item>
+    <item goed="ja">San Francisco</item>
+    <item goed="ja">San Jose</item>
+    <item>Phoenix</item>
+</choice>
+</exercise>
+
+<exercise type="multi">
+<vraag>
+Welke van deze plaatsen liggen in Arizona?
+</vraag>
+<choice>
+    <item goed="ja">Phoenix</item>
+    <item goed="ja">Flagstaff</item>
+    <item goed="ja">Tucson</item>
+    <item>Los Angeles</item>
+    <item>Ciudad Juarez</item>
+</choice>
+</exercise>
+
+<exercise type="multi">
+<vraag>
+Welke van deze plaatsen liggen in Nevada?
+</vraag>
+<choice>
+    <item goed="ja">Las Vegas</item>
+    <item goed="ja">Carson City</item>
+    <item goed="ja">Reno</item>
+    <item>Flagstaff</item>
+    <item>Tucson</item>
+</choice>
+</exercise>
+
+<exercise type="multi">
+<vraag>
+Welke van deze plaatsen zijn hoofdsteden van
+Nederlandse provincies?
+</vraag>
+<choice>
+    <item>Eindhoven</item>
+    <item>Alkmaar</item>
+    <item goed="ja">Haarlem</item>
+    <item goed="ja">Assen</item>
+    <item>Emmen</item>
+</choice>
+</exercise>
+
+</exam>
+
+

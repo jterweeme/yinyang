@@ -33,7 +33,8 @@ foreach ($map as $foo)
         else
             $n_fout++;
     }
-    else if (strcmp($exercise['type'], "multi") == 0)
+
+    if (strcmp($exercise['type'], "multi") == 0)
     {
         $nx = 0;
         $checked_goed = 0;
@@ -97,11 +98,11 @@ $n = 0;
 foreach ($map as $foo)
 {
     $exercise = $xml->exercise[$foo];
-    fwrite($fp, "<exercise type=\"single\">\n");
-    fwrite($fp, $exercise->vraag->asXML());
 
     if (strcmp($exercise['type'], "single") == 0)
     {
+        fwrite($fp, "<exercise type=\"single\">\n");
+        fwrite($fp, $exercise->vraag->asXML());
         $xidxGoed = idxGoed($exercise->choice);
 
         $goed = 0;
@@ -132,7 +133,34 @@ foreach ($map as $foo)
 
     if (strcmp($exercise['type'], "multi") == 0)
     {
-        
+        fwrite($fp, "<exercise type=\"multi\">\n");
+        fwrite($fp, $exercise->vraag->asXML());
+        $nx = 0;
+        $checked_goed = 0;
+        $checked_fout = 0;
+        fwrite($fp, "\n<choice>\n");
+
+        foreach ($exercise->choice->item as $item)
+        {
+            $str = sprintf("<item>%s</item>\n", $item->__toString());
+            fwrite($fp, $str);
+
+            if (isset($item['goed']))
+            {
+                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
+                    $checked_goed++;
+                else
+                    $checked_fout++;
+            }
+            else
+            {
+                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
+                    $checked_fout++;
+            }
+            $nx++;
+        }
+
+        fwrite($fp, "\n</choice>\n");
     }
 
     if (isset($exercise->toelichting))

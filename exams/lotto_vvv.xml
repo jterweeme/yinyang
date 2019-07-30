@@ -42,10 +42,11 @@ oprichtingsjaar en begin bij de oudste omroep.
 </vraag>
 <drag>
     <choice>
+        <!-- volgorde van tv -->
         <item xid="bnn">BNN</item>
-        <item xid="kro">KRO</item>
         <item xid="max">MAX</item>
         <item xid="tros">TROS</item>
+        <item xid="kro">KRO</item>
     </choice>
     <drop>
         <ul><li ref="kro"/></ul>
@@ -82,10 +83,11 @@ BNNVARA: 1 september 2018
 </vraag>
 <drag>
     <choice>
-        <item xid="zwagerman">Joost Zwagerman</item>
+        <!-- volgorde van tv -->
+        <item xid="campert">Remco Campert</item>
         <item xid="giphart">Ronald Giphart</item>
         <item xid="wolkers">Jan Wolkers</item>
-        <item xid="campert">Remco Campert</item>
+        <item xid="zwagerman">Joost Zwagerman</item>
     </choice>
     <drop>
         <ul><li ref="wolkers"/></ul>
@@ -115,10 +117,11 @@ BNNVARA: 1 september 2018
 </vraag>
 <drag>
     <choice>
-        <item xid="sophie">Sophie</item>
+        <!-- volgorde van tv -->
         <item xid="anne">Anne</item>
-        <item xid="karlijn">Karlijn</item>
+        <item xid="sophie">Sophie</item>
         <item xid="julia">Julia</item>
+        <item xid="karlijn">Karlijn</item>
     </choice>
     <drop>
         <ul><li ref="anne"/></ul>
@@ -137,16 +140,17 @@ BNNVARA: 1 september 2018
 <vraag>
     <p>3 november 2007: vliegensvlugge vraag</p>
     <p>
-Zet de woorden uit de titel van het dagelijkse
-nieuws- en amusementsprogramma van de VARA
-in de goede volgorde.
+        Zet de woorden uit de titel van het dagelijkse
+        nieuws- en amusementsprogramma van de VARA
+        in de goede volgorde.
     </p>
 </vraag>
 <drag>
     <choice>
+        <!-- volgorde van tv -->
+        <item xid="draait">Draait</item>
         <item xid="de">De</item>
         <item xid="wereld">Wereld</item>
-        <item xid="draait">Draait</item>
         <item xid="door">Door</item>
     </choice>
     <drop>
@@ -172,10 +176,11 @@ hebben georganiseerd op volgorde van zuid naar noord.
 </vraag>
 <drag>
     <choice>
+        <!-- volgorde van tv -->
         <item xid="parijs">Parijs</item>
+        <item xid="antwerpen">Antwerpen</item>
         <item xid="barcelona">Barcelona</item>
         <item xid="amsterdam">Amsterdam</item>
-        <item xid="antwerpen">Antwerpen</item>
     </choice>
     <drop>
         <ul><li ref="barcelona"/></ul>
@@ -201,16 +206,17 @@ Amsterdam: 52 22'N
 <vraag>
     <p>17 november 2007: vliegensvlugge vraag</p>
     <p>
-Zet deze films die zich in Londen afspelen op
-chronologische volgorde van verschijnen.
+        Zet deze films die zich in Londen afspelen op
+        chronologische volgorde van verschijnen.
     </p>
 </vraag>
 <drag>
     <choice>
-        <item xid="poppins">Mary Poppins</item>
+        <!-- volgorde van tv -->
         <item xid="bridget">Bridget Jones's Diary</item>
-        <item xid="nhill">Notting Hill</item>
         <item xid="wanda">A Fish Called Wanda</item>
+        <item xid="nhill">Notting Hill</item>
+        <item xid="poppins">Mary Poppins</item>
     </choice>
     <drop>
         <ul><li ref="poppins"/></ul>

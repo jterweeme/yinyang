@@ -232,21 +232,21 @@ Martedi is Italiaans voor dinsdag.
 
 <exercise type="single">
 <vraag>
-<p>7 oktober 2006: $16,000</p>
-<p>
-Vanaf welke wolkenkrabber valt King Kong in
-de films uit 1933 en 2005 zijn dood tegemoet?
-</p>
+    <p>7 oktober 2006: $16,000</p>
+    <p>
+        Vanaf welke wolkenkrabber valt King Kong in
+        de films uit 1933 en 2005 zijn dood tegemoet?
+    </p>
 </vraag>
 <choice>
-<item>Chrysler Building</item>
-<item goed="ja">Empire State Building</item>
-<item>Sears Tower</item>
-<item>World Trade Center</item>
+    <item>Chrysler Building</item>
+    <item goed="ja">Empire State Building</item>
+    <item>Sears Tower</item>
+    <item>World Trade Center</item>
 </choice>
 <tags>
-<tag>film</tag>
-<tag>gebouwen</tag>
+    <tag>film</tag>
+    <tag>gebouwen</tag>
 </tags>
 <toelichting>
 Sears Tower en World Trade center bestonden nog niet
@@ -744,22 +744,22 @@ Beatrix 1938
 
 <exercise type="single">
 <vraag>
-<p>20 januari 2007: $50</p>
-<p>
-Wat is de naam van het krokante, rechthoekige koekje
-dat bedekt is met kleine suikerbolletjes?
-</p>
+    <p>20 januari 2007: $50</p>
+    <p>
+        Wat is de naam van het krokante, rechthoekige koekje
+        dat bedekt is met kleine suikerbolletjes?
+    </p>
 </vraag>
 <choice>
-<item>Pieter Storms</item>
-<item>Diana Woei</item>
-<item>Pierre Wind</item>
-<item goed="ja">Jan Hagel</item>
+    <item>Pieter Storms</item>
+    <item>Diana Woei</item>
+    <item>Pierre Wind</item>
+    <item goed="ja">Jan Hagel</item>
 </choice>
 <tags>
-<tag>eten en drinken</tag>
-<tag>nederlands</tag>
-<tag>taal</tag>
+    <tag>eten en drinken</tag>
+    <tag>nederlands</tag>
+    <tag>taal</tag>
 </tags>
 <toelichting>
 Pieter Storms is een presentator en journalist.
@@ -811,19 +811,18 @@ opmaken van bijvoorbeeld hypotheekaktes en testamenten?
 
 <exercise type="single">
 <vraag>
-<p>
-17 februari 2007: $16,000
-</p>
-<p>
-De hoeveelste planeet is de aarde gezien vanaf de zon?
-</p>
+    <p>17 februari 2007: $16,000</p>
+    <p>De hoeveelste planeet is de aarde gezien vanaf de zon?</p>
 </vraag>
 <choice>
-<item>Tweede</item>
-<item goed="ja">Derde</item>
-<item>Vierde</item>
-<item>Vijfde</item>
+    <item>Tweede</item>
+    <item goed="ja">Derde</item>
+    <item>Vierde</item>
+    <item>Vijfde</item>
 </choice>
+<toelichting>
+Mercurius - Venus - Aarde - Mars - Jupiter - Saturn - Uranus - Neptunes
+</toelichting>
 </exercise>
 
 <exercise type="single">
@@ -854,27 +853,27 @@ De hoeveelste planeet is de aarde gezien vanaf de zon?
     <item>Guillotine</item>
 </choice>
 <tags>
-<tag>geschiedenis</tag>
+    <tag>geschiedenis</tag>
 </tags>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>17 februari 2007: $125,000</p>
-<p>
-Wie is de enige Amerikaanse president die twee
-niet-aaneengesloten termijnen heeft gediend?
-</p>
+    <p>17 februari 2007: $125,000</p>
+    <p>
+        Wie is de enige Amerikaanse president die twee
+        niet-aaneengesloten termijnen heeft gediend?
+    </p>
 </vraag>
 <choice>
-<item>Woodrow Wilson</item>
-<item goed="ja">Grover Cleveland</item>
-<item>Theodore Roosevelt</item>
-<item>Harry S. Truman</item>
+    <item>Woodrow Wilson</item>
+    <item goed="ja">Grover Cleveland</item>
+    <item>Theodore Roosevelt</item>
+    <item>Harry S. Truman</item>
 </choice>
 <tags>
-<tag>geschiedenis</tag>
-<tag>politiek</tag>
+    <tag>geschiedenis</tag>
+    <tag>politiek</tag>
 </tags>
 </exercise>
 
@@ -886,15 +885,24 @@ Zet deze publieke omroepen op volgorde van
 oprichtingsjaar en begin bij de oudste omroep.
 </p>
 </vraag>
-<ol>
-<li>KRO</li>
-<li>TROS</li>
-<li>BNN</li>
-<li>MAX</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="bnn">BNN</item>
+        <item xid="max">MAX</item>
+        <item xid="tros">TROS</item>
+        <item xid="kro">KRO</item>
+    </choice>
+    <drop>
+        <ul><li ref="kro"/></ul>
+        <ul><li ref="tros"/></ul>
+        <ul><li ref="bnn"/></ul>
+        <ul><li ref="max"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>nederlands</tag>
-<tag>televisie</tag>
+    <tag>nederlands</tag>
+    <tag>televisie</tag>
 </tags>
 <toelichting>
 <pre>
@@ -912,33 +920,34 @@ BNNVARA: 1 september 2018
 
 <exercise type="single">
 <vraag>
-<p>17 februari 2007: $25</p>
-<p>Waarmee poets je je tanden om deze schoon te krijgen?</p>
+    <p>17 februari 2007: $25</p>
+    <p>Waarmee poets je je tanden om deze schoon te krijgen?</p>
 </vraag>
 <choice>
-<item>Vulpasta</item>
-<item>Chocopasta</item>
-<item>Kleefpasta</item>
-<item goed="ja">Tandpasta</item>
+    <item>Vulpasta</item>
+    <item>Chocopasta</item>
+    <item>Kleefpasta</item>
+    <item goed="ja">Tandpasta</item>
 </choice>
 </exercise>
 
+<!-- geen antwoord! -->
 <exercise type="single">
 <vraag>
-<p>17 februari 2007: $50</p>
-<p>
-Wat is de naam van een 'gestapeld' broodje belegd
-met o.a. kip, bacon, tomaat en mayonaise?
-</p>
+    <p>17 februari 2007: $50</p>
+    <p>
+        Wat is de naam van een 'gestapeld' broodje belegd
+        met o.a. kip, bacon, tomaat en mayonaise?
+    </p>
 </vraag>
 <choice>
-<item>Bar sandwich</item>
-<item>Dancing sandwich</item>
-<item>Disco sandwich</item>
-<item>Club sandwich</item>
+    <item>Bar sandwich</item>
+    <item>Dancing sandwich</item>
+    <item>Disco sandwich</item>
+    <item>Club sandwich</item>
 </choice>
 <tags>
-<tag>eten en drinken</tag>
+    <tag>eten en drinken</tag>
 </tags>
 </exercise>
 
@@ -999,90 +1008,103 @@ die zich in allerlei voertuigen konden veranderen?
 
 <exercise type="single">
 <vraag>
-<p>2 april 2007: $8,000</p>
-<p>
-Wat was in 1984 de eerste hit van
-Madonna in de Nederlandse Top 40?
-</p>
+    <p>2 april 2007: $8,000</p>
+    <p>
+        Wat was in 1984 de eerste hit van
+        Madonna in de Nederlandse Top 40?
+    </p>
 </vraag>
 <choice>
-<item goed="ja">Holiday</item>
-<item>Like a Prayer</item>
-<item>Material Girl</item>
-<item>Papa Don't Preach</item>
+    <item goed="ja">Holiday</item>
+    <item>Like a Prayer</item>
+    <item>Material Girl</item>
+    <item>Papa Don't Preach</item>
 </choice>
 <tags>
-<tag>media</tag>
-<tag>muziek</tag>
+    <tag>media</tag>
+    <tag>muziek</tag>
 </tags>
 <toelichting>
+<pre>
 Holiday, released 7 sep 1983.
 Material Girl, released 23 jan 1985.
 Papa Don't Preach, released 11 jun 1986.
 Like a Prayer, released 3 mar 1989.
+</pre>
 </toelichting>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>2 april 2007: $16,000</p>
-<p>
-Wie is de fractievoorzitter van
-de PvdA in de Tweede Kamer?
-</p>
+    <p>2 april 2007: $16,000</p>
+    <p>
+        Wie is de fractievoorzitter van
+        de PvdA in de Tweede Kamer?
+    </p>
 </vraag>
 <choice>
-<item>Staf Depla</item>
-<item goed="ja">Jacques Tichelaar</item>
-<item>Sharon Dijksma</item>
-<item>Diederik Samson</item>
+    <item>Staf Depla</item>
+    <item goed="ja">Jacques Tichelaar</item>
+    <item>Sharon Dijksma</item>
+    <item>Diederik Samson</item>
 </choice>
 <tags>
-<tag>politiek</tag>
-<tag>nederlands</tag>
+    <tag>politiek</tag>
+    <tag>nederlands</tag>
 </tags>
 </exercise>
 
 <exercise type="dragdrop">
 <vraag>
-<p>2 april 2007: vliegensvlugge vraag</p>
-<p>
-Zet de volgende schrijvers in volgorde van
-geboortejaar en begin bij de eerstgeborene.
-</p>
+    <p>2 april 2007: vliegensvlugge vraag</p>
+    <p>
+        Zet de volgende schrijvers in volgorde van
+        geboortejaar en begin bij de eerstgeborene.
+    </p>
 </vraag>
-<ol>
-<li>Jan Wolkers</li>
-<li>Remco Campert</li>
-<li>Joost Zwagerman</li>
-<li>Ronald Giphart</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="campert">Remco Campert</item>
+        <item xid="giphart">Ronald Giphart</item>
+        <item xid="wolkers">Jan Wolkers</item>
+        <item xid="zwagerman">Joost Zwagerman</item>
+    </choice>
+    <drop>
+        <ul><li ref="wolkers"/></ul>
+        <ul><li ref="campert"/></ul>
+        <ul><li ref="zwagerman"/></ul>
+        <ul><li ref="giphart"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>literatuur</tag>
-<tag>nederlands</tag>
+    <tag>literatuur</tag>
+    <tag>nederlands</tag>
 </tags>
 <toelichting>
+<pre>
 26 oktober 1925 Jan Wolkers
 28 juli 1929 Remco Campert
 18 november 1963 Joost Zwagerman
 17 december 1965 Ronald Giphart
+</pre>
 </toelichting>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>2 april 2007: $25</p>
-<p>
-Wie is in de sprookjeswereld
-onlosmakelijk verbonden met Hans?
-</p>
+    <p>2 april 2007: $25</p>
+    <p>
+        Wie is in de sprookjeswereld
+        onlosmakelijk verbonden met Hans?
+    </p>
 </vraag>
-<choice>
-<item>Vrouwtje</item>
-<item>Meisje</item>
-<item>Dametje</item>
-<item goed="ja">Grietje</item>
-</choice>
+    <choice>
+        <item>Vrouwtje</item>
+        <item>Meisje</item>
+        <item>Dametje</item>
+        <item goed="ja">Grietje</item>
+    </choice>
 <tags>
 <tag>literatuur</tag>
 </tags>
@@ -1240,45 +1262,54 @@ Stichting Ideele REclame
 
 <exercise type="single">
 <vraag>
-<p>2 april 2007: $8,000</p>
-<p>
-Wie heeft nooit de finale van Henny
-Huismans Soundmixshow gewonnen?
-</p>
+    <p>2 april 2007: $8,000</p>
+    <p>
+        Wie heeft nooit de finale van Henny
+        Huismans Soundmixshow gewonnen?
+    </p>
 </vraag>
 <choice>
-<item>Edsilia Rombley</item>
-<item goed="ja">Gerard Joling</item>
-<item>Glennis Grace</item>
-<item>Marco Borsato</item>
+    <item>Edsilia Rombley</item>
+    <item goed="ja">Gerard Joling</item>
+    <item>Glennis Grace</item>
+    <item>Marco Borsato</item>
 </choice>
 <tags>
-<tag>media</tag>
-<tag>muziek</tag>
-<tag>televisie</tag>
+    <tag>media</tag>
+    <tag>muziek</tag>
+    <tag>televisie</tag>
 </tags>
 <toelichting>
 <p>
-Gerard Joling werd derde in 1985.
-Marco Borsato won op 7 april 1990 de Soundmixshow.
+    Gerard Joling werd derde in 1985.
+    Marco Borsato won op 7 april 1990 de Soundmixshow.
 </p>
 </toelichting>
 </exercise>
 
 <exercise type="dragdrop">
 <vraag>
-<p>2 april 2007: vliegensvlugge vraag</p>
-<p>Zet deze meisjesnamen op alfabetische volgorde.</p>
+    <p>2 april 2007: vliegensvlugge vraag</p>
+    <p>Zet deze meisjesnamen op alfabetische volgorde.</p>
 </vraag>
-<ol>
-<li>Anne</li>
-<li>Julia</li>
-<li>Karlijn</li>
-<li>Sophie</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="anne">Anne</item>
+        <item xid="sophie">Sophie</item>
+        <item xid="julia">Julia</item>
+        <item xid="karlijn">Karlijn</item>
+    </choice>
+    <drop>
+        <ul><li ref="anne"/></ul>
+        <ul><li ref="julia"/></ul>
+        <ul><li ref="karlijn"/></ul>
+        <ul><li ref="sophie"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
+    <tag>nederlands</tag>
+    <tag>taal</tag>
 </tags>
 </exercise>
 
@@ -1447,21 +1478,21 @@ Met wie scoorde Mick Jagger in 1985 een nummer
 
 <exercise type="single">
 <vraag>
-<p>3 november 2007: $64,000</p>
-<p>
-Welke van de volgende gebeurtenissen
-vond niet in 1981 plaats?
-</p>
+    <p>3 november 2007: $64,000</p>
+    <p>
+        Welke van de volgende gebeurtenissen
+        vond niet in 1981 plaats?
+    </p>
 </vraag>
 <choice>
-<item>Moord op Sadat</item>
-<item>Aanslag op Reagan</item>
-<item>Huwelijk Charles &amp; Diana</item>
-<item goed="ja">Falklandoorlog</item>
+    <item>Moord op Sadat</item>
+    <item>Aanslag op Reagan</item>
+    <item>Huwelijk Charles &amp; Diana</item>
+    <item goed="ja">Falklandoorlog</item>
 </choice>
 <tags>
-<tag>jaartal</tag>
-<tag>geschiedenis</tag>
+    <tag>jaartal</tag>
+    <tag>geschiedenis</tag>
 </tags>
 <toelichting>
 De Falklandoorlog was in 1982.
@@ -1470,42 +1501,51 @@ De Falklandoorlog was in 1982.
 
 <exercise type="dragdrop">
 <vraag>
-<p>3 november 2007: vliegensvlugge vraag</p>
-<p>
-Zet de woorden uit de titel van het dagelijkse
-nieuws- en amusementsprogramma van de VARA
-in de goede volgorde.
-</p>
+    <p>3 november 2007: vliegensvlugge vraag</p>
+    <p>
+        Zet de woorden uit de titel van het dagelijkse
+        nieuws- en amusementsprogramma van de VARA
+        in de goede volgorde.
+    </p>
 </vraag>
-<ol>
-<li>De</li>
-<li>Wereld</li>
-<li>Draait</li>
-<li>Door</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="draait">Draait</item>
+        <item xid="de">De</item>
+        <item xid="wereld">Wereld</item>
+        <item xid="door">Door</item>
+    </choice>
+    <drop>
+        <ul><li ref="de"/></ul>
+        <ul><li ref="wereld"/></ul>
+        <ul><li ref="draait"/></ul>
+        <ul><li ref="door"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>nederlands</tag>
-<tag>televisie</tag>
+    <tag>nederlands</tag>
+    <tag>televisie</tag>
 </tags>
 </exercise>
 
 <exercise type="single">
 <vraag>
-<p>3 november 2007: $25</p>
-<p>
-Hoe noemen we iemand die
-ergens de schuld van krijgt?
-</p>
+    <p>3 november 2007: $25</p>
+    <p>
+        Hoe noemen we iemand die
+        ergens de schuld van krijgt?
+    </p>
 </vraag>
 <choice>
-<item>Schuldgeit</item>
-<item>Blaamram</item>
-<item goed="ja">Zondebok</item>
-<item>Foutlam</item>
+    <item>Schuldgeit</item>
+    <item>Blaamram</item>
+    <item goed="ja">Zondebok</item>
+    <item>Foutlam</item>
 </choice>
 <tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
+    <tag>nederlands</tag>
+    <tag>taal</tag>
 </tags>
 </exercise>
 
@@ -2070,45 +2110,56 @@ Wat is geen hoofdstad van een Nederlandse provincie?
 
 <exercise type="single">
 <vraag>
-<p>17 november 2007: $8,000</p>
-<p>
-De titel van het laatste Harry Potter-boek dat in juli
-van dit jaar uitkwam is: 'Harry Potter and the ...'?
-</p>
+    <p>17 november 2007: $8,000</p>
+    <p>
+        De titel van het laatste Harry Potter-boek dat in juli
+        van dit jaar uitkwam is: 'Harry Potter and the ...'?
+    </p>
 </vraag>
 <choice>
-<item>Goblet of Fire</item>
-<item>Half-Blood Prince</item>
-<item goed="ja">Deathly Hallows</item>
-<item>Philosopher's Stone</item>
+    <item>Goblet of Fire</item>
+    <item>Half-Blood Prince</item>
+    <item goed="ja">Deathly Hallows</item>
+    <item>Philosopher's Stone</item>
 </choice>
 <tags>
-<tag>literatuur</tag>
+    <tag>literatuur</tag>
 </tags>
 </exercise>
 
 <exercise type="dragdrop">
 <vraag>
-<p>17 november 2007: vliegensvlugge vraag</p>
-<p>
-Zet deze Europese steden die ooit de Olympische Spelen
-hebben georganiseerd op volgorde van zuid naar noord.
-</p>
+    <p>17 november 2007: vliegensvlugge vraag</p>
+    <p>
+        Zet deze Europese steden die ooit de Olympische Spelen
+        hebben georganiseerd op volgorde van zuid naar noord.
+    </p>
 </vraag>
-<ol>
-<li>Barcelona</li>
-<li>Parijs</li>
-<li>Antwerpen</li>
-<li>Amsterdam</li>
-</ol>
+<drag>
+    <choice>
+        <!-- volgorde van tv -->
+        <item xid="parijs">Parijs</item>
+        <item xid="antwerpen">Antwerpen</item>
+        <item xid="barcelona">Barcelona</item>
+        <item xid="amsterdam">Amsterdam</item>
+    </choice>
+    <drop>
+        <ul><li ref="barcelona"/></ul>
+        <ul><li ref="parijs"/></ul>
+        <ul><li ref="antwerpen"/></ul>
+        <ul><li ref="amsterdam"/></ul>
+    </drop>
+</drag>
 <tags>
-<tag>geografie</tag>
+    <tag>geografie</tag>
 </tags>
 <toelichting>
+<pre>
 Barcelona: 41 23'N
 Parijs: 48 51'N
 Antwerpen: 51 13'N
 Amsterdam: 52 22'N
+</pre>
 </toelichting>
 </exercise>
 
@@ -2235,17 +2286,17 @@ De '1-2-3 Show' liep van 1983 tot en met 1986 op de KRO.
 
 <exercise type="single">
 <vraag>
-<p>17 november 2007: $2,000</p>
-<p>
-Welk Frans woord gebruiken we ook in Nederland
-om snuisterijen of rommel te beschrijven?
-</p>
+    <p>17 november 2007: $2,000</p>
+    <p>
+        Welk Frans woord gebruiken we ook in Nederland
+        om snuisterijen of rommel te beschrijven?
+    </p>
 </vraag>
 <choice>
-<item goed="ja">Bric-a-brac</item>
-<item>Mise-en-scene</item>
-<item>Tete-a-tete</item>
-<item>Pied-a-terre</item>
+    <item goed="ja">Bric-a-brac</item>
+    <item>Mise-en-scene</item>
+    <item>Tete-a-tete</item>
+    <item>Pied-a-terre</item>
 </choice>
 <tags>
 <tag>taal</tag>
@@ -2254,22 +2305,22 @@ om snuisterijen of rommel te beschrijven?
 
 <exercise type="single">
 <vraag>
-<p>17 november 2007: $4,000</p>
-<p>
-Wie scoorde in 1992 uit een vrije trap, waardoor
-FC Barcelona de finale van de Europa Cup I won?
-</p>
+    <p>17 november 2007: $4,000</p>
+    <p>
+        Wie scoorde in 1992 uit een vrije trap, waardoor
+        FC Barcelona de finale van de Europa Cup I won?
+    </p>
 </vraag>
 <choice>
-<item>Patrick Kluivert</item>
-<item>Phillip Cocu</item>
-<item goed="ja">Ronald Koeman</item>
-<item>Frank Rijkaard</item>
+    <item>Patrick Kluivert</item>
+    <item>Phillip Cocu</item>
+    <item goed="ja">Ronald Koeman</item>
+    <item>Frank Rijkaard</item>
 </choice>
 <tags>
-<tag>jaartal</tag>
-<tag>sport</tag>
-<tag>voetbal</tag>
+    <tag>jaartal</tag>
+    <tag>sport</tag>
+    <tag>voetbal</tag>
 </tags>
 </exercise>
 
@@ -2321,14 +2372,14 @@ In welke Italiaanse film vindt met de
 oorsprong van het woord 'paparazzi'?
 </vraag>
 <choice>
-<item>La Vita e Bella</item>
-<item>La Strada</item>
-<item>Nuovo Cinema Paradiso</item>
-<item goed="ja">La Dolce Vita</item>
+    <item>La Vita e Bella</item>
+    <item>La Strada</item>
+    <item>Nuovo Cinema Paradiso</item>
+    <item goed="ja">La Dolce Vita</item>
 </choice>
 <tags>
-<tag>film</tag>
-<tag>taal</tag>
+    <tag>film</tag>
+    <tag>taal</tag>
 </tags>
 </exercise>
 
@@ -2338,13 +2389,13 @@ oorsprong van het woord 'paparazzi'?
 Welk van deze landen ligt op het zuidelijk halfrond?
 </vraag>
 <choice>
-<item>Venezuela</item>
-<item goed="ja">Angola</item>
-<item>Vietnam</item>
-<item>India</item>
+    <item>Venezuela</item>
+    <item goed="ja">Angola</item>
+    <item>Vietnam</item>
+    <item>India</item>
 </choice>
 <tags>
-<tag>geografie</tag>
+    <tag>geografie</tag>
 </tags>
 </exercise>
 
@@ -2358,10 +2409,11 @@ Welk van deze landen ligt op het zuidelijk halfrond?
 </vraag>
 <drag>
     <choice>
-        <item xid="poppins">Mary Poppins</item>
+        <!-- volgorde van tv -->
+        <item xid="bridget">Bridget Jones's Diary</item>
         <item xid="wanda">A Fish Called Wanda</item>
         <item xid="nhill">Notting Hill</item>
-        <item xid="bridget">Bridget Jones's Diary</item>
+        <item xid="poppins">Mary Poppins</item>
     </choice>
     <drop>
         <ul><li ref="poppins"/></ul>
