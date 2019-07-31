@@ -62,6 +62,40 @@ foreach ($map as $foo)
         else
             $n_goed++;
     }
+
+    if (strcmp($exercise['type'], "open") == 0)
+    {
+        $cmp = strcmp($_SESSION['answers'][$n], $exercise->answer->__toString());
+
+        if ($cmp == 0)
+            $n_goed++;
+        else
+            $n_fout++;
+    }
+
+    if (strcmp($exercise['type'], "dragdrop") == 0)
+    {
+        $ddfout = 0;
+        $n_ul = 4;
+
+        foreach ($exercise->drag->drop->ul as $ul)
+        {
+            foreach ($ul->li as $li)
+            {
+                $answered = $_SESSION['answers'][$n][$li['ref']->__toString()];
+                //printf("%u\r\n", $answered);
+
+                if ($answered != $n_ul)
+                    $ddfout = 1;
+            }
+            $n_ul++;
+        }
+        if ($ddfout == 1)
+            $n_fout++;
+        else
+            $n_goed++;
+    }
+
     $n++;
 }
 
@@ -98,11 +132,12 @@ $n = 0;
 foreach ($map as $foo)
 {
     $exercise = $xml->exercise[$foo];
+    $tmp = sprintf("<exercise type=\"%s\">\n", $exercise['type']->__toString());
+    fwrite($fp, $tmp);
+    fwrite($fp, $exercise->vraag->asXML());
 
     if (strcmp($exercise['type'], "single") == 0)
     {
-        fwrite($fp, "<exercise type=\"single\">\n");
-        fwrite($fp, $exercise->vraag->asXML());
         $xidxGoed = idxGoed($exercise->choice);
 
         $goed = 0;
@@ -133,8 +168,6 @@ foreach ($map as $foo)
 
     if (strcmp($exercise['type'], "multi") == 0)
     {
-        fwrite($fp, "<exercise type=\"multi\">\n");
-        fwrite($fp, $exercise->vraag->asXML());
         $nx = 0;
         $checked_goed = 0;
         $checked_fout = 0;
@@ -163,6 +196,14 @@ foreach ($map as $foo)
         fwrite($fp, "\n</choice>\n");
     }
 
+    if (strcmp($exercise['type'], "open") == 0)
+    {
+    }
+
+    if (strcmp($exercise['type'], "dragdrop") == 0)
+    {
+    }
+    
     if (isset($exercise->toelichting))
     {
         fwrite($fp, "<toelichting>\n");
@@ -194,7 +235,15 @@ printf($strfout);
 printf("<progress max=\"%u\" value=\"%u\">%u/%u</progress>\r\n",
     $qcnt, $n_goed, $n_goed, $qcnt);
 
-printf("</pre>\r\n</body>\r\n</html>\r\n");
+printf("</pre>\r\n");
+
+/*
+printf("<pre>\r\n");
+print_r($_SESSION);
+printf("</pre>\r\n");
+*/
+
+printf("</body>\r\n</html>\r\n");
 ?>
 
 

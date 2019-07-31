@@ -31,6 +31,7 @@ foreach ($map as $foo)
 {
     $exercise = $xml->exercise[$foo];
 
+    // single antwoord vragen
     if (strcmp($exercise['type'], "single") == 0)
     {
         $n_items = $exercise->choice->item->count();    // number of items
@@ -39,13 +40,28 @@ foreach ($map as $foo)
         $_SESSION['ans_map'][$n] = $arr;
         $_SESSION['answers'][$n] = 0;
     }
-    else if (strcmp($exercise['type'], "multi") == 0)
+
+    // multi antwoord vragen
+    if (strcmp($exercise['type'], "multi") == 0)
     {
         $n_items = $exercise->choice->item->count();
         $arr = range(0, $n_items - 1);
         shuffle($arr);
         $_SESSION['ans_map'][$n] = $arr;
         $_SESSION['answers'][$n] = array_fill(0, $n_items, 0);
+    }
+
+    // drag drop vragen
+    if (strcmp($exercise['type'], "dragdrop") == 0)
+    {
+        $_SESSION['answers'][$n] = array();
+        $p = 0;
+        foreach ($exercise->drag->choice->item as $item)
+        {
+            $xid = $item['xid']->__toString();
+            $_SESSION['answers'][$n][$xid] = $p;
+            $p++;
+        }
     }
     $n++;
 }
