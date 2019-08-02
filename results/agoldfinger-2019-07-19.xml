@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<result>
+<exam>
 <user>agoldfinger</user>
-<exam>test5.xml</exam>
+<source>test5.xml</source>
 <date>2019-07-19</date>
 <score>0/13</score>
 <exercise type="single">
@@ -174,4 +174,6 @@ Een fennel is een soort van wortel.
 </toelichting></toelichting>
 </exercise>
 
-</result>
+</exam>
+
+

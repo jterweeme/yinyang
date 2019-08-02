@@ -28,6 +28,7 @@ function getAnswerHandle(xid)
 
 function drop(ev)
 {
+    ev.preventDefault();    // anders gaat de browser naar div0.com :S
     var targetLi = parseInt(ev.target.id[2]);
 
     // de id wordt via dataTransfer verstuurd
@@ -38,7 +39,7 @@ function drop(ev)
     console.log(handle);
 
     ev.target.appendChild(document.getElementById(xid));
-    ev.preventDefault();    // anders gaat de browser naar div0.com :S
+
 }
 
 function init()

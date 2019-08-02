@@ -6,19 +6,26 @@
                 <title>Onzin</title>
             </head>
             <body>
-                <xsl:apply-templates select="result"/>
+                <xsl:apply-templates select="exam"/>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="result">
+    <xsl:template match="exam">
         <h1>Result</h1>
         <h2><xsl:value-of select="user"/></h2>
         <h3><xsl:value-of select="score"/></h3>
-        <div><xsl:apply-templates select="exercise"/></div>
+        <div>
+            <xsl:apply-templates select="exercise[@type='single']|exercise[@type='multi']"/>
+        </div>
     </xsl:template>
-    <xsl:template match="exercise">
+    <xsl:template match="exercise[@type='single']">
         <div class="vraag"><b><xsl:value-of select="vraag"/></b></div>
         <div><xsl:apply-templates select="choice"/></div>
+        <xsl:apply-templates select="toelichting"/>
+    </xsl:template>
+    <xsl:template match="exercise[@type='multi']">
+        <div class="vraag"><b><xsl:value-of select="vraag"/></b></div>
+        <div></div>
         <xsl:apply-templates select="toelichting"/>
     </xsl:template>
     <xsl:template match="choice">

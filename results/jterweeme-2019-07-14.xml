@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<result>
+<exam>
 <user>jterweeme</user>
-<exam>larry.xml</exam>
+<source>larry.xml</source>
 <date>2019-07-14</date>
 <score>55/55</score>
 <exercise type="single">
@@ -925,4 +925,7 @@ hij aanraakte in goud zou veranderen?
 </choice>
 </exercise>
 
-</result>
+</exam>
+
+
+

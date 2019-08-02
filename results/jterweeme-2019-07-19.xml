@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<result>
+<exam>
 <user>jterweeme</user>
-<exam>tegen100.xml</exam>
+<source>tegen100.xml</source>
 <date>2019-07-19</date>
 <score>0/55</score>
 <exercise type="single">
@@ -946,4 +946,4 @@ inenten volgens het Honden- en Kattenbesluit '99?
 </choice>
 </exercise>
 
-</result>
+</exam>

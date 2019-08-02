@@ -4,18 +4,18 @@
 
 <exercise type="single">
 <vraag>
-<p>7 oktober 2006: $250</p>
-<p>Wat is geen ander woord voor 'gezicht'?</p>
+    <p>7 oktober 2006: $250</p>
+    <p>Wat is geen ander woord voor 'gezicht'?</p>
 </vraag>
 <choice>
-<item>Porum</item>
-<item goed="ja">Toges</item>
-<item>Facie</item>
-<item>Tronie</item>
+    <item>Porum</item>
+    <item goed="ja">Toges</item>
+    <item>Facie</item>
+    <item>Tronie</item>
 </choice>
 <tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
+    <tag>nederlands</tag>
+    <tag>taal</tag>
 </tags>
 </exercise>
 
@@ -107,13 +107,13 @@ Ovulatie is de eisprong.
 <p>
 Wat voor soort dier is Ieniemienie uit Sesamstraat?
 </p>
+</vraag>
 <choice>
 <item goed="ja">Muis</item>
 <item>Vogel</item>
 <item>Hond</item>
 <item>Varken</item>
 </choice>
-</vraag>
 <tags>
 <tag>televisie</tag>
 </tags>
@@ -272,17 +272,17 @@ in 1933, World Trade Center ook niet meer in 2005.
 
 <exercise type="single">
 <vraag>
-<p>7 oktober 2006: $64,000</p>
-<p>Welk land is tot januari 2007 voorzitter van de Europese Unie?</p>
+    <p>7 oktober 2006: $64,000</p>
+    <p>Welk land is tot januari 2007 voorzitter van de Europese Unie?</p>
 </vraag>
 <choice>
-<item>Nederland</item>
-<item>Oostenrijk</item>
-<item>Slovenie</item>
-<item goed="ja">Finland</item>
+    <item>Nederland</item>
+    <item>Oostenrijk</item>
+    <item>Slovenie</item>
+    <item goed="ja">Finland</item>
 </choice>
 <tags>
-<tag>politiek</tag>
+    <tag>politiek</tag>
 </tags>
 </exercise>
 
@@ -931,7 +931,6 @@ BNNVARA: 1 september 2018
 </choice>
 </exercise>
 
-<!-- geen antwoord! -->
 <exercise type="single">
 <vraag>
     <p>17 februari 2007: $50</p>
@@ -944,7 +943,7 @@ BNNVARA: 1 september 2018
     <item>Bar sandwich</item>
     <item>Dancing sandwich</item>
     <item>Disco sandwich</item>
-    <item>Club sandwich</item>
+    <item goed="ja">Club sandwich</item>
 </choice>
 <tags>
     <tag>eten en drinken</tag>
@@ -1112,11 +1111,11 @@ Like a Prayer, released 3 mar 1989.
 
 <exercise type="single">
 <vraag>
-<p>2 april 2007: $50</p>
-<p>
-Wat heeft volgens het spreekwoord
-de morgenstond in de mond?
-</p>
+    <p>2 april 2007: $50</p>
+    <p>
+        Wat heeft volgens het spreekwoord
+        de morgenstond in de mond?
+    </p>
 </vraag>
 <choice>
 <item>Tanden</item>
@@ -1918,6 +1917,7 @@ de orde van de knaagdieren?
 </tags>
 </exercise>
 
+<!--
 <exercise type="dragdrop">
 <vraag>
 <p>10 november 2007: vliegensvlugge vraag</p>
@@ -1943,6 +1943,7 @@ chronologische volgorde van aantreden.
 Wouter Bos
 </toelichting>
 </exercise>
+-->
 
 <exercise type="single">
 <vraag>

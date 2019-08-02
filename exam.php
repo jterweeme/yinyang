@@ -226,7 +226,7 @@ if ($q == 0)
     $disabled = "disabled";     // eerste vraag, disable prev button
 
 // previous button
-$url = "practice2.php";
+$url = "exam.php";
 if (strcmp($_SESSION['mode'], "exam") == 0)
     $url = "exam.php";
 

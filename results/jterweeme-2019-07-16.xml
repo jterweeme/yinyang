@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<result>
+<exam>
 <user>jterweeme</user>
-<exam>larry.xml</exam>
+<source>larry.xml</source>
 <date>2019-07-18</date>
 <score>6/33</score>
 <exercise type="single">
@@ -373,4 +373,4 @@ Does a pair of queens beat three deuces?
 </choice>
 </exercise>
 
-</result>
+</exam>

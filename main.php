@@ -252,13 +252,18 @@ if (isset($_SESSION['admin']))
             continue;
 
         printf("<tr>\r\n");
-        printf("<td><a href=\"result.php?fn=%s\">%s</a></td>\r\n", $fn, $fn);
+        printf("<td><a href=\"view.php?type=result&fn=%s\">%s</a></td>\r\n", $fn, $fn);
 
         $path = sprintf("results/%s", $fn);
         $xml = new DOMDocument();
         $xml->load($path);
-        $exam = $xml->getElementsByTagName("exam")->item(0);
-        printf("<td>%s</td>\r\n", $exam->textContent);
+        $exam = $xml->getElementsByTagName("source")->item(0);
+
+        if (isset($exam->textContent))
+            printf("<td>%s</td>\r\n", $exam->textContent);
+        else
+            printf("<td></td>\r\n");
+
         $score = $xml->getElementsByTagName("score")->item(0);
         printf("<td>%s</td>\r\n", $score->textContent);
 

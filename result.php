@@ -25,6 +25,7 @@ $proc->importStyleSheet($xsl);
 $tree = $proc->transformToDoc($xml);
 
 // workaround buitenste body tag verwijderen
+// TODO: is een common.php functie voor
 $buf = $tree->saveHTML($tree->getElementsByTagName("body")->item(0));
 $cut = substr($buf, 6, strlen($buf) - 13);
 printf("%s", $cut);

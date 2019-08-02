@@ -118,10 +118,10 @@ while (true)
 //$path = sprintf("results/%s-%s.xml", $_SESSION['username'], $date);
 $fp = fopen($path, 'w');
 fwrite($fp, "<?xml version=\"1.0\"?>\n");
-fwrite($fp, "<result>\n");
+fwrite($fp, "<exam>\n");
 $tmp = sprintf("<user>%s</user>\n", $_SESSION['username']);
 fwrite($fp, $tmp);
-$tmp = sprintf("<exam>%s</exam>\n", $_SESSION['fn']);
+$tmp = sprintf("<source>%s</source>\n", $_SESSION['fn']);
 fwrite($fp, $tmp);
 $tmp = sprintf("<date>%s</date>\n", $date);
 fwrite($fp, $tmp);
@@ -175,21 +175,32 @@ foreach ($map as $foo)
 
         foreach ($exercise->choice->item as $item)
         {
-            $str = sprintf("<item>%s</item>\n", $item->__toString());
-            fwrite($fp, $str);
-
             if (isset($item['goed']))
             {
                 if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
-                    $checked_goed++;
+                {
+                    $str = sprintf("<item checked=\"checked\" goed=\"ja\">%s</item>\n",
+                        $item->__toString());
+                }
                 else
-                    $checked_fout++;
+                {
+                    $str = sprintf("<item goed=\"ja\">%s</item>\n",
+                        $item->__toString());
+                }
             }
             else
             {
                 if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
-                    $checked_fout++;
+                {
+                    $str = sprintf("<item checked=\"checked\">%s</item>\n", $item->__toString());
+                }
+                else
+                {
+                    $str = sprintf("<item>%s</item>\n", $item->__toString());
+                }
             }
+
+            fwrite($fp, $str);
             $nx++;
         }
 
@@ -198,6 +209,8 @@ foreach ($map as $foo)
 
     if (strcmp($exercise['type'], "open") == 0)
     {
+        $str = sprintf("<answer>%s</answer>\n", $_SESSION['answers'][$n]);
+        fwrite($fp, $str);
     }
 
     if (strcmp($exercise['type'], "dragdrop") == 0)
@@ -206,15 +219,13 @@ foreach ($map as $foo)
     
     if (isset($exercise->toelichting))
     {
-        fwrite($fp, "<toelichting>\n");
         fwrite($fp, $exercise->toelichting->asXML());
-        fwrite($fp, "</toelichting>\n");
     }
     fwrite($fp, "</exercise>\n\n");
     $n++;
 }
 
-fwrite($fp, "</result>\n");
+fwrite($fp, "</exam>\n\n\n");
 fclose($fp);
 
 // html

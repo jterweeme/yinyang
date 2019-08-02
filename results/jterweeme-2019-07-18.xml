@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<result>
+<exam>
 <user>jterweeme</user>
-<exam>test5.xml</exam>
+<source>test5.xml</source>
 <date>2019-07-18</date>
 <score>13/13</score>
 <exercise type="single">
 <vraag>
 IBM stand for ...
 </vraag><choice>
-<item checked="checked">Italian Branch of the Mafia</item>
+<item>Italian Branch of the Mafia</item>
 <item>Ittsy Bittsy Men</item>
 <item>Iranian Broom Makers</item>
 <item goed="ja" checked="checked">International Business Machines</item>
@@ -20,7 +20,7 @@ IBM stand for ...
 Blackjack is ...
 </vraag><choice>
 <item>related to Caucasian Tom</item>
-<item checked="checked">used by policemen</item>
+<item>used by policemen</item>
 <item>a kind of car sold only in Fresno</item>
 <item goed="ja" checked="checked">an ace and a face card</item>
 </choice>
@@ -31,7 +31,7 @@ Blackjack is ...
 "Close Encounters of the Third Kind" is about ...
 </vraag><choice>
 <item>politics in third-world countries</item>
-<item checked="checked">a bicycle race across Alaska</item>
+<item>a bicycle race across Alaska</item>
 <item goed="ja" checked="checked">creatures from outer space</item>
 <item>homo- and heterosexual sex</item>
 </choice>
@@ -44,7 +44,7 @@ A 747 is ...
 <item goed="ja" checked="checked">a large airplane</item>
 <item>a cocktail</item>
 <item>a perfect bowling score</item>
-<item checked="checked">a prime number</item>
+<item>a prime number</item>
 </choice>
 </exercise>
 
@@ -55,7 +55,7 @@ Which U.S. President was not elected to office?
 <item>Johnson</item>
 <item goed="ja" checked="checked">Ford</item>
 <item>Eisenhower</item>
-<item checked="checked">Cleveland</item>
+<item>Cleveland</item>
 </choice>
 <toelichting>
 <toelichting>
@@ -70,7 +70,7 @@ was recorded by ...
 </vraag><choice>
 <item>Bad News</item>
 <item>the Grateful Dead</item>
-<item checked="checked">Deep Purple</item>
+<item>Deep Purple</item>
 <item goed="ja" checked="checked">Pink Floyd</item>
 </choice>
 </exercise>
@@ -81,7 +81,7 @@ Who is not a sportscaster?
 </vraag><choice>
 <item>Jayne Kennedy</item>
 <item goed="ja" checked="checked">Jayne Mansfield</item>
-<item checked="checked">Frank Gifford</item>
+<item>Frank Gifford</item>
 <item>Howard Cosell</item>
 </choice>
 <toelichting>
@@ -97,7 +97,7 @@ Which is not a currency
 </vraag><choice>
 <item>lira</item>
 <item goed="ja" checked="checked">fennel</item>
-<item checked="checked">rupee</item>
+<item>rupee</item>
 <item>yen</item>
 </choice>
 <toelichting>
@@ -125,7 +125,7 @@ Former Congressman Wilbur Mills went for a dip in the
 Tidal Basin with ...
 </vraag><choice>
 <item goed="ja" checked="checked">a stripper named Fanne</item>
-<item checked="checked">his dog Spot</item>
+<item>his dog Spot</item>
 <item>a 20-year-old secretary</item>
 <item>nothing but his pride</item>
 </choice>
@@ -146,7 +146,7 @@ Bourbon Street is in ...
 <vraag>
 Mork was from the planet
 </vraag><choice>
-<item checked="checked">Vulcan</item>
+<item>Vulcan</item>
 <item>Pluto</item>
 <item>Krypton</item>
 <item goed="ja" checked="checked">Ork</item>
@@ -167,11 +167,13 @@ https://en.wikipedia.org/wiki/Mork_%26_Mindy
 <vraag>
 Who wrote "To be, or not to be?"
 </vraag><choice>
-<item checked="checked">Paul McCartney</item>
+<item>Paul McCartney</item>
 <item>George Bernard Shaw</item>
 <item>Tennessee Williams</item>
 <item goed="ja" checked="checked">Bill Shakespeare</item>
 </choice>
 </exercise>
 
-</result>
+</exam>
+
+
