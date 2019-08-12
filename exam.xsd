@@ -1,10 +1,32 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="exercise">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="vraag"/>
+            <xs:element name="choice" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="toelichting" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="tags" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="answer" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="drag" minOccurs="0" maxOccurs="1"/>
+        </xs:all>
+        <xs:attribute name="type">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="single"/>
+                    <xs:enumeration value="multi"/>
+                    <xs:enumeration value="dragdrop"/>
+                    <xs:enumeration value="open"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+</xs:element>
 <xs:element name="exam">
     <xs:complexType>
         <xs:sequence>
             <xs:element name="title" type="xs:string"/>
-            <xs:element name="exercise" maxOccurs="unbounded"/>
+            <xs:element ref="exercise" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 </xs:element>

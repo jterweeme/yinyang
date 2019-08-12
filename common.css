@@ -52,6 +52,8 @@ ul.dragdrop li {
 }
 
 div.exercise {
+    padding-top: 10px;
+    padding-bottom: 5px;
     border-bottom: 1px dotted gray;
 }
 

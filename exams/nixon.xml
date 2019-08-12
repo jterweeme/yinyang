@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<exam>
+<title>Leisure Suit Larry Snapshot</title>
+
+<exercise type="single">
+    <vraag>Richard Nixon was</vraag>
+    <choice>
+        <item goed="ja">an audio technician</item>
+        <item goed="ja">a plumber's friend</item>
+        <item goed="ja">a comedian</item>
+        <item goed="ja">a president</item>
+    </choice>
+    <tags>
+        <tag>amerikaans</tag>
+        <tag>nixon</tag>
+        <tag>politiek</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which U.S. President was not elected to office?
+    </vraag>
+    <choice>
+        <item>Johnson</item>
+        <item>Eisenhower</item>
+        <item goed="ja">Ford</item>
+        <item>Cleveland</item>
+    </choice>
+    <toelichting>
+        Gerald Ford werd president nadat Richard Nixon aftrad.
+    </toelichting>
+    <tags>
+        <tag>politiek</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>A result of Watergate was ...</vraag>
+    <choice>
+        <item>the loss of water</item>
+        <item>Jimmy Carter quit</item>
+        <item goed="ja">Richard Nixon quit</item>
+        <item>Gerald Ford quit</item>
+    </choice>
+    <toelichting>
+        Richard Nixon had gespioneerd op de Democratische
+        Partij. Toen dit uitkwam heeft hij de eer aan
+        zichzelf gehouden door zelf af te treden. Zijn
+        vice-president Gerald Ford werd toen president.
+        Jimmy Carter was de president na Gerald Ford.
+    </toelichting>
+    <tags>
+        <tag>amerikaans</tag>
+        <tag>geschiedenis</tag>
+        <tag>nixon</tag>
+        <tag>politiek</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Richard Nixon was the ... President
+        of the United States.
+    </vraag>
+    <choice>
+        <item>last</item>
+        <item>funniest</item>
+        <item goed="ja">thirty-seventh</item>
+        <item>first Negro</item>
+    </choice>
+    <tags>
+        <tag>amerikaans</tag>
+        <tag>nixon</tag>
+        <tag>politiek</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>Spiro Agnew is</vraag>
+    <choice>
+        <item>a form of social disease</item>
+        <item>a jazz-fusion rock band</item>
+        <item goed="ja">a former Vice President</item>
+        <item>the first woman in Congress</item>
+    </choice>
+    <tags>
+        <tag>amerikaans</tag>
+        <tag>nixon</tag>
+        <tag>politiek</tag>
+    </tags>
+    <toelichting>
+        Spiro Agnew was de vice-president onder Richard Nixon.
+    </toelichting>
+</exercise>
+
+</exam>
+
+

@@ -4,6 +4,110 @@
 
 <exercise type="single">
 <vraag>
+    <!-- Anton Geesink -->
+    <p>$4,000</p>
+    <p>Hoeveel Nederlandse provincies grezen aan zee?</p>
+</vraag>
+<choice>
+    <item>4</item>
+    <item goed="ja">5</item>
+    <item>6</item>
+    <item>7</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+    <!-- Anton Geesink -->
+    <p>$8,000</p>
+    <p>
+        Tegen welk land zal het Nederlands elftal niet spelen
+        in de groepsfase van het aankomende EK voetbal?
+    </p>
+</vraag>
+<choice>
+    <item>Roemenië</item>
+    <item>Frankrijk</item>
+    <item>Italië</item>
+    <item goed="ja">Spanje</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!-- Hans Peters -->
+<p>6 januari 2001: F125,000</p>
+<p>
+Wat is de munteenheid in Albanië?
+</p>
+</vraag>
+<choice>
+<item>Forint</item>
+<item>Zloty</item>
+<item goed="ja">Lek</item>
+<item>Koruna</item>
+</choice>
+<toelichting>
+De Zloty is de munteenheid van Polen.
+Koruna is Tsjechisch en Slowaaks voor Kroon.
+Forint is de munteenheid van Hongarije.
+Lek is de munteenheid van Albanië.
+</toelichting>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!-- Hans Peters -->
+<p>6 januari 2001: F250,000</p>
+<p>
+Welke action-painter werd beroemd
+door zijn 'drippings-techniek'?
+</p>
+</vraag>
+<choice>
+<item>Sigmar Polke</item>
+<item goed="ja">Jackson Pollock</item>
+<item>Karel Appel</item>
+<item>Roy Lichtenstein</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+<!-- Hans Peters -->
+<p>6 januari 2001: F500,000</p>
+<p>
+Karl Marx schreef 'Das Kapital'. Zijn schoonzoon
+schreef 'Het recht op luiheid'. Wie was deze filosoof?
+</p>
+</vraag>
+<choice>
+<item>Jules Guesde</item>
+<item>Georg Hegel</item>
+<item goed="ja">Paul Lafargue</item>
+<item>Martin Heidegger</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
+    <!-- Hans Peters -->
+    <p>6 januari 2001: F1,000,000</p>
+    <p>
+        Wie ontwierp zowel de huidige Nederlandse munten als
+        ook de Nederlandse zijde van de euromunten?
+    </p>
+</vraag>
+<choice>
+    <item>Luk Luycks</item>
+    <item goed="ja">Bruno N. van Eyben</item>
+    <item>Jaap Drupsteen</item>
+    <item>R.D.E. Oxenaar</item>
+</choice>
+</exercise>
+
+<exercise type="single">
+<vraag>
     <p>7 oktober 2006: $250</p>
     <p>Wat is geen ander woord voor 'gezicht'?</p>
 </vraag>
@@ -344,6 +448,9 @@ een populaire muziekstijl?
 <tag>nederlands</tag>
 <tag>taal</tag>
 </tags>
+<toelichting>
+Uiteraard hebben we het over Rock-muziek
+</toelichting>
 </exercise>
 
 <exercise type="single">

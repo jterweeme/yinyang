@@ -18,6 +18,21 @@ Who wrote "To be, or not to be?"
 </exercise>
 
 <exercise type="single">
+    <vraag>Richard Nixon was</vraag>
+    <choice>
+        <item goed="ja">an audio technician</item>
+        <item goed="ja">a plumber's friend</item>
+        <item goed="ja">a comedian</item>
+        <item goed="ja">a president</item>
+    </choice>
+    <tags>
+        <tag>amerikaans</tag>
+        <tag>nixon</tag>
+        <tag>politiek</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
 <vraag>
 Who is not a sportscaster?
 </vraag>

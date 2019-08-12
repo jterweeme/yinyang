@@ -159,13 +159,40 @@ foreach ($map as $foo)
             else
                 fwrite($fp, "<item>");
 
-            fwrite($fp, $item);
+            fwrite($fp, htmlspecialchars($item));
             fwrite($fp, "</item>\n");
         }
 
         fwrite($fp, "</choice>\n");
     }
 
+    if (strcmp($exercise['type'], "multi") == 0)
+    {
+        $nx = 0;
+        $checked_goed = 0;
+        $checked_fout = 0;
+        fwrite($fp, "\n<choice>\n");
+        
+        foreach ($exercise->choice->item as $item)
+        {
+            $str_goed = "";
+            $str_checked = "";
+
+            if (isset($item['goed']))
+                $str_goed = " goed=\"ja\"";
+
+            if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
+                $str_checked = " checked=\"checked\"";
+
+            $str = sprintf("<item%s%s>%s</item>\n", $str_goed, $str_checked, $item->toString());
+            fwrite($fp, $str);
+            $nx++;
+        }
+
+        fwrite($fp, "\n</choice>\n";
+    }
+
+/*
     if (strcmp($exercise['type'], "multi") == 0)
     {
         $nx = 0;
@@ -206,6 +233,7 @@ foreach ($map as $foo)
 
         fwrite($fp, "\n</choice>\n");
     }
+*/
 
     if (strcmp($exercise['type'], "open") == 0)
     {
@@ -229,7 +257,9 @@ fwrite($fp, "</exam>\n\n\n");
 fclose($fp);
 
 // html
-printf("<html lang=\"en\">\r\n<head>\r\n<title>Results</title>\r\n</head>\r\n");
+printf("<html lang=\"en\">\r\n<head>\r\n");
+printf("<meta name=\"viewport\" content=\"width=device-width\"/>\r\n");
+printf("<title>Results</title>\r\n</head>\r\n");
 printf("<body>\r\n");
 
 // header

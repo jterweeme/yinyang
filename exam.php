@@ -57,14 +57,23 @@ if (strcmp($qtype, "dragdrop") == 0)
     }
 }
 
-// zet de vraagteller goed
+/*
+function allesIngevuld()
+{
+    foreach ($_SESSION['answers'] as $answer)
+    {
+        if (
+    }
+}
+*/
+
 if (isset($_POST['button']))
 {
     if (strcmp($_POST['button'], "Next") == 0)
-        $_SESSION['q']++;
+        $_SESSION['q']++;   // zet vragenteller goed
 
     if (strcmp($_POST['button'], "Previous") == 0)
-        $_SESSION['q']--;
+        $_SESSION['q']--;   // zet vragenteller goed
 
     if (strcmp($_POST['button'], "Finish") == 0)
     {
@@ -79,11 +88,9 @@ $exercise = $xml->exercise[$qx];
 $qtype = $exercise['type'];
 
 printf("<html lang=\"en\">\r\n<head>\r\n<title>%s</title>\r\n", $_SESSION['mode']);
+printf("<meta name=\"viewport\" content=\"width=device-width\"/>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
-
-if (strcmp($qtype, "dragdrop") == 0)
-    printf("<script type=\"text/javascript\" src=\"practice2.js\"></script>\r\n");
-
+printf("<script type=\"text/javascript\" src=\"practice2.js\"></script>\r\n");
 printf("</head>\r\n<body>\r\n");
 
 // header
@@ -99,12 +106,11 @@ printf("<p>%u/%u <progress max=\"%u\" value=\"%u\">%u/%u</progress></p>\r\n",
 printf("<h1>%s</h1>\r\n", $_SESSION['mode']);
 printf("<div>\r\n%s\r\n</div>\r\n", innerCode($exercise->vraag, "vraag"));
 printf("<form method=\"post\">\r\n");
+printf("\t<input id=\"xtype\" type=\"hidden\" name=\"xtype\" value=\"%s\"/>\r\n", $qtype);
 
 // single antwoord vragen
 if (strcmp($qtype, "single") == 0)
 {
-    printf("\t<input type=\"hidden\" name=\"xtype\" value=\"single\"/>\r\n");
-
     foreach ($_SESSION['ans_map'][$q] as $n)
     {
         $item = $exercise->choice->item[$n];
@@ -126,7 +132,6 @@ if (strcmp($qtype, "single") == 0)
 // multiple antwoord vragen
 if (strcmp($qtype, "multi") == 0)
 {
-    printf("\t<input type=\"hidden\" name=\"xtype\" value=\"multi\"/>\r\n");
     $n = 0;
     foreach ($exercise->choice->item as $item)
     {
@@ -253,16 +258,18 @@ if (strcmp($_SESSION['mode'], "exam") == 0)
     $disabled = "";
 
 printf("\t<input type=\"submit\" formaction=\"%s\" ", $url);
-printf("name=\"button\" value=\"Finish\" %s/>\r\n", $disabled);
-
+printf("name=\"button\" id=\"finish\" value=\"Finish\" disabled/>\r\n");
+printf("\t<p><input type=\"checkbox\" id=\"vfinish\"%s/><label for=\"vfinish\">Finish</label></p>\r\n", $disabled);
 printf("</form>\r\n");
 
 // debug
+/*
 printf("<pre>\r\n");
 printf("\$_POST\r\n");
 print_r($_POST);
 print_r($_SESSION);
 printf("</pre>\r\n");
+*/
 
 printf("</body>\r\n</html>\r\n");
 ?>

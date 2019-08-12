@@ -15,8 +15,8 @@ function innerCode($xml, $tag)
     $ret = $xml->asXML();
     $xmllen = strlen($ret);
     $taglen = strlen($tag);
-    $prelen = $taglen + 3;
-    $postlen = $taglen + 4;
+    $prelen = $taglen + 2;
+    $postlen = $taglen + 3;
     $cutlen = $prelen + $postlen;
     return substr($ret, $prelen, $xmllen - $cutlen);
     return $xml->asXML();

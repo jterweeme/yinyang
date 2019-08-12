@@ -120,10 +120,11 @@ if (!empty($tags))
 }
 
 // debug
+/*
 printf("<pre>\r\n");
 print_r($_SESSION);
 printf("</pre>\r\n");
-
+*/
 printf("</body>\r\n</html>\r\n");
 ?>
 

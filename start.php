@@ -67,6 +67,7 @@ foreach ($map as $foo)
 }
 
 printf("<html lang=\"en\">\r\n<head>\r\n<title>Start</title>\r\n");
+printf("<meta name=\"viewport\" content=\"width=device-width\"/>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
 printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End exam</a>\r\n");
 printf("<a href=\"logout.php\">\r\n");
@@ -76,10 +77,11 @@ printf("<h2>%u vragen</h2>\r\n", $qcnt);
 printf("<a href=\"exam.php\">Start</a>\r\n");
 
 // debug
+/*
 printf("<pre>\r\n");
 print_r($_SESSION);
 printf("</pre>\r\n");
-
+*/
 printf("</body>\r\n</html>\r\n");
 ?>
 

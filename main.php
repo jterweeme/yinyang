@@ -25,6 +25,7 @@ if (!isset($_SESSION['username']))
 }
 
 printf("<html lang=\"en\">\r\n<head>\r\n");
+printf("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\r\n");
 printf("<link rel=\"Shortcut Icon\" href=\"yinyang.svg\"/>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
 printf("<title>Main</title>\r\n</head>\r\n<body>\r\n<header>\r\n");
