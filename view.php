@@ -39,6 +39,46 @@ else
     printf("<h1>%s</h1>\r\n", $xml->title);
 }
 
+$tags = array();
+
+// vul de $tags array
+foreach ($xml->exercise as $exercise)
+{
+    if (!isset($exercise->tags))
+        continue;
+
+    foreach ($exercise->tags->tag as $tag)
+    {
+        $foo = $tag[0]->__toString();   //tag als string
+
+        if (!isset($tags[$foo]))    // zit deze tag not niet in de array?
+            $tags[$foo] = 0;        // voeg deze dan toe
+
+        $tags[$foo]++;
+    }
+}
+
+if (!empty($tags))
+{
+    $maxtags = max($tags);
+    printf("<table>\r\n<caption>Tags</caption>\r\n");
+
+    foreach ($tags as $tag => $cnt)
+    {
+        printf("<tr>\r\n");
+        printf("<td>%s</td>\r\n", $tag);
+        printf("<td>%u</td>\r\n", $cnt);
+
+        printf("<td><meter value=\"%u\" max=\"%u\">%u/%u</meter></td>\r\n",
+            $cnt, $maxtags, $cnt, $maxtags);
+
+        printf("</tr>\r\n");
+    }
+
+    printf("</table>\r\n");
+}
+
+
 foreach ($xml->exercise as $exercise)
 {
     printf("<div class=\"exercise\">\r\n");
@@ -104,6 +144,16 @@ foreach ($xml->exercise as $exercise)
         printf("<div class=\"toelichting\">\r\n");
         printf("%s\r\n", innerCode($exercise->toelichting, "toelichting"));
         printf("</div>\r\n");
+    }
+
+    if (isset($exercise->tags))
+    {
+        printf("<ul class=\"tags\">\r\n");
+        foreach ($exercise->tags->tag as $tag)
+        {
+            printf("<li>%s</li>\r\n", $tag->__toString());
+        }
+        printf("</ul>\r\n");
     }
 
     printf("</div>\r\n");

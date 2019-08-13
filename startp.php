@@ -92,7 +92,7 @@ foreach ($map as $foo)
 
 printf("<html lang=\"en\">\r\n<head>\r\n<title>Start Practice</title>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
-printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End exam</a>\r\n");
+printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End Practice</a>\r\n");
 printf("<a href=\"logout.php\">Log out %s</a>\r\n", $_SESSION['username']);
 printf("</header>\r\n<h1>Start Practice</h1>\r\n");
 printf("<h2>%u vragen</h2>\r\n", $qcnt);
@@ -120,11 +120,10 @@ if (!empty($tags))
 }
 
 // debug
-/*
 printf("<pre>\r\n");
 print_r($_SESSION);
 printf("</pre>\r\n");
-*/
+
 printf("</body>\r\n</html>\r\n");
 ?>
 

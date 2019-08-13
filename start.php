@@ -77,11 +77,10 @@ printf("<h2>%u vragen</h2>\r\n", $qcnt);
 printf("<a href=\"exam.php\">Start</a>\r\n");
 
 // debug
-/*
 printf("<pre>\r\n");
 print_r($_SESSION);
 printf("</pre>\r\n");
-*/
+
 printf("</body>\r\n</html>\r\n");
 ?>
 

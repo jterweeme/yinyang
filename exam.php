@@ -114,38 +114,38 @@ if (strcmp($qtype, "single") == 0)
     foreach ($_SESSION['ans_map'][$q] as $n)
     {
         $item = $exercise->choice->item[$n];
+
+        $str_checked = "";
+        if ($_SESSION['answers'][$q] == $n + 1)
+            $str_checked = " checked";
+
         printf("\t<p>\r\n");
-        $checked = "";
 
-        if (isset($_SESSION['answers'][$q]))
-            if ($_SESSION['answers'][$q] == $n + 1)
-                $checked = "checked";
-
-        printf("\t<input id=\"r%u\" type=\"radio\" value=\"%u\" name=\"choice\" %s/>\r\n",
-            $n + 1, $n + 1, $checked);
+        printf("\t<input id=\"r%u\" type=\"radio\" value=\"%u\" name=\"choice\"%s/>\r\n",
+            $n + 1, $n + 1, $str_checked);
         // de $n + 1 maakt het mogelijk om een 0 waarde over te laten voor blanco antwoord
 
         printf("\t<label for=\"r%u\">%s</label>\r\n\t</p>\r\n", $n + 1, $item);
     }
 }
 
-// multiple antwoord vragen
+// multi antwoord vragen
 if (strcmp($qtype, "multi") == 0)
 {
-    $n = 0;
-    foreach ($exercise->choice->item as $item)
+    foreach ($_SESSION['ans_map'][$q] as $n)
     {
-        $checked = "";
+        $item = $exercise->choice->item[$n];
+
+        $str_checked = "";
         if ($_SESSION['answers'][$q][$n] == 1)
-            $checked = "checked";
+            $str_checked = " checked";
 
         printf("\t<p>\r\n");
-
-        printf("\t<input type=\"checkbox\" id=\"c%d\" value=\"%u\" name=\"%u\" %s/>\r\n",
-            $n, $n, $n, $checked);
+        
+        printf("\t<input type=\"checkbox\" id=\"c%d\" value=\"%u\" name=\"%u\"%s/>\r\n",
+            $n, $n, $n, $str_checked);
 
         printf("\t<label for=\"c%d\">%s</label>\r\n\t</p>\r\n", $n, $item);
-        $n++;
     }
 }
 

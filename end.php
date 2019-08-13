@@ -9,6 +9,7 @@ $map = $_SESSION['map'];
 $qcnt = $_SESSION['qcnt'];
 
 // returns correct option index from xml ordering
+/*
 function idxGoed($choices)
 {
     $foo = 0;
@@ -20,6 +21,7 @@ function idxGoed($choices)
         $foo++;
     }
 }
+*/
 
 $n = 0;
 foreach ($map as $foo)
@@ -28,10 +30,19 @@ foreach ($map as $foo)
     
     if (strcmp($exercise['type'], "single") == 0)
     {
+        $n_checked = ($_SESSION['answers'][$n] - 1);
+
+        if (isset($exercise->choice->item[$n_checked]['goed']))
+            $n_goed++;
+        else
+            $n_fout++;
+/*
+
         if ($_SESSION['answers'][$n] == idxGoed($exercise->choice) + 1)
             $n_goed++;
         else
             $n_fout++;
+*/
     }
 
     if (strcmp($exercise['type'], "multi") == 0)
@@ -44,14 +55,14 @@ foreach ($map as $foo)
         {
             if (isset($item['goed']))
             {
-                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
+                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat juist aangevinkt
                     $checked_goed++;
                 else
-                    $checked_fout++;
+                    $checked_fout++;    // door kandidaat gemist
             }
             else
             {
-                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
+                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat foutief aangevinkt
                     $checked_fout++;
             }
             $nx++;
@@ -138,102 +149,49 @@ foreach ($map as $foo)
 
     if (strcmp($exercise['type'], "single") == 0)
     {
-        $xidxGoed = idxGoed($exercise->choice);
+        fwrite($fp, "\n<choice>\n");        
 
-        $goed = 0;
-        if (($_SESSION['answers'][$n] - 1) == $xidxGoed)
-            $goed = 1;
-
-        fwrite($fp, "<choice>\n");
-    
         foreach ($_SESSION['ans_map'][$n] as $tmp)
         {
+            $str_goed = "";
+            $str_checked = "";
             $item = $exercise->choice->item[$tmp];
 
-            if ($tmp == $xidxGoed && $_SESSION['answers'][$n] == $tmp + 1)
-                fwrite($fp, "<item goed=\"ja\" checked=\"checked\">");
-            else if ($tmp == $xidxGoed)
-                fwrite($fp, "<item goed=\"ja\">");
-            else if ($_SESSION['answers'][$n] == $tmp + 1)
-                fwrite($fp, "<item checked=\"checked\">");
-            else
-                fwrite($fp, "<item>");
+            if (isset($item['goed']))
+                $str_goed = " goed=\"ja\"";
 
-            fwrite($fp, htmlspecialchars($item));
-            fwrite($fp, "</item>\n");
+            if ($_SESSION['answers'][$n] == $tmp + 1)
+                $str_checked = " checked=\"checked\"";
+
+            $str = sprintf("<item%s%s>%s</item>\n", $str_goed, $str_checked, $item->__toString());
+            fwrite($fp, $str);
         }
 
-        fwrite($fp, "</choice>\n");
+        fwrite($fp, "\n</choice>\n");
     }
 
     if (strcmp($exercise['type'], "multi") == 0)
     {
-        $nx = 0;
-        $checked_goed = 0;
-        $checked_fout = 0;
         fwrite($fp, "\n<choice>\n");
         
-        foreach ($exercise->choice->item as $item)
+        foreach ($_SESSION['ans_map'][$n] as $tmp)
         {
+            $item = $exercise->choice->item[$tmp];
             $str_goed = "";
             $str_checked = "";
 
             if (isset($item['goed']))
                 $str_goed = " goed=\"ja\"";
 
-            if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
+            if ($_SESSION['answers'][$n][$tmp] == 1) // door kandidaat aangevinkt
                 $str_checked = " checked=\"checked\"";
 
-            $str = sprintf("<item%s%s>%s</item>\n", $str_goed, $str_checked, $item->toString());
+            $str = sprintf("<item%s%s>%s</item>\n", $str_goed, $str_checked, $item->__toString());
             fwrite($fp, $str);
-            $nx++;
-        }
-
-        fwrite($fp, "\n</choice>\n";
-    }
-
-/*
-    if (strcmp($exercise['type'], "multi") == 0)
-    {
-        $nx = 0;
-        $checked_goed = 0;
-        $checked_fout = 0;
-        fwrite($fp, "\n<choice>\n");
-
-        foreach ($exercise->choice->item as $item)
-        {
-            if (isset($item['goed']))
-            {
-                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
-                {
-                    $str = sprintf("<item checked=\"checked\" goed=\"ja\">%s</item>\n",
-                        $item->__toString());
-                }
-                else
-                {
-                    $str = sprintf("<item goed=\"ja\">%s</item>\n",
-                        $item->__toString());
-                }
-            }
-            else
-            {
-                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat aangevinkt
-                {
-                    $str = sprintf("<item checked=\"checked\">%s</item>\n", $item->__toString());
-                }
-                else
-                {
-                    $str = sprintf("<item>%s</item>\n", $item->__toString());
-                }
-            }
-
-            fwrite($fp, $str);
-            $nx++;
         }
 
         fwrite($fp, "\n</choice>\n");
     }
-*/
 
     if (strcmp($exercise['type'], "open") == 0)
     {
