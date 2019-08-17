@@ -25,13 +25,31 @@ if (!isset($_SESSION['username']))
 }
 
 printf("<html lang=\"en\">\r\n<head>\r\n");
+printf("<meta charset=\"UTF-8\"/>\r\n");
 printf("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\r\n");
 printf("<link rel=\"Shortcut Icon\" href=\"yinyang.svg\"/>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
 printf("<title>Main</title>\r\n</head>\r\n<body>\r\n<header>\r\n");
 printf("\t<a href=\"chpasswd.php\">Verander wachtwoord</a>\r\n");
 printf("\t<a href=\"logout.php\">Log out %s</a>\r\n", $_SESSION['username']);
-printf("</header>\r\n<table>\r\n<caption>Exams</caption>\r\n");
+printf("</header>\r\n");
+
+// exams table
+printf("<table>\r\n<caption>Exams</caption>\r\n");
+printf("<colgroup>\r\n");
+printf("<col id=\"col_fn\"/>\r\n");
+printf("<col id=\"col_name\"/>\r\n");
+printf("<col id=\"col_q\"/>\r\n");
+printf("<col id=\"col_prac\"/>\r\n");
+printf("<col id=\"col_exam\"/>\r\n");
+
+if (isset($_SESSION['admin']))
+{
+    printf("<col id=\"col_edit\"/>\r\n");
+    printf("<col id=\"col_view\"/>\r\n");
+}
+
+printf("</colgroup>\r\n");
 $ar = scandir("exams");
 
 // open database connectie

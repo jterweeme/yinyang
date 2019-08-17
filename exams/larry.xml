@@ -1324,11 +1324,15 @@
     </vraag>
     <choice>
         <item goed="ja">None, it's a hardware problem.</item>
-        <item goed="ja">None, programmers can't fit in light bulbs.</item>
+        <item goed="ja">
+            None, programmers can't fit in light bulbs.
+        </item>
         <item goed="ja">
             100. One to hold the bulb and 99 to debug the house.
         </item>
-        <item>None so far, but they'll get to it Real Soon Now.</item>
+        <item goed="ja">
+            None so far, but they'll get to it Real Soon Now.
+        </item>
     </choice>
 </exercise>
 
@@ -1348,14 +1352,13 @@
     </tags>
 </exercise>
 
-<!--
 <exercise type="single">
     <vraag>
         The term "Working Girl" refers to
     </vraag>
     <choice>
         <item>a secretary</item>
-        <item>a lady of negotiable virtue</item>
+        <item goed="ja">a lady of negotiable virtue</item>
         <item>an industrious woman</item>
         <item>an employed female</item>
     </choice>
@@ -1363,7 +1366,6 @@
         <tag>taal</tag>
     </tags>
 </exercise>
--->
 
 <exercise type="single">
     <vraag>
@@ -2156,6 +2158,39 @@
         <item>Mussolini</item>
         <item>Oleg Cassinni</item>
         <item goed="ja">Adolph Hitler</item>
+    </choice>
+    <tags>
+        <tag>geschiedenis</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Who made a record album with a cover that looked
+        like a pair of blue jeans, complete with a
+        working zipper?
+    </vraag>
+    <choice>
+        <item goed="ja">Rolling Stones</item>
+        <item>Boy George</item>
+        <item>Olivia Newton Jean</item>
+        <item>Madonna</item>
+    </choice>
+    <tags>
+        <tag>muziek</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        In Westworld, "where nothing can go
+        wrong," guests were entertained by
+    </vraag>
+    <choice>
+        <item>Stephen Wright</item>
+        <item>X-rated movies</item>
+        <item goed="ja">robots</item>
+        <item>Rodney Dangerfield</item>
     </choice>
 </exercise>
 

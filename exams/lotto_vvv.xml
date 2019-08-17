@@ -3,239 +3,232 @@
 <title>Vliegensvlugge vragen</title>
 
 <exercise type="dragdrop">
-<vraag>
-    <p>2 december 2006: vliegensvlugge vraag</p>
-    <p>
-Zet deze voetbalclubs waar Patrick Kluivert
-gespeeld heeft in chronologische volgorde.
-    </p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="acmilan">AC Milan</item>
-        <item xid="barcelona">Barcelona</item>
-        <item xid="ajax">Ajax</item>
-        <item xid="psv">PSV</item>
-    </choice>
-    <drop>
-        <ul><li ref="ajax"/></ul>
-        <ul><li ref="acmilan"/></ul>
-        <ul><li ref="barcelona"/></ul>
-        <ul><li ref="psv"/></ul>
-    </drop>
-</drag>
-<tags>
-    <tag>nederlands</tag>
-    <tag>sport</tag>
-    <tag>voetbal</tag>
-</tags>
+    <vraag>
+        <p>2 december 2006: vliegensvlugge vraag</p>
+        <p>
+            Zet deze voetbalclubs waar Patrick Kluivert
+            gespeeld heeft in chronologische volgorde.
+        </p>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="acmilan">AC Milan</item>
+            <item xid="barcelona">Barcelona</item>
+            <item xid="ajax">Ajax</item>
+            <item xid="psv">PSV</item>
+        </choice>
+        <drop>
+            <ul><li ref="ajax"/></ul>
+            <ul><li ref="acmilan"/></ul>
+            <ul><li ref="barcelona"/></ul>
+            <ul><li ref="psv"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>sport</tag>
+        <tag>voetbal</tag>
+    </tags>
 </exercise>
 
 <exercise type="dragdrop">
-<vraag>
-    <p>17 februari 2007: vliegensvlugge vraag</p>
-    <p>
-Zet deze publieke omroepen op volgorde van
-oprichtingsjaar en begin bij de oudste omroep.
-    </p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="bnn">BNN</item>
-        <item xid="max">MAX</item>
-        <item xid="tros">TROS</item>
-        <item xid="kro">KRO</item>
-    </choice>
-    <drop>
-        <ul><li ref="kro"/></ul>
-        <ul><li ref="tros"/></ul>
-        <ul><li ref="bnn"/></ul>
-        <ul><li ref="max"/></ul>
-    </drop>
-</drag>
-<tags>
-    <tag>nederlands</tag>
-    <tag>televisie</tag>
-</tags>
-<toelichting>
-<pre>
-KRO: 23 april 1925
-TROS: 1964
-EO: 21 april 1967
-BNN: 15 augustus 1997
-MAX: 2002
-AVROTROS: 1 januari 2014
-KRONCRV: 1 januari 2014
-BNNVARA: 1 september 2018
-</pre>
-</toelichting>
+    <vraag>
+        <p>17 februari 2007: vliegensvlugge vraag</p>
+        <p>
+            Zet deze publieke omroepen op volgorde van
+            oprichtingsjaar en begin bij de oudste omroep.
+        </p>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="bnn">BNN</item>
+            <item xid="max">MAX</item>
+            <item xid="tros">TROS</item>
+            <item xid="kro">KRO</item>
+        </choice>
+        <drop>
+            <ul><li ref="kro"/></ul>
+            <ul><li ref="tros"/></ul>
+            <ul><li ref="bnn"/></ul>
+            <ul><li ref="max"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>televisie</tag>
+    </tags>
+    <toelichting>
+    <pre>
+    KRO: 23 april 1925
+    TROS: 1964
+    EO: 21 april 1967
+    BNN: 15 augustus 1997
+    MAX: 2002
+    AVROTROS: 1 januari 2014
+    KRONCRV: 1 januari 2014
+    BNNVARA: 1 september 2018
+    </pre>
+    </toelichting>
 </exercise>
 
 <exercise type="dragdrop">
-<vraag>
-    <p>2 april 2007: vliegensvlugge vraag</p>
-    <p>
-        Zet de volgende schrijvers in volgorde van
-        geboortejaar en begin bij de eerstgeborene.
-    </p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="campert">Remco Campert</item>
-        <item xid="giphart">Ronald Giphart</item>
-        <item xid="wolkers">Jan Wolkers</item>
-        <item xid="zwagerman">Joost Zwagerman</item>
-    </choice>
-    <drop>
-        <ul><li ref="wolkers"/></ul>
-        <ul><li ref="campert"/></ul>
-        <ul><li ref="zwagerman"/></ul>
-        <ul><li ref="giphart"/></ul>
-    </drop>
-</drag>
-<tags>
-    <tag>literatuur</tag>
-    <tag>nederlands</tag>
-</tags>
-<toelichting>
-<pre>
-26 oktober 1925 Jan Wolkers
-28 juli 1929 Remco Campert
-18 november 1963 Joost Zwagerman
-17 december 1965 Ronald Giphart
-</pre>
-</toelichting>
+    <vraag>
+        <p>2 april 2007: vliegensvlugge vraag</p>
+        <p>
+            Zet de volgende schrijvers in volgorde van
+            geboortejaar en begin bij de eerstgeborene.
+        </p>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="campert">Remco Campert</item>
+            <item xid="giphart">Ronald Giphart</item>
+            <item xid="wolkers">Jan Wolkers</item>
+            <item xid="zwagerman">Joost Zwagerman</item>
+        </choice>
+        <drop>
+            <ul><li ref="wolkers"/></ul>
+            <ul><li ref="campert"/></ul>
+            <ul><li ref="zwagerman"/></ul>
+            <ul><li ref="giphart"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>literatuur</tag>
+        <tag>nederlands</tag>
+    </tags>
+    <toelichting>
+    <pre>
+    26 oktober 1925 Jan Wolkers
+    28 juli 1929 Remco Campert
+    18 november 1963 Joost Zwagerman
+    17 december 1965 Ronald Giphart
+    </pre>
+    </toelichting>
 </exercise>
 
 <exercise type="dragdrop">
-<vraag>
-    <p>2 april 2007: vliegensvlugge vraag</p>
-    <p>Zet deze meisjesnamen op alfabetische volgorde.</p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="anne">Anne</item>
-        <item xid="sophie">Sophie</item>
-        <item xid="julia">Julia</item>
-        <item xid="karlijn">Karlijn</item>
-    </choice>
-    <drop>
-        <ul><li ref="anne"/></ul>
-        <ul><li ref="julia"/></ul>
-        <ul><li ref="karlijn"/></ul>
-        <ul><li ref="sophie"/></ul>
-    </drop>
-</drag>
-<tags>
-    <tag>nederlands</tag>
-    <tag>taal</tag>
-</tags>
+    <vraag>
+        <p>2 april 2007: vliegensvlugge vraag</p>
+        <p>Zet deze meisjesnamen op alfabetische volgorde.</p>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="anne">Anne</item>
+            <item xid="sophie">Sophie</item>
+            <item xid="julia">Julia</item>
+            <item xid="karlijn">Karlijn</item>
+        </choice>
+        <drop>
+            <ul><li ref="anne"/></ul>
+            <ul><li ref="julia"/></ul>
+            <ul><li ref="karlijn"/></ul>
+            <ul><li ref="sophie"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <exercise type="dragdrop">
-<vraag>
-    <p>3 november 2007: vliegensvlugge vraag</p>
-    <p>
-        Zet de woorden uit de titel van het dagelijkse
-        nieuws- en amusementsprogramma van de VARA
-        in de goede volgorde.
-    </p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="draait">Draait</item>
-        <item xid="de">De</item>
-        <item xid="wereld">Wereld</item>
-        <item xid="door">Door</item>
-    </choice>
-    <drop>
-        <ul><li ref="de"/></ul>
-        <ul><li ref="wereld"/></ul>
-        <ul><li ref="draait"/></ul>
-        <ul><li ref="door"/></ul>
-    </drop>
-</drag>
-<tags>
-    <tag>nederlands</tag>
-    <tag>televisie</tag>
-</tags>
+    <vraag>
+        <p>3 november 2007: vliegensvlugge vraag</p>
+        <p>
+            Zet de woorden uit de titel van het dagelijkse
+            nieuws- en amusementsprogramma van de VARA
+            in de goede volgorde.
+        </p>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="draait">Draait</item>
+            <item xid="de">De</item>
+            <item xid="wereld">Wereld</item>
+            <item xid="door">Door</item>
+        </choice>
+        <drop>
+            <ul><li ref="de"/></ul>
+            <ul><li ref="wereld"/></ul>
+            <ul><li ref="draait"/></ul>
+            <ul><li ref="door"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>televisie</tag>
+    </tags>
 </exercise>
 
 <exercise type="dragdrop">
-<vraag>
-<p>17 november 2007: vliegensvlugge vraag</p>
-<p>
-Zet deze Europese steden die ooit de Olympische Spelen
-hebben georganiseerd op volgorde van zuid naar noord.
-</p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="parijs">Parijs</item>
-        <item xid="antwerpen">Antwerpen</item>
-        <item xid="barcelona">Barcelona</item>
-        <item xid="amsterdam">Amsterdam</item>
-    </choice>
-    <drop>
-        <ul><li ref="barcelona"/></ul>
-        <ul><li ref="parijs"/></ul>
-        <ul><li ref="antwerpen"/></ul>
-        <ul><li ref="amsterdam"/></ul>
-    </drop>
-</drag>
-<tags>
-    <tag>geografie</tag>
-</tags>
-<toelichting>
-<pre>
-Barcelona: 41 23'N
-Parijs: 48 51'N
-Antwerpen: 51 13'N
-Amsterdam: 52 22'N
-</pre>
-</toelichting>
-</exercise>
-
-<exercise type="dragdrop">
-<vraag>
+    <vraag>
     <p>17 november 2007: vliegensvlugge vraag</p>
     <p>
-        Zet deze films die zich in Londen afspelen op
-        chronologische volgorde van verschijnen.
+        Zet deze Europese steden die ooit de Olympische Spelen
+        hebben georganiseerd op volgorde van zuid naar noord.
     </p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="bridget">Bridget Jones's Diary</item>
-        <item xid="wanda">A Fish Called Wanda</item>
-        <item xid="nhill">Notting Hill</item>
-        <item xid="poppins">Mary Poppins</item>
-    </choice>
-    <drop>
-        <ul><li ref="poppins"/></ul>
-        <ul><li ref="wanda"/></ul>
-        <ul><li ref="nhill"/></ul>
-        <ul><li ref="bridget"/></ul>
-    </drop>
-</drag>
-<tags>
-    <tag>film</tag>
-</tags>
-<toelichting>
-<pre>
-Mary Poppins: 1964
-A Fish Called Wanda: 1988
-Notting Hill: 21 mei 1999
-Bridget Jones's Diary: 13 april 2001
-</pre>
-</toelichting>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="parijs">Parijs</item>
+            <item xid="antwerpen">Antwerpen</item>
+            <item xid="barcelona">Barcelona</item>
+            <item xid="amsterdam">Amsterdam</item>
+        </choice>
+        <drop>
+            <ul><li ref="barcelona"/></ul>
+            <ul><li ref="parijs"/></ul>
+            <ul><li ref="antwerpen"/></ul>
+            <ul><li ref="amsterdam"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>geografie</tag>
+    </tags>
+    <toelichting>
+    <pre>
+    Barcelona: 41 23'N
+    Parijs: 48 51'N
+    Antwerpen: 51 13'N
+    Amsterdam: 52 22'N
+    </pre>
+    </toelichting>
+</exercise>
+
+<exercise type="dragdrop">
+    <vraag>
+        <p>17 november 2007: vliegensvlugge vraag</p>
+        <p>
+            Zet deze films die zich in Londen afspelen op
+            chronologische volgorde van verschijnen.
+        </p>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="bridget">Bridget Jones's Diary</item>
+            <item xid="wanda">A Fish Called Wanda</item>
+            <item xid="nhill">Notting Hill</item>
+            <item xid="poppins">Mary Poppins</item>
+        </choice>
+        <drop>
+            <ul><li ref="poppins"/></ul>
+            <ul><li ref="wanda"/></ul>
+            <ul><li ref="nhill"/></ul>
+            <ul><li ref="bridget"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>film</tag>
+    </tags>
+    <toelichting>
+    <pre>
+    Mary Poppins: 1964
+    A Fish Called Wanda: 1988
+    Notting Hill: 21 mei 1999
+    Bridget Jones's Diary: 13 april 2001
+    </pre>
+    </toelichting>
 </exercise>
 
 <exercise type="dragdrop">
@@ -246,9 +239,8 @@ Zet deze volwassen mannetjesapen op volgorde
 van gemiddeld gewicht en begin met de zwaarste.
     </p>
 </vraag>
-<drag>
+<dragdrop>
     <choice>
-        <!-- volgorde van tv -->
         <item xid="berggorilla">Berggorilla</item>
         <item xid="orangoetan">Orang-Oetan</item>
         <item xid="bonobo">Bonobo</item>
@@ -260,7 +252,7 @@ van gemiddeld gewicht en begin met de zwaarste.
         <ul><li ref="bonobo"/></ul>
         <ul><li ref="doodshoofdaapje"/></ul>
     </drop>
-</drag>
+</dragdrop>
 <tags>
     <tag>dieren</tag>
 </tags>
@@ -274,9 +266,8 @@ van gemiddeld gewicht en begin met de zwaarste.
         van grootte en begin bij het kleinste land.
     </p>
 </vraag>
-<drag>
+<dragdrop>
     <choice>
-        <!-- volgorde van tv -->
         <item xid="rusland">Rusland</item>
         <item xid="india">India</item>
         <item xid="pakistan">Pakistan</item>
@@ -288,7 +279,7 @@ van gemiddeld gewicht en begin met de zwaarste.
         <ul><li ref="india"/></ul>
         <ul><li ref="rusland"/></ul>
     </drop>
-</drag>
+</dragdrop>
 <tags>
     <tag>geografie</tag>
 </tags>
@@ -303,29 +294,28 @@ Rusland: 17,098,246 km2
 </exercise>
 
 <exercise type="dragdrop">
-<vraag>
-    <p>15 december 2007: vliegensvlugge vraag</p>
-    <p>Zet deze woorden op alfabetische volgorde.</p>
-</vraag>
-<drag>
-    <choice>
-        <!-- volgorde van tv -->
-        <item xid="bal">Boekenbal</item>
-        <item xid="boeking">Boeking</item>
-        <item xid="kast">Boekenkast</item>
-        <item xid="houding">Boekhouding</item>
-    </choice>
-    <drop>
-        <ul><li ref="bal"/></ul>
-        <ul><li ref="kast"/></ul>
-        <ul><li ref="houding"/></ul>
-        <ul><li ref="boeking"/></ul>
-    </drop>
-</drag>
-<tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
-</tags>
+    <vraag>
+        <p>15 december 2007: vliegensvlugge vraag</p>
+        <p>Zet deze woorden op alfabetische volgorde.</p>
+    </vraag>
+    <dragdrop>
+        <choice>
+            <item xid="bal">Boekenbal</item>
+            <item xid="boeking">Boeking</item>
+            <item xid="kast">Boekenkast</item>
+            <item xid="houding">Boekhouding</item>
+        </choice>
+        <drop>
+            <ul><li ref="bal"/></ul>
+            <ul><li ref="kast"/></ul>
+            <ul><li ref="houding"/></ul>
+            <ul><li ref="boeking"/></ul>
+        </drop>
+    </dragdrop>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 </exam>

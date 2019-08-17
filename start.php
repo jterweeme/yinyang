@@ -56,7 +56,7 @@ foreach ($map as $foo)
     {
         $_SESSION['answers'][$n] = array();
         $p = 0;
-        foreach ($exercise->drag->choice->item as $item)
+        foreach ($exercise->dragdrop->choice->item as $item)
         {
             $xid = $item['xid']->__toString();
             $_SESSION['answers'][$n][$xid] = $p;
@@ -77,10 +77,11 @@ printf("<h2>%u vragen</h2>\r\n", $qcnt);
 printf("<a href=\"exam.php\">Start</a>\r\n");
 
 // debug
+/*
 printf("<pre>\r\n");
 print_r($_SESSION);
 printf("</pre>\r\n");
-
+*/
 printf("</body>\r\n</html>\r\n");
 ?>
 

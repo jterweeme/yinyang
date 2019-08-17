@@ -79,7 +79,7 @@ foreach ($map as $foo)
     {
         $_SESSION['answers'][$n] = array();
         $p = 0;
-        foreach ($exercise->drag->choice->item as $item)
+        foreach ($exercise->dragdrop->choice->item as $item)
         {
             $xid = $item['xid']->__toString();
             $_SESSION['answers'][$n][$xid] = $p;
@@ -91,6 +91,7 @@ foreach ($map as $foo)
 }
 
 printf("<html lang=\"en\">\r\n<head>\r\n<title>Start Practice</title>\r\n");
+printf("<meta name=\"viewport\" content=\"width=device-width\"/>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
 printf("</head>\r\n<body>\r\n<header>\r\n<a href=\"main.php\">End Practice</a>\r\n");
 printf("<a href=\"logout.php\">Log out %s</a>\r\n", $_SESSION['username']);

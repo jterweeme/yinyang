@@ -45,7 +45,7 @@ if (strcmp($qtype, "dragdrop") == 0)
 {
     $keys = array();
 
-    foreach ($exercise->drag->choice->item as $item)
+    foreach ($exercise->dragdrop->choice->item as $item)
         array_push($keys, $item['xid']->__toString());
 
     foreach ($_POST as $key => $value)
@@ -160,7 +160,7 @@ function getDescFromId($id)
 {
     global $exercise;
     
-    foreach ($exercise->drag->choice->item as $item)
+    foreach ($exercise->dragdrop->choice->item as $item)
         if (strcmp($item['xid'], $id) == 0)
             return $item->__toString();
     
@@ -186,7 +186,7 @@ if (strcmp($qtype, "dragdrop") == 0)
     // "linkerkant"
     printf("\t<ul class=\"dragdrop\">\r\n");
 
-    $n_items = $exercise->drag->choice->item->count();
+    $n_items = $exercise->dragdrop->choice->item->count();
     $nr_li = 0;
     
     for ($i = 0; $i < $n_items; $i++)
@@ -200,7 +200,7 @@ if (strcmp($qtype, "dragdrop") == 0)
     printf("\t</ul>\r\n");
 
     // "rechterkant"
-    foreach ($exercise->drag->drop->ul as $ul)
+    foreach ($exercise->dragdrop->drop->ul as $ul)
     {
         printf("\t<ul class=\"dragdrop\">\r\n");
         
@@ -216,7 +216,7 @@ if (strcmp($qtype, "dragdrop") == 0)
     }
 
     // hidden items
-    foreach ($exercise->drag->choice->item as $item)
+    foreach ($exercise->dragdrop->choice->item as $item)
     {
         $xid = $item['xid'];
         $slot = $_SESSION['answers'][$q][$xid->__toString()];

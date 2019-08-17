@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<exam>
+<title>Ampersand test</title>
+
+<!--
+ampersands moeten ge-escaped worden in de php
+code, voor de zekerheid voegen we deze test
+toe om dit te controleren
+-->
+
+<!-- 11 maart 2011: $2,000 -->
+<exercise type="single">
+    <vraag>
+        In en rond welk programma gingen Pieter Storms
+        en Jort Kelder in 2010 live tegen elkaar tekeer?
+    </vraag>
+    <choice>
+        <item>Pauw &amp; Witteman</item>
+        <item>Hart van Nederland</item>
+        <item goed="ja">DWDD</item>
+        <item>Moraalridders</item>
+    </choice>
+    <tags>
+        <tag>media</tag>
+        <tag>nederlands</tag>
+        <tag>televisie</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>2 april 2007: $125</p>
+        <p>
+            Wat zijn Bassie &amp; Adriaan in
+            het echte leven van elkaar?
+        </p>
+    </vraag>
+    <choice>
+        <item>Vader en zoon</item>
+        <item goed="ja">Broers</item>
+        <item>Liefdespartners</item>
+        <item>Neven</item>
+    </choice>
+    <tags>
+        <tag>media</tag>
+        <tag>nederlands</tag>
+        <tag>televisie</tag>
+    </tags>
+    <toelichting>
+        Bas en Aad van Toor zijn broers.
+    </toelichting>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>3 november 2007: $64,000</p>
+        <p>
+            Welke van de volgende gebeurtenissen
+            vond niet in 1981 plaats?
+        </p>
+    </vraag>
+    <choice>
+        <item>Moord op Sadat</item>
+        <item>Aanslag op Reagan</item>
+        <item>Huwelijk Charles &amp; Diana</item>
+        <item goed="ja">Falklandoorlog</item>
+    </choice>
+    <tags>
+        <tag>jaartal</tag>
+        <tag>geschiedenis</tag>
+    </tags>
+    <toelichting>
+        De Falklandoorlog was in 1982.
+    </toelichting>
+</exercise>
+
+<!-- 1 december 2007: $8,000 -->
+<exercise type="single">
+    <vraag>
+        In welke tv-serie schenkt Willemijn Lodewijkx regelmatig
+        een glaasje witte wijn in voor haar vriendinnen?
+    </vraag>
+    <choice>
+        <item goed="ja">Gooische Vrouwen</item>
+        <item>Voetbalvrouwen</item>
+        <item>Meiden van de Wit</item>
+        <item>Rozengeur &amp; Wodka Lime</item>
+    </choice>
+    <tags>
+        <tag>televisie</tag>
+        <tag>media</tag>
+        <tag>nederlands</tag>
+    </tags>
+</exercise>
+
+<!-- 8 december 2007: $2,000 -->
+<exercise type="single">
+    <vraag>
+        Welke van deze tv-series gaat niet over
+        het reilen en zeilen in een ziekenhuis?
+    </vraag>
+    <choice>
+        <item>House</item>
+        <item>ER</item>
+        <item>Grey's Anatomy</item>
+        <item goed="ja">Brothers &amp; Sisters</item>
+    </choice>
+    <tags>
+        <tag>media</tag>
+        <tag>televisie</tag>
+    </tags>
+</exercise>
+
+</exam>
+
+

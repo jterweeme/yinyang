@@ -1,15 +1,38 @@
 body
 {
-    margin-left: auto;
-    width: 700px;
-    margin-right: auto;
-    margin-bottom: 50px;
     font-family: sans-serif;
 }
 
 header {
     border-bottom: 1px solid black;
-    text-align: right;
+}
+
+@media (min-width: 700px) {
+
+    body
+    {
+        margin-left: auto;
+        width: 700px;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    header {
+        text-align: right;
+    }
+}
+
+@media (max-width: 500px) {
+
+    body {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #col_fn, #col_edit, #col_view  {
+        visibility: collapse;
+    }
 }
 
 table {
@@ -60,5 +83,16 @@ div.exercise {
 div.vraag {
     font-weight: bold;
 }
+
+ul.tags li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-stretch: ultra-condensed;
+    display: inline-block;
+    border: 1px solid black;
+    width: 150px;
+}
+
 
 

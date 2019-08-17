@@ -8,7 +8,7 @@
             <xs:element name="toelichting" minOccurs="0" maxOccurs="1"/>
             <xs:element name="tags" minOccurs="0" maxOccurs="1"/>
             <xs:element name="answer" minOccurs="0" maxOccurs="1"/>
-            <xs:element name="drag" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="dragdrop" minOccurs="0" maxOccurs="1"/>
         </xs:all>
         <xs:attribute name="type">
             <xs:simpleType>

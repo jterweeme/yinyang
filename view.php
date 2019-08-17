@@ -7,6 +7,7 @@ printf("<html lang=\"en\">\r\n");
 printf("<head>\r\n");
 printf("<link rel=\"Shortcut Icon\" href=\"yinyang.svg\"/>\r\n");
 printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"common.css\"/>\r\n");
+printf("<meta charset=\"UTF-8\"/>\r\n");
 printf("<title>View</title>\r\n");
 printf("</head>\r\n<body>\r\n");
 
@@ -66,7 +67,7 @@ if (!empty($tags))
     foreach ($tags as $tag => $cnt)
     {
         printf("<tr>\r\n");
-        printf("<td>%s</td>\r\n", $tag);
+        printf("<td><a href=\"view.php?fn=%s&tag=%s\">%s</a></td>\r\n", $_GET['fn'], $tag, $tag);
         printf("<td>%u</td>\r\n", $cnt);
 
         printf("<td><meter value=\"%u\" max=\"%u\">%u/%u</meter></td>\r\n",
@@ -78,9 +79,25 @@ if (!empty($tags))
     printf("</table>\r\n");
 }
 
+function hasTag($exercise, $tag)
+{
+    foreach ($exercise->tags->tag as $foo)
+    {
+        if (strcmp($tag, $foo) == 0)
+            return 1;
+    }
+
+    return 0;
+}
 
 foreach ($xml->exercise as $exercise)
 {
+    if (isset($_GET['tag']))
+    {
+        if (!hasTag($exercise, $_GET['tag']))
+            continue;
+    }
+
     printf("<div class=\"exercise\">\r\n");
     printf("<div class=\"vraag\">%s</div>\r\n", innerCode($exercise->vraag, "vraag"));
 
@@ -124,14 +141,14 @@ foreach ($xml->exercise as $exercise)
 
     if (strcmp($exercise['type'], "dragdrop") == 0)
     {
-        printf("<ul>\r\n");
+        printf("<ul class=\"dragdrop\">\r\n");
 
-        if (isset($exercise->drag->drop))
+        if (isset($exercise->dragdrop->drop))
         {
-            foreach ($exercise->drag->drop->ul as $ul)
+            foreach ($exercise->dragdrop->drop->ul as $ul)
             {
                 $ref = $ul->li['ref'];
-                $xxpath = sprintf("drag/choice/item[@xid=\"%s\"]", $ref);
+                $xxpath = sprintf("dragdrop/choice/item[@xid=\"%s\"]", $ref);
                 printf("<li>%s</li>\r\n", $exercise->xpath($xxpath)[0]->__toString());
             }
         }

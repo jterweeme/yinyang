@@ -137,7 +137,7 @@ firmware zoals het BIOS in op te slaan.
 <vraag>
 Drag the description on left to its RAID level on the right.
 </vraag>
-<drag>
+<dragdrop>
     <choice>
         <item xid="striping">data striping without redundancy</item>
         <item xid="performance">highest performance</item>
@@ -167,7 +167,7 @@ ability of data to be rebuilt with information from the other drives
             <li ref="rebuild"/>
         </ul>
     </drop>
-</drag>
+</dragdrop>
 <tags>
 <tag>hoofdstuk1</tag>
 <tag>RAID</tag>

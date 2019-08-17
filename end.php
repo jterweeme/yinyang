@@ -8,41 +8,19 @@ $n_fout = 0;
 $map = $_SESSION['map'];
 $qcnt = $_SESSION['qcnt'];
 
-// returns correct option index from xml ordering
-/*
-function idxGoed($choices)
-{
-    $foo = 0;
-    foreach ($choices->item as $choice)
-    {
-        if (isset($choice['goed']))
-            return $foo;
-
-        $foo++;
-    }
-}
-*/
-
-$n = 0;
+$q = 0;
 foreach ($map as $foo)
 {
     $exercise = $xml->exercise[$foo];
     
     if (strcmp($exercise['type'], "single") == 0)
     {
-        $n_checked = ($_SESSION['answers'][$n] - 1);
+        $n_checked = ($_SESSION['answers'][$q] - 1);
 
         if (isset($exercise->choice->item[$n_checked]['goed']))
             $n_goed++;
         else
             $n_fout++;
-/*
-
-        if ($_SESSION['answers'][$n] == idxGoed($exercise->choice) + 1)
-            $n_goed++;
-        else
-            $n_fout++;
-*/
     }
 
     if (strcmp($exercise['type'], "multi") == 0)
@@ -55,14 +33,14 @@ foreach ($map as $foo)
         {
             if (isset($item['goed']))
             {
-                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat juist aangevinkt
+                if ($_SESSION['answers'][$q][$nx] == 1) // door kandidaat juist aangevinkt
                     $checked_goed++;
                 else
                     $checked_fout++;    // door kandidaat gemist
             }
             else
             {
-                if ($_SESSION['answers'][$n][$nx] == 1) // door kandidaat foutief aangevinkt
+                if ($_SESSION['answers'][$q][$nx] == 1) // door kandidaat foutief aangevinkt
                     $checked_fout++;
             }
             $nx++;
@@ -76,7 +54,7 @@ foreach ($map as $foo)
 
     if (strcmp($exercise['type'], "open") == 0)
     {
-        $cmp = strcmp($_SESSION['answers'][$n], $exercise->answer->__toString());
+        $cmp = strcmp($_SESSION['answers'][$q], $exercise->answer->__toString());
 
         if ($cmp == 0)
             $n_goed++;
@@ -89,12 +67,11 @@ foreach ($map as $foo)
         $ddfout = 0;
         $n_ul = 4;
 
-        foreach ($exercise->drag->drop->ul as $ul)
+        foreach ($exercise->dragdrop->drop->ul as $ul)
         {
             foreach ($ul->li as $li)
             {
-                $answered = $_SESSION['answers'][$n][$li['ref']->__toString()];
-                //printf("%u\r\n", $answered);
+                $answered = $_SESSION['answers'][$q][$li['ref']->__toString()];
 
                 if ($answered != $n_ul)
                     $ddfout = 1;
@@ -107,7 +84,7 @@ foreach ($map as $foo)
             $n_goed++;
     }
 
-    $n++;
+    $q++;
 }
 
 $date = date("Y-m-d");
@@ -163,11 +140,13 @@ foreach ($map as $foo)
             if ($_SESSION['answers'][$n] == $tmp + 1)
                 $str_checked = " checked=\"checked\"";
 
-            $str = sprintf("<item%s%s>%s</item>\n", $str_goed, $str_checked, $item->__toString());
+            $str = sprintf("<item%s%s>%s</item>\n", $str_goed, $str_checked,
+                htmlspecialchars($item->__toString()));
+
             fwrite($fp, $str);
         }
 
-        fwrite($fp, "\n</choice>\n");
+        fwrite($fp, "</choice>\n");
     }
 
     if (strcmp($exercise['type'], "multi") == 0)
