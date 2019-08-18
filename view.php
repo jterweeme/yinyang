@@ -3,6 +3,14 @@
 include 'common.php';
 
 session_start();
+
+if (!isset($_SESSION['admin']))
+{
+    session_destroy();
+    printf(redirect("login.php"));
+    die();
+}
+
 printf("<html lang=\"en\">\r\n");
 printf("<head>\r\n");
 printf("<link rel=\"Shortcut Icon\" href=\"yinyang.svg\"/>\r\n");

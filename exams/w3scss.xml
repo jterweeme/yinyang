@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<exam>
+<title>W3Schools CSS</title>
+
+<exercise type="single">
+    <vraag>
+        What does CSS stand for?
+    </vraag>
+    <choice>
+        <item goed="ja">Cascading Style Sheets</item>
+        <item>Creative Style Sheets</item>
+        <item>Computer Style Sheets</item>
+        <item>Colorful Style Sheets</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct HTML for referring
+        to an external style sheet?
+    </vraag>
+    <choice>
+        <item>&lt;stylesheet&gt;mystyle.css&lt;/stylesheet&gt;</item>
+        <item>&lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;</item>
+        <item>&lt;style src="mystyle.css"&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Where in an HTML document is the correct
+        place to refer to an external style sheet?
+    </vraag>
+    <choice>
+        <item goed="ja">In the &lt;head&gt; section</item>
+        <item>In the &lt;body&gt; section</item>
+        <item>At the end of the document</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which HTML tag is used to
+        define an internal style sheet?
+    </vraag>
+    <choice>
+        <item>&lt;script&gt;</item>
+        <item>&lt;css&gt;</item>
+        <item goed="ja">&lt;style&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which HTML attribute is used
+        to define inline styles?
+    </vraag>
+    <choice>
+        <item>font</item>
+        <item>styles</item>
+        <item goed="ja">style</item>
+        <item>class</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which is the correct CSS syntax?
+    </vraag>
+    <choice>
+        <item goed="ja">body {color: black;}</item>
+        <item>{body:color=black;}</item>
+        <item>{body;color:black;}</item>
+        <item>body:color=black;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you insert a comment in a CSS file?
+    </vraag>
+    <choice>
+        <item>// this is a comment //</item>
+        <item>// this is a comment</item>
+        <item>' this is a comment</item>
+        <item goed="ja">/* this is a comment */</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which property is used to change the background color?
+    </vraag>
+    <choice>
+        <item>color</item>
+        <item>bgcolor</item>
+        <item goed="ja">background-color</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you add a background color
+        for all &lt;h1&gt; elements?
+    </vraag>
+    <choice>
+        <item goed="ja">h1 {background-color:#FFFFFF;}</item>
+        <item>h1.all {background-color:#FFFFFF;}</item>
+        <item>all.h1 {background-color:#FFFFFF;}</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which CSS property is used to change the text color of an element?
+    </vraag>
+    <choice>
+        <item goed="ja">color</item>
+        <item>fgcolor</item>
+        <item>text-color</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which CSS property controls the text size?
+    </vraag>
+    <choice>
+        <item>text-size</item>
+        <item goed="ja">font-size</item>
+        <item>text-style</item>
+        <item>font-style</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct CSS syntax for
+        making all the &lt;p&gt; elements bold?
+    </vraag>
+    <choice>
+        <item>&lt;p style="text-size:bold;"&gt;</item>
+        <item>p {text-size:bold;}</item>
+        <item>&lt;p style="font-size:bold;"&gt;</item>
+        <item goed="ja">p {font-weight:bold;}</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you display hyperlinks without an underline?
+    </vraag>
+    <choice>
+        <item>a {text-decoration:no-underline;}</item>
+        <item>a {decoration:no-underline;}</item>
+        <item goed="ja">a {text-decoration:none;}</item>
+        <item>a {underline:none;}</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you make each word in a text start with a capital letter?
+    </vraag>
+    <choice>
+        <item goed="ja">text-transform:capitalize</item>
+        <item>text-style:capitalize</item>
+        <item>transform:capitalize</item>
+        <item>You can't do that with CSS</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which property is used to change the font of an element?
+    </vraag>
+    <choice>
+        <item>font-weight</item>
+        <item goed="ja">font-family</item>
+        <item>font-style</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you make the text bold?
+    </vraag>
+    <choice>
+        <item>font:bold;</item>
+        <item>style:bold;</item>
+        <item goed="ja">font-weight:bold;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+How do you display a border like this:
+The top border = 10 pixels
+The bottom border = 5 pixels
+The left border = 20 pixels
+The right border = 1pixel?
+    </vraag>
+    <choice>
+        <item goed="ja">border-width:10px 1px 5px 20px;</item>
+        <item>border-width:10px 5px 20px 1px;</item>
+        <item>border-width:10px 20px 5px 1px;</item>
+        <item>border-width:5px 20px 10px 1px;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which property is used to change the left margin of an element?
+    </vraag>
+    <choice>
+        <item>padding-left</item>
+        <item goed="ja">margin-left</item>
+        <item>indent</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        When using the padding property; are
+        you allowed to use negative values?
+    </vraag>
+    <choice>
+        <item>Yes</item>
+        <item goed="ja">No</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you make a list that lists its items with squares?
+    </vraag>
+    <choice>
+        <item>list: square;</item>
+        <item>list-type: square;</item>
+        <item goed="ja">list-style-type: square;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you select an element with id "demo"?
+    </vraag>
+    <choice>
+        <item>demo</item>
+        <item>.demo</item>
+        <item goed="ja">#demo</item>
+        <item>*demo</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you select elements with class name "test"?
+    </vraag>
+    <choice>
+        <item goed="ja">.test</item>
+        <item>*test</item>
+        <item>test</item>
+        <item>#test</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you select all p elements inside a div element?
+    </vraag>
+    <choice>
+        <item>div.p</item>
+        <item>div + p</item>
+        <item goed="ja">div p</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you group selectors?
+    </vraag>
+    <choice>
+        <item>Separate each selector with a comma</item>
+        <item>Separate each selector with a space</item>
+        <item goed="ja">Separate each selector with a plus sign</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the default value of the position property?
+    </vraag>
+    <choice>
+        <item>relative</item>
+        <item goed="ja">static</item>
+        <item>fixed</item>
+        <item>absolute</item>
+    </choice>
+</exercise>
+</exam>
+
+
+
+

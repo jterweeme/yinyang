@@ -4,7 +4,7 @@
 
 <exercise type="single">
 <vraag>
-What does HTML stand for?
+    What does HTML stand for?
 </vraag>
 <choice>
 <item goed="ja">Hyper Text Markup Language</item>
@@ -14,27 +14,27 @@ What does HTML stand for?
 </exercise>
 
 <exercise type="single">
-<vraag>
-Who is making the Web standards?
-</vraag>
-<choice>
-<item>Microsoft</item>
-<item>Google</item>
-<item goed="ja">The World Wide Web Consortium</item>
-<item>Mozilla</item>
-</choice>
+    <vraag>
+        Who is making the Web standards?
+    </vraag>
+    <choice>
+        <item>Microsoft</item>
+        <item>Google</item>
+        <item goed="ja">The World Wide Web Consortium</item>
+        <item>Mozilla</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-Choose the correct HTML element for the largest heading:
-</vraag>
-<choice>
-<item goed="ja">h1</item>
-<item>heading</item>
-<item>h6</item>
-<item>head</item>
-</choice>
+    <vraag>
+        Choose the correct HTML element for the largest heading:
+    </vraag>
+    <choice>
+        <item goed="ja">h1</item>
+        <item>heading</item>
+        <item>h6</item>
+        <item>head</item>
+    </choice>
 </exercise>
 
 <exercise type="single">

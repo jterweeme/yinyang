@@ -5,8 +5,8 @@
 <exercise type="single">
     <vraag>
 <!--
+        <p><time>2001</time></p>
         <p>Hans Zijsling uit Amstelveen</p>
-        <p>2001</p>
 -->
         <p>
             Welk land is geen permanent lid van de G8,
@@ -19,6 +19,9 @@
         <item goed="ja">Australië</item>
         <item>Duitsland</item>
     </choice>
+    <tags>
+        <tag>land</tag>
+    </tags>
 </exercise>
 
 <exercise type="dragdrop">
@@ -127,6 +130,7 @@
     </choice>
     <tags>
         <tag>nederlands</tag>
+        <tag>persoon</tag>
         <tag>politiek</tag>
     </tags>
 </exercise>
@@ -148,6 +152,7 @@
     </choice>
     <tags>
         <tag>geschiedenis</tag>
+        <tag>land</tag>
     </tags>
 </exercise>
 
@@ -169,7 +174,6 @@
 
 <exercise type="dragdrop">
     <vraag>
-        <p>vvv</p>
         <p>
             Zet de pausen op chronologische
             volgorde van aantreden.
@@ -190,6 +194,7 @@
         </drop>
     </dragdrop>
     <tags>
+        <tag>persoon</tag>
         <tag>religie</tag>
         <tag>vvv</tag>
     </tags>
@@ -197,7 +202,6 @@
 
 <exercise type="dragdrop">
     <vraag>
-        <p>vvv</p>
         <p>
             Zet de titel van het bekende
             gezelschapspel in de juiste volgorde.
@@ -226,9 +230,10 @@
 <exercise type="single">
     <vraag>
 <!--
+        <p>6 januari 2001</p>
         <p>Hans Peters uit Deventer</p>
 -->
-        <p>6 januari 2001: F125,000</p>
+        <p>F125,000</p>
         <p>
             Wat is de munteenheid in Albanië?
         </p>
@@ -271,6 +276,7 @@
     </choice>
     <tags>
         <tag>kunst</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
@@ -295,6 +301,7 @@
     <tags>
         <tag>filosofie</tag>
         <tag>literatuur</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
@@ -317,14 +324,17 @@
     </choice>
     <tags>
         <tag>geld</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
 <exercise type="single">
     <vraag>
+<!--
         <p><time>20 december 2003</time></p>
         <p>Menno de Ruijter</p>
         <p>$1,000,000</p>
+-->
         <p>
             In welke plaats werd in 1587 de
             dichter Joost van den Vondel geboren?
@@ -336,6 +346,10 @@
         <item>Den Haag</item>
         <item>Antwerpen</item>
     </choice>
+    <tags>
+        <tag>geschiedenis</tag>
+        <tag>persoon</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -370,6 +384,8 @@
     </choice>
     <tags>
         <tag>cultuur</tag>
+        <tag>muziek</tag>
+        <tag>persoon</tag>
     </tags>
     <toelichting>
         Fidelio is van Beethoven.
@@ -412,6 +428,7 @@
     <tags>
         <tag>geschiedenis</tag>
         <tag>nederlands</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
@@ -579,6 +596,8 @@
         <item>Nederland</item>
     </choice>
     <tags>
+        <tag>land</tag>
+        <tag>persoon</tag>
         <tag>sport</tag>
         <tag>voetbal</tag>
     </tags>
@@ -608,6 +627,7 @@
     </choice>
     <tags>
         <tag>muziek</tag>
+        <tag>persoon</tag>
     </tags>
     <toelichting>
         Linda Eastman was getrouwd met Paul McCartney tot haar
@@ -631,6 +651,7 @@
     </choice>
     <tags>
         <tag>sport</tag>
+        <tag>taal</tag>
     </tags>
 </exercise>
 
@@ -703,7 +724,10 @@
 
 <exercise type="single">
     <vraag>
-        <p>7 oktober 2006: $64,000</p>
+<!--
+        <p>7 oktober 2006</p>
+        <p>$64,000</p>
+-->
         <p>Welk land is tot januari 2007 voorzitter van de Europese Unie?</p>
     </vraag>
     <choice>
@@ -713,6 +737,7 @@
         <item goed="ja">Finland</item>
     </choice>
     <tags>
+        <tag>land</tag>
         <tag>politiek</tag>
     </tags>
 </exercise>
@@ -756,6 +781,8 @@
     </choice>
     <tags>
         <tag>kunst</tag>
+        <tag>land</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
@@ -812,6 +839,7 @@
     </choice>
     <tags>
         <tag>nederlands</tag>
+        <tag>persoon</tag>
         <tag>politiek</tag>
     </tags>
     <toelichting>
@@ -866,13 +894,16 @@
         <item>Hectometer</item>
         <item>Kilometer</item>
     </choice>
+    <tags>
+        <tag>drinken</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
     <vraag>
 <!--
         <p>Myrna van Ekeris uit Hilversum</p>
-        <p><time>4 november 2006</p>
+        <p><time>4 november 2006</time></p>
         <p>$50</p>
 -->
         <p>
@@ -885,6 +916,9 @@
         <item>Nerds</item>
         <item goed="ja">Ballen</item>
     </choice>
+    <tags>
+        <tag>eten</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -898,11 +932,18 @@
         <item goed="ja">Grasduinen</item>
         <item>Rozenperken</item>
     </choice>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
     <vraag>
-        <p>27 november 2006: $25</p>
+<!--
+        <p><time>27 november 2006</time></p>
+        <p>$25</p>
+-->
         <p>
             Wie is de spreekwoordelijke
             'prins op het witte paard'?
@@ -986,6 +1027,7 @@
         <item>Alexander Fleming</item>
     </choice>
     <tags>
+        <tag>persoon</tag>
         <tag>wetenschap</tag>
     </tags>
 </exercise>
@@ -1025,11 +1067,17 @@
         <item>Justitie</item>
         <item>Verkeer</item>
     </choice>
+    <tags>
+        <tag>politiek</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
     <vraag>
-        <p>27 november 2006: $4,000</p>
+<!--
+        <p>27 november 2006</p>
+        <p>$4,000</p>
+-->
         <p>
             Welke zanger heeft nog nooit meegedaan
             aan het Eurovisiesongfestival?
@@ -1041,6 +1089,10 @@
         <item>Udo Jurgens</item>
         <item goed="ja">Phil Collins</item>
     </choice>
+    <tags>
+        <tag>muziek</tag>
+        <tag>persoon</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -1059,6 +1111,7 @@
     </choice>
     <tags>
         <tag>kleur</tag>
+        <tag>land</tag>
     </tags>
 </exercise>
 
@@ -1087,6 +1140,7 @@
     </dragdrop>
     <tags>
         <tag>nederlands</tag>
+        <tag>persoon</tag>
         <tag>sport</tag>
         <tag>voetbal</tag>
         <tag>vvv</tag>
@@ -1103,7 +1157,10 @@
 
 <exercise type="single">
     <vraag>
-        <p>2 december 2006: $25</p>
+<!--
+        <p>2 december 2006</p>
+        <p>$25</p>
+-->
         <p>
             Welk kledingsstuk klinkt als
             een populaire muziekstijl?
@@ -1180,7 +1237,9 @@
         <item goed="ja">Groot-Brittannie</item>
     </choice>
     <tags>
+        <tag>europa</tag>
         <tag>geografie</tag>
+        <tag>land</tag>
     </tags>
 </exercise>
 
@@ -1321,6 +1380,7 @@
     </choice>
     <tags>
         <tag>televisie</tag>
+        <tag>persoon</tag>
         <tag>politiek</tag>
         <tag>nederlands</tag>
     </tags>
@@ -1341,58 +1401,62 @@
         <item>Honkbal</item>
     </choice>
     <tags>
+        <tag>amerikaans</tag>
+        <tag>persoon</tag>
         <tag>sport</tag>
     </tags>
 </exercise>
 
 <exercise type="single">
     <vraag>
-    <p>20 januari 2007: $4,000</p>
 <!--
-    <p>Jord de Boer</p>
+        <p><time>20 januari 2007</time></p>
+        <p>Jord de Boer</p>
+        <p>$4,000</p>
 -->
-    <p>
-        Welke boyband scoorde eind 2006 met 'Patience' voor het
-        eerst in tien jaar weer een nummer 1-hit in Engeland?
-    </p>
+        <p>
+            Welke boyband scoorde eind 2006 met 'Patience' voor het
+            eerst in tien jaar weer een nummer 1-hit in Engeland?
+        </p>
     </vraag>
     <choice>
-    <item>Backstreet Boys</item>
-    <item>Boyzone</item>
-    <item goed="ja">Take That</item>
-    <item>Westlife</item>
+        <item>Backstreet Boys</item>
+        <item>Boyzone</item>
+        <item goed="ja">Take That</item>
+        <item>Westlife</item>
     </choice>
     <tags>
-    <tag>muziek</tag>
+        <tag>muziek</tag>
     </tags>
 </exercise>
 
 <exercise type="single">
-<vraag>
+    <vraag>
 <!--
-    <p>20 januari 2007: $8,000</p>
-    <p>Jord de Boer</p>
+        <p><time>20 januari 2007</time></p>
+        <p>Jord de Boer</p>
+        <p>$8,000</p>
 -->
-    <p>Hoe wordt de maand april ook wel genoemd?</p>
-</vraag>
-<choice>
-    <item goed="ja">Grasmaand</item>
-    <item>Slachtmaand</item>
-    <item>Hooimaand</item>
-    <item>Sprokkelmaand</item>
-</choice>
-<tags>
-    <tag>nederlands</tag>
-    <tag>taal</tag>
-</tags>
-<toelichting>
-<pre>
-Februari Sprokkelmaand.
-April Grasmaand.
-Juli Hooimaand.
-November Slachtmaand.
-</pre>
-</toelichting>
+        <p>Hoe wordt de maand april ook wel genoemd?</p>
+    </vraag>
+    <choice>
+        <item goed="ja">Grasmaand</item>
+        <item>Slachtmaand</item>
+        <item>Hooimaand</item>
+        <item>Sprokkelmaand</item>
+    </choice>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
+    <toelichting>
+    <pre>
+    Februari Sprokkelmaand.
+    April Grasmaand.
+    Juli Hooimaand.
+    November Slachtmaand.
+    </pre>
+    </toelichting>
 </exercise>
 
 <exercise type="single">
@@ -1409,6 +1473,7 @@ November Slachtmaand.
 <tags>
     <tag>film</tag>
     <tag>media</tag>
+    <tag>persoon</tag>
 </tags>
 </exercise>
 
@@ -1428,6 +1493,7 @@ November Slachtmaand.
     </choice>
     <tags>
         <tag>amerikaans</tag>
+        <tag>persoon</tag>
         <tag>politiek</tag>
     </tags>
 </exercise>
@@ -1449,6 +1515,7 @@ November Slachtmaand.
 <tags>
     <tag>media</tag>
     <tag>nederlands</tag>
+    <tag>persoon</tag>
 </tags>
 </exercise>
 
@@ -1466,6 +1533,7 @@ November Slachtmaand.
     <tags>
         <tag>cultuur</tag>
         <tag>nederlands</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
@@ -1493,6 +1561,7 @@ November Slachtmaand.
     </dragdrop>
     <tags>
         <tag>monarchie</tag>
+        <tag>persoon</tag>
         <tag>vvv</tag>
     </tags>
     <toelichting>
@@ -1625,6 +1694,7 @@ November Slachtmaand.
     </choice>
     <tags>
         <tag>film</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
@@ -1642,6 +1712,7 @@ November Slachtmaand.
     <tags>
         <tag>filosofie</tag>
         <tag>geschiedenis</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
@@ -1982,6 +2053,7 @@ is van een 'bouwvakkersdecollete'?
     </choice>
     <tags>
         <tag>media</tag>
+        <tag>persoon</tag>
         <tag>televisie</tag>
     </tags>
     <toelichting>
@@ -2011,6 +2083,7 @@ is van een 'bouwvakkersdecollete'?
         <item>Engeland</item>
     </choice>
     <tags>
+        <tag>persoon</tag>
         <tag>sport</tag>
         <tag>voetbal</tag>
     </tags>
@@ -2075,6 +2148,7 @@ is van een 'bouwvakkersdecollete'?
         <item>Marco Borsato</item>
     </choice>
     <tags>
+        <tag>persoon</tag>
         <tag>media</tag>
         <tag>muziek</tag>
         <tag>televisie</tag>
@@ -2114,7 +2188,10 @@ is van een 'bouwvakkersdecollete'?
 
 <exercise type="single">
     <vraag>
-        <p>2 april 2007: $25</p>
+<!--
+        <p>2 april 2007</p>
+        <p>$25</p>
+-->
         <p>Hoe wordt een kuuroord ook wel genoemd?</p>
     </vraag>
     <choice>
@@ -2129,21 +2206,24 @@ is van een 'bouwvakkersdecollete'?
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>2 april 2007: $50</p>
-<p>Welke 'vogel' is een bangerik?</p>
-</vraag>
-<choice>
-<item>Wc-eend</item>
-<item>Uilskuiken</item>
-<item goed="ja">Schijtlijster</item>
-<item>Slavink</item>
-</choice>
-<tags>
-<tag>dieren</tag>
-<tag>nederlands</tag>
-<tag>taal</tag>
-</tags>
+    <vraag>
+<!--
+        <p>2 april 2007</p>
+        <p>$50</p>
+-->
+        <p>Welke 'vogel' is een bangerik?</p>
+    </vraag>
+    <choice>
+        <item>Wc-eend</item>
+        <item>Uilskuiken</item>
+        <item goed="ja">Schijtlijster</item>
+        <item>Slavink</item>
+    </choice>
+    <tags>
+        <tag>dieren</tag>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -2255,22 +2335,22 @@ Ronald Koeman was trainer van Ajax van ~2000 tot 2004.
 
 <exercise type="single">
     <vraag>
-    <p>2 april 2007: $4,000</p>
-    <p>
-        Met wie scoorde Mick Jagger in 1985 een nummer
-        1-hit met de single 'Dancing in the Street'?
-    </p>
+        <p>2 april 2007: $4,000</p>
+        <p>
+            Met wie scoorde Mick Jagger in 1985 een nummer
+            1-hit met de single 'Dancing in the Street'?
+        </p>
     </vraag>
     <choice>
-    <item>Queen</item>
-    <item goed="ja">David Bowie</item>
-    <item>Peter Tosh</item>
-    <item>Tina Turner</item>
+        <item>Queen</item>
+        <item goed="ja">David Bowie</item>
+        <item>Peter Tosh</item>
+        <item>Tina Turner</item>
     </choice>
     <tags>
-    <tag>jaartal</tag>
-    <tag>media</tag>
-    <tag>muziek</tag>
+        <tag>jaartal</tag>
+        <tag>media</tag>
+        <tag>muziek</tag>
     </tags>
 </exercise>
 
@@ -2842,44 +2922,44 @@ beschuit met muisjes gegeten in Nederland?
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>10 november 2007: $500</p>
-<p>
-Als iets onherstelbaar kapot is, is
-het spreekwoordelijk naar de ...?
-</p>
-</vraag>
-<choice>
-<item>Palestijnen</item>
-<item>Farizeeen</item>
-<item>Jezuieten</item>
-<item goed="ja">Filistijnen</item>
-</choice>
-<tags>
-<tag>gezegde</tag>
-<tag>nederlands</tag>
-<tag>taal</tag>
-</tags>
+    <vraag>
+        <p>10 november 2007: $500</p>
+        <p>
+            Als iets onherstelbaar kapot is, is
+            het spreekwoordelijk naar de ...?
+        </p>
+    </vraag>
+    <choice>
+        <item>Palestijnen</item>
+        <item>Farizeeen</item>
+        <item>Jezuieten</item>
+        <item goed="ja">Filistijnen</item>
+    </choice>
+    <tags>
+        <tag>gezegde</tag>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>10 november 2007: $1,000</p>
-<p>
-Welke artiest gebruikte in de jaren '90 enkele
-jaren een symbool in plaats van zijn naam?
-</p>
-</vraag>
-<choice>
-<item goed="ja">Prince</item>
-<item>Michael Jackson</item>
-<item>R. Kelly</item>
-<item>Will Smith</item>
-</choice>
-<tags>
-    <tag>amerikaans</tag>
-    <tag>muziek</tag>
-</tags>
+    <vraag>
+        <p>10 november 2007: $1,000</p>
+        <p>
+            Welke artiest gebruikte in de jaren '90 enkele
+            jaren een symbool in plaats van zijn naam?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">Prince</item>
+        <item>Michael Jackson</item>
+        <item>R. Kelly</item>
+        <item>Will Smith</item>
+    </choice>
+    <tags>
+        <tag>amerikaans</tag>
+        <tag>muziek</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -2902,22 +2982,25 @@ jaren een symbool in plaats van zijn naam?
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>10 november 2007: $4,000</p>
-<p>
-Wat is geen hoofdstad van een Nederlandse provincie?
-</p>
-</vraag>
-<choice>
-<item>Groningen</item>
-<item goed="ja">Almere</item>
-<item>Den Bosch</item>
-<item>Haarlem</item>
-</choice>
-<tags>
-<tag>geografie</tag>
-<tag>nederlands</tag>
-</tags>
+    <vraag>
+<!--
+        <p>10 november 2007</p>
+        <p>$4,000</p>
+-->
+        <p>
+            Wat is geen hoofdstad van een Nederlandse provincie?
+        </p>
+    </vraag>
+    <choice>
+    <item>Groningen</item>
+    <item goed="ja">Almere</item>
+    <item>Den Bosch</item>
+    <item>Haarlem</item>
+    </choice>
+    <tags>
+    <tag>geografie</tag>
+    <tag>nederlands</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -2963,6 +3046,7 @@ Wat is geen hoofdstad van een Nederlandse provincie?
     </dragdrop>
     <tags>
         <tag>geografie</tag>
+        <tag>vvv</tag>
     </tags>
     <toelichting>
         <ul>
@@ -2992,24 +3076,24 @@ Wat is geen hoofdstad van een Nederlandse provincie?
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>17 november 2007: $50</p>
-<p>
-Waarvan ken je spreekwoordelijk het klappen,
-als je ergens goed van op de hoogte bent?
-</p>
-</vraag>
-<choice>
-<item>Je achterband</item>
-<item goed="ja">De zweep</item>
-<item>De lineaal</item>
-<item>'t Publiek op de tribune</item>
-</choice>
-<tags>
-<tag>nederlands</tag>
-<tag>spreekwoord</tag>
-<tag>taal</tag>
-</tags>
+    <vraag>
+        <p>17 november 2007: $50</p>
+        <p>
+            Waarvan ken je spreekwoordelijk het klappen,
+            als je ergens goed van op de hoogte bent?
+        </p>
+    </vraag>
+    <choice>
+        <item>Je achterband</item>
+        <item goed="ja">De zweep</item>
+        <item>De lineaal</item>
+        <item>'t Publiek op de tribune</item>
+    </choice>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>spreekwoord</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -3336,30 +3420,38 @@ volgens een bekend spreekwoord?
 </tags>
 </exercise>
 
-<!-- 1 december 2007: $1,000 -->
-<exercise type="single">
-<vraag>
-Maak de volgende zin uit het nummer 'Belgie' van
-het Goede Doel af: 'Is er leven op ...'?
-</vraag>
-<choice>
-<item goed="ja">Pluto</item>
-<item>Saturnus</item>
-<item>Venus</item>
-<item>Mars</item>
-</choice>
-<tags>
-<tag>media</tag>
-<tag>muziek</tag>
-<tag>nederlands</tag>
-</tags>
-</exercise>
-
-<!-- 1 december 2007: $2,000 -->
 <exercise type="single">
     <vraag>
-        Naar welke koningin is het tijdperk 1837-1901 vernoemd,
-        dat gekenmerkt wordt door strenge fatsoensnormen?
+<!--
+        <p><time>1 december 2007</time></p>
+        <p>$1,000</p>
+-->
+        <p>
+            Maak de volgende zin uit het nummer 'Belgie' van
+            het Goede Doel af: 'Is er leven op ...'?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">Pluto</item>
+        <item>Saturnus</item>
+        <item>Venus</item>
+        <item>Mars</item>
+    </choice>
+    <tags>
+        <tag>media</tag>
+        <tag>muziek</tag>
+        <tag>nederlands</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p><time>1 december 2007</time></p>
+        <p>$2,000</p>
+        <p>
+            Naar welke koningin is het tijdperk 1837-1901 vernoemd,
+            dat gekenmerkt wordt door strenge fatsoensnormen?
+        </p>
     </vraag>
     <choice>
         <item>Elizabeth 1</item>
@@ -3370,23 +3462,30 @@ het Goede Doel af: 'Is er leven op ...'?
     <tags>
         <tag>geschiedenis</tag>
         <tag>monarchie</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
-<!-- 1 december 2007: $4,000 -->
 <exercise type="single">
-<vraag>
-Welke van deze Italiaanse steden ligt ten zuiden van Rome?
-</vraag>
-<choice>
-<item>Bologna</item>
-<item>Milaan</item>
-<item goed="ja">Napels</item>
-<item>Verona</item>
-</choice>
-<tags>
-<tag>geografie</tag>
-</tags>
+    <vraag>
+<!--
+        <p>1 december 2007</p>
+        <p>$4,000</p>
+-->
+        <p>
+            Welke van deze Italiaanse steden
+            ligt ten zuiden van Rome?
+        </p>
+    </vraag>
+    <choice>
+        <item>Bologna</item>
+        <item>Milaan</item>
+        <item goed="ja">Napels</item>
+        <item>Verona</item>
+    </choice>
+    <tags>
+        <tag>geografie</tag>
+    </tags>
 </exercise>
 
 <!-- 1 december 2007: $8,000 -->
@@ -3899,19 +3998,19 @@ een keizer als staatshoofd?
 
 <!-- 8 december 2007: $125 -->
 <exercise type="single">
-<vraag>
-Welke tang gebruik je normaal gesproken voor je haar?
-</vraag>
-<choice>
-<item>Waterpomptang</item>
-<item goed="ja">Krultang</item>
-<item>Striptang</item>
-<item>Nijptang</item>
-</choice>
-<tags>
-<tag>taal</tag>
-<tag>nederlands</tag>
-</tags>
+    <vraag>
+        Welke tang gebruik je normaal gesproken voor je haar?
+    </vraag>
+    <choice>
+        <item>Waterpomptang</item>
+        <item goed="ja">Krultang</item>
+        <item>Striptang</item>
+        <item>Nijptang</item>
+    </choice>
+    <tags>
+        <tag>taal</tag>
+        <tag>nederlands</tag>
+    </tags>
 </exercise>
 
 <!-- 8 december 2007: $250 -->
@@ -4072,21 +4171,22 @@ Wat heb je onder je ogen als je heel moe bent?
 
 <!-- 15 december 2007: $50 -->
 <exercise type="single">
-<vraag>
-Hoe wordt het stadion van voetbalclub
-Feyenoord ook wel genoemd?
-</vraag>
-<choice>
-<item>De Bak</item>
-<item goed="ja">De Kuip</item>
-<item>Het Vat</item>
-<item>De Ton</item>
-</choice>
-<tags>
-<tag>nederlands</tag>
-<tag>sport</tag>
-<tag>voetbal</tag>
-</tags>
+    <vraag>
+        Hoe wordt het stadion van voetbalclub
+        Feyenoord ook wel genoemd?
+    </vraag>
+    <choice>
+        <item>De Bak</item>
+        <item goed="ja">De Kuip</item>
+        <item>Het Vat</item>
+        <item>De Ton</item>
+    </choice>
+    <tags>
+        <tag>gebouwen</tag>
+        <tag>nederlands</tag>
+        <tag>sport</tag>
+        <tag>voetbal</tag>
+    </tags>
 </exercise>
 
 <!-- 15 december 2007: $125 -->
@@ -4109,37 +4209,37 @@ Maak de titel van Andre van Duins hit uit
 
 <!-- 15 december 2007: $250 -->
 <exercise type="single">
-<vraag>
-Wie is vrolijk volgens een bekend gezegde?
-</vraag>
-<choice>
-<item>Piet</item>
-<item>Thomas</item>
-<item goed="ja">Frans</item>
-<item>Aagje</item>
-</choice>
-<tags>
-<tag>gezegde</tag>
-<tag>nederlands</tag>
-<tag>taal</tag>
-</tags>
+    <vraag>
+        Wie is vrolijk volgens een bekend gezegde?
+    </vraag>
+    <choice>
+        <item>Piet</item>
+        <item>Thomas</item>
+        <item goed="ja">Frans</item>
+        <item>Aagje</item>
+    </choice>
+    <tags>
+        <tag>gezegde</tag>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <!-- 15 december 2007: $500 -->
 <exercise type="single">
-<vraag>
-Waar kun je het miniatuurstadje Madurodam vinden?
-</vraag>
-<choice>
-<item>Groningen</item>
-<item>Utrecht</item>
-<item>Rotterdam</item>
-<item goed="ja">Den Haag</item>
-</choice>
-<tags>
-<tag>geografie</tag>
-<tag>nederlands</tag>
-</tags>
+    <vraag>
+        Waar kun je het miniatuurstadje Madurodam vinden?
+    </vraag>
+    <choice>
+        <item>Groningen</item>
+        <item>Utrecht</item>
+        <item>Rotterdam</item>
+        <item goed="ja">Den Haag</item>
+    </choice>
+    <tags>
+        <tag>geografie</tag>
+        <tag>nederlands</tag>
+    </tags>
 </exercise>
 
 <!-- 15 december 2007: $1,000 -->
@@ -4337,50 +4437,51 @@ een voetbalteam te herkennen?
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>15 december 2007: $250</p>
-<p>
-Welke Rene is bekend van zijn vele
-tv-programma's over films en sterren?
-</p>
-</vraag>
-<choice>
-<item>Froger</item>
-<item goed="ja">Mioch</item>
-<item>Van de Kerkhof</item>
-<item>Artois</item>
-</choice>
-<tags>
-<tag>media</tag>
-<tag>televisie</tag>
-</tags>
-<toelichting>
-Rene Froger is een Nederlandse zanger.
-Rene Artois is de hoofdpersoon in de serie 'Allo 'Allo.
-</toelichting>
+    <vraag>
+        <p>15 december 2007</p>
+        <p>$250</p>
+        <p>
+            Welke Rene is bekend van zijn vele
+            tv-programma's over films en sterren?
+        </p>
+    </vraag>
+    <choice>
+        <item>Froger</item>
+        <item goed="ja">Mioch</item>
+        <item>Van de Kerkhof</item>
+        <item>Artois</item>
+    </choice>
+    <tags>
+        <tag>media</tag>
+        <tag>televisie</tag>
+    </tags>
+    <toelichting>
+        <p>Rene Froger is een Nederlandse zanger.</p>
+        <p>Rene Artois is de hoofdpersoon in de serie 'Allo 'Allo.</p>
+    </toelichting>
 </exercise>
 
 <exercise type="single">
     <vraag>
-    <p>15 december 2007: $500</p>
-    <p>
-    Over conflicten in welk gebied gaat het wereldberoemde
-    nummer 'Sunday Bloody Sunday' van de band U2?
-    </p>
+        <p>15 december 2007: $500</p>
+        <p>
+            Over conflicten in welk gebied gaat het wereldberoemde
+            nummer 'Sunday Bloody Sunday' van de band U2?
+        </p>
     </vraag>
     <choice>
-    <item>Gazastrook</item>
-    <item>Kosovo</item>
-    <item>Baskenland</item>
-    <item goed="ja">Noord-Ierland</item>
+        <item>Gazastrook</item>
+        <item>Kosovo</item>
+        <item>Baskenland</item>
+        <item goed="ja">Noord-Ierland</item>
     </choice>
     <tags>
-    <tag>geschiedenis</tag>
-    <tag>muziek</tag>
+        <tag>geschiedenis</tag>
+        <tag>muziek</tag>
     </tags>
     <toelichting>
-    Bloody Sunday refereert naar het Bogside bloedbad in Derry,
-    Noord Ierland.
+        Bloody Sunday refereert naar het Bogside bloedbad in Derry,
+        Noord Ierland.
     </toelichting>
 </exercise>
 
@@ -4554,54 +4655,60 @@ Rene Artois is de hoofdpersoon in de serie 'Allo 'Allo.
     </tags>
 </exercise>
 
-<!-- 12 januari 2008: $50 -->
 <exercise type="single">
-<vraag>
-Waar steek je jezelf spreekwoordelijk in,
-als je je bemoeit met een netelige kwestie?
-</vraag>
-<choice>
-<item>Konijnenhol</item>
-<item>Schaapskooi</item>
-<item>Vissenkom</item>
-<item goed="ja">Wespennest</item>
-</choice>
-<tags>
-<tag>nederlands</tag>
-<tag>spreekwoord</tag>
-<tag>taal</tag>
-</tags>
+    <vraag>
+        <p><time>12 januari 2008</time></p>
+        <p>$50</p>
+        <p>
+            Waar steek je jezelf spreekwoordelijk in,
+            als je je bemoeit met een netelige kwestie?
+        </p>
+    </vraag>
+    <choice>
+        <item>Konijnenhol</item>
+        <item>Schaapskooi</item>
+        <item>Vissenkom</item>
+        <item goed="ja">Wespennest</item>
+    </choice>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>spreekwoord</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <!-- 12 januari 2008: $125 -->
 <exercise type="single">
-<vraag>
-Een veel gebruikte, niet-officiele bijnaam
-voor de Londense politie is Scotland ...?
-</vraag>
-<choice>
-<item>Foot</item>
-<item>Mile</item>
-<item goed="ja">Yard</item>
-<item>Inch</item>
-</choice>
+    <vraag>
+        Een veel gebruikte, niet-officiele bijnaam
+        voor de Londense politie is Scotland ...?
+    </vraag>
+    <choice>
+        <item>Foot</item>
+        <item>Mile</item>
+        <item goed="ja">Yard</item>
+        <item>Inch</item>
+    </choice>
+    <tags>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
-<vraag>
-    <p>12 januari 2008: $250</p>
-    <p>Wat is geen bekende filmhond?</p>
-</vraag>
-<choice>
-    <item>Lassie</item>
-    <item goed="ja">Skippy</item>
-    <item>Benji</item>
-    <item>Beethoven</item>
-</choice>
-<tags>
-<tag>dieren</tag>
-<tag>film</tag>
-</tags>
+    <vraag>
+        <p>12 januari 2008: $250</p>
+        <p>Wat is geen bekende filmhond?</p>
+    </vraag>
+    <choice>
+        <item>Lassie</item>
+        <item goed="ja">Skippy</item>
+        <item>Benji</item>
+        <item>Beethoven</item>
+    </choice>
+    <tags>
+        <tag>dieren</tag>
+        <tag>film</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -4651,37 +4758,44 @@ voor de Londense politie is Scotland ...?
     </toelichting>
 </exercise>
 
-<!-- 12 januari 2008: $2,000 -->
 <exercise type="single">
-<vraag>
-In welk Amsterdams gebouw vond het burgerlijk huwelijk
-van prins Willem-Alexander en prinses Maxima plaats?
-</vraag>
-<choice>
-<item>Stopera</item>
-<item>Paleis op de Dam</item>
-<item>Maagdenhuis</item>
-<item goed="ja">Beurs van Berlage</item>
-</choice>
-<tags>
-<tag>nederlands</tag>
-</tags>
+    <vraag>
+<!--
+        <p>12 januari 2008</p>
+        <p>$2,000</p>
+-->
+        <p>
+            In welk Amsterdams gebouw vond het burgerlijk huwelijk
+            van prins Willem-Alexander en prinses Maxima plaats?
+        </p>
+    </vraag>
+    <choice>
+    <item>Stopera</item>
+    <item>Paleis op de Dam</item>
+    <item>Maagdenhuis</item>
+    <item goed="ja">Beurs van Berlage</item>
+    </choice>
+    <tags>
+    <tag>nederlands</tag>
+    </tags>
 </exercise>
 
 <!-- 12 januari 2008: $4,000 -->
 <exercise type="single">
-<vraag>
-In welke sport was O.J. Simpson een grote ster?
-</vraag>
-<choice>
-<item goed="ja">American football</item>
-<item>Basketbal</item>
-<item>Honkbal</item>
-<item>IJshockey</item>
-</choice>
-<tags>
-<tag>sport</tag>
-</tags>
+    <vraag>
+        <p>
+            In welke sport was O.J. Simpson een grote ster?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">American football</item>
+        <item>Basketbal</item>
+        <item>Honkbal</item>
+        <item>IJshockey</item>
+    </choice>
+    <tags>
+        <tag>sport</tag>
+    </tags>
 </exercise>
 
 <!-- 12 januari 2008: $8,000 -->
@@ -4878,38 +4992,43 @@ Verdonk afgelopen oktober oprichtte?
     </tags>
 </exercise>
 
-<!-- 12 januari 2008: $4,000 -->
 <exercise type="single">
-<vraag>
-Wie schreef de bestseller 'Het Zijn Net Mensen',
-waarvoor hij in 2007 de NS Publieksprijs ontving?
-</vraag>
-<choice>
-<item>Arnon Grunberg</item>
-<item>Joost Zwagerman</item>
-<item goed="ja">Joris Luyendijk</item>
-<item>Leon de Winter</item>
-</choice>
-<tags>
-<tag>literatuur</tag>
-<tag>nederlands</tag>
-</tags>
+    <vraag>
+<!--
+        <p>12 januari 2008</p>
+        <p>$4,000</p>
+-->
+        <p>
+            Wie schreef de bestseller 'Het Zijn Net Mensen',
+            waarvoor hij in 2007 de NS Publieksprijs ontving?
+        </p>
+    </vraag>
+    <choice>
+        <item>Arnon Grunberg</item>
+        <item>Joost Zwagerman</item>
+        <item goed="ja">Joris Luyendijk</item>
+        <item>Leon de Winter</item>
+    </choice>
+    <tags>
+        <tag>literatuur</tag>
+        <tag>nederlands</tag>
+    </tags>
 </exercise>
 
 <!-- 12 januari 2008: $8,000 -->
 <exercise type="single">
-<vraag>
-Welk land in Azie grenst aan zee?
-</vraag>
-<choice>
-<item goed="ja">Cambodja</item>
-<item>Mongolie</item>
-<item>Laos</item>
-<item>Nepal</item>
-</choice>
-<tags>
-<tag>geografie</tag>
-</tags>
+    <vraag>
+        <p>Welk land in Azie grenst aan zee?</p>
+    </vraag>
+    <choice>
+        <item goed="ja">Cambodja</item>
+        <item>Mongolie</item>
+        <item>Laos</item>
+        <item>Nepal</item>
+    </choice>
+    <tags>
+    <tag>geografie</tag>
+    </tags>
 </exercise>
 
 <exercise type="dragdrop">
@@ -5178,8 +5297,9 @@ Welk land in Azie grenst aan zee?
 <exercise type="single">
     <vraag>
 <!--
+        <p>maart 2008</p>
         <p>Jan Peternotte uit Amsterdam</p>
-        <p>maart 2008: $64,000</p>
+        <p>$64,000</p>
 -->
         <p>Wie was al overleden toen Columbus Amerika ontdekte?</p>
     </vraag>
@@ -5219,8 +5339,9 @@ Welk land in Azie grenst aan zee?
 <exercise type="single">
     <vraag>
 <!--
-        <p>Sabrina Tonkes</p>
-        <p>11 maart 2011: $500</p>
+        <p>Sabrina Tonkes uit Gouda</p>
+        <p><time>11 maart 2011</time></p>
+        <p>$500</p>
 -->
         <p>
             In welke samenlevingsvorm leven de
@@ -5238,28 +5359,38 @@ Welk land in Azie grenst aan zee?
     </tags>
 </exercise>
 
-<!-- 11 maart 2011: $1,000 -->
 <exercise type="single">
-<vraag>
-Wie is nog geen officieel
-lid van de Toppers geweest?
-</vraag>
-<choice>
-<item>Rene</item>
-<item goed="ja">Jan</item>
-<item>Gerard</item>
-<item>Gordon</item>
-</choice>
-<tags>
-<tag>media</tag>
-<tag>nederlands</tag>
-<tag>muziek</tag>
-</tags>
+    <vraag>
+        <p><time>11 maart 2011</time></p>
+<!--
+        <p>Sabrina Tonkes</p>
+        <p>$1,000</p>
+-->
+        <p>
+            Wie is nog geen officieel
+            lid van de Toppers geweest?
+        </p>
+    </vraag>
+    <choice>
+        <item>Rene</item>
+        <item goed="ja">Jan</item>
+        <item>Gerard</item>
+        <item>Gordon</item>
+    </choice>
+    <tags>
+        <tag>media</tag>
+        <tag>nederlands</tag>
+        <tag>muziek</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
     <vraag>
-        <p>11 maart 2011: $2,000</p>
+<!--
+        <p><time>11 maart 2011</time></p>
+        <p>Sabrina Tonkes</p>
+        <p>$2,000</p>
+-->
         <p>
             In en rond welk programma gingen Pieter Storms
             en Jort Kelder in 2010 live tegen elkaar tekeer?
@@ -5278,48 +5409,62 @@ lid van de Toppers geweest?
     </tags>
 </exercise>
 
-<!-- 11 maart 2011: $4,000 -->
 <exercise type="single">
-<vraag>
-Welk gerecht is typisch Spaans?
-</vraag>
-<choice>
-<item>Moussaka</item>
-<item>Couscous</item>
-<item>Chili con carne</item>
-<item goed="ja">Gazpacho</item>
-</choice>
-<tags>
-<tag>eten en drinken</tag>
-</tags>
-<toelichting>
-Couscous komt uit de Maghreb. Moussaka uit Griekenland
-en het Midden-Oosten. Chili con carne komt uit het
-grensgebied van Texas en Mexico. Gazpacho is Spaans en
-komt uit Andaloesie.
-</toelichting>
-</exercise>
-
-<!-- 11 maart 2011: $8,000 -->
-<exercise type="single">
-<vraag>
-Waarop slaat, bijvoorbeeld binnen de
-autowereld, het begrip 'acceleratie'?
-</vraag>
-<choice>
-<item>Hoogte topsnelheid</item>
-<item>Aantal pk's</item>
-<item>Aantal km per tank</item>
-<item goed="ja">Het versnellen</item>
-</choice>
-<tags>
-<tag>taal</tag>
-</tags>
+    <vraag>
+<!--
+        <p><time>11 maart 2011</time></p>
+        <p>Sabrina Tonkes</p>
+        <p>$4,000</p>
+-->
+        <p>Welk gerecht is typisch Spaans?</p>
+    </vraag>
+    <choice>
+        <item>Moussaka</item>
+        <item>Couscous</item>
+        <item>Chili con carne</item>
+        <item goed="ja">Gazpacho</item>
+    </choice>
+    <tags>
+        <tag>eten</tag>
+    </tags>
+    <toelichting>
+        Couscous komt uit de Maghreb. Moussaka uit Griekenland
+        en het Midden-Oosten. Chili con carne komt uit het
+        grensgebied van Texas en Mexico. Gazpacho is Spaans en
+        komt uit Andaloesie.
+    </toelichting>
 </exercise>
 
 <exercise type="single">
     <vraag>
-        <p>11 maart 2011: $16,000</p>
+<!--
+        <p><time>11 maart 2011</time></p>
+        <p>Sabrina Tonkes</p>
+        <p>$8,000</p>
+-->
+        <p>
+            Waarop slaat, bijvoorbeeld binnen de
+            autowereld, het begrip 'acceleratie'?
+        </p>
+    </vraag>
+    <choice>
+        <item>Hoogte topsnelheid</item>
+        <item>Aantal pk's</item>
+        <item>Aantal km per tank</item>
+        <item goed="ja">Het versnellen</item>
+    </choice>
+    <tags>
+        <tag>taal</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p><time>11 maart 2011</time></p>
+<!--
+        <p>Sabrina Tonkes</p>
+        <p>$16,000</p>
+-->
         <p>
             Uit welk werelddeel komt de huidige
             secretaris-generaal van de Verenigde Naties?
@@ -5342,45 +5487,57 @@ autowereld, het begrip 'acceleratie'?
     </toelichting>
 </exercise>
 
-<!-- 11 maart 2011: $32,000 -->
 <exercise type="single">
-<vraag>
-Wie was in 1998 de eerste Nederlandse
-wereldkampioen sprint op de schaats?
-</vraag>
-<choice>
-<item goed="ja">Jan Bos</item>
-<item>Gerard van Velde</item>
-<item>Erben Wennemars</item>
-<item>Jan Ykema</item>
-</choice>
-<tags>
-<tag>jaartal</tag>
-<tag>nederlands</tag>
-<tag>sport</tag>
-</tags>
-</exercise>
-
-<!-- 11 maart 2011: $500 -->
-<exercise type="single">
-<vraag>
-Hoeveel zijden heeft de normale,
-meestgebruikte dobbelsteen?
-</vraag>
-<choice>
-<item>4</item>
-<item goed="ja">6</item>
-<item>8</item>
-<item>10</item>
-</choice>
-<tags>
-<tag>gebruiksvoorwerp</tag>
-</tags>
+    <vraag>
+<!--
+        <p>11 maart 2011</p>
+        <p>$32,000</p>
+-->
+        <p>
+            Wie was in 1998 de eerste Nederlandse
+            wereldkampioen sprint op de schaats?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">Jan Bos</item>
+        <item>Gerard van Velde</item>
+        <item>Erben Wennemars</item>
+        <item>Jan Ykema</item>
+    </choice>
+    <tags>
+        <tag>jaartal</tag>
+        <tag>nederlands</tag>
+        <tag>persoon</tag>
+        <tag>sport</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
     <vraag>
-        <p>11 maart 2011: $1,000</p>
+<!--
+        <p>11 maart 2011</p>
+        <p>$500</p>
+-->
+        <p>
+            Hoeveel zijden heeft de normale,
+            meestgebruikte dobbelsteen?
+        </p>
+    </vraag>
+    <choice>
+        <item>4</item>
+        <item goed="ja">6</item>
+        <item>8</item>
+        <item>10</item>
+    </choice>
+    <tags>
+        <tag>gebruiksvoorwerp</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>11 maart 2011</p>
+        <p>$1,000</p>
         <p>
             Welk stuk fruit is ook een
             bekende Nederlandse schilder?
@@ -5394,92 +5551,97 @@ meestgebruikte dobbelsteen?
     </choice>
     <tags>
         <tag>cultuur</tag>
-        <tag>eten en drinken</tag>
+        <tag>eten</tag>
         <tag>kunst</tag>
+        <tag>persoon</tag>
     </tags>
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>11 maart 2011: $4,000</p>
-<p>
-Welke cabaretier verzorgt al sinds 2006
-de Oudejaarsconference op SBS 6?
-</p>
-</vraag>
-<choice>
-<item>Freek de Jonge</item>
-<item>Youp van 't Hek</item>
-<item>Dolf Jansen</item>
-<item goed="ja">Guido Weijers</item>
-</choice>
-<tags>
-<tag>cultuur</tag>
-<tag>nederlands</tag>
-<tag>televisie</tag>
-</tags>
+    <vraag>
+        <p>11 maart 2011: $4,000</p>
+        <p>
+            Welke cabaretier verzorgt al sinds 2006
+            de Oudejaarsconference op SBS 6?
+        </p>
+    </vraag>
+    <choice>
+        <item>Freek de Jonge</item>
+        <item>Youp van 't Hek</item>
+        <item>Dolf Jansen</item>
+        <item goed="ja">Guido Weijers</item>
+    </choice>
+    <tags>
+        <tag>cultuur</tag>
+        <tag>nederlands</tag>
+        <tag>persoon</tag>
+        <tag>televisie</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>11 maart 2011: $8,000</p>
-<p>
-Met welk nummer liet Carel Kraayenhof
-prinses Maxima huilen op haar huwelijksdag?
-</p>
-</vraag>
-<choice>
-<item goed="ja">Adios Nonino</item>
-<item>Ole Guapa</item>
-<item>Libertango</item>
-<item>Milonga del Angel</item>
-</choice>
-<tags>
-<tag>cultuur</tag>
-<tag>geschiedenis</tag>
-<tag>monarchie</tag>
-<tag>muziek</tag>
-<tag>nederlands</tag>
-</tags>
+    <vraag>
+        <p>11 maart 2011</p>
+        <p>$8,000</p>
+        <p>
+            Met welk nummer liet Carel Kraayenhof
+            prinses Maxima huilen op haar huwelijksdag?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">Adios Nonino</item>
+        <item>Ole Guapa</item>
+        <item>Libertango</item>
+        <item>Milonga del Angel</item>
+    </choice>
+    <tags>
+        <tag>cultuur</tag>
+        <tag>geschiedenis</tag>
+        <tag>monarchie</tag>
+        <tag>muziek</tag>
+        <tag>nederlands</tag>
+        <tag>persoon</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>11 maart 2011: $500</p>
-<p>
-Hoe heette de indiaan in de
-verhalen van 'Pipo de Clown'?
-</p>
-</vraag>
-<choice>
-<item>Winnetou</item>
-<item>Hiawata</item>
-<item>Geronimo</item>
-<item goed="ja">Klukkluk</item>
-</choice>
-<tags>
-<tag>media</tag>
-<tag>nederlands</tag>
-<tag>televisie</tag>
-</tags>
+    <vraag>
+        <p>11 maart 2011: $500</p>
+        <p>
+            Hoe heette de indiaan in de
+            verhalen van 'Pipo de Clown'?
+        </p>
+    </vraag>
+    <choice>
+        <item>Winnetou</item>
+        <item>Hiawata</item>
+        <item>Geronimo</item>
+        <item goed="ja">Klukkluk</item>
+    </choice>
+    <tags>
+        <tag>media</tag>
+        <tag>nederlands</tag>
+        <tag>persoon</tag>
+        <tag>televisie</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
-<vraag>
-<p>11 maart 2011: $1,000</p>
-<p>Wat gebruiken we in e-mail-adressen?</p>
-</vraag>
-<choice>
-<item goed="ja">Apenstaartje</item>
-<item>Katteoog</item>
-<item>Ezelsoor</item>
-<item>Hanenpook</item>
-</choice>
-<tags>
-<tag>nederlands</tag>
-<tag>taal</tag>
-<tag>technologie</tag>
-</tags>
+    <vraag>
+        <p>11 maart 2011: $1,000</p>
+        <p>Wat gebruiken we in e-mail-adressen?</p>
+    </vraag>
+    <choice>
+        <item goed="ja">Apenstaartje</item>
+        <item>Katteoog</item>
+        <item>Ezelsoor</item>
+        <item>Hanenpook</item>
+    </choice>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+        <tag>technologie</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -5498,6 +5660,7 @@ verhalen van 'Pipo de Clown'?
     </choice>
     <tags>
         <tag>nederlands</tag>
+        <tag>persoon</tag>
         <tag>politiek</tag>
     </tags>
 </exercise>
@@ -5533,6 +5696,7 @@ verhalen van 'Pipo de Clown'?
         <item goed="ja">Tottenham Hotspur</item>
     </choice>
     <tags>
+        <tag>persoon</tag>
         <tag>sport</tag>
         <tag>voetbal</tag>
     </tags>
@@ -5555,22 +5719,22 @@ verhalen van 'Pipo de Clown'?
 </exercise>
 
 <exercise type="single">
-<vraag>
-    <p>
-        Hoe noemen we iemand die zijn
-        gevoelens niet toont ook wel?
-    </p>
-</vraag>
-<choice>
-    <item>Zwart schaap</item>
-    <item>Kwaaie pier</item>
-    <item goed="ja">Kouwe kikker</item>
-    <item>Rauwe mossel</item>
-</choice>
-<tags>
-    <tag>nederlands</tag>
-    <tag>taal</tag>
-</tags>
+    <vraag>
+        <p>
+            Hoe noemen we iemand die zijn
+            gevoelens niet toont ook wel?
+        </p>
+    </vraag>
+    <choice>
+        <item>Zwart schaap</item>
+        <item>Kwaaie pier</item>
+        <item goed="ja">Kouwe kikker</item>
+        <item>Rauwe mossel</item>
+    </choice>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>taal</tag>
+    </tags>
 </exercise>
 
 <exercise type="single">
@@ -5624,6 +5788,218 @@ verhalen van 'Pipo de Clown'?
     </choice>
     <tags>
         <tag>eten</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+<!--
+        <p>Sven Mooij</p>
+        <p>$1,000</p>
+-->
+        <p>
+            Wat is ook een betekenis
+            van de jongensnaam Koen?
+        </p>
+    </vraag>
+    <choice>
+        <item>Lui</item>
+        <item>Arm</item>
+        <item>Brutaal</item>
+        <item goed="ja">Moedig</item>
+    </choice>
+    <tags>
+        <tag>taal</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>Sven Mooij</p>
+        <p>$2,000</p>
+        <p>
+            Welk fort lieten de Moorse heersers
+            rond 1300 in het Spaanse Granada bouwen?
+        </p>
+    </vraag>
+    <choice>
+        <item>Taj Mahal</item>
+        <item goed="ja">Alhambra</item>
+        <item>Prambanan</item>
+        <item>Kaäba</item>
+    </choice>
+    <tags>
+        <tag>gebouwen</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+<!--
+        <p>Sven Mooij</p>
+        <p>$4,000</p>
+-->
+        <p>
+            Welke acteur zit sinds 2002
+            voor D66 in de Tweede Kamer?
+        </p>
+    </vraag>
+    <choice>
+        <item>Daan Schuurmans</item>
+        <item>Pierre Bokma</item>
+        <item goed="ja">Boris van der Ham</item>
+        <item>Roeland Fernhout</item>
+    </choice>
+    <tags>
+        <tag>politiek</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+<!--
+        <p>Sven Mooij</p>
+        <p>$8,000</p>
+-->
+        <p>
+            Van welke Amerikaanse tv-serie kennen
+            wij de dames Marge, Lisa en Maggie?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">The Simpsons</item>
+        <item>Gilmore Girls</item>
+        <item>Desperate Housewives</item>
+        <item>Friends</item>
+    </choice>
+    <tags>
+        <tag>amerikaans</tag>
+        <tag>cartoon</tag>
+        <tag>televisie</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+<!--
+        <p>2006</p>
+        <p>Sven Mooij</p>
+        <p>$16,000</p>
+-->
+        <p>
+            Welke Italiaanse stad wordt
+            ook wel de Dogenstad genoemd?
+        </p>
+    </vraag>
+    <choice>
+        <item>Florence</item>
+        <item goed="ja">Venetië</item>
+        <item>Milaan</item>
+        <item>Napels</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+<!--
+        <p>2006</p>
+        <p>Sven Mooij</p>
+        <p>$32,000</p>
+-->
+        <p>
+            Sinds wanneer kunnen we officieel met euromunten
+            en -biljetten onze boodschappen afrekenen?
+        </p>
+    </vraag>
+    <choice>
+        <item>01-01-2001</item>
+        <item goed="ja">01-01-2002</item>
+        <item>01-01-2003</item>
+        <item>01-01-2004</item>
+    </choice>
+    <tags>
+        <tag>geld</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+<!--
+        <p>2006</p>
+        <p>Sven Mooij</p>
+        <p>$64,000</p>
+-->
+        <p>
+            Hoe noemen we de deeltjes waaruit
+            protonen en neutronen zijn opgebouwd?
+        </p>
+    </vraag>
+    <choice>
+        <item>Gravitonen</item>
+        <item>Elektronen</item>
+        <item>Plasma</item>
+        <item goed="ja">Quarks</item>
+    </choice>
+    <tags>
+        <tag>taal</tag>
+        <tag>wetenschap</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>
+            Wat is spreekwoordelijk kort
+            aan iemand die snel boos wordt?
+        </p>
+    </vraag>
+    <choice>
+        <item>Tenen</item>
+        <item>Neus</item>
+        <item goed="ja">Lontje</item>
+        <item>Vingers</item>
+    </choice>
+    <tags>
+        <tag>gezegde</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>
+            Welk bouwwerk bestormde de Parijse bevolking
+            aan het begin van de Franse Revolutie, op 14 juli?
+        </p>
+    </vraag>
+    <choice>
+        <item>Arc de Triomphe</item>
+        <item goed="ja">Bastille</item>
+        <item>Eiffeltoren</item>
+        <item>Notre Dame</item>
+    </choice>
+    <tags>
+        <tag>gebouwen</tag>
+        <tag>geschiedenis</tag>
+    </tags>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>
+            Bij welke politieke partij hoort
+            oud-minister Hans Hoogervorst?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">VVD</item>
+        <item>CDA</item>
+        <item>PvdA</item>
+        <item>D66</item>
+    </choice>
+    <tags>
+        <tag>nederlands</tag>
+        <tag>persoon</tag>
+        <tag>politiek</tag>
     </tags>
 </exercise>
 
