@@ -1,0 +1,328 @@
+<exam>
+
+<title>W3Schools JavaScript</title>
+
+<exercise type="single">
+    <vraag>
+        Inside which HTML element
+        do we put the JavaScript?
+    </vraag>
+    <choice>
+        <item goed="ja">&lt;script&gt;</item>
+        <item>&lt;js&gt;</item>
+        <item>&lt;scripting&gt;</item>
+        <item>&lt;javascript&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>
+            What is the correct JavaScript syntax to change
+            the content of the HTML element below?
+        </p>
+        <p>
+            &lt;p id="demo"&gt;This is a demonstration.&lt;/p&gt;
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">
+            document.getElementById("demo").innerHTML = "Hello World!";
+        </item>
+        <item>
+            document.getElementByName("p").innerHTML = "Hello World!";
+        </item>
+        <item>#demo.innerHTML = "Hello World!";</item>
+        <item>
+            document.getElement("p").innerHTML = "Hello World!";
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Where is the correct place to insert a JavaScript?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            Both the &lt;head&gt; section and the
+            &lt;body&gt; section are correct
+        </item>
+        <item>The &lt;body&gt; section</item>
+        <item>The &lt;head&gt; section</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct syntax for referring
+        to an external script called "xxx.js"?
+    </vraag>
+    <choice>
+        <item goed="ja">&lt;script src="xxx.js"&gt;</item>
+        <item>&lt;script href="xxx.js"&gt;</item>
+        <item>&lt;script name="xxx.js"&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The external JavaScript file must
+        contain the &lt;script&gt; tag.
+    </vraag>
+    <choice>
+        <item goed="ja">False</item>
+        <item>True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you write "Hello World" in an alert box?
+    </vraag>
+    <choice>
+        <item goed="ja">alert("Hello World");</item>
+        <item>alertBox("Hello World");</item>
+        <item>msg("Hello World");</item>
+        <item>msgBox("Hello World");</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you create a function in JavaScript?
+    </vraag>
+    <choice>
+        <item goed="ja">function myFunction()</item>
+        <item>function = myFunction()</item>
+        <item>function:myFunction()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you call a function named "myFunction"?
+    </vraag>
+    <choice>
+        <item goed="ja">myFunction()</item>
+        <item>call myFunction()</item>
+        <item>call function myFunction()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How to write an IF statement in JavaScript?
+    </vraag>
+    <choice>
+        <item goed="ja">if (i == 5)</item>
+        <item>if i == 5 then</item>
+        <item>if i = 5</item>
+        <item>if i = 5 then</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How to write an IF statement for executing
+        some code if "i" is NOT equal to 5?
+    </vraag>
+    <choice>
+        <item goed="ja">if (i != 5)</item>
+        <item>if i &lt;&gt; 5</item>
+        <item>if (i &lt;&gt; 5)</item>
+        <item>if i =! 5 then</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How does a WHILE loop start?
+    </vraag>
+    <choice>
+        <item>while i = 1 to 10</item>
+        <item>while (i &lt;= 10; i++)</item>
+        <item goed="ja">while (i &lt;= 10)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How does a FOR loop start?
+    </vraag>
+    <choice>
+        <item>for (i &lt;= 5; i++)</item>
+        <item>for (i = 0; i &lt;= 5)</item>
+        <item goed="ja">for (i = 0; i &lt;= 5; i++)</item>
+        <item>for i = 1 to 5</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How can you add a comment in a JavaScript?
+    </vraag>
+    <choice>
+        <item goed="ja">//This is a comment</item>
+        <item>&lt;!--This is a comment--&gt;</item>
+        <item>'This is a comment</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How to insert a comment that has more than one line?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            /*This comment has
+            more than one line*/
+        </item>
+        <item>
+            &lt;!--This comment has
+            more than one line--&gt;
+        </item>
+        <item>
+            //This comment has
+            more than one line//
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct way to
+        write a JavaScript array?
+    </vraag>
+    <choice>
+        <item>
+            var colors = 1 = ("red"),
+            2 = ("green"), 3 = ("blue")
+        </item>
+        <item goed="ja">
+            var colors = ["red","green","blue"]
+        </item>
+        <item>var colors = "red","green","blue"</item>
+        <item>var colors = (1:"red", 2:"green", 3:"blue")</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you round the number
+        7.25, to the nearest integer?
+    </vraag>
+    <choice>
+        <item>Math.rnd(7.25)</item>
+        <item>rnd(7.25)</item>
+        <item goed="ja">Math.round(7.25)</item>
+        <item>round(7.25)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you find the number with
+        the highest value of x and y?
+    </vraag>
+    <choice>
+        <item>ceil(x, y)</item>
+        <item>Math.ceil(x, y)</item>
+        <item goed="ja">Math.max(x, y)</item>
+        <item>top(x, y)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct JavaScript syntax
+        for opening a new window called "w2"?
+    </vraag>
+    <choice>
+        <item>w2 = window.open("http://www.w3schools.com");</item>
+        <item>w2 = window.new("http://www.w3schools.com");</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        JavaScript is the same as Java.
+    </vraag>
+    <choice>
+        <item goed="ja">False</item>
+        <item>True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How can you detect the client's browser name?
+    </vraag>
+    <choice>
+        <item>browser.name</item>
+        <item>navigator.appName</item>
+        <item>client.navName</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which event occurs when the
+        user clicks on an HTML element?
+    </vraag>
+    <choice>
+        <item>onmouseover</item>
+        <item goed="ja">onclick</item>
+        <item>onchange</item>
+        <item>onmouseclick</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you declare a JavaScript variable?
+    </vraag>
+    <choice>
+        <item goed="ja">var carName;</item>
+        <item>v carName;</item>
+        <item>variable carName;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which operator is used to
+        assign a value to a variable?
+    </vraag>
+    <choice>
+        <item>-</item>
+        <item>x</item>
+        <item>*</item>
+        <item goed="ja">=</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What will the following code
+        return: Boolean(10 &gt; 9)
+    </vraag>
+    <choice>
+        <item>NaN</item>
+        <item>false</item>
+        <item goed="ja">true</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>Is JavaScript case-sensitive?</vraag>
+    <choice>
+        <item goed="ja">Yes</item>
+        <item>No</item>
+    </choice>
+</exercise>
+
+</exam>
+
+
+

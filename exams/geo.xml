@@ -36,26 +36,50 @@ Wat is de hoofdstad van Canada?
 </exercise>
 
 <exercise type="single">
-<vraag>
-Wat is de hoofdstad van de Verenigde Staten?
-</vraag>
-<choice>
-<item>New York</item>
-<item goed="ja">Washington D.C.</item>
-<item>Denver</item>
-</choice>
+    <vraag>
+        Wat is de hoofdstad van de Verenigde Staten?
+    </vraag>
+    <choice>
+        <item>New York</item>
+        <item goed="ja">Washington D.C.</item>
+        <item>Denver</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-Wat is de hoofdstad van Uruguay?
-</vraag>
-<choice>
-<item>Asuncion</item>
-<item goed="ja">Montevideo</item>
-<item>La Paz</item>
-<item>Lima</item>
-</choice>
+    <vraag>
+        Wat is de hoofdstad van Uruguay?
+    </vraag>
+    <choice>
+        <item>Asuncion</item>
+        <item goed="ja">Montevideo</item>
+        <item>La Paz</item>
+        <item>Lima</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Wat is de hoofdstad van California?
+    </vraag>
+    <choice>
+        <item goed="ja">Sacramento</item>
+        <item>Los Angeles</item>
+        <item>Fresno</item>
+        <item>San Francisco</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Wat is de hoofdstad van Bulgarije?
+    </vraag>
+    <choice>
+        <item goed="ja">Sofia</item>
+        <item>Belograd</item>
+        <item>Boekarest</item>
+        <item>Skopje</item>
+    </choice>
 </exercise>
 
 </exam>

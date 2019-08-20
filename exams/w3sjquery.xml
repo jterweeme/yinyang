@@ -1,0 +1,313 @@
+<exam>
+<title>W3Schools jQuery</title>
+
+<exercise type="single">
+    <vraag>
+        Which of the following is correct?
+    </vraag>
+    <choice>
+        <item goed="ja">jQuery is a JavaScript Library</item>
+        <item>jQuery is a JSON Library</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        jQuery uses CSS selectors to select elements?
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which sign does jQuery use
+        as a shortcut for jQuery?
+    </vraag>
+    <choice>
+        <item goed="ja">the $ sign</item>
+        <item>the % sign</item>
+        <item>the ? Sign</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Look at the following selector:
+        $("div"). What does it select?
+    </vraag>
+    <choice>
+        <item goed="ja">All div elements</item>
+        <item>The first div element</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Is jQuery a library for client
+        scripting or server scripting?
+    </vraag>
+    <choice>
+        <item>Server scripting</item>
+        <item goed="ja">Client scripting</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Is it possible to use
+        jQuery together with AJAX?
+    </vraag>
+    <choice>
+        <item goed="ja">Yes</item>
+        <item>No</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The jQuery html() method works
+        for both HTML and XML documents
+    </vraag>
+    <choice>
+        <item goed="ja">False</item>
+        <item>True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct jQuery code to set the
+        background color of all p elements to red?
+    </vraag>
+    <choice>
+        <item>$("p").style("background-color","red");</item>
+        <item goed="ja">$("p").css("background-color","red");</item>
+        <item>$("p").manipulate("background-color","red");</item>
+        <item>$("p").layout("background-color","red");</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With jQuery, look at the following
+        selector: $("div.intro"). What does it select?
+    </vraag>
+    <choice>
+        <item>The first div element with class="intro"</item>
+        <item>All div elements with id="intro"</item>
+        <item goed="ja">All div elements with class="intro"</item>
+        <item>The first div element with id="intro"</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery method is used
+        to hide selected elements?
+    </vraag>
+    <choice>
+        <item>visible(false)</item>
+        <item goed="ja">hide()</item>
+        <item>hidden()</item>
+        <item>display(none)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery method is used to set one or
+        more style properties for selected elements?
+    </vraag>
+    <choice>
+        <item goed="ja">css()</item>
+        <item>html()</item>
+        <item>style()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery method is used to perform
+        an asynchronous HTTP request?
+    </vraag>
+    <choice>
+        <item>jQuery.ajaxAsync()</item>
+        <item>jQuery.ajaxSetup()</item>
+        <item goed="ja">jQuery.ajax()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct jQuery code for making
+        all div elements 100 pixels high?
+    </vraag>
+    <choice>
+        <item>$("div").yPos(100)</item>
+        <item goed="ja">$("div").height(100)</item>
+        <item>$("div").height="100"</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which statement is true?
+    </vraag>
+    <choice>
+        <item>
+            To use jQuery, you must buy the
+            jQuery library at www.jquery.com
+        </item>
+        <item>
+            To use jQuery, you do not have to do anything. Most
+            browsers (Internet Explorer, Chrome, Firefox and Opera) have
+            jQuery library built in the browser
+        </item>
+        <item goed="ja">
+            To use jQuery, you can refer to a
+            hosted jQuery library at Google
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What scripting language is jQuery written in?
+    </vraag>
+    <choice>
+        <item>VBScript</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item goed="ja">JavaScript</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery function is used to prevent code from
+        running, before the document is finished loading?
+    </vraag>
+    <choice>
+        <item goed="ja">$(document).ready()</item>
+        <item>$(document).load()</item>
+        <item>$(body).onload()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery method should be used
+        to deal with name conflicts?
+    </vraag>
+    <choice>
+        <item>nameConflict()</item>
+        <item goed="ja">noConflict()</item>
+        <item>noNameConflict()</item>
+        <item>conflict()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery method is used to switch between adding/removing
+        one or more classes (for CSS) from selected elements?
+    </vraag>
+    <choice>
+        <item>switchCase()</item>
+        <item>switch()</item>
+        <item goed="ja">toggleClass()</item>
+        <item>altClass()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Look at the following selector:
+        $("div p"). What does it select?
+    </vraag>
+    <choice>
+        <item goed="ja">All p elements inside a div element</item>
+        <item>All div elements with a p element</item>
+        <item>The first p element inside a div element</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>Is jQuery a W3C standard?</vraag>
+    <choice>
+        <item goed="ja">No</item>
+        <item>Yes</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Look at the following selector:
+        $("p#intro"). What does it select?
+    </vraag>
+    <choice>
+        <item goed="ja">The p element with id="intro"</item>
+        <item>All p elements with class="intro"</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery method is used
+        to remove selected elements?
+    </vraag>
+    <choice>
+        <item>detach()</item>
+        <item goed="ja">Both methods can be used</item>
+        <item>remove()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Look at the following selector:
+        $(":disabled"). What does it select?
+    </vraag>
+    <choice>
+        <item goed="ja">All disabled input elements</item>
+        <item>
+            All elements that does not
+            contain the text "disabled"
+        </item>
+        <item>All elements containing the text "disabled"</item>
+        <item>All hidden elements</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which jQuery method returns the direct
+        parent element of the selected element?
+    </vraag>
+    <choice>
+        <item goed="ja">parent()</item>
+        <item>ancestor()</item>
+        <item>parents()</item>
+        <item>ancestors()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The jQuery animate() method can be
+        used to animate ANY CSS property?
+    </vraag>
+    <choice>
+        <item>All properties except the shorthand properties</item>
+        <item goed="ja">Only properties containing numeric values</item>
+        <item>Yes</item>
+    </choice>
+</exercise>
+
+</exam>
+
+
+

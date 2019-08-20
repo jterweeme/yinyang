@@ -133,7 +133,7 @@ foreach ($xml->exercise as $exercise)
             else if (isset($item['checked']))   // user heeft verkeerde optie aangevinkt
                 $foo = " class=\"rood\"";
             
-            printf("<label%s>%s</label>\r\n", $foo, $item);
+            printf("<label%s>%s</label>\r\n", $foo, htmlentities($item));
             printf("</p>\r\n");
         }
 

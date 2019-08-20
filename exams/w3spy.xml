@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<exam>
+<title>W3Schools Python</title>
+
+<exercise type="single">
+    <vraag>
+        <p>
+            What is a correct syntax to
+            output "Hello World" in Python?
+        </p>
+    </vraag>
+    <choice>
+        <item goed="ja">print("Hello World")</item>
+        <item>echo("Hello World");</item>
+        <item>p("Hello World")</item>
+        <item>echo "Hello World"</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you insert COMMENTS in Python code?
+    </vraag>
+    <choice>
+        <item goed="ja">#This is a comment</item>
+        <item>/*This is a comment*/</item>
+        <item>//This is a comment</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which one is NOT a legal variable name?
+    </vraag>
+    <choice>
+        <item goed="ja">my-var</item>
+        <item>_myvar</item>
+        <item>Myvar</item>
+        <item>my_var</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you create a variable with the numeric value 5?
+    </vraag>
+    <choice>
+        <item goed="ja">Both the other answers are correct</item>
+        <item>x = int(5)</item>
+        <item>x = 5</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct file extension for Python files?
+    </vraag>
+    <choice>
+        <item goed="ja">.py</item>
+        <item>.pt</item>
+        <item>.pyt</item>
+        <item>.pyth</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you create a variable with the floating number 2.8?
+    </vraag>
+    <choice>
+        <item goed="ja">Both the other answers are correct</item>
+        <item>x = float(2.8)</item>
+        <item>x = 2.8</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct syntax to output the
+        type of a variable or object in Python?
+    </vraag>
+    <choice>
+        <item goed="ja">print(type(x))</item>
+        <item>print(typeof(x))</item>
+        <item>print(typeOf(x))</item>
+        <item>print(typeof x)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct way to create a function in Python?
+    </vraag>
+    <choice>
+        <item goed="ja">def myFunction():</item>
+        <item>create myFunction():</item>
+        <item>function myfunction():</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        In Python, 'Hello', is the same as "Hello"
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is a correct syntax to return
+        the first character in a string?
+    </vraag>
+    <choice>
+        <item goed="ja">x = "Hello"[0]</item>
+        <item>x = sub("Hello", 0, 1)</item>
+        <item>x = "Hello".sub(0, 1)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which method can be used to remove any whitespace
+        from both the beginning and the end of a string?
+    </vraag>
+    <choice>
+        <item>trim()</item>
+        <item>len()</item>
+        <item>ptrim()</item>
+        <item goed="ja">strip()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which method can be used to return
+        a string in upper case letters?
+    </vraag>
+    <choice>
+        <item goed="ja">upper()</item>
+        <item>upperCase()</item>
+        <item>uppercase()</item>
+        <item>toUpperCase()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which method can be used to
+        replace parts of a string?
+    </vraag>
+    <choice>
+        <item goed="ja">replace()</item>
+        <item>repl()</item>
+        <item>replaceString()</item>
+        <item>switch()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which operator is used to multiply numbers?
+    </vraag>
+    <choice>
+        <item goed="ja">*</item>
+        <item>%</item>
+        <item>x</item>
+        <item>#</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which operator can be used
+        to compare two values?
+    </vraag>
+    <choice>
+        <item goed="ja">==</item>
+        <item>&lt;&gt;</item>
+        <item>=</item>
+        <item>&gt;&lt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which of these collections defines a LIST?
+    </vraag>
+    <choice>
+        <item goed="ja">["apple", "banana", "cherry"]</item>
+        <item>{"apple", "banana", "cherry"}</item>
+        <item>("apple", "banana", "cherry")</item>
+        <item>{"name": "apple", "color": "green"}</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which of these collections defines a TUPLE?
+    </vraag>
+    <choice>
+        <item goed="ja">("apple", "banana", "cherry")</item>
+        <item>["apple", "banana", "cherry"]</item>
+        <item>{"name": "apple", "color": "green"}</item>
+        <item>{"apple", "banana", "cherry"}</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which of these collections defines a SET?
+    </vraag>
+    <choice>
+        <item goed="ja">{"apple", "banana", "cherry"}</item>
+        <item>["apple", "banana", "cherry"]</item>
+        <item>("apple", "banana", "cherry")</item>
+        <item>{"name": "apple", "color": "green"}</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which of these collections defines a DICTIONARY?
+    </vraag>
+    <choice>
+        <item goed="ja">{"name": "apple", "color": "green"}</item>
+        <item>{"apple", "banana", "cherry"}</item>
+        <item>("apple", "banana", "cherry")</item>
+        <item>["apple", "banana", "cherry"]</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which collection is ordered, changeable,
+        and allows duplicate members?
+    </vraag>
+    <choice>
+        <item goed="ja">LIST</item>
+        <item>TUPLE</item>
+        <item>SET</item>
+        <item>DICTIONARY</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which collection does not
+        allow duplicate members?
+    </vraag>
+    <choice>
+        <item goed="ja">SET</item>
+        <item>LIST</item>
+        <item>TUPLE</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you start writing
+        an if statement in Python?
+    </vraag>
+    <choice>
+        <item>if x &gt; y then:</item>
+        <item>if x &gt; y:</item>
+        <item>if (x &gt; y)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you start writing
+        a while loop in Python?
+    </vraag>
+    <choice>
+        <item goed="ja">while x &gt; y:</item>
+        <item>x &gt; y while {</item>
+        <item>while x &gt; y {</item>
+        <item>while (x &gt; y)</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you start writing
+        a for loop in Python?
+    </vraag>
+    <choice>
+        <item goed="ja">for x in y:</item>
+        <item>for each x in y:</item>
+        <item>for x &gt; y:</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which statement is used to stop a loop?
+    </vraag>
+    <choice>
+        <item goed="ja">break</item>
+        <item>exit</item>
+        <item>stop</item>
+        <item>return</item>
+    </choice>
+</exercise>
+
+</exam>
+
+

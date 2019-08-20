@@ -1,0 +1,315 @@
+<exam>
+<title>W3Schools Bootstrap</title>
+
+<exercise type="single">
+    <vraag>
+        Bootstrap 3 is mobile-first.
+    </vraag>
+    <choice>
+        <item>False</item>
+        <item goed="ja">True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class provides a responsive
+        fixed width container?
+    </vraag>
+    <choice>
+        <item>.container-fluid</item>
+        <item goed="ja">.container-fixed</item>
+        <item>.container</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class provides a full width container,
+        spanning the entire width of the viewport?
+    </vraag>
+    <choice>
+        <item>.container-fixed</item>
+        <item>.container</item>
+        <item goed="ja">.container-fluid</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The Bootstrap grid system is
+        based on how may columns?
+    </vraag>
+    <choice>
+        <item>3</item>
+        <item goed="ja">12</item>
+        <item>9</item>
+        <item>6</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class adds zebra-stripes to a table?
+    </vraag>
+    <choice>
+        <item>.table-zebra</item>
+        <item>.table-bordered</item>
+        <item goed="ja">.table-striped</item>
+        <item>.even and .odd</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class shapes an image to a circle?
+    </vraag>
+    <choice>
+        <item>.img-rounded</item>
+        <item>.img-thumbnail</item>
+        <item>.img-round</item>
+        <item goed="ja">.img-circle</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class is used to create a
+        big box for calling extra attention?
+    </vraag>
+    <choice>
+        <item goed="ja">.jumbotron</item>
+        <item>.bigbox</item>
+        <item>.container</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which button class is used
+        to create a large button?
+    </vraag>
+    <choice>
+        <item goed="ja">.btn-lg</item>
+        <item>.btn-l</item>
+        <item>.btn-large</item>
+        <item>.btn-xl</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class is used to
+        create a button group?
+    </vraag>
+    <choice>
+        <item>.group-button</item>
+        <item goed="ja">.btn-group</item>
+        <item>.group-btn</item>
+        <item>.button-group</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How can you insert a search icon?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            &lt;span class="glyphicon glyphicon-search"&gt;&lt;/span&gt;
+        </item>
+        <item>
+            &lt;span class="glyphicon search"&gt;&lt;/span&gt;
+        </item>
+        <item>
+            &lt;span class="glyph glyph-search"&gt;&lt;/span&gt;
+        </item>
+        <item>&lt;span class="glyphicon-search"&gt;&lt;/span&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class is used to create a badge?
+    </vraag>
+    <choice>
+        <item goed="ja">.badge</item>
+        <item>.flag</item>
+        <item>.label</item>
+        <item>.tag</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class is used to create a basic pagination?
+    </vraag>
+    <choice>
+        <item>.pages</item>
+        <item goed="ja">.pagination</item>
+        <item>.page</item>
+        <item>.navigation</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class is used to create a basic list group?
+    </vraag>
+    <choice>
+        <item>.grouped-list</item>
+        <item>.group-list</item>
+        <item goed="ja">.list-group</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class adds a heading to a panel?
+    </vraag>
+    <choice>
+        <item>.panel-footer</item>
+        <item goed="ja">.panel-heading</item>
+        <item>.panel-head</item>
+        <item>.panel-header</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class indicates a dropdown menu?
+    </vraag>
+    <choice>
+        <item goed="ja">.dropdown</item>
+        <item>.dropdown-list</item>
+        <item>.select</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        A standard navigation tab is created with:
+    </vraag>
+    <choice>
+        <item>&lt;ul class="navigation-tabs"&gt;</item>
+        <item>&lt;ul class="nav nav-navbar"&gt;</item>
+        <item>&lt;ul class="nav tabs"&gt;</item>
+        <item goed="ja">&lt;ul class="nav nav-tabs"&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        A standard navigation bar is created with:
+    </vraag>
+    <choice>
+        <item>&lt;nav class="nav navbar"&gt;</item>
+        <item>&lt;nav class="navigationbar navbar-default"&gt;</item>
+        <item>&lt;nav class="navbar default-navbar"&gt;</item>
+        <item goed="ja">&lt;nav class="navbar navbar-default"&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class is used to create a black navigation bar?
+    </vraag>
+    <choice>
+        <item>.navbar-black</item>
+        <item>.navbar-dark</item>
+        <item goed="ja">.navbar-inverse</item>
+        <item>.navbar-default</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which plugin is used to cycle
+        through elements, like a slideshow?
+    </vraag>
+    <choice>
+        <item>Orbit</item>
+        <item>Slideshow</item>
+        <item goed="ja">Carousel</item>
+        <item>Scrollspy</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which plugin is used to
+        create a modal window?
+    </vraag>
+    <choice>
+        <item>Dialog Box</item>
+        <item>Popup</item>
+        <item goed="ja">Modal</item>
+        <item>Window</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which plugin is used to create a tooltip?
+    </vraag>
+    <choice>
+        <item goed="ja">Tooltip</item>
+        <item>Modal</item>
+        <item>Dialog Box</item>
+        <item>Popup</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which contextual class indicates
+        a succesful or positive action?
+    </vraag>
+    <choice>
+        <item>.text-warning</item>
+        <item>.text-primary</item>
+        <item goed="ja">.text-success</item>
+        <item>.text-info</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which contextual class indicates a
+        dangerous or potentially negative action?
+    </vraag>
+    <choice>
+        <item>.text-primary</item>
+        <item>.text-warning</item>
+        <item goed="ja">.text-danger</item>
+        <item>.text-info</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which class indicates uppercased text?
+    </vraag>
+    <choice>
+        <item>.uppercase</item>
+        <item>.text-capitalize</item>
+        <item>.ucase</item>
+        <item goed="ja">.text-uppercase</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The Bootstrap grid system works
+        across multiple devices.
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+</exam>
+
+
+

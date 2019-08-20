@@ -125,7 +125,8 @@ if (strcmp($qtype, "single") == 0)
             $n + 1, $n + 1, $str_checked);
         // de $n + 1 maakt het mogelijk om een 0 waarde over te laten voor blanco antwoord
 
-        printf("\t<label for=\"r%u\">%s</label>\r\n\t</p>\r\n", $n + 1, $item);
+        printf("\t<label for=\"r%u\">%s</label>\r\n\t</p>\r\n", $n + 1,
+            htmlentities($item));
     }
 }
 

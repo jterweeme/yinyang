@@ -3,17 +3,17 @@
 <title>Open vragen test</title>
 
 <exercise type="open">
-<vraag>
-Wat is de hoofdstad van California?
-</vraag>
-<answer>Sacremento</answer>
+    <vraag>
+        Wat is de hoofdstad van California?
+    </vraag>
+    <answer>Sacramento</answer>
 </exercise>
 
 <exercise type="open">
-<vraag>
-Wat is de hoofdstad van Nederland?
-</vraag>
-<answer>Amsterdam</answer>
+    <vraag>
+        Wat is de hoofdstad van Nederland?
+    </vraag>
+    <answer>Amsterdam</answer>
 </exercise>
 
 </exam>

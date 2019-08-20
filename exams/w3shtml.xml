@@ -3,14 +3,14 @@
 <title>W3Schools HTML</title>
 
 <exercise type="single">
-<vraag>
-    What does HTML stand for?
-</vraag>
-<choice>
-<item goed="ja">Hyper Text Markup Language</item>
-<item>Hyperlinks and Text Markup Language</item>
-<item>Home Tool Markup Language</item>
-</choice>
+    <vraag>
+        What does HTML stand for?
+    </vraag>
+    <choice>
+        <item goed="ja">Hyper Text Markup Language</item>
+        <item>Hyperlinks and Text Markup Language</item>
+        <item>Home Tool Markup Language</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
@@ -30,58 +30,61 @@
         Choose the correct HTML element for the largest heading:
     </vraag>
     <choice>
-        <item goed="ja">h1</item>
-        <item>heading</item>
-        <item>h6</item>
-        <item>head</item>
+        <item goed="ja">&lt;h1&gt;</item>
+        <item>&lt;heading&gt;</item>
+        <item>&lt;h6&gt;</item>
+        <item>&lt;head&gt;</item>
     </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-What is the correct HTML element
-for inserting a line break?
-</vraag>
-<choice>
-<item>lb</item>
-<item goed="ja">br</item>
-<item>break</item>
-</choice>
+    <vraag>
+        What is the correct HTML element
+        for inserting a line break?
+    </vraag>
+    <choice>
+        <item>&lt;lb&gt;</item>
+        <item goed="ja">&lt;br&gt;</item>
+        <item>&lt;break&gt;</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-What is the correct HTML for adding a background color?
-</vraag>
-<choice>
-<item>&amp;lt;background&amp;gt;yellow&amp;lt;/background&amp;gt;</item>
-<item goed="ja">&amp;lt;body style="background-color:yellow;"&amp;gt;</item>
-<item>&amp;lt;body bg="yellow"&amp;gt;</item>
-</choice>
+    <vraag>
+        What is the correct HTML for
+        adding a background color?
+    </vraag>
+    <choice>
+        <item>&lt;background&gt;yellow&lt;/background&gt;</item>
+        <item goed="ja">
+            &lt;body style="background-color:yellow;"&gt;
+        </item>
+        <item>&lt;body bg="yellow"&gt;</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-Choose the correct HTML element to define important text
-</vraag>
-<choice>
-<item>&amp;lt;i&amp;gt;</item>
-<item>&amp;lt;b&amp;gt;</item>
-<item goed="ja">&amp;lt;strong&amp;gt;</item>
-<item>&amp;lt;important&amp;gt;</item>
-</choice>
+    <vraag>
+        Choose the correct HTML element to define important text
+    </vraag>
+    <choice>
+        <item>&lt;i&gt;</item>
+        <item>&lt;b&gt;</item>
+        <item goed="ja">&lt;strong&gt;</item>
+        <item>&lt;important&gt;</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-Choose the correct HTML element
-to define emphasized text
-</vraag>
-<choice>
-<item>&amp;lt;i&amp;gt;</item>
-<item>&amp;lt;italic&amp;gt;</item>
-<item goed="ja">&amp;lt;em&amp;gt;</item>
-</choice>
+    <vraag>
+        Choose the correct HTML element
+        to define emphasized text
+    </vraag>
+    <choice>
+        <item>&lt;i&gt;</item>
+        <item>&lt;italic&gt;</item>
+        <item goed="ja">&lt;em&gt;</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
@@ -238,24 +241,25 @@ What is the correct HTML for inserting a background image?
 </exercise>
 
 <exercise type="single">
-<vraag>
-An &lt;iframe&gt; is used to display a web page within a web page.
-</vraag>
-<choice>
-<item>There is no such thing as an &amp;lt;iframe&amp;gt;</item>
-<item goed="ja">True</item>
-<item>False</item>
-</choice>
+    <vraag>
+        An &lt;iframe&gt; is used to display
+        a web page within a web page.
+    </vraag>
+    <choice>
+        <item>There is no such thing as an &lt;iframe&gt;</item>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-HTML comments start with &amp;lt;!-- and end with --&amp;gt;
-</vraag>
-<choice>
-<item goed="ja">True</item>
-<item>False</item>
-</choice>
+    <vraag>
+        HTML comments start with &lt;!-- and end with --&gt;
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
@@ -373,14 +377,14 @@ Specify whether the content of an element should be editable or not
 </exercise>
 
 <exercise type="single">
-<vraag>
-In HTML, onblur and onfocus are:
-</vraag>
-<choice>
-<item>HTML elements</item>
-<item goed="ja">Event attributes</item>
-<item>Style attributes</item>
-</choice>
+    <vraag>
+        In HTML, onblur and onfocus are:
+    </vraag>
+    <choice>
+        <item>HTML elements</item>
+        <item goed="ja">Event attributes</item>
+        <item>Style attributes</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
@@ -395,28 +399,28 @@ Graphics defined by SVG is in which format?
 </exercise>
 
 <exercise type="single">
-<vraag>
-The HTML &lt;canvas&gt; element is used to:
-</vraag>
-<choice>
-<item>manipulate data in MySQL</item>
-<item goed="ja">draw graphics</item>
-<item>display database records</item>
-<item>create draggable elements</item>
-</choice>
+    <vraag>
+        The HTML &lt;canvas&gt; element is used to:
+    </vraag>
+    <choice>
+        <item>manipulate data in MySQL</item>
+        <item goed="ja">draw graphics</item>
+        <item>display database records</item>
+        <item>create draggable elements</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-In HTML, which attribute is used to specify
-that an input field must be filled out?
-</vraag>
-<choice>
-<item>formvalidate</item>
-<item goed="ja">required</item>
-<item>placeholder</item>
-<item>validate</item>
-</choice>
+    <vraag>
+        In HTML, which attribute is used to specify
+        that an input field must be filled out?
+    </vraag>
+    <choice>
+        <item>formvalidate</item>
+        <item goed="ja">required</item>
+        <item>placeholder</item>
+        <item>validate</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
@@ -432,52 +436,54 @@ Which input type defines a slider control?
 </exercise>
 
 <exercise type="single">
-<vraag>
-Which HTML element is used to display
-a scalar measurement within a range?
-</vraag>
-<choice>
-<item>&amp;lt;measure&amp;gt;</item>
-<item>&amp;lt;range&amp;gt;</item>
-<item>&amp;lt;gauge&amp;gt;</item>
-<item goed="ja">&amp;lt;meter&amp;gt;</item>
-</choice>
+    <vraag>
+        Which HTML element is used to display
+        a scalar measurement within a range?
+    </vraag>
+    <choice>
+        <item>&lt;measure&gt;</item>
+        <item>&lt;range&gt;</item>
+        <item>&lt;gauge&gt;</item>
+        <item goed="ja">&lt;meter&gt;</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-Which HTML element defines navigation links?
-</vraag>
-<choice>
-<item>&amp;lt;navigation&amp;gt;</item>
-<item goed="ja">&amp;lt;nav&amp;gt;</item>
-<item>&amp;lt;navigate&amp;gt;</item>
-</choice>
+    <vraag>
+        Which HTML element defines navigation links?
+    </vraag>
+    <choice>
+        <item>&lt;navigation&gt;</item>
+        <item goed="ja">&lt;nav&gt;</item>
+        <item>&lt;navigate&gt;</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-In HTML, what does the &amp;lt;aside&amp;gt; element define?
-</vraag>
-<choice>
-<item>
-The ASCII character-set; to send information between computers on the Internet
-</item>
-<item>A navigation list to be shown at the left side of the page</item>
-<item goed="ja">Content inside from the page content</item>
-</choice>
+    <vraag>
+        In HTML, what does the &lt;aside&gt; element define?
+    </vraag>
+    <choice>
+        <item>
+            The ASCII character-set; to send information
+            between computers on the Internet
+        </item>
+        <item>A navigation list to be shown at the left side of the page</item>
+        <item goed="ja">Content inside from the page content</item>
+    </choice>
 </exercise>
 
 <exercise type="single">
-<vraag>
-Which HTML element is used to specify a header for a document or section?
-</vraag>
-<choice>
-<item goed="ja">&amp;lt;header&amp;gt;</item>
-<item>&amp;lt;section&amp;gt;</item>
-<item>&amp;lt;top&amp;gt;</item>
-<item>&amp;lt;head&amp;gt;</item>
-</choice>
+    <vraag>
+        Which HTML element is used to specify
+        a header for a document or section?
+    </vraag>
+    <choice>
+        <item goed="ja">&lt;header&gt;</item>
+        <item>&lt;section&gt;</item>
+        <item>&lt;top&gt;</item>
+        <item>&lt;head&gt;</item>
+    </choice>
 </exercise>
 
 </exam>

@@ -21,7 +21,9 @@
     </vraag>
     <choice>
         <item>&lt;stylesheet&gt;mystyle.css&lt;/stylesheet&gt;</item>
-        <item>&lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;</item>
+        <item goed="ja">
+            &lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;
+        </item>
         <item>&lt;style src="mystyle.css"&gt;</item>
     </choice>
 </exercise>
@@ -281,9 +283,9 @@ The right border = 1pixel?
         How do you group selectors?
     </vraag>
     <choice>
-        <item>Separate each selector with a comma</item>
+        <item goed="ja">Separate each selector with a comma</item>
         <item>Separate each selector with a space</item>
-        <item goed="ja">Separate each selector with a plus sign</item>
+        <item>Separate each selector with a plus sign</item>
     </choice>
 </exercise>
 
