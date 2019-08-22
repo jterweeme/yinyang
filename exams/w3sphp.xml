@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<exam>
+<title>W3Schools PHP</title>
+
+<exercise type="single">
+    <vraag>
+        What does PHP stand for?
+    </vraag>
+    <choice>
+        <item>Personal Hypertext Processor</item>
+        <item>Private Home Page</item>
+        <item goed="ja">PHP: Hypertext Preprocessor</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        PHP server scripts are surrounded
+        by delimiters, which?
+    </vraag>
+    <choice>
+        <item>&lt;?php&gt;..&lt;/?&gt;</item>
+        <item goed="ja">&lt;?php...?&gt;</item>
+        <item>&lt;script&gt;...&lt;/script&gt;</item>
+        <item>&lt;&amp;&gt;...&lt;/&amp;&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you write "Hello World" in PHP
+    </vraag>
+    <choice>
+        <item>"Hello World";</item>
+        <item goed="ja">echo "Hello World";</item>
+        <item>Document.Write("Hello World");</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        All variables in PHP start with which symbol?
+    </vraag>
+    <choice>
+        <item>!</item>
+        <item>&amp;</item>
+        <item goed="ja">$</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct way to end a PHP statement?
+    </vraag>
+    <choice>
+        <item goed="ja">;</item>
+        <item>.</item>
+        <item>&lt;/php&gt;</item>
+        <item>New line</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The PHP syntax is most similar to:
+    </vraag>
+    <choice>
+        <item>VBScript</item>
+        <item goed="ja">Perl and C</item>
+        <item>JavaScript</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you get information from a form
+        that is submitted using the "get" method?
+    </vraag>
+    <choice>
+        <item>Request.QueryString;</item>
+        <item>Request.Form;</item>
+        <item goed="ja">$_GET[];</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        When using the POST method, variables
+        are displayed in the URL:
+    </vraag>
+    <choice>
+        <item>True</item>
+        <item goed="ja">False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        In PHP you can use both single quotes
+        ('') and double quotes ("") for strings:
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Include files must have
+        the file extension ".inc"
+    </vraag>
+    <choice>
+        <item goed="ja">False</item>
+        <item>True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct way to
+        include the file "time.inc"?
+    </vraag>
+    <choice>
+        <item goed="ja">&lt;?php include "time.inc"; ?&gt;</item>
+        <item>&lt;?php include:"time.inc"; ?&gt;</item>
+        <item>&lt;?php include file="time.inc"; ?&gt;</item>
+        <item>&lt;!-- include file="time.inc"--&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct way to create a function in PHP?
+    </vraag>
+    <choice>
+        <item>new_function myFunction()</item>
+        <item>create myFunction()</item>
+        <item goed="ja">function myFunction()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct way to open
+        the file "time.txt" as readable?
+    </vraag>
+    <choice>
+        <item>open("time.txt");</item>
+        <item goed="ja">fopen("time.txt","r");</item>
+        <item>open("time.txt","read");</item>
+        <item>fopen("time.txt","r+");</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        PHP allows you to send emails
+        directly from a script
+    </vraag>
+    <choice>
+        <item>False</item>
+        <item goed="ja">True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which superglobal variable holds information
+        about headers, paths, and script locations?
+    </vraag>
+    <choice>
+        <item>$_GET</item>
+        <item>$_SESSION</item>
+        <item goed="ja">$_SERVER</item>
+        <item>$_GLOBALS</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct way to add
+        1 to the $count variable?
+    </vraag>
+    <choice>
+        <item>$count =+ 1</item>
+        <item goed="ja">$count++;</item>
+        <item>++count</item>
+        <item>count++;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is a correct way to
+        add a comment in PHP?
+    </vraag>
+    <choice>
+        <item>&lt;comment&gt;...&lt;/comment&gt;</item>
+        <item>*\...\*</item>
+        <item>&lt;!--...--&gt;</item>
+        <item goed="ja">/*...*/</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        PHP can be run on Microsoft Windows
+        IIS (Internet Information Server):
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The die() and exit() functions
+        do the exact same thing.
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which one of these variables
+        has an illegal name?
+    </vraag>
+    <choice>
+        <item goed="ja">$my-Var</item>
+        <item>$myVar</item>
+        <item>$my_Var</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you create a cookie in PHP?
+    </vraag>
+    <choice>
+        <item goed="ja">setcookie()</item>
+        <item>createcookie</item>
+        <item>makecookie()</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        In PHP, the only way to
+        output text is with echo.
+    </vraag>
+    <choice>
+        <item goed="ja">False</item>
+        <item>True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How do you create an array in PHP?
+    </vraag>
+    <choice>
+        <item>$cars = array["Volvo","BMW","Toyota"];</item>
+        <item>$cars = "Volvo","BMW","Toyota";</item>
+        <item goed="ja">
+            $cars = array("Volvo","BMW","Toyota");
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The if statement is used to execute some
+        code only if a specified condition is true
+    </vraag>
+    <choice>
+        <item>False</item>
+        <item goed="ja">True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which operator is used to check if two
+        values are equal and of same data type?
+    </vraag>
+    <choice>
+        <item goed="ja">===</item>
+        <item>==</item>
+        <item>!=</item>
+        <item>=</item>
+    </choice>
+</exercise>
+
+</exam>
+
+
+

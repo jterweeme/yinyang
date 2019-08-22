@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<exam>
+
+<title>W3Schools XML</title>
+
+<exercise type="single">
+    <vraag>
+        What does XML stand for?
+    </vraag>
+    <choice>
+        <item>Example Markup Language</item>
+        <item>X-Markup Language</item>
+        <item>eXtra Modern Link</item>
+        <item goed="ja">eXtensible Markup Language</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        There is a way of describing XML data, how?
+    </vraag>
+    <choice>
+        <item>XML uses XSL to describe data</item>
+        <item goed="ja">XML uses a DTD to describe the data</item>
+        <item>XML uses a description node to describe data</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        XML's goal is to replace HTML
+    </vraag>
+    <choice>
+        <item goed="ja">False</item>
+        <item>True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the correct syntax of the declaration
+        which defines the XML version?
+    </vraag>
+    <choice>
+        <item>&lt;?xml version="1.0"/&gt;</item>
+        <item>&lt;xml version="1.0"/&gt;</item>
+        <item goed="ja">&lt;?xml version="1.0"?&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What does DTD stand for?
+    </vraag>
+    <choice>
+        <item>Do The Dance</item>
+        <item>Direct Type Definition</item>
+        <item goed="ja">Document Type Definition</item>
+        <item>Dynamic Type Definition</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>Is this a "well formed" XML document?</p>
+        <pre>
+&lt;?xml version="1.0"?&gt;
+&lt;note&gt;
+&lt;to&gt;Tove&lt;/to&gt;
+&lt;from&gt;Jani&lt;/from&gt;
+&lt;heading&gt;Reminder&lt;/heading&gt;
+&lt;body&gt;Don't forget me this weekend!&lt;/body&gt;
+&lt;/note&gt;
+        </pre>
+    </vraag>
+    <choice>
+        <item>No</item>
+        <item goed="ja">Yes</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>Is this a "well formed" XML document?</p>
+        <pre>
+&lt;?xml version="1.0"?&gt;
+&lt;to&gt;Tove&lt;/to&gt;
+&lt;from&gt;Jani&lt;/from&gt;
+&lt;heading&gt;Reminder&lt;/heading&gt;
+&lt;body&gt;Don't forget me this weekend!&lt;/body&gt;
+        </pre>
+    </vraag>
+    <choice>
+        <item goed="ja">No</item>
+        <item>Yes</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which statement is true?
+    </vraag>
+    <choice>
+        <item>All the statements are true</item>
+        <item>All XML elements must be lower case</item>
+        <item goed="ja">All XML elements must be properly closed</item>
+        <item>All XML documents must have a DTD</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which statement is NOT true?
+    </vraag>
+    <choice>
+        <item>XML elements must be properly nested</item>
+        <item>XML documents must have a root tag</item>
+        <item goed="ja">White-space is not preserved in XML</item>
+        <item>XML tags are case sensitive</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        XML preserves white spaces
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>Is this a "well formed" XML document?</p>
+        <pre>
+&lt;?xml version="1.0"?&gt;
+&lt;note&gt;
+&lt;to age=\"29\"&gt;Tove&lt;/to&gt;
+&lt;from&gt;Jani&lt;/from&gt;
+&lt;/note&gt;
+        </pre>
+    </vraag>
+    <choice>
+        <item>No</item>
+        <item goed="ja">Yes</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        <p>Is this a "well formed" XML document?</p>
+        <pre>
+&lt;?xml version="1.0"?&gt;
+&lt;note&gt;
+&lt;to age=29&gt;Tove&lt;/to&gt;
+&lt;from&gt;Jani&lt;/from&gt;
+&lt;/note&gt;
+        </pre>
+    </vraag>
+    <choice>
+        <item goed="ja">No</item>
+        <item>Yes</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        XML elements cannot be empty
+    </vraag>
+    <choice>
+        <item goed="ja">False</item>
+        <item>True</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which is not a correct name for an XML element?
+    </vraag>
+    <choice>
+        <item>All 3 names are incorrect</item>
+        <item>&lt;h1&gt;</item>
+        <item>&lt;Note&gt;</item>
+        <item goed="ja">&lt;1dollar&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which is not a correct name for an XML element?
+    </vraag>
+    <choice>
+        <item>&lt;NAME&gt;</item>
+        <item goed="ja">&lt;first name&gt;</item>
+        <item>All 3 names are incorrect</item>
+        <item>&lt;age&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which is a correct name for an XML element?
+    </vraag>
+    <choice>
+        <item>&lt;phone number&gt;</item>
+        <item goed="ja">&lt;Name&gt;</item>
+        <item>&lt;7eleven&gt;</item>
+        <item>&lt;xmldocument&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        XML attribute values must
+        always be enclosed in quotes
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What does XSL stand for?
+    </vraag>
+    <choice>
+        <item>eXtensible Style Listing</item>
+        <item>eXtra Style Language</item>
+        <item>eXpandable Style Language</item>
+        <item goed="ja">eXtensible Stylesheet Language</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is a correct way of referring to
+        a stylesheet called "mystyle.xsl" ?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            &lt;?xml-stylesheet type="text/xsl" href=""mystyle.xsl" ?&gt;
+        </item>
+        <item>&lt;link type="text/xsl" href="mystyle.xsl" /&gt;</item>
+        <item>&lt;stylesheet type="text/xsl" href="mystyle.xsl" /&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        For the XML parser to ignore a certain section
+        of your XML document, which syntax is correct?
+    </vraag>
+    <choice>
+        <item>&lt;xml:CDATA[ Text to be ignored ]&gt;</item>
+        <item goed="ja">&lt;![CDATA[ Text to be ignored ]]&gt;</item>
+        <item>&lt;CDATA&gt; Text to be ignored &lt;/CDATA&gt;</item>
+        <item>&lt;PCDATA&gt; Text to be ignored &lt;/PCDATA&gt;</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which statement is true?
+    </vraag>
+    <choice>
+        <item goed="ja">None of the other two statements are true</item>
+        <item>Attributes must always be present</item>
+        <item>Attributes must occur in defined order</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What are XML entities used for?
+    </vraag>
+    <choice>
+        <item>Entities define shortcuts to standard attributes</item>
+        <item goed="ja">
+            Entities define shortcuts to standard text or special characters
+        </item>
+        <item>Entities define shortcuts to standard elements</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which of the following XML fragments is well-formed?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            &lt;customer id="3456"&gt;&lt;address/&gt;&lt;zip
+            code="3456"/&gt;&lt;/customer&gt;
+        </item>
+        <item>
+            &lt;customer id=3456"&gt;&lt;name&gt;John
+            Smith&lt;name&gt;&lt;/customer&gt;
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is an XML instance?
+    </vraag>
+    <choice>
+        <item>An XML element</item>
+        <item>An XML attribute</item>
+        <item goed="ja">An XML document</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which XML DOM object represents
+        a node in the node tree?
+    </vraag>
+    <choice>
+        <item>The nodeList object</item>
+        <item goed="ja">The node object</item>
+        <item>The document object</item>
+    </choice>
+</exercise>
+
+</exam>
+
+

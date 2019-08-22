@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<exam>
+<title>W3Schools SQL</title>
+
+<exercise type="single">
+    <vraag>
+        What does SQL stand for?
+    </vraag>
+    <choice>
+        <item>Structured Question Language</item>
+        <item>Strong Question Language</item>
+        <item goed="ja">Structured Query Language</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which SQL statement is used to
+        extract data from a database?
+    </vraag>
+    <choice>
+        <item>EXTRACT</item>
+        <item goed="ja">SELECT</item>
+        <item>OPEN</item>
+        <item>GET</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which SQL statement is used
+        to update data in a database?
+    </vraag>
+    <choice>
+        <item>SAVE AS</item>
+        <item>MODIFY</item>
+        <item>SAVE</item>
+        <item goed="ja">UPDATE</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which SQL statement is used to
+        delete data from a database?
+    </vraag>
+    <choice>
+        <item>COLLAPSE</item>
+        <item goed="ja">DELETE</item>
+        <item>REMOVE</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which SQL statement is used to
+        insert new data in a database?
+    </vraag>
+    <choice>
+        <item>ADD NEW</item>
+        <item>INSERT NEW</item>
+        <item>ADD RECORD</item>
+        <item goed="ja">INSERT INTO</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how do you select a column named
+        "FirstName" from a table named "Persons"?
+    </vraag>
+    <choice>
+        <item goed="ja">SELECT FirstName FROM Persons</item>
+        <item>SELECT Persons.FirstName</item>
+        <item>EXTRACT FirstName FROM Persons</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how do you select all the
+        columns from a table named "Persons"?
+    </vraag>
+    <choice>
+        <item goed="ja">SELECT * FROM Persons</item>
+        <item>SELECT [all] FROM Persons</item>
+        <item>SELECT Persons</item>
+        <item>SELECT *.Persons</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how do you select all the records from a table
+        named "Persons" where the value of the column "FirstName"
+        is "Peter"?
+    </vraag>
+    <choice>
+        <item>SELECT * FROM Persons WHERE FirstName&lt;&gt;'Peter'</item>
+        <item goed="ja">SELECT * FROM Persons WHERE FirstName='Peter'</item>
+        <item>SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'</item>
+        <item>SELECT [all] FROM Persons WHERE FirstName='Peter'</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how do you select all the records from a table
+        named "Persons" where the value of the column "FirstName"
+        starts with an "a"?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            SELECT * FROM Persons WHERE FirstName LIKE 'a%'
+        </item>
+        <item>SELECT * FROM Persons WHERE FirstName LIKE '%a'</item>
+        <item>SELECT * FROM Persons WHERE FirstName='%a%'</item>
+        <item>SELECT * FROM Persons WHERE FirstName='a'</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The OR operator displays a record if ANY conditions listed are
+        true. The AND operator displays a record if ALL of the
+        conditions listed are true
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how do you select all the records from a table
+        named "Persons" where the "FirstName" is "Peter" and the
+        "LastName" is "Jackson"?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            SELECT * FROM Persons WHERE FirstName='Peter'
+            AND LastName='Jackson'
+        </item>
+        <item>
+            SELECT FirstName='Peter', LastName='Jackson' FROM Persons
+        </item>
+        <item>
+            SELECT * FROM Persons WHERE FirstName&lt;&gt;'Peter' AND
+            LastName&lt;&gt;'Jackson'
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how do you select all the records from a table named
+        "Persons" where the "LastName" is alphabetically between (and
+        including) "Hansen" and "Pettersen"?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            SELECT * FROM Persons WHERE LastName
+            BETWEEN 'Hansen' AND 'Pettersen'
+        </item>
+        <item>
+            SELECT LastName&gt;'Hansen' AND
+            LastName&lt;'Pettersen' FROM Persons
+        </item>
+        <item>
+            SELECT * FROM Persons WHERE LastName&gt;'Hansen'
+            AND LastName&lt;'Pettersen'
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which SQL statement is used to return only different values?
+    </vraag>
+    <choice>
+        <item goed="ja">SELECT DISTINCT</item>
+        <item>SELECT DIFFERENT</item>
+        <item>SELECT UNIQUE</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which SQL keyword is used to sort the result-set?
+    </vraag>
+    <choice>
+        <item goed="ja">ORDER BY</item>
+        <item>ORDER</item>
+        <item>SORT BY</item>
+        <item>SORT</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how can you return all the records from a table
+        named "Persons" sorted descending by "FirstName"?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            SELECT * FROM Persons ORDER BY FirstName DESC
+        </item>
+        <item>SELECT * FROM Persons SORT BY 'FirstName' DESC</item>
+        <item>SELECT * FROM Persons ORDER BY FirstName DESC</item>
+        <item>SELECT * FROM Persons SORT 'FirstName' DESC</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how can you insert a new
+        record into the "Persons" table?
+    </vraag>
+    <choice>
+        <item goed="ja">INSERT INTO Persons VALUES ('Jimmy','Jackson')</item>
+        <item>INSERT ('Jimmy','Jackson') INTO Persons</item>
+        <item>INSERT VALUES ('Jimmy','Jackson') INTO Persons</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how can you insert "Olsen" as
+        the "LastName" in the "Persons" table?
+    </vraag>
+    <choice>
+        <item goed="ja">INSERT INTO Persons (LastName) VALUES ('Olsen')</item>
+        <item>INSERT ('Olsen') INTO Persons (LastName)</item>
+        <item>INSERT INTO Persons ('Olsen') INTO LastName</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        How can you change "Hansen" into "Nilsen"
+        in the "LastName" column in the Persons table?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'
+        </item>
+        <item>
+            MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen'
+        </item>
+        <item>
+            MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'
+        </item>
+        <item>
+            UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'
+        </item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how can you delete the records where
+        the "FirstName" is "Peter" in the Persons Table?
+    </vraag>
+    <choice>
+        <item goed="ja">
+            DELETE FROM Persons WHERE FirstName = 'Peter'
+        </item>
+        <item>DELETE ROW FirstName='Peter' FROM Persons</item>
+        <item>DELETE FirstName='Peter' FROM Persons</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        With SQL, how can you return the number
+        of records in the "Persons" table?
+    </vraag>
+    <choice>
+        <item goed="ja">SELECT COUNT(*) FROM Persons</item>
+        <item>SELECT LEN(*) FROM Persons</item>
+        <item>SELECT COLUMNS(*) FROM Persons</item>
+        <item>SELECT NO(*) FROM Persons</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        What is the most common type of join?
+    </vraag>
+    <choice>
+        <item goed="ja">INNER JOIN</item>
+        <item>JOINED TABLE</item>
+        <item>JOINED</item>
+        <item>INSIDE JOIN</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which operator is used to
+        select values within a range?
+    </vraag>
+    <choice>
+        <item goed="ja">BETWEEN</item>
+        <item>RANGE</item>
+        <item>WITHIN</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        The NOT NULL constraint enforces
+        a column to not accept null values.
+    </vraag>
+    <choice>
+        <item goed="ja">True</item>
+        <item>False</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which operator is used to search for
+        a specified pattern in a column?
+    </vraag>
+    <choice>
+        <item goed="ja">LIKE</item>
+        <item>GET</item>
+        <item>FROM</item>
+    </choice>
+</exercise>
+
+<exercise type="single">
+    <vraag>
+        Which SQL statement is used
+        to create a table in a database?
+    </vraag>
+    <choice>
+        <item goed="ja">CREATE TABLE</item>
+        <item>CREATE DB</item>
+        <item>CREATE DATABASE TABLE</item>
+        <item>CREATE DATABASE TAB</item>
+    </choice>
+</exercise>
+
+</exam>
+
+
+
